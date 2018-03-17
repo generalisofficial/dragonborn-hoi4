@@ -1,0 +1,6 @@
+#reload countrycolors
+
+ALD = {
+	color = rgb { 42 40 41 }
+	color_ui = rgb { 42 40 41 }
+}
