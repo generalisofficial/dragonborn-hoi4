@@ -29,3 +29,7 @@
  STATE_28:0 "Stormhaven"
  STATE_29:0 "Bangkorai"
  STATE_30:0 "Wrothgar"
+ STATE_31:1 "Northern Woods"
+ STATE_32:0 "Grahtwood"
+ STATE_33:0 "Malabal Tor"
+ STATE_34:0 "Greenshade"
