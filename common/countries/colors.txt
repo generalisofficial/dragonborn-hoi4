@@ -9,3 +9,8 @@ TEP = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+
+BLM = {
+	color = rgb { 222 184 135 }
+	color_ui = rgb { 222 184 135 }
+}

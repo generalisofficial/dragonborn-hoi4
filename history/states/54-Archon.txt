@@ -1,6 +1,13 @@
 state={
 	id=54
 	name="STATE_54"
+	history={
+		owner = BLM
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BLM
+	}
 	provinces={
 		13229 
 	}
