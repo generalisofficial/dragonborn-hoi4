@@ -4,8 +4,19 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 4171.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "ALD"
+		default_country = "TEP"
 		default = yes
+		
+		"TEP"={
+			history = "TEP_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
 		
 		"ALD"={
 			history = "ALD_GATHERING_STORM_DESC"

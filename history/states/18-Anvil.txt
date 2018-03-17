@@ -1,6 +1,13 @@
 state={
 	id=18
 	name="STATE_18"
+	history={
+		owner = TEP
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TEP
+	}
 	provinces={
 		13265 
 	}
