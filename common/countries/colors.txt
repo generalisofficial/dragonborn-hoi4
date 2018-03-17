@@ -6,6 +6,6 @@ ALD = {
 }
 
 TEP = {
-	color = rgb { 137 45 63 }
-	color_ui = rgb { 137 45 63 }
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }
