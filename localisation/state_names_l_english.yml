@@ -24,4 +24,8 @@
  STATE_23:1 "Dres"
  STATE_24:1 "Telvanni"
  STATE_25:1 "Indoril"
- 
+ STATE_26:0 "Glenumbra"
+ STATE_27:0 "Rivenspire"
+ STATE_28:0 "Stormhaven"
+ STATE_29:0 "Bangkorai"
+ STATE_30:0 "Wrothgar"
