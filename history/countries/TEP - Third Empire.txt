@@ -12,7 +12,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 100
 		}
 
 		fascism = {
@@ -25,11 +25,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,5 +38,5 @@ set_politics = {
 create_country_leader = {
 	name = "Titus Mede II"
 	picture = "TitusMedeII.dds"
-	ideology = despotism
+	ideology = unionist_ideology
 }

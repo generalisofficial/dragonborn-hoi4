@@ -1,6 +1,6 @@
 ﻿capital = 53
 
-oob = "TEP_4171"
+oob = "BLM_4171"
 
 # Starting tech
 set_technology = {
@@ -20,16 +20,16 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 100
 			#banned = no #default is no
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,5 +38,5 @@ set_politics = {
 create_country_leader = {
 	name = "King of Argonia"
 	picture = "Argonian.dds"
-	ideology = despotism
+	ideology = patriot_ideology
 }

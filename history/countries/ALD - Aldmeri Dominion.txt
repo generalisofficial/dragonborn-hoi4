@@ -16,7 +16,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		communism = {
@@ -25,11 +25,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 0
+			popularity = 100
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,5 +38,5 @@ set_politics = {
 create_country_leader = {
 	name = "Thalmor"
 	picture = "Thalmor.dds"
-	ideology = fascism_ideology
+	ideology = racism_ideology
 }
