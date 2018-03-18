@@ -1,6 +1,6 @@
 #reload countrycolors
 
-ALD = {
+BLM = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
 }
@@ -10,7 +10,7 @@ TEP = {
 	color_ui = rgb { 255 0 0 }
 }
 
-BLM = {
+ALD = {
 	color = rgb { 222 184 135 }
 	color_ui = rgb { 222 184 135 }
 }
