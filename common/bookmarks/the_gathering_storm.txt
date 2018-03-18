@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"TEP"={
 			history = "TEP_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = democratic
 			ideas = {
 			
 			}
@@ -20,7 +20,7 @@ bookmarks = {
 		
 		"ALD"={
 			history = "ALD_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = neutrality
 			ideas = {
 			
 			}

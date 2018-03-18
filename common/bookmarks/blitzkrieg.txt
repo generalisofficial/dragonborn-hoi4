@@ -1,0 +1,48 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 4201.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "TEP"
+		default = yes
+		
+		"TEP"={
+			history = "TEP_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"ALD"={
+			history = "ALD_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"SKY"={
+			history = "SKY_BLITZKRIEG_DESC"
+			ideology = fascism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

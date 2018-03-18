@@ -14,3 +14,8 @@ ALD = {
 	color = rgb { 222 184 135 }
 	color_ui = rgb { 222 184 135 }
 }
+
+SKY = {
+	color = rgb { 0 0 205 }
+	color_ui = rgb { 0 0 205 }
+}

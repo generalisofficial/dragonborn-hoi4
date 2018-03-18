@@ -3,10 +3,14 @@ state={
 	name="STATE_8"
 	history={
 		owner = TEP
+		4201.1.1 = {
+			owner = SKY
+		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = TEP
+		add_core_of = SKY
 	}
 	provinces={
 		13310 

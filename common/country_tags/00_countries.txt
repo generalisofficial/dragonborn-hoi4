@@ -1,3 +1,4 @@
 ALD	= "countries/Aldmeri Dominion.txt"
 TEP	= "countries/Third Empire.txt"
 BLM	= "countries/Black Marsh.txt"
+SKY	= "countries/Skyrim.txt"
