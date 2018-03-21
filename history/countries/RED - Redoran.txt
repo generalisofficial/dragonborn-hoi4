@@ -35,7 +35,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "i dont know :D"
+	name = "Nadsilo Llearen"
 	picture = "redoran.dds"
 	ideology = patriot_ideology
 }
