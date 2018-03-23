@@ -40,3 +40,8 @@ IDR = {
 	color_ui = rgb { 255 215 0 }
 }
 
+TEL = {
+	color = rgb { 0 0 139 }
+	color_ui = rgb { 0 0 139 }
+}
+
