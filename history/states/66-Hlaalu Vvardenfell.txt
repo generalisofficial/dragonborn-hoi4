@@ -1,0 +1,16 @@
+state={
+	id=66
+	name="STATE_66"
+	history={
+		owner = HLA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = HLA
+	}
+	provinces={
+		13295 13300 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
