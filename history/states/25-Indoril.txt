@@ -2,6 +2,13 @@
 state={
 	id=25
 	name="STATE_25"
+	history={
+		owner = IDR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = IDR
+	}
 	provinces={
 		13279 13281 
 	}

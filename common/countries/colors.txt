@@ -29,3 +29,14 @@ HLA = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 222 187 91 }
 }
+
+DRS = {
+	color = rgb { 160 82 45 }
+	color_ui = rgb { 160 82 45 }
+}
+
+IDR = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+
