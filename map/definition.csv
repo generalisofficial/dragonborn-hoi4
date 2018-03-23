@@ -13276,7 +13276,7 @@
 13275;4;3;3;land;false;unknown;0
 13276;71;71;71;land;false;unknown;0
 13277;3;3;2;land;false;unknown;0
-13278;192;121;111;land;false;unknown;0
+13278;192;121;111;land;true;urban;0
 13279;21;20;20;land;false;unknown;0
 13280;4;4;3;land;false;unknown;0
 13281;105;105;105;land;false;unknown;0
@@ -13323,3 +13323,5 @@
 13322;27;27;27;land;false;unknown;0
 13323;24;23;23;land;false;unknown;0
 13324;253;253;253;sea;true;ocean;0
+13325;132;183;255;land;true;plains;0
+13326;167;104;255;land;true;plains;0
