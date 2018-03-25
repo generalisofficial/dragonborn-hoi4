@@ -1,0 +1,47 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	#female = {
+	#	names = { "Juliette" "Anna" }
+	#	surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	#}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+
+RED = {
+	male = {
+		names = {  Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Hermann Heinrich 
+			Theodor Hans Anton Joachim Max Emil Peter Fritz Otto Adolf Tobias Staffan Marco Karl
+		}
+	}
+	female = {
+		names = { Jessica Emma Hanna Sofia Marie }
+	}
+	surnames = { 
+		Hledndus Senothren Gimoran Daldus Tellin Mavabar Valoelo Alasis Baruralo Barkhorn 
+	}
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
+}
+
+TEP = {
+	male = {
+		names = { Adonato Adventus Aerin Agrius Alethius Aquillius Aventus Bassianus Caius Calixto Cicero Constantius Corpulus Crescius Dexion Ennodius Falx Florentius Gaius Gallus Gavros Gian Leontius Lucan Mallus Marcurio Maro Metillus Noster Orthus Paratus Pavo Plautis Proventus Quentin Quintus Reburrus Rexus Rogatus Salviannus Samuel Septiums Sergius Severio Silus Sorex Sulla Tacitus Taurinus Telrav Terek Titus Tyranus Vantus Varnius Venarus Verulus Xander }
+	}
+	female = {
+		names = { Adelaisa Adrianne Aia Alessandra Alexia Arcadia Camilla Carlotta Constance Edda Ganna Gemma Gianna Gilfre Illia Indara Larina Leonara Lucia Mila Pantea Raen Ria Safia Silana Silvan Sosia Valga Vigdis Viola Vittoria }
+	}
+	surnames = { Aeresius Aretino Arius Arria Ateia Attius Avenicci Axius Baenius Caelia Caerellia Caerellius Caesennius Carius Cipius Corrimu Decimus Desidenius Dulius Endario Evicus Giardano Junius Leotelli Lex Loreius Maccius Mede Navale Papius Pelagia Petreia Plinius Quintillius Sallustius Salvarus Signus Sorenshield Tituleius Tragus Trebatius Termellia Tullius Turrianus Vendicci Vesuius Vinicia Vulpin}
+	
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
