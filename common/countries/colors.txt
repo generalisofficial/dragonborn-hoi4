@@ -45,3 +45,7 @@ TEL = {
 	color_ui = rgb { 0 0 139 }
 }
 
+HRK = {
+    color = rgb { 180 233 69 }
+    color_ui = rgb { 180 233 69 }
+}
