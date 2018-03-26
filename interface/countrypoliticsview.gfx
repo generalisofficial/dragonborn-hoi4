@@ -366,6 +366,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/democratic_group.dds"
 	}
 	
+		spriteType = {
+		name = "GFX_ideology_RED_neutrality_group"
+		texturefile = "gfx/interface/ideologies/redoran.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_RED_communism_group"
+		texturefile = "gfx/interface/ideologies/redoran.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RED_fascism_group"
+		texturefile = "gfx/interface/ideologies/redoran.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RED_democratic_group"
+		texturefile = "gfx/interface/ideologies/redoran.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_ideology_TEP_democratic_group"
 		texturefile = "gfx/interface/ideologies/imperial.dds"
