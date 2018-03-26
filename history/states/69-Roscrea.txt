@@ -1,0 +1,18 @@
+state={
+	id=69
+	name="STATE_69"
+	history={
+		owner = TEP
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TEP
+		add_core_of = SKY
+	}
+	provinces={
+		13359 13360 13361 13363 
+	}
+	manpower=194
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,18 @@
+state={
+	id=70
+	name="STATE_70"
+	history={
+		owner = TEP
+		victory_points = {
+			13367 1 
+		}
+		add_core_of = TEP
+		add_core_of = SKY
+	}
+	provinces={
+		13367 13369 13370 13371 13373 13374 13375 13377 13378 
+	}
+	manpower=28
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
