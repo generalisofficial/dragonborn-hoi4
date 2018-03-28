@@ -44,3 +44,17 @@ create_country_leader = {
 	picture = "UlfricStormcloak.dds"
 	ideology = xenophobic_ideology
 }
+
+create_country_leader = {
+	name = "Istlod"
+	picture = "Istlod.dds"
+	ideology = unionist_ideology
+}
+
+4201.1.1 = {
+    create_country_leader = {
+	    name = "Elisif the Fair"
+	    picture = "Elisif.dds"
+	    ideology = unionist_ideology
+    }
+}
