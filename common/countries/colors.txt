@@ -49,3 +49,8 @@ HRK = {
     color = rgb { 180 233 69 }
     color_ui = rgb { 180 233 69 }
 }
+
+HAM = {
+    color = rgb { 175 80 82 }
+    color_ui = rgb { 175 80 82 }
+}

@@ -1,0 +1,61 @@
+formable_nations = {
+	
+	form_morrowind = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = DRS
+				original_tag = HLA
+				original_tag = IDR
+				original_tag = RED
+			}
+			has_dlc = "Waking the Tiger"
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 19
+			controls_state = 20
+			controls_state = 68
+			controls_state = 67
+			controls_state = 66
+			controls_state = 22
+			controls_state = 23
+			controls_state = 25
+			controls_state = 24
+			controls_state = 21
+		}
+
+		visible = {
+			OR = {
+				original_tag = DRS
+				original_tag = HLA
+				original_tag = IDR
+				original_tag = RED
+			}
+			NOT = { has_global_flag = form_morrowind }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = MORROWIND
+			set_country_flag = form_morrowind
+			19 = { add_core_of = ROOT }
+			20 = { add_core_of = ROOT }
+			68 = { add_core_of = ROOT }
+			67 = { add_core_of = ROOT }
+			66 = { add_core_of = ROOT }
+			22 = { add_core_of = ROOT }
+			23 = { add_core_of = ROOT }
+			25 = { add_core_of = ROOT }
+			24 = { add_core_of = ROOT }
+			21 = { add_core_of = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
+

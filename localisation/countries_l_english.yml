@@ -129,3 +129,16 @@
  HRK_neutrality_DEF:0 "High Rock"
  HRK_neutrality_ADJ:0 "Breton"
 
+ HAM_democratic:0 "Hammerfell"
+ HAM_democratic_DEF:0 "Hammerfell"
+ HAM_democratic_ADJ:0 "Redguard"
+ HAM_communism:0 "Hammerfell"
+ HAM_communism_DEF:0 "Hammerfell"
+ HAM_communism_ADJ:0 "Redguard"
+ HAM_fascism:0 "Hammerfell"
+ HAM_fascism_DEF:0 "Hammerfell"
+ HAM_fascism_ADJ:0 "Redguard"
+ HAM_neutrality:0 "Hammerfell"
+ HAM_neutrality_DEF:0 "Hammerfell"
+ HAM_neutrality_ADJ:0 "Redguard"
+
