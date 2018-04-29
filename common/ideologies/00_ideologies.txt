@@ -21,12 +21,7 @@ ideologies = {
 		color = { 0 255 0 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_guarantee_other_ideologies = yes
+		
 		}
 		
 		war_impact_on_world_tension = 0.75	
@@ -68,9 +63,7 @@ ideologies = {
 		ai_communist = yes 
 		
 		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
+		
 		}
 		
 		modifiers = {
@@ -106,16 +99,14 @@ ideologies = {
 		faction_impact_on_world_tension = 0.5
 		
 		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
+		
 		}
 		
 		modifiers = {
 		
 		}
 
-		ai_fascist = yes 
+		ai_neutral = yes 
 	}
 	
 	neutrality = {
@@ -142,9 +133,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-			can_force_government = yes
-			can_puppet = yes
-			can_send_volunteers = yes
+		
 		}
 		
 		modifiers = {
@@ -154,6 +143,6 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes 
+		ai_fascist = yes 
 	}
 }
