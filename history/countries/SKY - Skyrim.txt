@@ -1,14 +1,9 @@
 ﻿capital = 1
 
-4201.1.1 = {
-	set_capital = 8
-}
-
 oob = "SKY_4171"
 
-# Starting tech
 set_technology = {
-	infantry_weapons = 1
+ 
 }
 set_convoys = 5
 
@@ -25,7 +20,6 @@ set_politics = {
 		
 		communism = {
 			popularity = 0
-			#banned = no #default is no
 		}
 		
 		neutrality = { 
