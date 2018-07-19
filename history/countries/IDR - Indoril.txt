@@ -1,4 +1,4 @@
-﻿capital = 25
+﻿capital = 1
 
 oob = "IDR_4171"
 

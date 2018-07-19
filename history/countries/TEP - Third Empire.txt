@@ -1,4 +1,4 @@
-﻿capital = 14
+﻿capital = 1
 
 oob = "TEP_4171"
 
@@ -35,6 +35,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Titus Mede II"
-	picture = "TitusMedeII.dds"
+	picture = "Titus_Mede_II.dds"
 	ideology = unionist_ideology
 }

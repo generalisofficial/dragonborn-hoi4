@@ -1,4 +1,4 @@
-﻿capital = 28
+﻿capital = 1
 
 oob = "HRK_4171"
 

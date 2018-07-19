@@ -1,6 +1,6 @@
 ﻿capital = 1
 
-oob = "ALD_4171"
+oob = "ANQ_4171"
 
 set_technology = {
 
@@ -34,7 +34,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Thalmor"
-	picture = "Thalmor.dds"
+	name = "WIP"
+	picture = "Khajit.dds"
 	ideology = racism_ideology
 }

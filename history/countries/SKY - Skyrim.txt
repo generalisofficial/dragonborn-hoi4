@@ -35,7 +35,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Ulfric Stormcloak"
-	picture = "UlfricStormcloak.dds"
+	picture = "Ulfric_Stormcloak.dds"
 	ideology = xenophobic_ideology
 }
 
