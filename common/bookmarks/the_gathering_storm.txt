@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "GREAT_WAR_NAME"
+		desc = "GREAT_WAR_DESC"
 		date = 4171.10.30.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_4171"
 		default_country = "TEP"
 		default = yes
 		
 		"TEP"={
-			history = "TEP_GATHERING_STORM_DESC"
+			history = "TEP_GREAT_WAR_DESC"
 			ideology = democratic
 			ideas = {
 			
@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		
 		"ALD"={
-			history = "ALD_GATHERING_STORM_DESC"
+			history = "ALD_GREAT_WAR_DESC"
 			ideology = neutrality
 			ideas = {
 			

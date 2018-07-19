@@ -1,0 +1,18 @@
+state={
+	id=5
+	name="STATE_5"
+	
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+	}
+	
+	provinces={
+		1553 1554 4490 4491 4492 5053 5100 5178 5360 5960 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

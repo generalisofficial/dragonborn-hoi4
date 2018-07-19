@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
+		name = "SKYRIM_CIVIL_WAR_NAME"
+		desc = "SKYRIM_CIVIL_WAR_DESC"
 		date = 4201.8.17.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_select_date_4201"
 		default_country = "TEP"
 		default = yes
 		
 		"TEP"={
-			history = "TEP_BLITZKRIEG_DESC"
+			history = "TEP_SKYRIM_CIVIL_WAR_DESC"
 			ideology = democratic
 			ideas = {
 			
@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		
 		"ALD"={
-			history = "ALD_BLITZKRIEG_DESC"
+			history = "ALD_SKYRIM_CIVIL_WAR_DESC"
 			ideology = neutrality
 			ideas = {
 			
@@ -30,7 +30,7 @@ bookmarks = {
 		}
 		
 		"SKY"={
-			history = "SKY_BLITZKRIEG_DESC"
+			history = "SKY_SKYRIM_CIVIL_WAR_DESC"
 			ideology = fascism
 			ideas = {
 			
