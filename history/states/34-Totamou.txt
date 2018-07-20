@@ -1,6 +1,20 @@
 state={
 	id=34
 	name="STATE_34"
+	
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+		add_core_of = HAM
+		
+		4175.1.1 ={
+		    owner = HAM
+		}
+	}
+	
 	provinces={
 		781 782 785 1124 3178 3179 3211 3576 4373 4374 4375 5161 
 	}

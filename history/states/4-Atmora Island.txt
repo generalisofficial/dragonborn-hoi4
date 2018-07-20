@@ -1,6 +1,17 @@
 state={
 	id=4
 	name="STATE_4"
+	
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+		add_core_of = SKY
+
+	}
+	
 	provinces={
 		549 550 551 1424 1425 2881 2882 2883 2884 3474 3935 3936 3937 3938 4727 4728 4729 4956 5013 5014 5324 5435 5500 5894 5895 6026 
 	}

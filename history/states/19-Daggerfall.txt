@@ -1,6 +1,16 @@
 state={
 	id=19
 	name="STATE_19"
+	
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+		add_core_of = HRK
+	}
+	
 	provinces={
 		868 869 870 871 2095 2719 2720 4362 4498 4601 4602 4603 4895 4999 5000 5073 5074 5410 5528 
 	}

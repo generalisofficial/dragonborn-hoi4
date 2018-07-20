@@ -1,6 +1,15 @@
 state={
 	id=27
 	name="STATE_27"
+	
+	history={
+		owner = ALD
+		buildings = {
+
+		}
+		add_core_of = ALD
+	}
+	
 	provinces={
 		227 228 552 553 554 555 815 816 817 1629 1630 1631 1632 2945 4761 5373 5374 5393 5503 6063 
 	}

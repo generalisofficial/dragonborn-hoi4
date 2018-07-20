@@ -1,0 +1,18 @@
+state={
+	id=82
+	name="STATE_82"
+	
+	history={
+		owner = ALD
+		buildings = {
+
+		}
+		add_core_of = ALD
+	}
+	
+	provinces={
+		138 139 1451 1452 1453 1608 1609 1610 1611 1740 1741 2224 2398 2399 2400 2401 2402 3621 3878 4221 4477 4744 4745 4746 4840 5515 5534 5535 5907 5908 5984 5995 6080 6081 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
