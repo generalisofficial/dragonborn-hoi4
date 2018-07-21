@@ -10,24 +10,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		unionism = { 
 			popularity = 0
 		}
 
-		fascism = {
+		xenophobia = {
 			popularity = 100
 		}
 		
-		communism = {
+		patriotism = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		racism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = xenophobia
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,19 +36,19 @@ set_politics = {
 create_country_leader = {
 	name = "Ulfric Stormcloak"
 	picture = "Ulfric_Stormcloak.dds"
-	ideology = xenophobic_ideology
+	ideology = xenophobic
 }
 
 create_country_leader = {
 	name = "Istlod"
 	picture = "Istlod.dds"
-	ideology = unionist_ideology
+	ideology = unionist
 }
 
 4201.1.1 = {
     create_country_leader = {
 	    name = "Elisif the Fair"
 	    picture = "Elisif.dds"
-	    ideology = unionist_ideology
+	    ideology = unionist
     }
 }

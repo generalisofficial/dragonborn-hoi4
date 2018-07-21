@@ -1,21 +1,21 @@
 ideologies = {
 	
-	democratic = {
+	unionism = {
 	
 		types = {
 			
-			unionist_ideology = {
+			unionist = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+			"FACTION_NAME_unionism_1"
+			"FACTION_NAME_unionism_2"
+			"FACTION_NAME_unionism_3"
+			"FACTION_NAME_unionism_4"
+			"FACTION_NAME_unionism_5"
+			"FACTION_NAME_unionism_6"
 		}
 		
 		color = { 0 255 0 }
@@ -38,11 +38,11 @@ ideologies = {
 	}
 
 
-	communism = {
+	patriotism = {
 		
 		types = {
 		
-			patriot_ideology = {
+			patriot = {
 			}
 
 		}
@@ -76,11 +76,11 @@ ideologies = {
 
 	}
 
-	fascism = {
+	xenophobia = {
 	
 		types = {
 		
-			xenophobic_ideology = {
+			xenophobic = {
 			}
 			
 		}
@@ -109,11 +109,11 @@ ideologies = {
 		ai_neutral = yes 
 	}
 	
-	neutrality = {
+	racism = {
 	
 		types = {
 		
-			racism_ideology  = {
+			racist = {
 			}
 			
 		}

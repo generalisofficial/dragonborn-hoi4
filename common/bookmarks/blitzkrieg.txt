@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"TEP"={
 			history = "TEP_SKYRIM_CIVIL_WAR_DESC"
-			ideology = democratic
+			ideology = unionism
 			ideas = {
 			
 			}
@@ -20,7 +20,7 @@ bookmarks = {
 		
 		"ALD"={
 			history = "ALD_SKYRIM_CIVIL_WAR_DESC"
-			ideology = neutrality
+			ideology = racism
 			ideas = {
 			
 			}
@@ -31,7 +31,7 @@ bookmarks = {
 		
 		"SKY"={
 			history = "SKY_SKYRIM_CIVIL_WAR_DESC"
-			ideology = fascism
+			ideology = xenophobia
 			ideas = {
 			
 			}

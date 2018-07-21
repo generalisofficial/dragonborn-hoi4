@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"TEP"={
 			history = "TEP_GREAT_WAR_DESC"
-			ideology = democratic
+			ideology = unionism
 			ideas = {
 			
 			}
@@ -20,7 +20,7 @@ bookmarks = {
 		
 		"ALD"={
 			history = "ALD_GREAT_WAR_DESC"
-			ideology = neutrality
+			ideology = racism
 			ideas = {
 			
 			}
@@ -31,7 +31,7 @@ bookmarks = {
 		
 		"BLM"={
 			history = "BLM_GREAT_WAR_DESC"
-			ideology = communism
+			ideology = patriotism
 			ideas = {
 			
 			}
@@ -42,7 +42,7 @@ bookmarks = {
 		
 		"ANQ"={
 			history = "ANQ_GREAT_WAR_DESC"
-			ideology = neutrality
+			ideology = racism
 			ideas = {
 			
 			}
@@ -53,7 +53,7 @@ bookmarks = {
 		
 		"PEL"={
 			history = "PEL_GREAT_WAR_DESC"
-			ideology = neutrality
+			ideology = racism
 			ideas = {
 			
 			}

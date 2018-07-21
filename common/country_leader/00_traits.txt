@@ -11,7 +11,7 @@ leader_traits = {
 	
 	popular = {
 		random = yes
-		stability_factor = -0.10
+		stability_factor = 0.10
 		
 		ai_will_do = {
 			factor = 1
@@ -21,43 +21,43 @@ leader_traits = {
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly
-	communist_revolutionary = {
+	patriotic_demagogue = {
 		random = no
-		# Boosts Communism
+		# Boosts patriotism
 		sprite = 13
-		communism_drift = 0.1
+		patriotism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	
-	democratic_reformer = {
+	unionist_reformer = {
 		random = no
-		# Boosts Democracy
+		# Boosts Unionism
 		sprite = 13
-		democratic_drift = 0.1
+		unionism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	
-	fascist_demagogue = {
+	xenophobic_demagogue = {
 		random = no
-		# Boosts Fascism
+		# Boosts xenophobia
 		sprite = 13
-		fascism_drift = 0.1
+		xenophobia_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	staunch_monarchist = {
+	racist_demagogue = {
 		random = no
 		# Boosts Unaligned
 		sprite = 13
-		neutrality_drift = 0.1
+		racism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0

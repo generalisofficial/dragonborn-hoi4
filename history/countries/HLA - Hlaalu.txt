@@ -10,24 +10,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		unionism = { 
 			popularity = 100
 		}
 
-		fascism = {
+		xenophobia = {
 			popularity = 0
 		}
 		
-		communism = {
+		patriotism = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		racism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = unionism
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,5 +36,5 @@ set_politics = {
 create_country_leader = {
 	name = "Naryyth Serivon"
 	picture = "hlaalu.dds"
-	ideology = unionist_ideology
+	ideology = unionist
 }
