@@ -29,6 +29,39 @@ bookmarks = {
 			}
 		}
 		
+		"BLM"={
+			history = "BLM_GREAT_WAR_DESC"
+			ideology = communism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"ANQ"={
+			history = "ANQ_GREAT_WAR_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"PEL"={
+			history = "PEL_GREAT_WAR_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

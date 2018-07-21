@@ -64,3 +64,13 @@ HAM = {
     color = rgb { 175 80 82 }
     color_ui = rgb { 175 80 82 }
 }
+
+VAL = {
+    color = rgb { 222 184 135 }
+    color_ui = rgb { 222 184 135 }
+}
+
+TGM = {
+    color = rgb { 139 69 19 }
+    color_ui = rgb { 139 69 19 }
+}

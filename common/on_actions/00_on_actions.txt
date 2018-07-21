@@ -1,0 +1,297 @@
+on_actions = {
+	# country 
+	on_new_term_election = {
+	}
+
+	# Ace pilots
+	# country, FROM = ace
+	on_ace_promoted = {
+		random_events = {
+		
+		}
+	}
+
+	# country, FROM = ace, PREV = enemy ace 
+	# This event fires twice, once for each ace.
+	on_aces_killed_each_other = {
+		random_events = {
+		
+		}
+	}
+	
+	# country, FROM = our ace, 
+	# PREV = enemy ace, has killed FROM
+	on_ace_killed_by_ace = {
+		random_events = {
+		
+		}
+	}
+
+	# country, FROM = our ace, 
+	# PREV = enemy ace, killed by FROM
+	on_ace_killed_other_ace = {
+		random_events = {
+		
+		}
+	}
+
+	# country, FROM = ace
+	on_ace_killed = {
+		random_events = {
+		
+		}
+	}
+
+	# During justifying wargoals
+	# triggered daily, so make sure there is a sink somewhere not firing events
+	# country, FROM = target nation
+	on_justifying_wargoal_pulse = {
+
+		random_events = {
+		
+		}
+	}
+
+	on_wargoal_expire = {
+		random_events = {
+		
+		}
+	}
+
+	on_nuke_drop = {
+
+		effect = {
+		
+		}
+	}
+
+	# country random events
+	#on_bi_yearly_pulse = {
+	#
+	#}
+
+	#on_five_year_pulse = {
+	#
+	#}
+
+	on_border_war_lost = {
+		effect = {
+		
+		}
+	}
+	
+	on_leave_faction = {
+		effect = {
+			FROM = {
+				add_opinion_modifier = {
+					modifier = faction_traitor
+					target = ROOT
+					days = 365
+				}
+			
+				add_opinion_modifier = {
+					modifier = faction_traitor_trade
+					target = ROOT
+					days = 365
+				}
+			}
+		}
+	}
+
+	#FROM is the one that joins the faction
+	on_create_faction = {
+		effect = {
+		
+		}
+	}
+
+	#FROM is country getting invited.
+	on_offer_join_faction = {
+		effect = {
+		
+		}
+	}
+
+	#FROM is faction leader on join faction requests. THIS DOES NOT FIRE ON ADD_TO_FACTION EFFECT! USE ON_OFFER_JOIN_FACTION!
+	on_join_faction = {
+		effect = {
+			
+		}
+	}
+
+	#FROM is war target
+	on_declare_war = {
+		effect = {
+		
+		}
+	}
+	
+	on_faction_formed = {
+		effect = {
+		
+		}
+	}
+	
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+		
+		}
+	}
+
+	# ROOT is previously capitulated country
+	on_uncapitulation = {
+		effect = {
+		
+		}
+	}
+
+	on_government_change = {
+		effect = {			
+		
+		}
+	}
+
+	on_coup_succeeded = {
+		effect = {
+		
+		}
+	}
+
+	#ROOT is winner #FROM gets annexed - This will also fire on_annex
+	on_civil_war_end = {
+		effect = {
+
+			#End of ideology Civil War
+			if = {
+				limit = {
+					has_country_flag = ideology_civil_war
+				}
+				clr_country_flag = ideology_civil_war
+				set_country_flag = { flag = won_ideology_civil_war value = 1 days = 365 }
+			}
+		}
+	}
+
+	#used when puppeting in a peace conference
+	#ROOT = nation being puppeted, FROM = overlord
+	
+	on_puppet = {
+		effect = {
+
+		}
+	}
+	
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	
+	on_release_as_puppet = {
+		effect = {
+
+		}
+	}
+	
+	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
+	on_annex = {
+		effect = {
+			
+		}
+	}
+
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+		
+		}
+	}
+	
+	on_unit_leader_created = {
+		effect = {
+		}
+	}
+
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+		
+		}
+	}
+	
+	on_unit_leader_level_up = {
+		effect = {
+			
+		}
+	}
+	
+	# From is owner country
+	on_army_leader_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { random < 0.02 }
+					NOT = { has_trait = sick }
+					set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
+					divide_temp_variable = { temp = num_units }
+					check_variable = { temp > 0.75 }
+					NOT = { has_unit_leader_flag = recently_sick }
+				}
+				add_timed_unit_leader_trait = {
+					trait = sick
+					days = 30
+				}
+				unit_leader_event = { id = generic.17 }
+			}
+		}
+	}
+	
+	# From is owner country
+	on_army_leader_won_combat = {
+		effect = {
+			if = {
+				limit = {
+					set_temp_variable = { chance = 0.001 }
+					set_temp_variable = { factor = 1.0 }
+					add_to_temp_variable = { factor = leader_modifier@wounded_chance_factor } 
+					multiply_temp_variable = { chance = factor }
+					check_variable = { random < chance }
+					NOT = { has_trait = wounded }
+				}
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+				unit_leader_event = { id = generic.18 }
+			}
+		}
+	}
+	
+	# From is owner country
+	on_army_leader_lost_combat = {
+		effect = {
+			if = {
+				limit = {
+					set_temp_variable = { chance = 0.005 }
+					set_temp_variable = { factor = 1.0 }
+					add_to_temp_variable = { factor = leader_modifier@wounded_chance_factor } 
+					multiply_temp_variable = { chance = factor }
+					check_variable = { random < chance }
+					NOT = { has_trait = wounded }
+				}
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+			}
+		}
+	}
+	
+	
+	on_army_leader_promoted = {
+		effect = {
+			add_timed_unit_leader_trait = {
+				trait = recently_promoted
+				days = 100
+			}
+		}
+	}
+}

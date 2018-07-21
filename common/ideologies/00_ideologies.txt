@@ -34,7 +34,7 @@ ideologies = {
 		faction_modifiers = {
 		
 		}
-		ai_democratic = yes 
+		ai_neutral = yes 
 	}
 
 
@@ -60,7 +60,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75	
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes 
+		ai_neutral = yes
 		
 		rules = {
 		

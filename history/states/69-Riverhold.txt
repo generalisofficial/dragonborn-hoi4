@@ -1,6 +1,16 @@
 state={
 	id=69
 	name="STATE_69"
+	
+	history={
+		owner = ANQ
+		buildings = {
+
+		}
+		add_core_of = ANQ
+		
+	}
+	
 	provinces={
 		625 628 629 630 631 632 633 1532 3749 3750 4276 4694 5076 5777 
 	}
