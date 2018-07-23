@@ -1,11 +1,8 @@
-﻿name="es4"
+﻿name="Elder Scrolls 4"
 
-path="mod/es4/"
+path="mod/elderscrolls4/"
 
-
-replace_path="history/states/"
 replace_path="history/countries"
-
 
 tags={
 	"Alternative History"

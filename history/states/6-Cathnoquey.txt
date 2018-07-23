@@ -1,6 +1,16 @@
 state={
 	id=6
 	name="STATE_6"
+
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+
+	}
+
 	provinces={
 		418 419 420 421 422 423 424 999 1000 1001 2946 2947 2948 4226 5071 5072 5179 5384 5609 5723 5840 
 	}
