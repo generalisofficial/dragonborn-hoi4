@@ -1,6 +1,6 @@
 capital = 1
 
-oob = "KML_4171"
+oob = "KPT_4171"
 
 set_technology = {
 

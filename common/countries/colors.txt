@@ -74,3 +74,8 @@ TGM = {
     color = rgb { 139 69 19 }
     color_ui = rgb { 139 69 19 }
 }
+
+PYD = {
+    color = rgb { 95 158 160 }
+    color_ui = rgb { 95 158 160 }
+}
