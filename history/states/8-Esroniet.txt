@@ -1,0 +1,19 @@
+state={
+	id=8
+	name="STATE_8"
+
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+
+	}
+
+	provinces={
+		380 480 481 482 483 1747 1748 1749 1750 1751 2662 2663 2664 2969 2970 2971 2972 2973 2974 2975 3557 3791 3792 4402 4403 4528 4672 4916 4917 5037 5670 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

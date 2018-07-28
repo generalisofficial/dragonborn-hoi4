@@ -1,0 +1,81 @@
+#reload countrycolors
+
+BLM = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}
+
+TEP = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
+ALD = {
+	color = rgb { 222 184 135 }
+	color_ui = rgb { 222 184 135 }
+}
+
+ANQ = {
+	color = rgb { 222 184 135 }
+	color_ui = rgb { 222 184 135 }
+}
+
+PEL = {
+	color = rgb { 222 184 135 }
+	color_ui = rgb { 222 184 135 }
+}
+
+SKY = {
+	color = rgb { 0 0 205 }
+	color_ui = rgb { 0 0 205 }
+}
+
+RED = {
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }
+}
+
+HLA = {
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 222 187 91 }
+}
+
+DRS = {
+	color = rgb { 160 82 45 }
+	color_ui = rgb { 160 82 45 }
+}
+
+IDR = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+
+TEL = {
+	color = rgb { 0 0 139 }
+	color_ui = rgb { 0 0 139 }
+}
+
+HRK = {
+    color = rgb { 180 233 69 }
+    color_ui = rgb { 180 233 69 }
+}
+
+HAM = {
+    color = rgb { 175 80 82 }
+    color_ui = rgb { 175 80 82 }
+}
+
+VAL = {
+    color = rgb { 222 184 135 }
+    color_ui = rgb { 222 184 135 }
+}
+
+TGM = {
+    color = rgb { 139 69 19 }
+    color_ui = rgb { 139 69 19 }
+}
+
+PYD = {
+    color = rgb { 95 158 160 }
+    color_ui = rgb { 95 158 160 }
+}

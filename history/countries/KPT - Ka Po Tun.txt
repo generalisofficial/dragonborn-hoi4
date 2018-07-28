@@ -1,0 +1,34 @@
+capital = 1
+
+oob = "KPT_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		unionism = { 
+			popularity = 0
+		}
+
+		xenophobia = {
+			popularity = 0
+		}
+		
+		patriotism = {
+			popularity = 100
+		}
+		
+		racism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = patriotism
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
