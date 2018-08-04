@@ -8,4 +8,5 @@
  WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$ reclamation of $STATE$"
  WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ Aggression for $STATE$"
  WAR_NAME_ALD_TEP:0 "The Great War"
+ WAR_NAME_ALD_HAM:0 "Hammerfell Resistance War"
  WAR_NAME_SKY_TEP:0 "Skyrim Civil War"

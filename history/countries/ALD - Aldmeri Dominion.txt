@@ -34,7 +34,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Thalmor"
-	picture = "Thalmor.dds"
+	name = "Thalmor Council"
+	picture = "Thalmor_Council.dds"
 	ideology = racist
 }
