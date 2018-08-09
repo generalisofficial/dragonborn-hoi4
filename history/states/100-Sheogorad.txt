@@ -1,24 +1,18 @@
-
 state={
-	id=35
-	name="STATE_35"
+	id=100
+	name="STATE_100"
 
-	history={
+history={
 		owner = TEP
 		buildings = {
 
 		}
 		add_core_of = TEP
-		add_core_of = HAM
-		4175.1.1 = {
-			owner = HAM
-
-		}
 
 	}
 
 	provinces={
-		5113 5525 
+		2992 3965 4429 4430 4431 4432 4993 5048 5109 5824 6149 6150 6152 6153 6154 6155 6158 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
