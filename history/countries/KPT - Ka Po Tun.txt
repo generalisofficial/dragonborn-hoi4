@@ -32,3 +32,13 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_faction = "Tang Po Tun"
+add_to_faction = KPT
+add_to_faction = TGM
+
+create_country_leader = {
+	name = "Tosh Raka"
+	picture = "Tosh_Raka.dds"
+	ideology = patriot
+}
