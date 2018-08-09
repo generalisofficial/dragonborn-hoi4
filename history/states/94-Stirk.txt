@@ -1,0 +1,23 @@
+state={
+	id=94
+	name="STATE_94"
+
+	history={
+		owner = TEP
+		buildings = {
+
+		}
+		add_core_of = TEP
+		add_core_of = HAM
+		
+		4175.1.1 ={
+		    owner = HAM
+		}
+	}
+
+	provinces={
+		4227 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
