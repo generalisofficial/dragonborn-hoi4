@@ -79,3 +79,8 @@ PYD = {
     color = rgb { 95 158 160 }
     color_ui = rgb { 95 158 160 }
 }
+
+KPT = {
+    color = rgb { 255 140 0 }
+    color_ui = rgb { 255 140 0 }
+}

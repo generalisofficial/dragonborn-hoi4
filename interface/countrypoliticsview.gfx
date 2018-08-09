@@ -79,36 +79,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_level_button.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_autonomy_reichskommissariat_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_reichskommissariat_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_reichsprotectorate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_reichsprotectorate_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_satellite_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_satellite.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_wtt_imperial_associate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds"
-	}
-
-	spriteType = {
-		name = "GFX_autonomy_wtt_imperial_subject_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_associate.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_autonomy_wtt_imperial_protectorate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_imperial_protectorate.dds"
-	}
-	
 	#-------------
 
 	spriteType = {
@@ -347,72 +317,72 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+		name = "GFX_ideology_racism_group"
+		texturefile = "gfx/interface/ideologies/racism_group.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
+		name = "GFX_ideology_patriotism_group"
+		texturefile = "gfx/interface/ideologies/patriotism_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+		name = "GFX_ideology_xenophobia_group"
+		texturefile = "gfx/interface/ideologies/xenophobia_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+		name = "GFX_ideology_unionism_group"
+		texturefile = "gfx/interface/ideologies/unionism_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_RED_neutrality_group"
+		name = "GFX_ideology_RED_racism_group"
 		texturefile = "gfx/interface/ideologies/redoran.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_RED_communism_group"
+		name = "GFX_ideology_RED_patriotism_group"
 		texturefile = "gfx/interface/ideologies/redoran.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_RED_fascism_group"
+		name = "GFX_ideology_RED_xenophobia_group"
 		texturefile = "gfx/interface/ideologies/redoran.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_RED_democratic_group"
+		name = "GFX_ideology_RED_unionism_group"
 		texturefile = "gfx/interface/ideologies/redoran.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_TEL_neutrality_group"
+		name = "GFX_ideology_TEL_racism_group"
 		texturefile = "gfx/interface/ideologies/telvanni.dds"
     }	
 	
     spriteType = {
-		name = "GFX_ideology_TEL_communism_group"
+		name = "GFX_ideology_TEL_patriotism_group"
 		texturefile = "gfx/interface/ideologies/telvanni.dds"
     }
 	
     spriteType = {
-		name = "GFX_ideology_TEL_fascism_group"
+		name = "GFX_ideology_TEL_xenophobia_group"
 		texturefile = "gfx/interface/ideologies/telvanni.dds"
     }
 	
     spriteType = {
-		name = "GFX_ideology_TEL_democratic_group"
+		name = "GFX_ideology_TEL_unionism_group"
 		texturefile = "gfx/interface/ideologies/telvanni.dds"
     }
 	
 	spriteType = {
-		name = "GFX_ideology_TEP_democratic_group"
+		name = "GFX_ideology_TEP_unionism_group"
 		texturefile = "gfx/interface/ideologies/imperial.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_ALD_neutrality_group"
+		name = "GFX_ideology_ALD_racism_group"
 		texturefile = "gfx/interface/ideologies/thalmor.dds"
 	}
 	
