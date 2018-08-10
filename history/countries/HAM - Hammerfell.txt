@@ -24,3 +24,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Nannoc Forebear"
+	picture = "Nannoc_Forebear.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Jindal Crown"
+	picture = "Jindal_Crown.dds"
+	ideology = xenophobic
+}
+
