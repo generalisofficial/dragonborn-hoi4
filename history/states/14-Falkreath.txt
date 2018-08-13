@@ -10,10 +10,6 @@ state={
 		}
 		add_core_of = TEP
 		add_core_of = SKY
-		4201.1.1 = {
-			owner = SKY
-
-		}
 
 	}
 
