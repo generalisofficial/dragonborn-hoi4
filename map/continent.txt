@@ -1,5 +1,3 @@
 continents = {
-	tamriel
-	atmora
-	akavir
+    nirn
 }
