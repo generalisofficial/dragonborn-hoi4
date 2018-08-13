@@ -1,4 +1,4 @@
-capital = 1
+﻿capital = 1
 
 oob = "KPT_4171"
 
@@ -31,4 +31,14 @@ set_politics = {
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_faction = "Tang Po Tun"
+add_to_faction = KPT
+add_to_faction = TGM
+
+create_country_leader = {
+	name = "Tosh Raka"
+	picture = "Tosh_Raka.dds"
+	ideology = patriot
 }

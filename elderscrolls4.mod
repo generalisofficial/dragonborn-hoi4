@@ -3,6 +3,7 @@
 path="mod/elderscrolls4/"
 
 replace_path="history/countries"
+replace_path="common/bookmarks"
 
 tags={
 	"Alternative History"
