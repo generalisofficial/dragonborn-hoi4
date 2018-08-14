@@ -1,0 +1,52 @@
+﻿capital = 1
+
+oob = "WTR_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		unionism = { 
+			popularity = 22
+		}
+
+		xenophobia = {
+			popularity = 20
+		}
+		
+		patriotism = {
+			popularity = 58
+		}
+		
+		racism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = patriotism
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Balgruuf the Greater"
+	picture = "Balgruuf_the_Greater.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Balgruuf the Greater"
+	picture = "Balgruuf_the_Greater.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Vignar Gray-Mane"
+	picture = "Vignar_Gray_Mane.dds"
+	ideology = xenophobic
+}

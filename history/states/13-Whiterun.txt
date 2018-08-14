@@ -10,6 +10,11 @@ state={
 		}
 		add_core_of = TEP
 		add_core_of = SKY
+		add_core_of = WTR
+		4201.1.1 = {
+			owner = WTR
+
+		}
 
 	}
 

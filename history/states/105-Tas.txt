@@ -1,0 +1,19 @@
+state={
+	id=105
+	name="STATE_105"
+	
+	history={
+		owner = TGM
+		buildings = {
+
+		}
+		add_core_of = TGM
+
+	}
+	
+	provinces={
+		2031 2032 2033 2034 2035 2036 2147 2148 2149 2150 2198 2199 2200 5281 5603 5866 5867 6044 13460 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
