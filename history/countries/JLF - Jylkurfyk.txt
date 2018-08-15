@@ -1,0 +1,40 @@
+﻿capital = 2
+
+oob = "JLF_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		unionism = { 
+			popularity = 0
+		}
+
+		xenophobia = {
+			popularity = 100
+		}
+		
+		patriotism = {
+			popularity = 0
+		}
+		
+		racism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = patriotism
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Vignrgal Deep-Tooth"
+	picture = "Vignrgal_Deep_Tooth.dds"
+	ideology = xenophobic
+}

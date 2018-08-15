@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 5
 
 oob = "TEP_4171"
 
