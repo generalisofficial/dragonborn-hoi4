@@ -2,6 +2,7 @@
 path="mod/elderscrolls4/"
 
 replace_path="common/bookmarks"
+replace_path="common/technologies"
 replace_path="common/autonomous_states"
 replace_path="common/national_focus"
 replace_path="history/countries"
