@@ -1,6 +1,6 @@
 ﻿l_english:
- infrastructure:0 "Infrastructure"
- infrastructure_plural:0 "Infrastructure"
+ infrastructure:0 "Road"
+ infrastructure_plural:0 "Roads"
  infrastructure_desc:0 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed."
  arms_factory:0 "Blacksmith"
  arms_factory_plural:0 "Blacksmiths"
