@@ -6177,11 +6177,11 @@
 6176;215;114;239;lake;false;lakes;1
 6177;253;168;106;land;true;plains;1
 6178;246;26;245;land;true;plains;1
-6179;252;237;135;land;true;plains;1
+6179;252;237;135;lake;false;lakes;1
 6180;200;249;208;land;true;plains;1
 6181;100;230;196;land;true;plains;1
 6182;225;177;202;land;true;plains;1
-6183;229;89;226;land;true;plains;1
+6183;229;89;226;lake;false;lakes;1
 6184;173;188;192;land;true;plains;1
 6185;178;128;248;land;true;plains;1
 6186;120;188;197;land;false;plains;1
