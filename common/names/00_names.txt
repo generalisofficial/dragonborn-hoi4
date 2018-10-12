@@ -68,7 +68,7 @@ TEL = {
 	callsigns = { "Bubi" "Assi" "The Black Daedra" "The Dark Rogue Of Dunmer" "Dolfo" "The Great Scrib" "Oran's Destruction" "Chosen of Vivec" "The Cliff Racer" "The Netch Rider" "Champion" "Reeste" }
 }
 
-TEP = {
+CYR = {
 	male = {
 		names = { Adonato Adventus Aerin Agrius Alethius Aquillius Aventus Bassianus Caius Calixto Cicero Constantius Corpulus Crescius Dexion Ennodius Falx Florentius Gaius Gallus Gavros Gian Leontius Lucan Mallus Marcurio Maro Metillus Noster Orthus Paratus Pavo Plautis Proventus Quentin Quintus Reburrus Rexus Rogatus Salviannus Samuel Septiums Sergius Severio Silus Sorex Sulla Tacitus Taurinus Telrav Terek Titus Tyranus Vantus Varnius Venarus Verulus Xander }
 	}

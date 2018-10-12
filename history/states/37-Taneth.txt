@@ -3,11 +3,11 @@ state={
 	name="STATE_37"
 	
 	history={
-		owner = TEP
+		owner = CYR
 		buildings = {
 
 		}
-		add_core_of = TEP
+		add_core_of = CYR
 		add_core_of = HAM
 		
 		4175.1.1 ={

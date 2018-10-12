@@ -1,0 +1,52 @@
+idea_categories = {
+
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+	}
+
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+	}
+	
+	court = {
+	    slot = steward
+		slot = court_wizard
+		slot = housecarl
+		slot = thane
+		slot = guard_captain
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	research_production = {
+		slot = tank_manufacturer
+		slot = naval_manufacturer
+		slot = aircraft_manufacturer
+		slot = materiel_manufacturer
+		slot = industrial_concern
+		slot = theorist
+
+		cost = 150
+		removal_cost = 0
+
+	}
+	
+	military = {
+	    slot = mobilization_laws
+		slot = army_chief 
+		slot = navy_chief 
+		slot = air_chief
+		slot = high_command
+		slot = high_command
+		
+		cost = 150
+		removal_cost = 0
+	}
+}

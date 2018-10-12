@@ -4,11 +4,11 @@ state={
 	name="STATE_17"
 
 	history={
-		owner = TEP
+		owner = CYR
 		buildings = {
 
 		}
-		add_core_of = TEP
+		add_core_of = CYR
 		add_core_of = SKY
 		4201.1.1 = {
 			owner = SKY
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		239 260 261 262 263 390 391 392 792 793 794 795 796 797 2299 2503 3172 3615 3616 3939 3940 3941 3943 4332 5575 5646 5677 5948 13446 
+		239 260 261 262 263 390 391 392 792 793 794 795 796 797 2299 2503 3172 3615 3616 3939 3940 3941 3943 4332 5575 5646 5677 5948 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

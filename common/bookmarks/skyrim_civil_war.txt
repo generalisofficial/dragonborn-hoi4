@@ -4,11 +4,11 @@ bookmarks = {
 		desc = "SKYRIM_CIVIL_WAR_DESC"
 		date = 4201.8.17.12
 		picture = "GFX_select_date_4201"
-		default_country = "TEP"
+		default_country = "CYR"
 		default = yes
 		
-		"TEP"={
-			history = "TEP_SKYRIM_CIVIL_WAR_DESC"
+		"CYR"={
+			history = "CYR_SKYRIM_CIVIL_WAR_DESC"
 			ideology = unionism
 			ideas = {
 			

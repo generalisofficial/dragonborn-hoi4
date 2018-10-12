@@ -7,18 +7,210 @@ focus_tree = {
 	
 	default = yes
 	reset_on_civilwar = no
-
+	
 	focus = {
-		id = ES4_placeholder
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
+		id = ES4_fund_blacksmiths
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = ES4_foreign_policy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 14
 		y = 0
-		cost = 10
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 420
+	}
+	focus = {
+		id = ES4_continue_blacksmith_funding
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_fund_blacksmiths
 		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = ES4_blacksmith_project
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_continue_blacksmith_funding
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = ES4_unionism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = ES4_patriotism
+			focus = ES4_xenophobia
+			focus = ES4_racism
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = ES4_imperial_relations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_unionism
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = ES4_patriotism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = ES4_unionism
+			focus = ES4_xenophobia
+			focus = ES4_racism
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = ES4_xenophobia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = ES4_patriotism
+			focus = ES4_racism
+			focus = ES4_unionism
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = ES4_independence
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_patriotism
+			focus = ES4_xenophobia
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = ES4_fund_lumber_mills
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_industry_contracts
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = ES4_continue_lumber_funding
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_fund_lumber_mills
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = ES4_lumber_mill_project
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_continue_lumber_funding
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = ES4_finish_industrialization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_blacksmith_project
+		}
+		prerequisite = {
+			focus = ES4_lumber_mill_project
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = ES4_industry_contracts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_industry_contracts
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = ES4_industry_contracts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_industry_contracts
+		}
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = ES4_racism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_foreign_policy
+		}
+		mutually_exclusive = {
+			focus = ES4_xenophobia
+			focus = ES4_unionism
+			focus = ES4_patriotism
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = ES4_aldmeri_relations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ES4_racism
+		}
+		x = 18
+		y = 2
+
 	}
 }
