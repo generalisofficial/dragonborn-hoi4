@@ -19,6 +19,7 @@ idea_categories = {
 		slot = court_wizard
 		slot = housecarl
 		slot = thane
+		slot = thane
 		slot = guard_captain
 		
 		cost = 150
