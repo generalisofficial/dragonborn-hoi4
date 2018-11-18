@@ -1,0 +1,28 @@
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+music = {
+	song = "The Age of Aggression"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
+	song = "The Age of Oppression"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}

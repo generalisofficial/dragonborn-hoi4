@@ -1,0 +1,17 @@
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "The Age of Aggression"
+	file = "age_of_aggression.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "The Age of Oppression"
+	file = "age_of_oppression.ogg"
+	volume = 0.65
+}
