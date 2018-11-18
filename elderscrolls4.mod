@@ -13,6 +13,7 @@ replace_path="common/on_actions"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="map/strategicregions"
+replace_path="map/supplyareas"
 
 tags={
 	"Alternative History"
