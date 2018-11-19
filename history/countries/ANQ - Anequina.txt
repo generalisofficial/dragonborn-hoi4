@@ -34,7 +34,25 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "WIP"
-	picture = "Khajit.dds"
+	name = "M'zah Rahknaihn"
+	picture = "M'zah_Rahknaihn.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "M'zah Rahknaihn"
+	picture = "M'zah_Rahknaihn.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "M'zah Rahknaihn"
+	picture = "M'zah_Rahknaihn.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "M'zah Rahknaihn"
+	picture = "M'zah_Rahknaihn.dds"
 	ideology = racist
 }

@@ -708,7 +708,7 @@
  FE_COUNTRY_HISTORY_TITLE:0 "Brief History"
  LEADER:0 "Leader"
  GOVERNMENT:0 "Government"
- RULING_PARTY:0 "Ruling Party"
+ RULING_PARTY:0 "Dominant Faction"
  ELECTIONS:0 "Elections"
  FE_MISC_STATS:0 "Misc. Stats"
  FE_LOADING_HISTORY:0 "Updating History..."

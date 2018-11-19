@@ -33,12 +33,30 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = "Tang Po Tun"
+create_faction = "Akavir Pact"
 add_to_faction = KPT
 add_to_faction = TGM
 
 create_country_leader = {
 	name = "Tosh Raka"
 	picture = "Tosh_Raka.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Tosh Raka"
+	picture = "Tosh_Raka.dds"
 	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Tosh Raka"
+	picture = "Tosh_Raka.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Tosh Raka"
+	picture = "Tosh_Raka.dds"
+	ideology = racist
 }

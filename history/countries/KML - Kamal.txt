@@ -32,3 +32,27 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Darook"
+	picture = "Darook.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Darook"
+	picture = "Darook.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Darook"
+	picture = "Darook.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Darook"
+	picture = "Darook.dds"
+	ideology = racist
+}

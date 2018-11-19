@@ -15,11 +15,11 @@ set_politics = {
 		}
 
 		xenophobia = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		patriotism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		racism = { 
@@ -27,14 +27,32 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = patriotism
+	ruling_party = xenophobia
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "King of Argonia"
-	picture = "Argonian.dds"
+	name = "Ah-Ei Laflus I"
+	picture = "Ah_Ei_Laflus_I.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Ah-Ei Laflus I"
+	picture = "Ah_Ei_Laflus_I.dds"
 	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Ah-Ei Laflus I"
+	picture = "Ah_Ei_Laflus_I.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Ah-Ei Laflus I"
+	picture = "Ah_Ei_Laflus_I.dds"
+	ideology = racist
 }
