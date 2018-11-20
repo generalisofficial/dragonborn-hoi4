@@ -40,3 +40,98 @@ create_country_leader = {
 	picture = "Titus_Mede_II.dds"
 	ideology = unionist
 }
+
+create_country_leader = {
+	name = "Titus Mede II"
+	picture = "Titus_Mede_II.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Titus Mede II"
+	picture = "Titus_Mede_II.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Titus Mede II"
+	picture = "Titus_Mede_II.dds"
+	ideology = racist
+}
+
+create_field_marshal = {
+	name = "Tullius"
+	picture = "Tullius.dds"
+	traits = { }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Rikke"
+	picture = "Rikke.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Adventus Caesennius"
+	picture = "Adventus_Caesennius.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Constantius Tituleius"
+	picture = "Constantius_Tituleius.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Emmanuel Admand"
+	picture = "Emmanuel_Admand.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Fasendil"
+	picture = "Fasendil.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Hrollod"
+	picture = "Hrollod.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Quentin Cipius"
+	picture = "Quentin_Cipius.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Sevan Telendas"
+	picture = "Sevan_Telendas.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Skulnar"
+	picture = "Skulnar.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Taurinus Duilis"
+	picture = "Taurinus_Duilis.dds"
+	traits = { }
+	skill = 1
+}

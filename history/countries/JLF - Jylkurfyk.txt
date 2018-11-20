@@ -36,5 +36,23 @@ set_politics = {
 create_country_leader = {
 	name = "Vignrgal Deep-Tooth"
 	picture = "Vignrgal_Deep_Tooth.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Vignrgal Deep-Tooth"
+	picture = "Vignrgal_Deep_Tooth.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Vignrgal Deep-Tooth"
+	picture = "Vignrgal_Deep_Tooth.dds"
 	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Vignrgal Deep-Tooth"
+	picture = "Vignrgal_Deep_Tooth.dds"
+	ideology = racist
 }
