@@ -6170,9 +6170,9 @@
 6169;229;165;200;land;true;plains;1
 6170;253;242;232;land;false;urban;1
 6171;251;59;243;land;true;plains;1
-6172;253;165;90;land;true;hills;1
+6172;253;165;90;lake;true;forest;1
 6173;229;168;103;lake;true;plains;1
-6174;175;164;226;land;true;hills;1
+6174;175;164;226;lake;true;plains;1
 6175;181;226;235;lake;true;desert;1
 6176;215;114;239;lake;false;hills;1
 6177;253;168;106;lake;true;hills;1
