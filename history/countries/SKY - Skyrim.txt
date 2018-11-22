@@ -34,15 +34,27 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Istlod"
+	picture = "Istlod.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Istlod"
+	picture = "Istlod.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
 	name = "Ulfric Stormcloak"
 	picture = "Ulfric_Stormcloak.dds"
 	ideology = xenophobic
 }
 
 create_country_leader = {
-	name = "Istlod"
-	picture = "Istlod.dds"
-	ideology = unionist
+	name = "Ulfric Stormcloak"
+	picture = "Ulfric_Stormcloak.dds"
+	ideology = racist
 }
 
 create_field_marshal = {
@@ -120,5 +132,10 @@ create_corps_commander = {
 	    name = "Elisif the Fair"
 	    picture = "Elisif_the_Fair.dds"
 	    ideology = unionist
+    }
+	create_country_leader = {
+	    name = "Elisif the Fair"
+	    picture = "Elisif_the_Fair.dds"
+	    ideology = patriot
     }
 }

@@ -12,6 +12,9 @@ focus_tree = {
 		id = ES4_fund_blacksmiths
 		icon = GFX_goal_unknown
 		cost = 10.00
+		prerequisite = {
+			focus = ES4_industry_contracts
+		}
 		x = 5
 		y = 1
 
@@ -162,17 +165,6 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
-
-	}
-	focus = {
-		id = ES4_industry_contracts
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = ES4_industry_contracts
-		}
-		x = 5
-		y = 1
 
 	}
 	focus = {
