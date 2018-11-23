@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = ES4_fund_blacksmiths
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_industry_contracts
 		}
@@ -22,7 +22,7 @@ focus_tree = {
 	focus = {
 		id = ES4_foreign_policy
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		x = 14
 		y = 0
 
@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = ES4_continue_blacksmith_funding
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_fund_blacksmiths
 		}
@@ -41,7 +41,7 @@ focus_tree = {
 	focus = {
 		id = ES4_blacksmith_project
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_continue_blacksmith_funding
 		}
@@ -52,7 +52,7 @@ focus_tree = {
 	focus = {
 		id = ES4_unionism
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
@@ -61,25 +61,25 @@ focus_tree = {
 			focus = ES4_xenophobia
 			focus = ES4_racism
 		}
-		x = 10
+		x = 20
 		y = 1
 
 	}
 	focus = {
 		id = ES4_imperial_relations
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_unionism
 		}
-		x = 10
+		x = 20
 		y = 2
 
 	}
 	focus = {
 		id = ES4_patriotism
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
@@ -95,7 +95,7 @@ focus_tree = {
 	focus = {
 		id = ES4_xenophobia
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
@@ -111,7 +111,7 @@ focus_tree = {
 	focus = {
 		id = ES4_independence
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_patriotism
 			focus = ES4_xenophobia
@@ -123,7 +123,7 @@ focus_tree = {
 	focus = {
 		id = ES4_fund_lumber_mills
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_industry_contracts
 		}
@@ -134,7 +134,7 @@ focus_tree = {
 	focus = {
 		id = ES4_continue_lumber_funding
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_fund_lumber_mills
 		}
@@ -145,7 +145,7 @@ focus_tree = {
 	focus = {
 		id = ES4_lumber_mill_project
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_continue_lumber_funding
 		}
@@ -156,7 +156,7 @@ focus_tree = {
 	focus = {
 		id = ES4_finish_industrialization
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_blacksmith_project
 		}
@@ -170,7 +170,7 @@ focus_tree = {
 	focus = {
 		id = ES4_industry_contracts
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_industry_contracts
 		}
@@ -181,7 +181,7 @@ focus_tree = {
 	focus = {
 		id = ES4_racism
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = ES4_aldmeri_relations
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 20.00
 		prerequisite = {
 			focus = ES4_racism
 		}
