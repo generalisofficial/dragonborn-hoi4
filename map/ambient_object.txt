@@ -1,4 +1,18 @@
 type={
+	type="ambient_wind_entity"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="ambient_wind"
+		position={
+			0.000 0.000 0.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
 	type="frame_border_entity"
 	use_animation=no
 	scale=100.000000
