@@ -33,6 +33,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = "Grand Council"
+add_to_faction = RED
+add_to_faction = TEL
+add_to_faction = HLA
+add_to_faction = IDR
+
 create_country_leader = {
 	name = "Nadsilo Llearen"
 	picture = "redoran.dds"
