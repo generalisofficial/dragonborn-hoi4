@@ -1,0 +1,50 @@
+skyrim_civil_war = {
+	
+	battle_for_solitude = {
+
+		visible = {
+			original_tag = SKY
+			country_exists = CYR
+			OR = {
+			    has_government = xenophobia
+				has_government = racism
+			}
+			owns_state = 11
+			owns_state = 13
+			owns_state = 14
+			owns_state = 17
+			owns_state = 12
+			owns_state = 15
+			owns_state = 16
+			CYR = { owns_state = 10 }
+		}
+		
+		icon = decision_stormcloak
+		
+		fire_only_once = no
+		cost = 100
+
+		complete_effect = {
+			start_border_war = {
+                change_state_after_war = no
+                attacker = {
+                    state = 11
+                    num_provinces = 3
+                    on_win = scw.1
+                    on_lose = scw.2
+                }		
+                defender = {
+                   state = 10
+                   num_provinces = 3
+                   on_win = scw.3
+                   on_lose = scw.4
+                }
+	        }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

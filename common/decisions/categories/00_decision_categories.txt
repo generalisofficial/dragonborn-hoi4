@@ -6,3 +6,12 @@ formable_nations = {
 		always = yes
 	}
 }
+
+skyrim_civil_war = {
+
+    icon = skyrim_civil_war
+
+	allowed = {
+		always = yes
+	}
+}
