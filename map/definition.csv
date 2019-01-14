@@ -6186,7 +6186,7 @@
 6185;178;128;248;lake;true;forest;1
 6186;120;188;197;land;false;urban;1
 6187;223;224;222;land;false;urban;1
-6188;234;130;246;land;true;forest;1
+6188;234;130;246;lake;false;lakes;1
 6189;171;190;151;lake;false;lakes;1
 6190;216;157;222;land;true;plains;1
 6191;215;181;135;land;true;plains;1
