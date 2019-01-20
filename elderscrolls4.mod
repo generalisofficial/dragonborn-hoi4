@@ -1,4 +1,4 @@
-﻿name="Elder Scrolls 4"
+﻿name="Iron Scrolls IV (EARLY ALPHA/PREVIEW)"
 path="mod/elderscrolls4/"
 
 replace_path="common/ai_peace"
