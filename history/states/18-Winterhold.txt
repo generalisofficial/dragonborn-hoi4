@@ -6,7 +6,7 @@ state={
 	history={
 		owner = CYR
 		victory_points = {
-			3505 5
+			3501 5
 		}
 		victory_points = {
 			6146 3
@@ -18,7 +18,7 @@ state={
 			6142 1
 		}
 		victory_points = {
-			2492 1
+			2493 1
 		}
 		victory_points = {
 			2504 1

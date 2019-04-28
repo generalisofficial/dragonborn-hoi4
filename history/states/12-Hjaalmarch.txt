@@ -10,6 +10,7 @@ state={
 		}
 		add_core_of = CYR
 		add_core_of = SKY
+		add_core_of = HJA
 
 	}
 
