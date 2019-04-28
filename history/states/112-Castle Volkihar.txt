@@ -1,0 +1,24 @@
+state={
+	id=112
+	name="STATE_112"
+	
+	history={
+		owner = VLK
+		victory_points = {
+			4796 2
+		}
+		buildings = {
+
+		}
+		add_core_of = VLK
+
+	}
+
+
+	provinces={
+		4796 
+	}
+	manpower=928
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -5,6 +5,24 @@ state={
 
 	history={
 		owner = CYR
+		victory_points = {
+			5117 10
+		}
+		victory_points = {
+			2744 3
+		}
+		victory_points = {
+			5691 2
+		}
+		victory_points = {
+			3809 2
+		}
+		victory_points = {
+			2118 1
+		}
+		victory_points = {
+			5335 1
+		}
 		buildings = {
 
 		}
@@ -18,4 +36,5 @@ state={
 	}
 	manpower=18400
 	buildings_max_level_factor=1.000
+	state_category=city
 }

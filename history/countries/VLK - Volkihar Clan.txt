@@ -1,0 +1,40 @@
+﻿capital = 1
+
+oob = "VLK_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		unionism = { 
+			popularity = 0
+		}
+
+		xenophobia = {
+			popularity = 0
+		}
+		
+		patriotism = {
+			popularity = 0
+		}
+		
+		racism = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = racism
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Harkon"
+	picture = "Harkon.dds"
+	ideology = racist
+}

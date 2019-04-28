@@ -5,11 +5,48 @@ state={
 
 	history={
 		owner = CYR
+		victory_points = {
+			3505 5
+		}
+		victory_points = {
+			6146 3
+		}
+		victory_points = {
+			4201 2
+		}
+		victory_points = {
+			6142 1
+		}
+		victory_points = {
+			2492 1
+		}
+		victory_points = {
+			2504 1
+		}
+		victory_points = {
+			5168 1
+		}
+		victory_points = {
+			5169 1
+		}
+		victory_points = {
+			5197 1
+		}
+		victory_points = {
+			2501 1
+		}
+		victory_points = {
+			2500 1
+		}
+		victory_points = {
+			
+		}
 		buildings = {
 
 		}
 		add_core_of = CYR
 		add_core_of = SKY
+		add_core_of = WIN
 		4201.1.1 = {
 			owner = SKY
 
@@ -22,4 +59,5 @@ state={
 	}
 	manpower=7200
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

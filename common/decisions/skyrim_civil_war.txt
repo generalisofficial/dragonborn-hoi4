@@ -17,6 +17,7 @@ skyrim_civil_war = {
 			owns_state = 15
 			owns_state = 16
 			CYR = { owns_state = 10 }
+			has_global_flag = skyrim_civil_war
 		}
 		
 		icon = decision_stormcloak

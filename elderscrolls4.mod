@@ -4,6 +4,7 @@ path="mod/elderscrolls4/"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
+replace_path="common/ai_equipment"
 replace_path="common/bookmarks"
 replace_path="common/decisions"
 replace_path="common/decisions/categories"
@@ -34,4 +35,4 @@ tags={
 	"Gameplay"
 }
 
-supported_version="1.5.4"
+supported_version="1.6.2"
