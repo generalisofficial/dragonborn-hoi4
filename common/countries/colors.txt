@@ -119,3 +119,8 @@ HJA = {
 	color = rgb { 205 133 63 }
 	color_ui = rgb { 205 133 63 }
 }
+
+PLE = {
+	color = rgb { 245 255 255 }
+	color_ui = rgb { 245 255 255 }
+}
