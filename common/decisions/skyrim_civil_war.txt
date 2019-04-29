@@ -9,6 +9,12 @@ skyrim_civil_war = {
 			    has_government = xenophobia
 				has_government = racism
 			}
+			CYR = { owns_state = 10 }
+			has_global_flag = skyrim_civil_war
+		}
+		
+		available = {
+		    CYR = { owns_state = 10 }
 			owns_state = 11
 			owns_state = 13
 			owns_state = 14
@@ -16,8 +22,6 @@ skyrim_civil_war = {
 			owns_state = 12
 			owns_state = 15
 			owns_state = 16
-			CYR = { owns_state = 10 }
-			has_global_flag = skyrim_civil_war
 		}
 		
 		icon = decision_stormcloak
@@ -39,6 +43,57 @@ skyrim_civil_war = {
                    num_provinces = 3
                    on_win = scw.3
                    on_lose = scw.4
+                }
+	        }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	battle_for_morthal = {
+
+		visible = {
+			original_tag = SKY
+			country_exists = CYR
+			OR = {
+			    has_government = xenophobia
+				has_government = racism
+			}
+			CYR = { owns_state = 12 }
+			has_global_flag = skyrim_civil_war
+		}
+		
+		available = {
+		    CYR = { owns_state = 12 }
+			owns_state = 11
+			owns_state = 13
+			owns_state = 14
+			owns_state = 17
+			owns_state = 15
+			owns_state = 16
+		}
+		
+		icon = decision_stormcloak
+		
+		fire_only_once = no
+		cost = 100
+
+		complete_effect = {
+			start_border_war = {
+                change_state_after_war = no
+                attacker = {
+                    state = 17
+                    num_provinces = 6
+                    on_win = scw.5
+                    on_lose = scw.6
+                }		
+                defender = {
+                   state = 12
+                   num_provinces = 6
+                   on_win = scw.7
+                   on_lose = scw.8
                 }
 	        }
 		}

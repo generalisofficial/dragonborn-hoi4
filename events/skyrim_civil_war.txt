@@ -1,0 +1,49 @@
+﻿add_namespace = scw
+
+country_event = { #Battle for Solitude - Stormcloak Victory
+	id = scw.1
+	title = scw.1.t
+	desc = scw.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.1.a
+	}
+}
+
+country_event = { #Battle for Solitude - Stormcloak Defeat
+	id = scw.2
+	title = scw.2.t
+	desc = scw.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.2.a
+	}
+}
+
+country_event = { #Battle for Solitude - Imperial Victory
+	id = scw.3
+	title = scw.3.t
+	desc = scw.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.3.a
+	}
+}
+
+country_event = { #Battle for Solitude - Imperial Defeat
+	id = scw.4
+	title = scw.4.t
+	desc = scw.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.4.a
+	}
+}
