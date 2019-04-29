@@ -22,6 +22,7 @@ skyrim_civil_war = {
 			owns_state = 12
 			owns_state = 15
 			owns_state = 16
+			has_border_war = no
 		}
 		
 		icon = decision_stormcloak
@@ -73,6 +74,7 @@ skyrim_civil_war = {
 			owns_state = 17
 			owns_state = 15
 			owns_state = 16
+			has_border_war = no
 		}
 		
 		icon = decision_stormcloak
