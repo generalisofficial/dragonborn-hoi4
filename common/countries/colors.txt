@@ -124,3 +124,8 @@ PLE = {
 	color = rgb { 245 255 255 }
 	color_ui = rgb { 245 255 255 }
 }
+
+FLK = {
+	color = rgb { 43 49 75 }
+	color_ui = rgb { 43 49 75 }
+}

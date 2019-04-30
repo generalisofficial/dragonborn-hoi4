@@ -1,0 +1,58 @@
+﻿capital = 14
+
+oob = "FLK_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		unionism = { 
+			popularity = 100
+		}
+
+		xenophobia = {
+			popularity = 0
+		}
+		
+		patriotism = {
+			popularity = 0
+		}
+		
+		racism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = unionism
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Siddgeir"
+	picture = "Siddgeir.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Siddgeir"
+	picture = "Siddgeir.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Dengeir of Stuhn"
+	picture = "Dengeir_of_Stuhn.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Dengeir of Stuhn"
+	picture = "Dengeir_of_Stuhn.dds"
+	ideology = racist
+}
