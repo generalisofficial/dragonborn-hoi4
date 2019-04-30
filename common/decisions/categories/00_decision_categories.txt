@@ -15,3 +15,12 @@ skyrim_civil_war = {
 		always = yes
 	}
 }
+
+excavations = {
+
+    icon = generic_formable_nations
+
+	allowed = {
+		always = yes
+	}
+}
