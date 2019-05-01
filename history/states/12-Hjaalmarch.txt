@@ -5,6 +5,30 @@ state={
 
 	history={
 		owner = CYR
+		victory_points = {
+			2303 5
+		}
+		victory_points = {
+			2737 2
+		}
+		victory_points = {
+			2302 1
+		}
+		victory_points = {
+			2301 1
+		}
+		victory_points = {
+			2931 1
+		}
+		victory_points = {
+			806 1
+		}
+		victory_points = {
+			2300 1
+		}
+		victory_points = {
+			6039 1
+		}
 		buildings = {
 
 		}
@@ -15,8 +39,9 @@ state={
 	}
 
 	provinces={
-		389 791 804 805 806 2300 2301 2302 2303 2737 2738 2739 2740 2741 2742 2745 2746 2750 2751 2931 2932 2933 4413 4414 4415 4969 4981 5441 5667 6039 6052 
+		389 791 804 805 806 2300 2301 2302 2303 2737 2738 2739 2740 2741 2742 2745 2746 2750 2751 2931 2932 2933 3474 3937 4413 4414 4415 4728 4969 4981 5441 5667 6039 6052 13461 
 	}
 	manpower=5000
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
