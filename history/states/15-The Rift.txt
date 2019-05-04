@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = CYR
 		add_core_of = SKY
+		add_core_of = RIF
 		4201.1.1 = {
 			owner = SKY
 

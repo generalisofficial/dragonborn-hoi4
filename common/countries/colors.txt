@@ -129,3 +129,8 @@ FLK = {
 	color = rgb { 43 49 75 }
 	color_ui = rgb { 43 49 75 }
 }
+
+RIF = {
+	color = rgb { 153 50 204 }
+	color_ui = rgb { 153 50 204 }
+}

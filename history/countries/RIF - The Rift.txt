@@ -1,0 +1,58 @@
+﻿capital = 15
+
+oob = "RIF_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		unionism = { 
+			popularity = 0
+		}
+
+		xenophobia = {
+			popularity = 100
+		}
+		
+		patriotism = {
+			popularity = 0
+		}
+		
+		racism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = xenophobia
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Maven Black-Briar"
+	picture = "Maven_Black_Briar.dds"
+	ideology = unionist
+}
+
+create_country_leader = {
+	name = "Maven Black-Briar"
+	picture = "Maven_Black_Briar.dds"
+	ideology = patriot
+}
+
+create_country_leader = {
+	name = "Laila Law-Giver"
+	picture = "Laila_Law_Giver.dds"
+	ideology = xenophobic
+}
+
+create_country_leader = {
+	name = "Laila Law-Giver"
+	picture = "Laila_Law_Giver.dds"
+	ideology = racist
+}
