@@ -1,4 +1,4 @@
-﻿name="Iron Scrolls IV (EARLY ALPHA/PREVIEW)"
+﻿name="Iron Scrolls IV (EARLY ALPHA)"
 path="mod/elderscrolls4/"
 
 replace_path="common/ai_peace"
@@ -35,4 +35,5 @@ tags={
 	"Gameplay"
 }
 
+picture="photo.png"
 supported_version="1.6.2"
