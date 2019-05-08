@@ -47,3 +47,51 @@ country_event = { #Battle for Solitude - Imperial Defeat
 		name = scw.4.a
 	}
 }
+
+country_event = { #Battle for Morthal - Stormcloak Victory
+	id = scw.5
+	title = scw.5.t
+	desc = scw.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.5.a
+	}
+}
+
+country_event = { #Battle for Morthal - Stormcloak Defeat
+	id = scw.6
+	title = scw.6.t
+	desc = scw.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.6.a
+	}
+}
+
+country_event = { #Battle for Morthal - Imperial Victory
+	id = scw.7
+	title = scw.7.t
+	desc = scw.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.7.a
+	}
+}
+
+country_event = { #Battle for Morthal - Imperial Defeat
+	id = scw.8
+	title = scw.8.t
+	desc = scw.8.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.8.a
+	}
+}

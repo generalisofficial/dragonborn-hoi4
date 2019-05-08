@@ -53,7 +53,7 @@ skyrim_civil_war = {
 		}
 	}
 	
-	battle_for_morthal = {
+	SKY_battle_for_morthal = {
 
 		visible = {
 			original_tag = SKY

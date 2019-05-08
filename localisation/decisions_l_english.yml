@@ -20,7 +20,7 @@
  #Skyrim Civil War
  skyrim_civil_war:0 "Skyrim Civil War"
  battle_for_solitude:0 "Battle for Solitude"
- battle_for_morthal:0 "Battle for Morthal"
+ SKY_battle_for_morthal:0 "Battle for Morthal"
  
  #Excavations
  excavations:0 "Excavations"
