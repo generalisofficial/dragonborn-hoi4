@@ -22,6 +22,7 @@ skyrim_civil_war = {
 			owns_state = 12
 			owns_state = 15
 			owns_state = 16
+			owns_state = 18
 			has_border_war = no
 		}
 		
@@ -74,6 +75,7 @@ skyrim_civil_war = {
 			owns_state = 17
 			owns_state = 15
 			owns_state = 16
+			owns_state = 18
 			has_border_war = no
 		}
 		
@@ -96,6 +98,60 @@ skyrim_civil_war = {
                    num_provinces = 6
                    on_win = scw.7
                    on_lose = scw.8
+                }
+	        }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+		
+	battle_for_windhelm = {
+
+		visible = {
+			original_tag = CYR
+			country_exists = CYR
+			OR = {
+			    has_government = unionism
+				has_government = patriotism
+			}
+			SKY = { owns_state = 16 }
+			has_global_flag = skyrim_civil_war
+		}
+		
+		available = {
+		    SKY = { owns_state = 16 }
+			owns_state = 11
+			owns_state = 13
+			owns_state = 14
+			owns_state = 17
+			owns_state = 12
+			owns_state = 15
+			owns_state = 18
+			owns_state = 10
+			has_border_war = no
+		}
+		
+		icon = decision_stormcloak
+		
+		fire_only_once = no
+		cost = 100
+
+		complete_effect = {
+			start_border_war = {
+                change_state_after_war = no
+                attacker = {
+                    state = 15
+                    num_provinces = 4
+                    on_win = scw.11
+                    on_lose = scw.12
+                }		
+                defender = {
+                   state = 16
+                   num_provinces = 7
+                   on_win = scw.9
+                   on_lose = scw.10
                 }
 	        }
 		}

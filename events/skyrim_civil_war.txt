@@ -95,3 +95,51 @@ country_event = { #Battle for Morthal - Imperial Defeat
 		name = scw.8.a
 	}
 }
+
+country_event = { #Battle for Windhelm - Stormcloak Victory
+	id = scw.9
+	title = scw.9.t
+	desc = scw.9.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.9.a
+	}
+}
+
+country_event = { #Battle for Windhelm - Stormcloak Defeat
+	id = scw.10
+	title = scw.10.t
+	desc = scw.10.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.10.a
+	}
+}
+
+country_event = { #Battle for Windhelm - Imperial Victory
+	id = scw.11
+	title = scw.11.t
+	desc = scw.11.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.11.a
+	}
+}
+
+country_event = { #Battle for Windhelm - Imperial Defeat
+	id = scw.12
+	title = scw.12.t
+	desc = scw.12.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = scw.12.a
+	}
+}
