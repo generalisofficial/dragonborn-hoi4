@@ -1,0 +1,37 @@
+ideas = {
+
+	legislation = { 
+		law = yes
+
+		eight_divines = {
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			default = yes
+			cancel_if_invalid = no
+		}
+		
+		nine_divines = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+}

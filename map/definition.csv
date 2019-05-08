@@ -13450,7 +13450,7 @@
 13449;40;81;66;lake;false;mountain;0
 13450;46;88;69;lake;false;hills;0
 13451;30;45;59;lake;false;hills;0
-13452;96;15;64;land;false;hills;0
+13452;96;15;64;land;false;hills;1
 13453;44;8;17;lake;false;jungle;0
 13454;39;90;3;lake;false;mountain;0
 13455;87;69;42;lake;false;hills;0
@@ -13458,6 +13458,6 @@
 13457;32;96;68;lake;false;marsh;0
 13458;91;61;31;lake;false;marsh;0
 13459;29;22;92;lake;false;marsh;0
-13460;5;20;18;land;false;mountain;0
-13461;134;120;226;land;false;unknown;0
+13460;5;20;18;land;false;mountain;1
+13461;134;120;226;land;false;unknown;1
 13462;255;255;255;land;false;unknown;0

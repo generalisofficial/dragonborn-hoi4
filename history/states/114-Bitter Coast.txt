@@ -1,0 +1,20 @@
+state={
+	id=114
+	name="STATE_114"
+	
+	history={
+		owner = HLA
+		buildings = {
+
+		}
+		add_core_of = HLA
+
+	}
+	
+	provinces={
+		2037 2038 2039 2426 4799 4849 4850 4851 4950 4951 5485 5820 6050 
+	}
+	manpower=2748
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

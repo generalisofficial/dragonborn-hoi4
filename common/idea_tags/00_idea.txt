@@ -26,14 +26,8 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
-	research_production = {
-		slot = tank_manufacturer
-		slot = naval_manufacturer
-		slot = aircraft_manufacturer
-		slot = materiel_manufacturer
-		slot = industrial_concern
-		slot = theorist
-
+	legislation = {
+		slot = religion
 		cost = 150
 		removal_cost = 0
 

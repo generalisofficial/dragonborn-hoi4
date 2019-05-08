@@ -1,0 +1,23 @@
+state={
+	id=115
+	name="STATE_115"
+	
+	history={
+		owner = RED
+		victory_points = {
+			5895 5
+		}
+		buildings = {
+
+		}
+		add_core_of = RED
+
+	}
+	
+	provinces={
+		5895 
+	}
+	manpower=892
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

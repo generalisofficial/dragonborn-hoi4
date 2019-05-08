@@ -50,3 +50,9 @@ create_country_leader = {
 	picture = "Vignar_Gray_Mane.dds"
 	ideology = xenophobic
 }
+
+create_country_leader = {
+	name = "Vignar Gray-Mane"
+	picture = "Vignar_Gray_Mane.dds"
+	ideology = racist
+}
