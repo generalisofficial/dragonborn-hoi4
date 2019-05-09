@@ -1,0 +1,23 @@
+state={
+	id=117
+	name="STATE_117"
+	
+	history={
+		owner = DKY
+		victory_points = {
+			550 2
+		}
+		buildings = {
+
+		}
+		add_core_of = DKY
+
+	}
+	
+	provinces={
+		550 
+	}
+	manpower=179
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

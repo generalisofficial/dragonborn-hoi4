@@ -1,7 +1,8 @@
+
 state={
 	id=19
 	name="STATE_19"
-	
+
 	history={
 		owner = CYR
 		buildings = {
@@ -9,10 +10,11 @@ state={
 		}
 		add_core_of = CYR
 		add_core_of = HRK
+
 	}
-	
+
 	provinces={
-		868 869 870 871 2095 2719 2720 4362 4498 4601 4602 4603 4895 4999 5000 5073 5074 5410 5528 
+		868 869 870 871 2095 2719 2720 4362 4601 4602 4603 4895 4999 5000 5073 5074 5410 5528 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

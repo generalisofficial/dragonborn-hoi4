@@ -1,0 +1,21 @@
+
+state={
+	id=21
+	name="STATE_21"
+
+	history={
+		owner = CYR
+		buildings = {
+
+		}
+		add_core_of = CYR
+		add_core_of = HRK
+
+	}
+
+	provinces={
+		765 1987 1988 1989 1990 1991 2665 2666 3842 3843 3844 3990 3991 3992 4860 5139 5141 5229 5230 6014 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

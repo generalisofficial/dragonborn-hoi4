@@ -1,0 +1,23 @@
+state={
+	id=118
+	name="STATE_118"
+	
+	history={
+		owner = LGB
+		victory_points = {
+			550 2
+		}
+		buildings = {
+
+		}
+		add_core_of = LGB
+
+	}
+	
+	provinces={
+		1425 
+	}
+	manpower=213
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
