@@ -15,7 +15,7 @@ set_politics = {
 		}
 
 		isolationist = {
-			popularity = 100
+			popularity = 47
 		}
 		
 		pragmatic = {
@@ -23,7 +23,7 @@ set_politics = {
 		}
 		
 		jingoist = { 
-			popularity = 0
+			popularity = 53
 		}
 	}
 	

@@ -10,18 +10,22 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_internationalist_1"
-			"FACTION_NAME_internationalist_2"
-			"FACTION_NAME_internationalist_3"
-			"FACTION_NAME_internationalist_4"
-			"FACTION_NAME_internationalist_5"
-			"FACTION_NAME_internationalist_6"
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
 		}
 		
-		color = { 0 255 0 }
+		color = { 178 0 0 }
 		
 		rules = {
-		
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_boost_other_ideologies = yes
+			can_create_factions = yes
 		}
 		
 		war_impact_on_world_tension = 0.75	
@@ -52,14 +56,14 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
 		}
 		
-		color = { 245 245 245 }
+		color = { 240 230 140 }
 		
 		war_impact_on_world_tension = 0.75	
 		faction_impact_on_world_tension = 0.5
@@ -67,7 +71,12 @@ ideologies = {
 		ai_neutral = yes
 		
 		rules = {
-		
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_boost_other_ideologies = yes
+			can_create_factions = yes
 		}
 		
 		modifiers = {
@@ -94,20 +103,25 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
 		}
 		
-		color = { 255 69 0 }
+		color = { 245 245 245 }
 		
 		war_impact_on_world_tension = 0.75	
 		faction_impact_on_world_tension = 0.5
 		
 		rules = {
-		
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_boost_other_ideologies = yes
+			can_create_factions = yes
 		}
 		
 		modifiers = {
@@ -131,11 +145,11 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_NONALIGNED_1"
-			"FACTION_NAME_NONALIGNED_2"
-			"FACTION_NAME_NONALIGNED_3"
-			"FACTION_NAME_NONALIGNED_4"
-			"FACTION_NAME_NONALIGNED_5"
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
 		}
 		
 		color = { 0 0 0 }
@@ -145,16 +159,22 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
-		
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_boost_other_ideologies = yes
+			can_create_factions = yes
 		}
 		
 		modifiers = {
 		    min_export = 0
 		}
 		
-		faction_modifiers = {
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
 		}
 
-		ai_fascist = yes 
+		ai_fascist = yes
 	}
 }
