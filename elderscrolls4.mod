@@ -1,6 +1,5 @@
-﻿name="Iron Scrolls IV (EARLY ALPHA)"
+name="Iron Scrolls IV (EARLY ACCESS)"
 path="mod/elderscrolls4/"
-
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
@@ -16,8 +15,8 @@ replace_path="common/on_actions"
 replace_path="common/scripted_effects"
 replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
-replace_path ="common/units/names_divisions"
-replace_path ="common/units/names_ships"
+replace_path="common/units/names_divisions"
+replace_path="common/units/names_ships"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="map/strategicregions"
@@ -25,7 +24,6 @@ replace_path="map/supplyareas"
 replace_path="music"
 replace_path="events"
 replace_path="portraits"
-
 tags={
 	"Alternative History"
 	"Ideologies"
@@ -34,6 +32,6 @@ tags={
 	"Technology"
 	"Gameplay"
 }
-
 picture="photo.png"
+remote_file_id="1734970898"
 supported_version="1.6.2"
