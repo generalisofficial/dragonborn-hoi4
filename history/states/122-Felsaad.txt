@@ -1,0 +1,23 @@
+state={
+	id=122
+	name="STATE_122"
+	
+	history={
+		owner = DRG
+		victory_points = {
+			4040 2
+		}
+		buildings = {
+
+		}
+		add_core_of = DRG
+
+	}
+	
+	provinces={
+		4039 4040 4041 4115 4116 
+	}
+	manpower=1092
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

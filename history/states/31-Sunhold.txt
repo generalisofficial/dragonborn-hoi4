@@ -1,18 +1,24 @@
+
 state={
 	id=31
 	name="STATE_31"
-	
+
 	history={
 		owner = ALD
+		victory_points = {
+			729 8
+		}
 		buildings = {
 
 		}
 		add_core_of = ALD
+
 	}
-	
+
 	provinces={
-		727 729 730 731 2138 2139 2140 2464 3193 3198 3199 3402 3403 3494 3495 3496 3539 3540 4343 4404 4405 4406 4407 4408 4409 4689 4865 4866 5151 5320 5321 5349 5350 5356 5628 5872 5896 6004 
+		727 728 729 730 731 2382 2383 2462 2463 2464 3198 3199 4947 5350 5774 5775 5950 
 	}
-	manpower=0
+	manpower=16821
 	buildings_max_level_factor=1.000
+    state_category=large_town
 }

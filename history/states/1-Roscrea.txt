@@ -4,6 +4,9 @@ state={
 	
 	history={
 		owner = CYR
+		victory_points = {
+			5724 2
+		}
 		buildings = {
 
 		}
@@ -15,6 +18,7 @@ state={
 	provinces={
 		1002 1003 1943 1944 2041 4002 4003 4086 4087 5724 
 	}
-	manpower=0
+	manpower=319
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

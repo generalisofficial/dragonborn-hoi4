@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 30
 
 oob = "ALD_4171"
 

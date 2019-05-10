@@ -1,0 +1,23 @@
+state={
+	id=120
+	name="STATE_120"
+	
+	history={
+		owner = ALD
+		victory_points = {
+			4978 5
+		}
+		buildings = {
+
+		}
+		add_core_of = ALD
+
+	}
+	
+	provinces={
+		522 523 524 525 526 2284 2285 2286 2384 2385 2386 2387 2388 2802 3546 3547 4978 5259 5260 5653 5767 6029 
+	}
+	manpower=6929
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

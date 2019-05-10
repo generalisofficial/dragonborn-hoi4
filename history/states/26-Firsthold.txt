@@ -1,18 +1,24 @@
+
 state={
 	id=26
 	name="STATE_26"
-	
+
 	history={
 		owner = ALD
+		victory_points = {
+			5191 5
+		}
 		buildings = {
 
 		}
 		add_core_of = ALD
+
 	}
-	
+
 	provinces={
-		1516 2985 3512 3513 3514 3565 3566 3567 4164 4165 4984 5191 5375 
+		1516 1517 1518 2984 2985 3512 3513 3514 3565 3566 3567 4164 4165 4984 5191 5375 6003 
 	}
-	manpower=0
+	manpower=7667
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
