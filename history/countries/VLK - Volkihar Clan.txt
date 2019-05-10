@@ -14,24 +14,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		unionism = { 
+		internationalist = { 
 			popularity = 0
 		}
 
-		xenophobia = {
+		isolationist = {
 			popularity = 0
 		}
 		
-		patriotism = {
+		pragmatic = {
 			popularity = 0
 		}
 		
-		racism = { 
+		jingoist = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = racism
+	ruling_party = jingoist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,5 +40,5 @@ set_politics = {
 create_country_leader = {
 	name = "Harkon"
 	picture = "Harkon.dds"
-	ideology = racist
+	ideology = jingoist_ideology
 }

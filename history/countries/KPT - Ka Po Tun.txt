@@ -10,24 +10,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		unionism = { 
+		internationalist = { 
 			popularity = 0
 		}
 
-		xenophobia = {
+		isolationist = {
 			popularity = 0
 		}
 		
-		patriotism = {
+		pragmatic = {
 			popularity = 100
 		}
 		
-		racism = { 
+		jingoist = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = patriotism
+	ruling_party = pragmatic
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,23 +40,23 @@ add_to_faction = TGM
 create_country_leader = {
 	name = "Tosh Raka"
 	picture = "Tosh_Raka.dds"
-	ideology = unionist
+	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Tosh Raka"
 	picture = "Tosh_Raka.dds"
-	ideology = patriot
+	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Tosh Raka"
 	picture = "Tosh_Raka.dds"
-	ideology = xenophobic
+	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Tosh Raka"
 	picture = "Tosh_Raka.dds"
-	ideology = racist
+	ideology = jingoist_ideology
 }

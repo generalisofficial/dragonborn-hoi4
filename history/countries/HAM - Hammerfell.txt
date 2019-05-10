@@ -11,14 +11,14 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-        unionism = { popularity = 56 }
-        patriotism = { popularity = 0 }
-        xenophobia = { popularity = 44 }
-        racism = { popularity = 0 }
+        internationalist = { popularity = 56 }
+        pragmatic = { popularity = 0 }
+        isolationist = { popularity = 44 }
+        jingoist = { popularity = 0 }
 
 	}
 	
-	ruling_party = unionism
+	ruling_party = internationalist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,12 +27,12 @@ set_politics = {
 create_country_leader = {
 	name = "Nannoc Forebear"
 	picture = "Nannoc_Forebear.dds"
-	ideology = unionist
+	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Jindal Crown"
 	picture = "Jindal_Crown.dds"
-	ideology = xenophobic
+	ideology = isolationist_ideology
 }
 

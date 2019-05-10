@@ -10,24 +10,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		unionism = { 
+		internationalist = { 
 			popularity = 22
 		}
 
-		xenophobia = {
+		isolationist = {
 			popularity = 20
 		}
 		
-		patriotism = {
+		pragmatic = {
 			popularity = 58
 		}
 		
-		racism = { 
+		jingoist = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = patriotism
+	ruling_party = pragmatic
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,23 +36,23 @@ set_politics = {
 create_country_leader = {
 	name = "Balgruuf the Greater"
 	picture = "Balgruuf_the_Greater.dds"
-	ideology = patriot
+	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Balgruuf the Greater"
 	picture = "Balgruuf_the_Greater.dds"
-	ideology = unionist
+	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Vignar Gray-Mane"
 	picture = "Vignar_Gray_Mane.dds"
-	ideology = xenophobic
+	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Vignar Gray-Mane"
 	picture = "Vignar_Gray_Mane.dds"
-	ideology = racist
+	ideology = jingoist_ideology
 }

@@ -11,24 +11,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		unionism = { 
+		internationalist = { 
 			popularity = 0
 		}
 
-		xenophobia = {
+		isolationist = {
 			popularity = 0
 		}
 		
-		patriotism = {
+		pragmatic = {
 			popularity = 0
 		}
 		
-		racism = { 
+		jingoist = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = racism
+	ruling_party = jingoist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,23 +37,23 @@ set_politics = {
 create_country_leader = {
 	name = "Miraak"
 	picture = "Miraak.dds"
-	ideology = unionist
+	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Miraak"
 	picture = "Miraak.dds"
-	ideology = patriot
+	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Miraak"
 	picture = "Miraak.dds"
-	ideology = xenophobic
+	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Miraak"
 	picture = "Miraak.dds"
-	ideology = racist
+	ideology = jingoist_ideology
 }

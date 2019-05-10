@@ -50,16 +50,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ES4_unionism
+		id = ES4_internationalist
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
 		mutually_exclusive = {
-			focus = ES4_patriotism
-			focus = ES4_xenophobia
-			focus = ES4_racism
+			focus = ES4_pragmatic
+			focus = ES4_isolationist
+			focus = ES4_jingoist
 		}
 		x = 20
 		y = 1
@@ -70,39 +70,39 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
-			focus = ES4_unionism
+			focus = ES4_internationalist
 		}
 		x = 20
 		y = 2
 
 	}
 	focus = {
-		id = ES4_patriotism
+		id = ES4_pragmatic
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
 		mutually_exclusive = {
-			focus = ES4_unionism
-			focus = ES4_xenophobia
-			focus = ES4_racism
+			focus = ES4_internationalist
+			focus = ES4_isolationist
+			focus = ES4_jingoist
 		}
 		x = 13
 		y = 1
 
 	}
 	focus = {
-		id = ES4_xenophobia
+		id = ES4_isolationist
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
 		mutually_exclusive = {
-			focus = ES4_patriotism
-			focus = ES4_racism
-			focus = ES4_unionism
+			focus = ES4_pragmatic
+			focus = ES4_jingoist
+			focus = ES4_internationalist
 		}
 		x = 15
 		y = 1
@@ -113,8 +113,8 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
-			focus = ES4_patriotism
-			focus = ES4_xenophobia
+			focus = ES4_pragmatic
+			focus = ES4_isolationist
 		}
 		x = 14
 		y = 2
@@ -179,16 +179,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ES4_racism
+		id = ES4_jingoist
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
 			focus = ES4_foreign_policy
 		}
 		mutually_exclusive = {
-			focus = ES4_xenophobia
-			focus = ES4_unionism
-			focus = ES4_patriotism
+			focus = ES4_isolationist
+			focus = ES4_internationalist
+			focus = ES4_pragmatic
 		}
 		x = 18
 		y = 1
@@ -199,7 +199,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 20.00
 		prerequisite = {
-			focus = ES4_racism
+			focus = ES4_jingoist
 		}
 		x = 18
 		y = 2

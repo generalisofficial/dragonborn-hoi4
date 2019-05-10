@@ -14,24 +14,24 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		unionism = { 
+		internationalist = { 
 			popularity = 0
 		}
 
-		xenophobia = {
+		isolationist = {
 			popularity = 100
 		}
 		
-		patriotism = {
+		pragmatic = {
 			popularity = 0
 		}
 		
-		racism = { 
+		jingoist = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = xenophobia
+	ruling_party = isolationist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,25 +40,25 @@ set_politics = {
 create_country_leader = {
 	name = "Istlod"
 	picture = "Istlod.dds"
-	ideology = unionist
+	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Istlod"
 	picture = "Istlod.dds"
-	ideology = patriot
+	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Ulfric Stormcloak"
 	picture = "Ulfric_Stormcloak.dds"
-	ideology = xenophobic
+	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Ulfric Stormcloak"
 	picture = "Ulfric_Stormcloak.dds"
-	ideology = racist
+	ideology = jingoist_ideology
 }
 
 create_field_marshal = {
@@ -135,11 +135,11 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Elisif the Fair"
 	    picture = "Elisif_the_Fair.dds"
-	    ideology = unionist
+	    ideology = internationalist_ideology
     }
 	create_country_leader = {
 	    name = "Elisif the Fair"
 	    picture = "Elisif_the_Fair.dds"
-	    ideology = patriot
+	    ideology = pragmatic_ideology
     }
 }

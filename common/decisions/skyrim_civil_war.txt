@@ -6,8 +6,8 @@ skyrim_civil_war = {
 			original_tag = SKY
 			country_exists = CYR
 			OR = {
-			    has_government = xenophobia
-				has_government = racism
+			    has_government = isolationist
+				has_government = jingoist
 			}
 			CYR = { owns_state = 10 }
 			has_global_flag = skyrim_civil_war
@@ -60,8 +60,8 @@ skyrim_civil_war = {
 			original_tag = SKY
 			country_exists = CYR
 			OR = {
-			    has_government = xenophobia
-				has_government = racism
+			    has_government = isolationist
+				has_government = jingoist
 			}
 			CYR = { owns_state = 12 }
 			has_global_flag = skyrim_civil_war
@@ -113,8 +113,8 @@ skyrim_civil_war = {
 			original_tag = CYR
 			country_exists = CYR
 			OR = {
-			    has_government = unionism
-				has_government = patriotism
+			    has_government = internationalist
+				has_government = pragmatic
 			}
 			SKY = { owns_state = 16 }
 			has_global_flag = skyrim_civil_war

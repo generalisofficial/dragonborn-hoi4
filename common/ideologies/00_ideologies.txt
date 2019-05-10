@@ -1,21 +1,21 @@
 ideologies = {
 	
-	unionism = {
+	internationalist = {
 	
 		types = {
 			
-			unionist = {
+			internationalist_ideology = {
 			}
 			
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_unionism_1"
-			"FACTION_NAME_unionism_2"
-			"FACTION_NAME_unionism_3"
-			"FACTION_NAME_unionism_4"
-			"FACTION_NAME_unionism_5"
-			"FACTION_NAME_unionism_6"
+			"FACTION_NAME_internationalist_1"
+			"FACTION_NAME_internationalist_2"
+			"FACTION_NAME_internationalist_3"
+			"FACTION_NAME_internationalist_4"
+			"FACTION_NAME_internationalist_5"
+			"FACTION_NAME_internationalist_6"
 		}
 		
 		color = { 0 255 0 }
@@ -42,11 +42,11 @@ ideologies = {
 	}
 
 
-	patriotism = {
+	pragmatic = {
 		
 		types = {
 		
-			patriot = {
+			pragmatic_ideology = {
 			}
 
 		}
@@ -84,11 +84,11 @@ ideologies = {
 
 	}
 
-	xenophobia = {
+	isolationist = {
 	
 		types = {
 		
-			xenophobic = {
+			isolationist_ideology = {
 			}
 			
 		}
@@ -121,11 +121,11 @@ ideologies = {
 		ai_neutral = yes 
 	}
 	
-	racism = {
+	jingoist = {
 	
 		types = {
 		
-			racist = {
+			jingoist_ideology = {
 			}
 			
 		}

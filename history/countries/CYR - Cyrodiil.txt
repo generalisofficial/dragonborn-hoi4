@@ -16,24 +16,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		unionism = { 
+		internationalist = { 
 			popularity = 100
 		}
 
-		xenophobia = {
+		isolationist = {
 			popularity = 0
 		}
 		
-		patriotism = {
+		pragmatic = {
 			popularity = 0
 		}
 		
-		racism = { 
+		jingoist = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = unionism
+	ruling_party = internationalist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,25 +42,25 @@ set_politics = {
 create_country_leader = {
 	name = "Titus Mede II"
 	picture = "Titus_Mede_II.dds"
-	ideology = unionist
+	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
 	picture = "Titus_Mede_II.dds"
-	ideology = patriot
+	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
 	picture = "Titus_Mede_II.dds"
-	ideology = xenophobic
+	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
 	picture = "Titus_Mede_II.dds"
-	ideology = racist
+	ideology = jingoist_ideology
 }
 
 create_field_marshal = {

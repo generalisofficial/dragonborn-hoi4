@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"CYR"={
 			history = "CYR_SKYRIM_CIVIL_WAR_DESC"
-			ideology = unionism
+			ideology = internationalist
 			ideas = {
 			
 			}
@@ -20,7 +20,7 @@ bookmarks = {
 		
 		"ALD"={
 			history = "ALD_SKYRIM_CIVIL_WAR_DESC"
-			ideology = racism
+			ideology = jingoist
 			ideas = {
 			
 			}
@@ -31,7 +31,7 @@ bookmarks = {
 		
 		"SKY"={
 			history = "SKY_SKYRIM_CIVIL_WAR_DESC"
-			ideology = xenophobia
+			ideology = isolationist
 			ideas = {
 			
 			}
