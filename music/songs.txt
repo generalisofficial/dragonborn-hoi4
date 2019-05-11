@@ -26,3 +26,23 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "Ragnar the Red"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
+	song = "Tale of the Tongues"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}

@@ -46,7 +46,91 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+			    heat_attrition_factor = -0.5
+			}
+		}
+		
+	    idea_argonian = {
+			picture = race_argonian
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
 			
+			modifier = {
+				surrender_limit = 0.3
+				partisan_effect = 0.3
+			}
+		}
+		
+	    idea_khajit = {
+			picture = race_khajit
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    encryption_factor = 0.3
+				land_night_attack = 0.2
+			}
+		}
+		
+		idea_bosmer = {
+			picture = race_bosmer
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    recon_factor = 0.2
+			    attrition = -0.1
+			}
+		}
+		
+		idea_altmer = {
+			picture = race_altmer
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    conscription = 0.03
+				land_reinforce_rate = 0.2
+				ai_focus_aggressive_factor = 0.5
+			}
+		}
+		
+		idea_redguard = {
+			picture = race_redguard
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    attrition = -0.5
+				stability_factor = -0.1
+				surrender_limit = 0.3
+				partisan_effect = 0.3
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.2
+			}
+		}
+		
+		idea_orsimer = {
+			picture = race_orsimer
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    army_core_defence_factor = 0.5
+				max_dig_in = 1
+				dig_in_speed = 0.25
 			}
 		}
 	}
