@@ -89,3 +89,37 @@ ALD = {
     surnames = { Aedus Elsinore Grayeal Adlock Koroth Charmione Aedearea Camius }
 	callsigns = { }
 }
+
+
+HRK = {
+	male = {
+		names = { Gilblynver Rodeeus Norrbert Norbistair Alondre Matcourtaine Albenven Eugicekoran Celcoisyd Cedrore Branntienic Weynean Haneanr Louifreben Frosinean Enmnean Inwncois Albedie Beleciusine Ennostian }
+	}
+	female = {
+		names = { Sybiielle Milbe Virene Jolicine Irenphine Surudette Murnche Edwincine Canrine Angeuerite AnginVoauerite Zoecette Edwielle Edrealyn Colte Bernene Suradette Emusrelle Deroline }
+		}
+	surnames = { Nestin Chrorel Razeley Magiie Jonoric Fesrush Anchans Fanrrick Montuche Gelick Nytmaulese Merore Wirioric Laroush Woodeph Lelaush Fralatha Lelistiana Stedmine Kingeley }
+	callsigns = { }
+}
+
+HAM = {
+	male = {
+		names = { Rellnzo Erneson Avidnd Athonzo Alonina Razsur Limalen Amirk Dinogel Demeand Tritklith Halis Glaald Namadon Pranebras Irgoimir Gogrter Kinola Thernet Triton }
+	}
+	female = {
+		names = { Adadsa Jamannah Davha Jearonia Rienine Enjiine Sudiaia Dhoaia Siniona Monannah Dholeer Salet Whiticky Adaicky Jeanrvek-Si Jearfaye Rashmen Relma Maleaye Lashian }
+	}
+	surnames = { Baldin Ghovt Fhilpi Boircfa M'ivem Cyurnim Boortum Ghafylba Maillem Ghashen Rhulpim Lhujar Ternom Kharte Dhashi Lochin F'actja Blirnim C'urnka Firke }
+	callsigns = { }
+}
+
+VAL = {
+	male = {
+		names = { Thaddor Erigan Thragon Galmdil Baenoth Daeedhel Bolwilon Fillglos Pegronor Ungrlos Anolim Endrdan Brolin Ronhaur Synhiel Gwilgvir Mendus Alenhiel Alenadan Anrrm }
+	}
+	female = {
+		names = { Anedraen Andraon Cirwrael Dagcialfin Gaelnan Cuunrifin Elphdhel Ciinlyth Beorioniel Niolereth Glalerva Dairwenyl Eraathil Anrnia Milblerva Anurinthil Ulanlithil Nateelaen Niolrwen Gannor }
+	}
+	surnames = { Softscrub Willowstone Camoblossom Appledale Forestdale Balfdale Roserock Applebrook Shadyscrub Mossscrub Seedwood Mossstone Shadyrun Nightblossom Bluelock Duskthorn Sagemire Balfgrass Seedvale Lichensky }
+	callsigns = { }
+}
