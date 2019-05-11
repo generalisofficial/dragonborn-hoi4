@@ -10,9 +10,6 @@
  service_by_requirement:0 "Service by Requirement"
  all_adults_serve:0 "All Adults Serve"
  scraping_the_barrel:0 "Scraping the Barrel"
- generic_communist_revolutionary:0 "Communist Politician"
- generic_democratic_reformer:0 "Democratic Politician"
- generic_fascist_demagogue:0 "Fascist Politician"
  generic_army_chief_offensive:0 "Offensive Army Chief"
  generic_army_chief_defensive:0 "Defensive Army Chief"
  generic_army_chief_reform:0 "Innovative Army Chief"
@@ -83,3 +80,5 @@
  #UNIQUE
  idea_vampirism:0 "Vampirism"
  idea_vampirism_desc:0 "While vampirism is a great gift to anyone looking to terrorize the world, the weakness to sunlight proves operating at day a massive challenge. They say a certain prophecy can change this..."
+ idea_white_gold_concordat:0 "White-Gold Concordat"
+ idea_white_gold_concordat_desc:0 "Despite crushing Dominion armies in Cyrodiil, the Empire accepted the terms of the Thalmor at the end of the Great War. Among these terms is the outlawing of the worship of Talos, vilifying the Nord population."

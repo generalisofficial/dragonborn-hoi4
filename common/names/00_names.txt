@@ -1,16 +1,12 @@
 ﻿default = {
 	male = {
-		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
-		surnames = { }
-		callsigns = { }
+		names = { Henkr Hroathor Jaysim Olaf Horkrek Kveni Kusnal Ulfgon Hefarik Eifiit Metdor Keldnl Alldar Bjorsten Throsskar Hodck Atarid Eifot Mantstus Fjord}
 	}
-	#female = {
-	#	names = { "Juliette" "Anna" }
-	#	surnames = { }
-	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
-	#}
-	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+	female = {
+		names = { Maerlod Sergi Hreidi Rukor Kireki Thutta Eiriica Bjarine Jordo Ysoldil Agneja Botili Hefsel Gwengeth Merthi Dania Ilflith Alvissa Serata Ridja}
+	}
+	surnames = { Jorgervonson Asgornesen Ulrarmesen Bearclaw Wind-Sailer Alrisversen Fjariksen Trollsbane Alfansen Mojaldseon Fenrenson Winternight Asgarson Shadowbull Okfarson Fenroson Stonehammer Svenson  Fjordensen Coldsword}
+	callsigns = { Dragonborn }
 }
 
 RED = {
@@ -121,5 +117,38 @@ VAL = {
 		names = { Anedraen Andraon Cirwrael Dagcialfin Gaelnan Cuunrifin Elphdhel Ciinlyth Beorioniel Niolereth Glalerva Dairwenyl Eraathil Anrnia Milblerva Anurinthil Ulanlithil Nateelaen Niolrwen Gannor }
 	}
 	surnames = { Softscrub Willowstone Camoblossom Appledale Forestdale Balfdale Roserock Applebrook Shadyscrub Mossscrub Seedwood Mossstone Shadyrun Nightblossom Bluelock Duskthorn Sagemire Balfgrass Seedvale Lichensky }
+	callsigns = { }
+}
+
+ANQ = {
+	male = {
+		names = { Akh'iq Vasarr M'had Josraym Jobin-Dar Ak'tasarr Zoarisk Mojsakhar Daro M'aji Jothur Ak'kir Daro R'jhad Ri'hur Zanar Kazaska Vassava Ranasha S'kar}
+	}
+	female = {
+		names = { Ma'jirra Dar'ni Ahnsma Shabhana Ashizura Ko'abi Yusja Shumba Ri'vari Faivva Zabhia M'abi Tsabsha Shunra J'ada Kinja Adanisi Tsalia Kisjjan Rabirra}
+	}
+	surnames = { Marahoni Tovikhirn Salkahr Amahni Rahkhir Zabihrri Jahkdavi Amanrin Sihaan Tovikmhan Hannubus Sirakar Rawistahe Jahkbari Zahhan Ravimnim Sanai Rahkhir R'rassa Khanjstae}
+	callsigns = { }
+}
+
+PEL = {
+	male = {
+		names = { Akh'iq Vasarr M'had Josraym Jobin-Dar Ak'tasarr Zoarisk Mojsakhar Daro M'aji Jothur Ak'kir Daro R'jhad Ri'hur Zanar Kazaska Vassava Ranasha S'kar}
+	}
+	female = {
+		names = { Ma'jirra Dar'ni Ahnsma Shabhana Ashizura Ko'abi Yusja Shumba Ri'vari Faivva Zabhia M'abi Tsabsha Shunra J'ada Kinja Adanisi Tsalia Kisjjan Rabirra}
+	}
+	surnames = { Marahoni Tovikhirn Salkahr Amahni Rahkhir Zabihrri Jahkdavi Amanrin Sihaan Tovikmhan Hannubus Sirakar Rawistahe Jahkbari Zahhan Ravimnim Sanai Rahkhir R'rassa Khanjstae}
+	callsigns = { }
+}
+
+BLM = {
+	male = {
+		names = { Yeleek Deehepa Reenesi Wud-Ru Okan-Lei Eleedal-Ze Ushiith Oleen-Jasaiin Amusius Pad-Tan Reenee Gulum-Ei Dernum Haj-Ei Wumeil Skeish Okan-Tei Jeetum Asumsa Ushate}
+	}
+	female = {
+		names = { Akiava Neeei Beeha Kud-Meeka En-Sa Wusatan Neema Milaye Beehota Olink-Ei Bur Meen-Menari Ocheen Tashhee Dejeen Tar-Meei Euteeva Gilmos Sesh-Jeen Gillz}
+	}
+	surnames = { Calidorees Magsar Galmarush Peseene Taierteus Neferean Maglus Agiuscles Caeseene Mereesifon Cayseus Catus Tiberdesh Cayacalees Nagteus Tikeersar Theonaresh Xemmarush Caysilus}
 	callsigns = { }
 }

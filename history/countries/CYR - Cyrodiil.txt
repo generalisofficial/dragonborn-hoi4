@@ -13,6 +13,13 @@ add_ideas = {
 	nine_divines
 }
 
+4201.1.1 = {
+	add_ideas = { 
+	    eight_divines
+		white_gold_concordat
+	}
+}
+
 set_politics = {
 
 	parties = {

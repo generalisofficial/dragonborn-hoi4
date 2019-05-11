@@ -1,0 +1,17 @@
+ideas = {
+	
+	country = {
+	
+		idea_white_gold_concordat = {
+			picture = white_gold_concordat
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.3
+			}
+		}
+	}
+}

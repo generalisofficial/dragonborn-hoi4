@@ -1,0 +1,53 @@
+ideas = {
+	
+	country = {
+	
+		idea_imperial = {
+			picture = race_imperial
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.2
+			}
+		}
+		
+		idea_nord = {
+			picture = race_nord
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				winter_attrition_factor = -0.5
+			}
+		}
+		
+		idea_breton = {
+			picture = race_breton
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+		}
+		
+	    idea_dunmer = {
+			picture = race_dunmer
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			
+			}
+		}
+	}
+}
