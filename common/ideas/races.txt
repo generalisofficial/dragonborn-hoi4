@@ -111,7 +111,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			    attrition = -0.5
+			    heat_attrition_factor = -0.3
 				stability_factor = -0.1
 				surrender_limit = 0.3
 				partisan_effect = 0.3

@@ -10,11 +10,11 @@ ideas = {
 			level = 7
 			
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			
 			}
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0
 			}
 			
 			cancel_if_invalid = no
@@ -27,29 +27,19 @@ ideas = {
 			level = 6
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
+			
 			}
 
 			ai_will_do = {
    				factor = 1
-
    				modifier = {
-					factor = 60 # being disarmed is bad in a wargame yo
+					factor = 60
 					has_idea = disarmed_nation 
 				}
 			}
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.1
 			}
 			
 			default = yes
@@ -64,18 +54,16 @@ ideas = {
 			level = 5
 
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
 			}
 
 			modifier = {
-				conscription = 0.025
+				conscription = 0.2
 			}
 
 			ai_will_do = {
    				factor = 1
 				modifier = {
-					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  1000
 				}
@@ -87,22 +75,12 @@ ideas = {
 		extensive_conscription = {
 			
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
-				OR = {
-					has_government = xenophobia
-					has_government = pragmatic
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.5
-					}					
-				}
 				has_war_support > 0.2
 			}
 
 			ai_will_do = {
    				factor = 1
 				modifier = {
-					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  800
 				}
@@ -113,10 +91,10 @@ ideas = {
 			level = 4
 			
 			modifier = {
-				conscription = 0.05
-				#industrial_capacity_factory = -0.1
-				#production_speed_buildings_factor = -0.1
-				training_time_factor = 0.1
+				conscription = 0.3
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -126,41 +104,23 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
-				OR = {
-					has_government = xenophobia
-					has_government = pragmatic
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.6
-						#any_enemy_country = {
-						#	strength_ratio = {
-						#		tag = ROOT 
-						#		ratio > 0.6
-						#	}
-						#}
-					}
-				}
 				OR = {
 					has_war_support > 0.6
-					surrender_progress > 0
+					has_war = yes
 				}
 			}
 
 			ai_will_do = {
    				factor = 1
 				modifier = {
-					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  700
 				}
 				modifier = {
-					#Lower chance if has decent amount
 					factor = 0.5
 					manpower_per_military_factory >  1000
 				}
 				modifier = {
-					#Block has plenty manpower
 					factor = 0
 					NOT = { tag = CHI }
 					manpower_per_military_factory >  3000
@@ -172,11 +132,10 @@ ideas = {
 			level = 3
 
 			modifier = {
-				conscription = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_speed_buildings_factor = -0.1
-				training_time_factor = 0.2
+				conscription = 0.4
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
 			}
 			
 			cancel_if_invalid = no
@@ -186,31 +145,25 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
 				OR = {
 					has_war_support > 0.7
 					surrender_progress > 0
 				}
-				enemies_strength_ratio > 0.75
 			}
 
 			ai_will_do = {
    				factor = 1
 				modifier = {
-					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  600
 				}
 				modifier = {
-					#Lower chance if has decent amount
 					factor = 0.5
 					manpower_per_military_factory >  1000
 				}
 				modifier = {
-					#Block has plenty manpower
 					factor = 0
-					NOT = { tag = CHI }
 					manpower_per_military_factory >  5000
 				}
 			}
@@ -220,12 +173,10 @@ ideas = {
 			level = 2
 			
 			modifier = {
-				conscription = 0.2
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				#XP from reinforcement penalty (small)
-				training_time_factor = 0.3
+				conscription = 0.7
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
 			}
 			
 			cancel_if_invalid = no
@@ -235,30 +186,25 @@ ideas = {
 			
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
 				OR = {
 					has_war_support > 0.85
 					surrender_progress > 0.25
 				}
 				enemies_strength_ratio > 1
-				if = {
 			}
 
 			ai_will_do = {
    				factor = 1
 				modifier = {
-					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory <  500
 				}				
 				modifier = {
-					#Lower chance if has decent amount
 					factor = 0.5
 					manpower_per_military_factory >  1000
 				}
 				modifier = {
-					#Block has plenty manpower
 					factor = 0
 					manpower_per_military_factory >  5000
 				}
@@ -269,11 +215,11 @@ ideas = {
 			level = 1
 
 			modifier = {
-				conscription = 0.25
-				industrial_capacity_factory = -0.4
-				industrial_capacity_dockyard = -0.4
-				production_speed_buildings_factor = -0.4
-				training_time_factor = 0.5
+				conscription = 0.9
+				production_speed_buildings_factor = -0.7
+				industrial_capacity_factory = -0.7
+				industrial_capacity_dockyard = -0.7
+				training_time_factor = 0.3
 			}
 			
 			cancel_if_invalid = no

@@ -8,6 +8,10 @@ set_technology = {
 
 set_convoys = 10
 
+add_ideas = {
+    idea_redguard
+}
+
 set_politics = {
 
 	parties = {

@@ -1,0 +1,58 @@
+﻿capital = 124
+
+oob = "NZB_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		internationalist = { 
+			popularity = 0
+		}
+
+		isolationist = {
+			popularity = 100
+		}
+		
+		pragmatic = {
+			popularity = 0
+		}
+		
+		jingoist = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = isolationist
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mauhulakh"
+	picture = "Mauhulakh.dds"
+	ideology = internationalist_ideology
+}
+
+create_country_leader = {
+	name = "Mauhulakh"
+	picture = "Mauhulakh.dds"
+	ideology = pragmatic_ideology
+}
+
+create_country_leader = {
+	name = "Mauhulakh"
+	picture = "Mauhulakh.dds"
+	ideology = isolationist_ideology
+}
+
+create_country_leader = {
+	name = "Mauhulakh"
+	picture = "Mauhulakh.dds"
+	ideology = jingoist_ideology
+}

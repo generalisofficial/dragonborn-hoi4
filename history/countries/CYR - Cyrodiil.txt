@@ -10,13 +10,14 @@ set_convoys = 5
 set_cosmetic_tag = EMPIRE
 
 add_ideas = {
+    idea_imperial
 	nine_divines
 }
 
 4201.1.1 = {
 	add_ideas = { 
 	    eight_divines
-		white_gold_concordat
+		idea_white_gold_concordat
 	}
 }
 

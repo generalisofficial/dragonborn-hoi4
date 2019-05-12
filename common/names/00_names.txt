@@ -152,3 +152,69 @@ BLM = {
 	surnames = { Calidorees Magsar Galmarush Peseene Taierteus Neferean Maglus Agiuscles Caeseene Mereesifon Cayseus Catus Tiberdesh Cayacalees Nagteus Tikeersar Theonaresh Xemmarush Caysilus}
 	callsigns = { }
 }
+
+TSA = {
+	male = {
+		names = { Redekes Enigis-Dinarrih Genassi Ennikan-Minnaga Idrelissis Yrsha Gishelykieh Rygra Ennynikaj-Shirshij Zylrinek Yfisek-Dedduk Iddirras Gelrylixu Nivik Kisuh-Chan Essuk Kardun Raneh Igaxhi-Zhyrshan Keshixaj}
+	}
+	female = {
+		names = { Rynduh Melne-Enna Arshagaj Dharrirade-Zhyssik Gandysa-Vesin Vashuk Gilres-Kellej Rildes-Mydes Nydaxu-Rydiku Zharak-Kirysa Alessinik-Xhazen Dhalruek-Nilranues Issi Igrij-Nis Derij Shillilinek-Challikes Kelvesyku-Gassu Dynderrara Ilru Izzij}
+	}
+	surnames = { }
+	callsigns = { }
+}
+
+PYD = {
+	male = {
+		names = { Cedu Isyslith Keinvornis Lirgnu Cranwi Mymilu AaddilnuhQodeh Elryndan Crihmylvin Zanvur Qrargin Carsteddelnyom Yssal Jilir Ryrgnoslyndaal Nilenmyni Cargarneth Keslo Rolmes}
+	}
+	female = {
+		names = { Donnynwur Hisny Ydo Chylmenvenden Osmeh Esheh Tenlial Sunhuht Dyhniht Homnisloh Syrrohusla Ady Puhnuon Unralwardi Dhynnaht Teerlonoht Amosa Cesmuon Elith Yyrria}
+	}
+	surnames = { }
+	callsigns = { }
+}
+
+MKG = {
+	male = {
+		names = { Atularz Molbumol Gulhnamub Ushagol Olfgam Bummok Hanzna Grudum Oglunak Bolgo Azukkh Burgurn Nagha Olpakil Dululong Bolel Urulub Bolel Nagha Bazghag}
+	}
+	female = {
+		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
+	}
+	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	callsigns = { }
+}
+
+NZB = {
+	male = {
+		names = { Atularz Molbumol Gulhnamub Ushagol Olfgam Bummok Hanzna Grudum Oglunak Bolgo Azukkh Burgurn Nagha Olpakil Dululong Bolel Urulub Bolel Nagha Bazghag}
+	}
+	female = {
+		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
+	}
+	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	callsigns = { }
+}
+
+LGB = {
+	male = {
+		names = { Atularz Molbumol Gulhnamub Ushagol Olfgam Bummok Hanzna Grudum Oglunak Bolgo Azukkh Burgurn Nagha Olpakil Dululong Bolel Urulub Bolel Nagha Bazghag}
+	}
+	female = {
+		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
+	}
+	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	callsigns = { }
+}
+
+DKY = {
+	male = {
+		names = { Atularz Molbumol Gulhnamub Ushagol Olfgam Bummok Hanzna Grudum Oglunak Bolgo Azukkh Burgurn Nagha Olpakil Dululong Bolel Urulub Bolel Nagha Bazghag}
+	}
+	female = {
+		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
+	}
+	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	callsigns = { }
+}
