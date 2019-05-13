@@ -4064,4 +4064,9 @@ spriteTypes = {
 		name = "GFX_idea_race_orsimer"
 		texturefile = "gfx/interface/ideas/race_orsimer.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_white_gold_tower"
+		texturefile = "gfx/interface/ideas/white_gold_tower.dds"
+	}
 }
