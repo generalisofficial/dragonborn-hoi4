@@ -4010,4 +4010,58 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/vampirism.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_race_nord"
+		texturefile = "gfx/interface/ideas/race_nord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_breton"
+		texturefile = "gfx/interface/ideas/race_breton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_nord"
+		texturefile = "gfx/interface/ideas/race_nord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_imperial"
+		texturefile = "gfx/interface/ideas/race_imperial.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_redguard"
+		texturefile = "gfx/interface/ideas/race_redguard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_dunmer"
+		texturefile = "gfx/interface/ideas/race_dunmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_argonian"
+		texturefile = "gfx/interface/ideas/race_argonian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_khajit"
+		texturefile = "gfx/interface/ideas/race_khajit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_bosmer"
+		texturefile = "gfx/interface/ideas/race_bosmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_altmer"
+		texturefile = "gfx/interface/ideas/race_altmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_orsimer"
+		texturefile = "gfx/interface/ideas/race_orsimer.dds"
+	}
 }

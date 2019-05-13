@@ -7,6 +7,10 @@ set_technology = {
 }
 set_convoys = 5
 
+add_ideas = {
+    idea_orsimer
+}
+
 set_politics = {
 
 	parties = {
