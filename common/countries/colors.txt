@@ -159,3 +159,8 @@ NRZ = {
 	color = rgb { 34 139 34 }
 	color_ui = rgb { 34 139 34 }
 }
+
+REA = {
+	color = rgb { 107 142 35 }
+	color_ui = rgb { 107 142 35 }
+}
