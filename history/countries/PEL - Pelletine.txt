@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 5
 
 add_ideas = {
-    idea_khajit
+    idea_khajiit
 }
 
 set_politics = {

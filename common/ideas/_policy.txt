@@ -1,0 +1,266 @@
+ideas = {
+
+	religion = { 
+		law = yes
+
+		eight_divines = {
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			default = yes
+			cancel_if_invalid = no
+		}
+		
+		nine_divines = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    NOT = { has_idea = idea_white_gold_concordat }
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+	    nordic_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_nord
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		new_temple = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_dunmer
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		altmeri_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_altmer
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		bosmeri_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_bosmer
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		bosmeri_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_bosmer
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		khajiiti_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_khajiit
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		redguard_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_khajiit
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		bretony_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_breton
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		the_hist = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_argonian
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+	}
+	
+	guilds = { 
+		law = yes
+
+		thieves_guild = {
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+			
+			modifier = {
+			
+			}
+			
+			default = yes
+			cancel_if_invalid = no
+		}
+		
+		fighters_guild = {
+						
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		college_of_winterhold = {
+						
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		the_companions = {
+						
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		dark_brotherhood = {
+						
+			cost = 100
+			removal_cost = -1
+			
+			available = {
+			    always = yes
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

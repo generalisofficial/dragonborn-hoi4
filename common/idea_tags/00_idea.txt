@@ -26,8 +26,10 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
-	legislation = {
+	policy = {
 		slot = religion
+		slot = guilds
+		
 		cost = 150
 		removal_cost = 0
 
@@ -37,9 +39,7 @@ idea_categories = {
 	    slot = mobilization_laws
 		slot = army_chief 
 		slot = navy_chief 
-		slot = air_chief
-		slot = high_command
-		slot = high_command
+		slot = security_chief
 		
 		cost = 150
 		removal_cost = 0

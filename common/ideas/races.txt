@@ -63,8 +63,8 @@ ideas = {
 			}
 		}
 		
-	    idea_khajit = {
-			picture = race_khajit
+	    idea_khajiit = {
+			picture = race_khajiit
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }

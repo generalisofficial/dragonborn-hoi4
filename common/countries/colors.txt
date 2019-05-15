@@ -150,6 +150,11 @@ MKG = {
 	color_ui = rgb { 34 139 34 }
 }
 
+REA = {
+	color = rgb { 107 142 35 }
+	color_ui = rgb { 107 142 35 }
+}
+
 DRG = {
 	color = rgb { 100 100 100 }
 	color_ui = rgb { 100 100 100 }
@@ -158,9 +163,4 @@ DRG = {
 NRZ = {
 	color = rgb { 34 139 34 }
 	color_ui = rgb { 34 139 34 }
-}
-
-REA = {
-	color = rgb { 107 142 35 }
-	color_ui = rgb { 107 142 35 }
 }
