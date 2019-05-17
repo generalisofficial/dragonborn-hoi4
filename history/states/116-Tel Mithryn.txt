@@ -11,6 +11,8 @@ state={
 
 		}
 		add_core_of = TEL
+		add_claim_by = DRG
+		add_claim_by = RED
 
 	}
 	
