@@ -93,10 +93,15 @@
  #GUILDS
  guilds:0 "Guilds"
  thieves_guild:0 "Thieves Guild"
+ thieves_guild_desc:0 "Cooperating with the Thieves Guild will give us a fine profit in gold, however letting thieves operate on our soil might give us a taste of our own medicine."
  fighters_guild:0 "Fighters Guild"
+ fighters_guild_desc:0 "Cooperating with the Fighters Guild will give us an increase in recruits for our armed forces."
  college_of_winterhold:0 "College of Winterhold"
+ college_of_winterhold_desc:0 "Cooperating with the College of Winterhold will let our mages practice new spells and increase their efficiency on the battlefield."
  the_companions:0 "The Companions"
+ the_companions_desc:0 "Cooperating with the Companions will let our ground soldiers receive valuable training, mentally and physically."
  dark_brotherhood:0 "Dark Brotherhood"
+ dark_brotherhood_desc:0 "Cooperating with the Dark Brotherhood opens up a plethora of new options to deal with the enemy, but many nations will be reluctant to work with a nation openly supporting an illegal organization.
  
  #MILITARY
  idea_category_military:0 "Military Staff"
@@ -114,3 +119,5 @@
  idea_vampirism_desc:0 "While vampirism is a great gift to anyone looking to terrorize the world, the weakness to sunlight proves operating at day a massive challenge. They say a certain prophecy can change this..."
  idea_white_gold_concordat:0 "White-Gold Concordat"
  idea_white_gold_concordat_desc:0 "Despite crushing Dominion armies in Cyrodiil, the Empire accepted the terms of the Thalmor at the end of the Great War. Among these terms is the outlawing of the worship of Talos, vilifying the Nord population."
+ idea_blades:0 "Blades"
+ idea_blades_desc:0 "Headquartered in the northern city of Bruma, the Blades have protected the Empire for hundreds of years. Serving as the main security and intelligence force in Cyrodiil, the Blades provide espionage, as well as covert ops."

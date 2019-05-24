@@ -1,4 +1,10 @@
 ﻿l_english:
+ great_war.1.t:0 "Aldmeri Ultimatum"
+ great_war.1.d:0 "On orders from the Thalmor, the ambassador from the Aldmeri Dominion has now delivered an ultimatum to our state. If the conditions are not accepted, a state of war will be declared. The conditions are as follows: \n\nThe payment of 1000 septims to the Aldmeri state.\nThe cession of Hew's Bane and Stros M'Kai from Hammerfell.\nDisbandment of the Blades, Cyrodiil's security service.\nThe prohibition of Talos worship across the entire Empire."
+ great_war.2.t:0 "Imperial Rejection"
+ great_war.2.d:0 "Despite our ambassador's attempt to deliver our light conditions peacefully, the Imperials slaughtered him like a dog and refused our ultimatum. This cannot stand, and we will now declare war on the Cyrodiil Empire. This is a war of Men and Mer, and Mer shall prevail!"
+ great_war.3.t:0 "Imperial Submission"
+ great_war.3.d:0 "Despite our ridiculous demands, the Imperials have send our ambassador back with the message that they are accepting our terms. This has avoided another war, and we have recieved land concessions, as well as gold. Mer will conquer Tamriel another time."
  scw.1.t:0 "Victory at Solitude"
  scw.1.d:0 "Our Stormcloak forces have captured Haafingar Hold, including the capital, Solitude. This means that Imperial rule in Skyrim has collapsed and Skyrim is emerging as an independent province."
  scw.1.a:0 "For Talos!"

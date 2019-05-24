@@ -9,7 +9,9 @@ country_event = {
 	
 	option = {
 		name = "Accept"
-		add_political_power = -500
+		ALD = { country_event = great_war.3 }
+		add_political_power = -1000
+		remove_ideas = idea_blades
 	}
 	
 	option = {
@@ -28,5 +30,20 @@ country_event = {
 	option = {
 		name = "Alinor shall prevail!"
 		declare_war_on = { target = CYR type = annex_everything }
+	}
+}
+
+country_event = {
+	id = great_war.3
+	title = great_war.3.t
+	desc = great_war.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Did they really just.."
+		add_political_power = 1000
+		transfer_state = 35
+		transfer_state = 32
 	}
 }

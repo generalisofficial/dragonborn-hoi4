@@ -192,10 +192,10 @@ ideas = {
 			}
 			
 			modifier = {
-			
+			    political_power_gain = 0.3
+				stability_factor = -0.15
 			}
 			
-			default = yes
 			cancel_if_invalid = no
 		}
 		
@@ -209,7 +209,7 @@ ideas = {
 			}
 
 			modifier = {
-			
+			    conscription_factor = 0.1
 			}
 			
 			cancel_if_invalid = no
@@ -241,7 +241,8 @@ ideas = {
 			}
 
 			modifier = {
-			
+			    army_morale_factor = 0.2
+				army_org = 5
 			}
 			
 			cancel_if_invalid = no
@@ -257,7 +258,7 @@ ideas = {
 			}
 
 			modifier = {
-			
+				trade_opinion_factor = -0.25
 			}
 			
 			cancel_if_invalid = no
