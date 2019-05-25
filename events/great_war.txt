@@ -45,5 +45,27 @@ country_event = {
 		add_political_power = 1000
 		transfer_state = 35
 		transfer_state = 32
+		transfer_state = 124
+		CYR = { country_event = great_war.4 }
+	}
+}
+
+country_event = {
+	id = great_war.4
+	title = great_war.4.t
+	desc = great_war.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We wish them luck!"
+		release = HAM
+		every_state = {
+			limit = {
+				is_core_of = HAM
+			}
+			remove_core_of = CYR
+			add_claim_by = CYR
+		}
 	}
 }

@@ -4,7 +4,7 @@ autonomy_state = {
 	default = yes
 	is_puppet = yes
 	
-	min_freedom_level = 0.25
+	min_freedom_level = 0.50
 	
 	rule = {
 		can_not_declare_war = yes
@@ -28,7 +28,7 @@ autonomy_state = {
 	}
 
 	ai_overlord_wants_garrison = {
-		always = no
+		always = yes
 	}
 
 	allowed = {

@@ -1,8 +1,8 @@
 ﻿l_english:
  STATE_1:0 "Roscrea"
  STATE_2:0 "Jylkurfyk"
- STATE_3:0 "Atmora Occidental"
- STATE_4:0 "Atmora Island"
+ STATE_3:0 "Hjora"
+ STATE_4:0 "Ysgramor"
  STATE_5:0 "Heartlands"
  STATE_6:0 "Cathnoquey"
  STATE_7:0 "Hirstaang"
@@ -122,3 +122,4 @@
  STATE_121:0 "Moesring"
  STATE_122:0 "Felsaad"
  STATE_123:0 "Mor Khazgur"
+ STATE_124:0 "The Chain"

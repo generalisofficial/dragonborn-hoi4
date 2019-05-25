@@ -4069,4 +4069,34 @@ spriteTypes = {
 		name = "GFX_idea_white_gold_tower"
 		texturefile = "gfx/interface/ideas/white_gold_tower.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_dark_brotherhood"
+		texturefile = "gfx/interface/ideas/dark_brotherhood.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_thieves_guild"
+		texturefile = "gfx/interface/ideas/thieves_guild.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_college_of_winterhold"
+		texturefile = "gfx/interface/ideas/college_of_winterhold.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fighters_guild"
+		texturefile = "gfx/interface/ideas/fighters_guild.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_blades"
+		texturefile = "gfx/interface/ideas/blades.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_companions"
+		texturefile = "gfx/interface/ideas/companions.dds"
+	}
 }

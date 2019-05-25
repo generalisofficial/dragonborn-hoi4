@@ -39,24 +39,12 @@ set_politics = {
 
 create_country_leader = {
 	name = "Kazanni Solonihr"
-	picture = "Kazanni_Solonihr.dds"
-	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "Kazanni Solonihr"
-	picture = "Kazanni_Solonihr.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
-	name = "Kazanni Solonihr"
-	picture = "Kazanni_Solonihr.dds"
+	picture = "gfx/leaders/generic/Khajiit7.dds"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Kazanni Solonihr"
-	picture = "Kazanni_Solonihr.dds"
+	picture = "gfx/leaders/generic/Khajiit7.dds"
 	ideology = jingoist_ideology
 }

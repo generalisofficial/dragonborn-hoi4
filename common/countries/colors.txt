@@ -11,18 +11,18 @@ CYR = {
 }
 
 ALD = {
-	color = rgb { 192 204 135 }
-	color_ui = rgb { 192 204 135 }
+	color = rgb { 119 136 153 }
+	color_ui = rgb { 119 136 153 }
 }
 
 ANQ = {
-	color = rgb { 192 204 135 }
-	color_ui = rgb { 192 204 135 }
+	color = rgb { 119 136 153 }
+	color_ui = rgb { 119 136 153 }
 }
 
 PEL = {
-	color = rgb { 192 204 135 }
-	color_ui = rgb { 192 204 135 }
+	color = rgb { 119 136 153 }
+	color_ui = rgb { 119 136 153 }
 }
 
 SKY = {
