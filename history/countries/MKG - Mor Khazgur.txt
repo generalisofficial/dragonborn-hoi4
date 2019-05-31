@@ -1,0 +1,62 @@
+﻿capital = 123
+
+oob = "MKG_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+add_ideas = {
+    idea_orsimer
+}
+
+set_politics = {
+
+	parties = {
+		internationalist = { 
+			popularity = 0
+		}
+
+		isolationist = {
+			popularity = 100
+		}
+		
+		pragmatic = {
+			popularity = 0
+		}
+		
+		jingoist = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = isolationist
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Larak"
+	picture = "Larak.dds"
+	ideology = internationalist_ideology
+}
+
+create_country_leader = {
+	name = "Larak"
+	picture = "Larak.dds"
+	ideology = pragmatic_ideology
+}
+
+create_country_leader = {
+	name = "Larak"
+	picture = "Larak.dds"
+	ideology = isolationist_ideology
+}
+
+create_country_leader = {
+	name = "Larak"
+	picture = "Larak.dds"
+	ideology = jingoist_ideology
+}

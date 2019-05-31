@@ -5,6 +5,12 @@ state={
 
 	history={
 		owner = CYR
+		victory_points = {
+			2976 3
+		}
+		victory_points = {
+			4928 3
+		}
 		buildings = {
 
 		}
@@ -16,6 +22,7 @@ state={
 	provinces={
 		1120 1121 2976 2977 2978 2979 4928 5943 5998 6135 
 	}
-	manpower=0
+	manpower=8679
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

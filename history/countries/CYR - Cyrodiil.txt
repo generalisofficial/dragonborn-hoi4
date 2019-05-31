@@ -10,7 +10,19 @@ set_convoys = 5
 set_cosmetic_tag = EMPIRE
 
 add_ideas = {
+    idea_imperial
+	idea_blades
 	nine_divines
+}
+
+4201.1.1 = {
+	add_ideas = { 
+	    eight_divines
+		idea_white_gold_concordat
+	}
+	remove_ideas = { 
+	    idea_blades
+	}
 }
 
 set_politics = {
@@ -41,24 +53,28 @@ set_politics = {
 
 create_country_leader = {
 	name = "Titus Mede II"
+	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
+	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
+	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
+	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = jingoist_ideology
 }

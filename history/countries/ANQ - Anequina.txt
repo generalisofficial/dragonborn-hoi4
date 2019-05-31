@@ -7,6 +7,10 @@ set_technology = {
 }
 set_convoys = 5
 
+add_ideas = {
+    idea_khajiit
+}
+
 set_politics = {
 
 	parties = {
@@ -35,24 +39,12 @@ set_politics = {
 
 create_country_leader = {
 	name = "M'zah Rahknaihn"
-	picture = "M'zah_Rahknaihn.dds"
-	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "M'zah Rahknaihn"
-	picture = "M'zah_Rahknaihn.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
-	name = "M'zah Rahknaihn"
-	picture = "M'zah_Rahknaihn.dds"
+	picture = "gfx/leaders/generic/Khajiit6.dds"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "M'zah Rahknaihn"
-	picture = "M'zah_Rahknaihn.dds"
+	picture = "gfx/leaders/generic/Khajiit6.dds"
 	ideology = jingoist_ideology
 }

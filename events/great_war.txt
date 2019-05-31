@@ -1,19 +1,71 @@
 ﻿add_namespace = great_war
 
-news_event = {
+country_event = {
 	id = great_war.1
-	title = "Ultimatum from Aldmeri Dominion"
-	desc = "Greetings, Emperor. The Aldmeri Dominion wishes you to present a list of demands to you, and if you do not agree to them, our armies will begin marching. A large tribute of gold would be paid to the Aldmeri Dominion, the Empire would give a large portion of southern Hammerfell to the Dominion, the worship of Talos would be banned from the Empire, and the Blades would be forced to disband. We wish to see your response within 24 hours." 
+	title = great_war.1.t
+	desc = great_war.1.d
 	
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = {
 		name = "Accept"
-		add_political_power = -500
+		ALD = { country_event = great_war.3 }
+		add_political_power = -1000
+		remove_ideas = idea_blades
 	}
 	
 	option = {
 		name = "Reject"
+		ALD = { country_event = great_war.2 }
+	}
+}
+
+country_event = {
+	id = great_war.2
+	title = great_war.2.t
+	desc = great_war.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Alinor shall prevail!"
+		declare_war_on = { target = CYR type = annex_everything }
+	}
+}
+
+country_event = {
+	id = great_war.3
+	title = great_war.3.t
+	desc = great_war.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Did they really just.."
+		add_political_power = 1000
+		transfer_state = 35
+		transfer_state = 32
+		transfer_state = 124
+		CYR = { country_event = great_war.4 }
+	}
+}
+
+country_event = {
+	id = great_war.4
+	title = great_war.4.t
+	desc = great_war.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We wish them luck!"
+		release = HAM
+		every_state = {
+			limit = {
+				is_core_of = HAM
+			}
+			remove_core_of = CYR
+			add_claim_by = CYR
+		}
 	}
 }

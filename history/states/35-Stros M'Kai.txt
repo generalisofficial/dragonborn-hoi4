@@ -1,25 +1,27 @@
+
 state={
 	id=35
 	name="STATE_35"
-	
+
 	history={
 		owner = CYR
 		victory_points = {
-			4227 3
+			4227 3 
 		}
 		buildings = {
 
 		}
 		add_core_of = CYR
 		add_core_of = HAM
-		
-		4175.1.1 ={
-		    owner = HAM
+		4175.1.1 = {
+			owner = HAM
+
 		}
+
 	}
-	
+
 	provinces={
-		4227 5113 5525 
+		210 4227 
 	}
 	manpower=4791
 	buildings_max_level_factor=1.000

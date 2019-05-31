@@ -1,0 +1,31 @@
+ideas = {
+	
+	country = {
+	
+		idea_white_gold_concordat = {
+			picture = white_gold_tower
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.3
+			}
+		}
+		
+	    idea_blades = {
+			picture = blades
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				foreign_subversive_activites = -0.50
+				subversive_activites_upkeep = -0.25
+				partisan_effect = 0.25
+			}
+		}
+	}
+}

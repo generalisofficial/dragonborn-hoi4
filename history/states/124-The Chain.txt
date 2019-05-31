@@ -1,0 +1,21 @@
+state={
+	id=124
+	name="STATE_124"
+	
+	history={
+		owner = CYR
+		buildings = {
+
+		}
+		add_core_of = CYR
+		add_core_of = HAM
+
+	}
+	
+	provinces={
+		5113 5525 
+	}
+	manpower=62
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

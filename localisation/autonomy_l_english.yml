@@ -1,9 +1,8 @@
 ﻿l_english:
- autonomy_dominion:0 "Satellite State"
- autonomy_colony:0 "Colony"
- autonomy_puppet:0 "Puppet State"
- autonomy_integrated_puppet:0 "Autonomous Region"
- autonomy_annex:0 "Annexed"
+ autonomy_dominion:0 "Protected State"
+ autonomy_puppet:0 "Vassal"
+ autonomy_integrated_puppet:0 "Autonomous Province"
+ autonomy_annex:0 "Province"
  autonomy_free:0 "Free"
  AUTONOMY_CAN_TAKE_DESC:1 "$OWNER|UH$ can become $NEXTLEVEL|H$"
  AUTONOMY_CANT_TAKE_DESC:1 "$OWNER|UH$ can not become $NEXTLEVEL|H$ yet"

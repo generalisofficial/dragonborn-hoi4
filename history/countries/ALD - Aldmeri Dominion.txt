@@ -7,6 +7,10 @@ set_technology = {
 }
 set_convoys = 5
 
+add_ideas = {
+    idea_altmer
+}
+
 set_politics = {
 
 	parties = {
@@ -15,15 +19,15 @@ set_politics = {
 		}
 
 		isolationist = {
-			popularity = 0
+			popularity = 13
 		}
 		
 		pragmatic = {
-			popularity = 0
+			popularity = 26
 		}
 		
 		jingoist = { 
-			popularity = 100
+			popularity = 59
 		}
 	}
 	
@@ -33,8 +37,44 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Thalmor Council"
-	picture = "Thalmor_Council.dds"
-	ideology = jingoist_ideology
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = ANQ
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = PEL
+		autonomous_state = autonomy_puppet
+	}
+	else = {
+		puppet = ANQ
+		puppet = PEL
+	}
 }
+
+#create_country_leader = {
+#	name = "LEADER"
+#	picture = "LEADER.dds"
+#	ideology = internationalist_ideology
+#}
+
+#create_country_leader = {
+#	name = "LEADER"
+#	picture = "LEADER.dds"
+#	ideology = pragmatic_ideology
+#}
+
+#create_country_leader = {
+#	name = "LEADER"
+#	picture = "LEADER.dds"
+#	ideology = isolationist_ideology
+#}
+
+#create_country_leader = {
+#	name = "LEADER"
+#	picture = "LEADER.dds"
+#	ideology = jingoist_ideology
+#}
