@@ -5,7 +5,7 @@ state={
 	history={
 		owner = LGB
 		victory_points = {
-			550 2
+			1425 2
 		}
 		buildings = {
 
