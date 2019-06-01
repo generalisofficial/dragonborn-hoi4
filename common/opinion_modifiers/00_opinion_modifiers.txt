@@ -1,0 +1,5 @@
+opinion_modifiers = {
+
+	no_effort = 
+		value = -25
+	}

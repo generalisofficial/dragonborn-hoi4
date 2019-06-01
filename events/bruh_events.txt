@@ -1,0 +1,26 @@
+add_namespace = reach
+
+##Event: in the great war did we commit
+country_event = {
+ id = reach.2
+ title = bruh.2.title
+ desc = bruh.2.desc
+ picture = GFX_event_test
+ fire_only_once = yes
+ trigger = {
+has_completed_focus= REA_ourstruggle
+	}	option = {
+		name = bruh.1.a
+		ai_chance = { factor = 1}
+		add_manpower= 600
+add_opinion_modifier= { 
+target = CYR 
+modifier = no_effort 
+}
+add_opinion_modifier= { 
+target = SKY 
+modifier = no_effort
+}
+	}
+}
+

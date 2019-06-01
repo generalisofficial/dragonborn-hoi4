@@ -1,0 +1,305 @@
+focus_tree = { 
+id = reachfocus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = REA 
+} 
+} 
+#Focus for Build Roads
+focus = { 
+id = REA_buildroads
+icon = GFX_goal_unknown
+x = 16
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_banditconscription } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+11= {
+add_building_construction = {type = infrastructure
+level = 3
+instant_build = yes}
+
+}
+ } 
+
+ } 
+
+#Focus for Swift Thought
+focus = { 
+id = REA_swiftthought
+icon = GFX_goal_unknown
+x = 15
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_fortifyourborder focus = REA_buildroads } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_research_slot= 1
+add_ideas = idea_swift
+ } 
+
+ } 
+
+#Focus for Mining Industry
+focus = { 
+id = REA_miningindustry
+icon = GFX_goal_unknown
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_thereach } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_offsite_building= { type = industrial_complex level = 2 }
+ } 
+
+ } 
+
+#Focus for Fortify Our Border
+focus = { 
+id = REA_fortifyourborder
+icon = GFX_goal_unknown
+x = 14
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_banditconscription } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+11 = {add_building_construction= { 
+type = bunker 
+province = 676 
+level = 2 
+instant_build = yes }
+add_building_construction= { 
+type = bunker 
+province = 5936 
+level = 2 
+instant_build = yes }
+add_building_construction= { 
+type = bunker 
+province = 5291 
+level = 2 
+instant_build = yes }
+add_building_construction= { 
+type = bunker 
+province = 684 
+level = 2 
+instant_build = yes }
+add_building_construction= { 
+type = bunker 
+province = 682 
+level = 2 
+instant_build = yes }
+add_building_construction= { 
+type = bunker 
+province = 1864
+level = 2 
+instant_build = yes }
+}
+ } 
+
+ } 
+
+#Focus for Our Path
+focus = { 
+id = REA_ourpath
+icon = GFX_goal_unknown
+x = 10
+y = 2
+cost = 1
+available_if_capitulated = yes 
+prerequisite = { focus = REA_ourfight } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Reach
+focus = { 
+id = REA_thereach
+icon = GFX_goal_unknown
+x = 15
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = REA_ourpath } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state= {
+add_building_construction = {type = infrastructure
+level = 3
+instant_build = yes
+}
+
+}
+ } 
+
+ } 
+
+#Focus for Our Struggle
+focus = { 
+id = REA_ourstruggle
+icon = GFX_goal_unknown
+x = 10
+y = 0
+cost = 1
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+country_event= {
+days = 1 
+id = bruh.1 
+}
+ } 
+
+ } 
+
+#Focus for Our Fight
+focus = { 
+id = REA_ourfight
+icon = GFX_goal_unknown
+x = 10
+y = 1
+cost = 1
+available_if_capitulated = yes 
+prerequisite = { focus = REA_ourstruggle } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bandit Conscription
+focus = { 
+id = REA_banditconscription
+icon = GFX_goal_unknown
+x = 15
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_lumbermills focus = REA_blacksmithdevelopment } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas = idea_bandit
+ } 
+
+ } 
+
+#Focus for Blacksmith Development
+focus = { 
+id = REA_blacksmithdevelopment
+icon = GFX_goal_unknown
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_bladeproduction } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+ } 
+
+ } 
+
+#Focus for Lumber Mills
+focus = { 
+id = REA_lumbermills
+icon = GFX_goal_unknown
+x = 16
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_miningindustry } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+ } 
+
+ } 
+
+#Focus for Blade Production
+focus = { 
+id = REA_bladeproduction
+icon = GFX_goal_unknown
+x = 14
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = REA_thereach } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_tech_bonus= {
+ bonus = 0.5 
+uses = 2 
+category = infantry_weapons
+}
+ } 
+
+ } 
+
+#End of focuses 
+ }

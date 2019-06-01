@@ -76,7 +76,7 @@
  idea_altmer:0 "Altmer"
  idea_bosmer:0 "Bosmer"
  idea_redguard:0 "Redguard"
- idea_orsimer:0 "Orsimer"
+ 
  
  #RELIGION
  religion:0 "Religion"
@@ -121,3 +121,7 @@
  idea_white_gold_concordat_desc:0 "Despite crushing Dominion armies in Cyrodiil, the Empire accepted the terms of the Thalmor at the end of the Great War. Among these terms is the outlawing of the worship of Talos, vilifying the Nord population."
  idea_blades:0 "Blades"
  idea_blades_desc:0 "Headquartered in the northern city of Bruma, the Blades have protected the Empire for hundreds of years. Serving as the main security and intelligence force in Cyrodiil, the Blades provide espionage, as well as covert ops."
+ idea_bandit:0 "Bandits in the Army"
+ idea_bandit_desc:0 "We should resort to local bandits for out manpower."
+ idea_swift:0 "Swift Thought"
+ idea_swift_desc:0 "With special ways we can increase our research output"
