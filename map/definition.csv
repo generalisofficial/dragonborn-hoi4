@@ -3933,7 +3933,7 @@
 3932;243;213;184;land;false;forest;1
 3933;138;183;230;land;false;forest;1
 3934;167;250;140;land;true;plains;1
-3935;192;95;228;land;true;hills;1
+3935;192;95;228;lake;false;lakes;1
 3936;95;242;193;land;true;hills;1
 3937;144;207;229;land;true;hills;1
 3938;245;180;106;land;true;hills;1
