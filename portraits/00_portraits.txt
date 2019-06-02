@@ -361,3 +361,94 @@ HRK = {
 		}
 	}
 }
+
+HAM = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Redguard1.dds"
+			"gfx/leaders/generic/Redguard2.dds"
+			"gfx/leaders/generic/Redguard3.dds"
+			"gfx/leaders/generic/Redguard4.dds"
+			"gfx/leaders/generic/Redguard5.dds"
+			"gfx/leaders/generic/Redguard6.dds"
+			"gfx/leaders/generic/Redguard7.dds"
+			"gfx/leaders/generic/Redguard8.dds"
+			"gfx/leaders/generic/Redguard9.dds"
+			"gfx/leaders/generic/Redguard10.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Redguard1.dds"
+			"gfx/leaders/generic/Redguard2.dds"
+			"gfx/leaders/generic/Redguard3.dds"
+			"gfx/leaders/generic/Redguard4.dds"
+			"gfx/leaders/generic/Redguard5.dds"
+			"gfx/leaders/generic/Redguard6.dds"
+			"gfx/leaders/generic/Redguard7.dds"
+			"gfx/leaders/generic/Redguard8.dds"
+			"gfx/leaders/generic/Redguard9.dds"
+			"gfx/leaders/generic/Redguard10.dds"
+		}
+	}
+
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Redguard1.dds"
+			    "gfx/leaders/generic/Redguard2.dds"
+			    "gfx/leaders/generic/Redguard3.dds"
+			    "gfx/leaders/generic/Redguard4.dds"
+			    "gfx/leaders/generic/Redguard5.dds"
+			    "gfx/leaders/generic/Redguard6.dds"
+			    "gfx/leaders/generic/Redguard7.dds"
+			    "gfx/leaders/generic/Redguard8.dds"
+			    "gfx/leaders/generic/Redguard9.dds"
+			    "gfx/leaders/generic/Redguard10.dds"
+		    }
+		}
+		pragmatic = {
+			    male = {
+			    "gfx/leaders/generic/Redguard1.dds"
+			    "gfx/leaders/generic/Redguard2.dds"
+			    "gfx/leaders/generic/Redguard3.dds"
+			    "gfx/leaders/generic/Redguard4.dds"
+			    "gfx/leaders/generic/Redguard5.dds"
+			    "gfx/leaders/generic/Redguard6.dds"
+			    "gfx/leaders/generic/Redguard7.dds"
+			    "gfx/leaders/generic/Redguard8.dds"
+			    "gfx/leaders/generic/Redguard9.dds"
+			    "gfx/leaders/generic/Redguard10.dds"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Redguard1.dds"
+			    "gfx/leaders/generic/Redguard2.dds"
+			    "gfx/leaders/generic/Redguard3.dds"
+			    "gfx/leaders/generic/Redguard4.dds"
+			    "gfx/leaders/generic/Redguard5.dds"
+			    "gfx/leaders/generic/Redguard6.dds"
+			    "gfx/leaders/generic/Redguard7.dds"
+			    "gfx/leaders/generic/Redguard8.dds"
+			    "gfx/leaders/generic/Redguard9.dds"
+			    "gfx/leaders/generic/Redguard10.dds"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Redguard1.dds"
+			    "gfx/leaders/generic/Redguard2.dds"
+			    "gfx/leaders/generic/Redguard3.dds"
+			    "gfx/leaders/generic/Redguard4.dds"
+			    "gfx/leaders/generic/Redguard5.dds"
+			    "gfx/leaders/generic/Redguard6.dds"
+			    "gfx/leaders/generic/Redguard7.dds"
+			    "gfx/leaders/generic/Redguard8.dds"
+			    "gfx/leaders/generic/Redguard9.dds"
+			    "gfx/leaders/generic/Redguard10.dds"
+		    }
+		}
+	}
+}
