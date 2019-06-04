@@ -25,30 +25,18 @@ add_ideas = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		internationalist = { 
-			popularity = 100
-		}
-
-		isolationist = {
-			popularity = 0
-		}
-		
-		pragmatic = {
-			popularity = 0
-		}
-		
-		jingoist = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = internationalist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 100
+    isolationist = 0
+    pragmatic = 0
+    jingoist = 0
 }
 
 create_country_leader = {

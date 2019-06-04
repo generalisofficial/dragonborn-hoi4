@@ -11,28 +11,16 @@ add_ideas = {
     idea_bosmer
 }
 
-set_politics = {
-
-	parties = {
-		internationalist = { 
-			popularity = 0
-		}
-
-		isolationist = {
-			popularity = 0
-		}
-		
-		pragmatic = {
-			popularity = 100
-		}
-		
-		jingoist = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = pragmatic
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 0
+    isolationist = 0
+    pragmatic = 100
+    jingoist = 0
 }

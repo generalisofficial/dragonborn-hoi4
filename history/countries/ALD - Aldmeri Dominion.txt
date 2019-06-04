@@ -11,30 +11,18 @@ add_ideas = {
     idea_altmer
 }
 
-set_politics = {
-
-	parties = {
-		internationalist = { 
-			popularity = 0
-		}
-
-		isolationist = {
-			popularity = 13
-		}
-		
-		pragmatic = {
-			popularity = 26
-		}
-		
-		jingoist = { 
-			popularity = 59
-		}
-	}
-	
+set_politics = {	
 	ruling_party = jingoist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 0
+    isolationist = 12
+    pragmatic = 26
+    jingoist = 49
 }
 
 if = {

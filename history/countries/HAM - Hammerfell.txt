@@ -12,20 +12,18 @@ add_ideas = {
     idea_redguard
 }
 
-set_politics = {
-
-	parties = {
-        internationalist = { popularity = 56 }
-        pragmatic = { popularity = 0 }
-        isolationist = { popularity = 44 }
-        jingoist = { popularity = 0 }
-
-	}
-	
+set_politics = {	
 	ruling_party = internationalist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 56
+    pragmatic = 0
+    isolationist = 44
+    jingoist = 0
 }
 
 create_country_leader = {

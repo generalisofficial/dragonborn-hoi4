@@ -11,30 +11,18 @@ add_ideas = {
     idea_nord
 }
 
-set_politics = {
-
-	parties = {
-		internationalist = { 
-			popularity = 61
-		}
-
-		isolationist = {
-			popularity = 17
-		}
-		
-		pragmatic = {
-			popularity = 0
-		}
-		
-		jingoist = { 
-			popularity = 22
-		}
-	}
-	
+set_politics = {	
 	ruling_party = internationalist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 61
+    isolationist = 17
+    pragmatic = 0
+    jingoist = 22
 }
 
 create_country_leader = {

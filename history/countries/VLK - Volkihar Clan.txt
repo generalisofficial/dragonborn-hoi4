@@ -11,30 +11,18 @@ add_ideas = {
 	idea_vampirism
 }
 
-set_politics = {
-
-	parties = {
-		internationalist = { 
-			popularity = 0
-		}
-
-		isolationist = {
-			popularity = 0
-		}
-		
-		pragmatic = {
-			popularity = 0
-		}
-		
-		jingoist = { 
-			popularity = 100
-		}
-	}
-	
+set_politics = {	
 	ruling_party = jingoist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 0
+    isolationist = 0
+    pragmatic = 0
+    jingoist = 100
 }
 
 create_country_leader = {
