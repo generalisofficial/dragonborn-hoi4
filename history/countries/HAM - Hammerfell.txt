@@ -28,13 +28,13 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Nannoc Forebear"
-	picture = "Nannoc_Forebear.dds"
+	picture = "gfx/leaders/generic/Redguard8.dds"
 	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Jindal Crown"
-	picture = "Jindal_Crown.dds"
+	picture = "gfx/leaders/generic/Redguard7.dds"
 	ideology = isolationist_ideology
 }
 

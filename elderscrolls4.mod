@@ -34,4 +34,4 @@ tags={
 }
 picture="photo.png"
 remote_file_id="1734970898"
-supported_version="1.6.2"
+supported_version="1.7.0"
