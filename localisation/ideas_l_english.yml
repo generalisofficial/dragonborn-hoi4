@@ -64,7 +64,15 @@
  steward:0 "Steward"
  court_wizard:0 "Court Wizard"
  housecarl:0 "Housecarl"
- thane:0 "Thane"
+ social_advisor:0 "Social Advisor"
+ diplomatic_advisor:0 "Diplomatic Advisor"
+ economic_advisor:0 "Economic Advisor"
+ 
+ #COURT - UNIQUE
+ olfrid_battle_born:0 "Olfrid Battle-Born"
+ hrongar:0 "Hrongar"
+ avulstein_gray_mane:0 "Avulstein Gray-Mane"
+ nelkir:0 "Nelkir"
  
  #RACES
  idea_nord:0 "Nord"

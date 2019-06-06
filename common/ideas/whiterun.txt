@@ -1,0 +1,104 @@
+ideas = {
+
+	diplomatic_advisor = {
+		olfrid_battle_born = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_imperial_supporter }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		hrongar = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_pragmatist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		avulstein_gray_mane = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_isolationist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		nelkir = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_jingoist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

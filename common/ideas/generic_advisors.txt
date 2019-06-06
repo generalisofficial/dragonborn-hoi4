@@ -1,0 +1,108 @@
+ideas = {
+
+	diplomatic_advisor = {
+		generic_imperial_supporter = {
+			
+			allowed = {
+				NOT = { OR = { original_tag = WTR } }
+				
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_imperial_supporter }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_pragmatist = {
+			
+			allowed = {
+				NOT = { OR = { original_tag = WTR } }
+				
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_pragmatist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_isolationist = {
+			
+			allowed = {
+				NOT = { OR = { original_tag = WTR } }
+				
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_isolationist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_jingoist = {
+			
+			allowed = {
+				NOT = { OR = { original_tag = WTR } }
+				
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_jingoist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}
