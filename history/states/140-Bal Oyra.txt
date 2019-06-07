@@ -1,0 +1,20 @@
+
+state={
+	id=140
+	name="STATE_140"
+	
+	history={
+		owner = TEL
+		buildings = {
+
+		}
+		add_core_of = TEL
+
+	}
+	
+	provinces={
+		405 406 407 408 1917 4148 4149 4150 4151 5751 5961 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

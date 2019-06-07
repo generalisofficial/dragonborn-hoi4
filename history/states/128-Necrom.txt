@@ -1,0 +1,20 @@
+
+state={
+	id=128
+	name="STATE_128"
+	
+	history={
+		owner = IDR
+		buildings = {
+
+		}
+		add_core_of = IDR
+
+	}
+	
+	provinces={
+		2480 2481 3732 3733 3734 5355 5916 5917 6032 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

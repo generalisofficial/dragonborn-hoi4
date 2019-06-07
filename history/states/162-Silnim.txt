@@ -1,0 +1,19 @@
+state={
+	id=162
+	name="STATE_162"
+	
+	history={
+		owner = BLM
+		buildings = {
+
+		}
+		add_core_of = DRS
+
+	}
+	
+	provinces={
+		885 1659 2190 2191 2192 2193 5376 5495 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

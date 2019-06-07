@@ -1,0 +1,19 @@
+state={
+	id=159
+	name="STATE_159"
+	
+	history={
+		owner = HLA
+		buildings = {
+
+		}
+		add_core_of = HLA
+
+	}
+	
+	provinces={
+		76 77 78 79 80 81 709 1421 1422 4279 4280 5476 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

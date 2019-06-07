@@ -1,0 +1,20 @@
+
+state={
+	id=154
+	name="STATE_154"
+	
+	history={
+		owner = RED
+		buildings = {
+
+		}
+		add_core_of = RED
+
+	}
+	
+	provinces={
+		111 1763 1764 3640 3641 3642 3906 4101 6129 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

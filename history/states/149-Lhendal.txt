@@ -1,0 +1,19 @@
+state={
+	id=149
+	name="STATE_149"
+	
+	history={
+		owner = DRS
+		buildings = {
+
+		}
+		add_core_of = DRS
+
+	}
+	
+	provinces={
+		1950 2073 2075 3022 5263 5514 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
