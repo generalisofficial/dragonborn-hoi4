@@ -1,5 +1,57 @@
 ideas = {
 
+    steward = {
+		proventus_avenicci = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_moderate }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		brill = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_conservative }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
 	diplomatic_advisor = {
 		olfrid_battle_born = {
 			

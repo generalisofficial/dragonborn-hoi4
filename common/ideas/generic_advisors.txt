@@ -1,11 +1,88 @@
 ideas = {
 
+	steward = {
+		generic_reformist = {
+			
+			allowed = {
+				#NOT = { OR = { original_tag = WTR } }
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_reformist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_moderate = {
+			
+			allowed = {
+				NOT = { OR = { original_tag = WTR } }
+				
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_moderate }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_conservative = {
+			
+			allowed = {
+				NOT = { OR = { original_tag = WTR } }
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_conservative }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
 	diplomatic_advisor = {
 		generic_imperial_supporter = {
 			
 			allowed = {
 				NOT = { OR = { original_tag = WTR } }
-				
 			}
 
 			available = {
@@ -31,7 +108,6 @@ ideas = {
 			
 			allowed = {
 				NOT = { OR = { original_tag = WTR } }
-				
 			}
 
 			available = {
@@ -57,7 +133,6 @@ ideas = {
 			
 			allowed = {
 				NOT = { OR = { original_tag = WTR } }
-				
 			}
 
 			available = {
@@ -83,7 +158,6 @@ ideas = {
 			
 			allowed = {
 				NOT = { OR = { original_tag = WTR } }
-				
 			}
 
 			available = {
