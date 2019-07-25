@@ -24,6 +24,7 @@ add_to_faction = HRK
 	    eight_divines
 		idea_white_gold_concordat
 	}
+	set_autonomy = { target = HAM autonomy_state = autonomy_free }	
 	remove_ideas = { 
 	    idea_blades
 	}
