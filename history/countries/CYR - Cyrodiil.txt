@@ -7,13 +7,17 @@ set_technology = {
 }
 set_convoys = 5
 
-set_cosmetic_tag = EMPIRE
-
 add_ideas = {
     idea_imperial
 	idea_blades
 	nine_divines
 }
+
+create_faction = "Cyrodiil Empire"
+add_to_faction = CYR
+add_to_faction = SKY
+add_to_faction = HAM
+add_to_faction = HRK
 
 4201.1.1 = {
 	add_ideas = { 
@@ -37,6 +41,29 @@ set_popularities = {
     isolationist = 0
     pragmatic = 0
     jingoist = 0
+}
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SKY
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = HRK
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = HAM
+		autonomous_state = autonomy_imperial_province
+	}
+	else = {
+		puppet = SKY
+		puppet = HRK
+		puppet = HAM
+	}
 }
 
 create_country_leader = {
@@ -86,88 +113,4 @@ create_field_marshal = {
 	picture = "Jonna.dds"
 	traits = { }
 	skill = 2
-}
-
-create_corps_commander = {
-	name = "Rikke"
-	picture = "Rikke.dds"
-	traits = { }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Cassia"
-	picture = "Cassia.dds"
-	traits = { }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Justianus Quintus"
-	picture = "Justianus_Quintus.dds"
-	traits = { }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Adventus Caesennius"
-	picture = "Adventus_Caesennius.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Constantius Tituleius"
-	picture = "Constantius_Tituleius.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Emmanuel Admand"
-	picture = "Emmanuel_Admand.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Fasendil"
-	picture = "Fasendil.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Hrollod"
-	picture = "Hrollod.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Quentin Cipius"
-	picture = "Quentin_Cipius.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Sevan Telendas"
-	picture = "Sevan_Telendas.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Skulnar"
-	picture = "Skulnar.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Taurinus Duilis"
-	picture = "Taurinus_Duilis.dds"
-	traits = { }
-	skill = 1
 }

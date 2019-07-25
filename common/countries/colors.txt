@@ -30,6 +30,11 @@ SKY = {
 	color_ui = rgb { 0 0 205 }
 }
 
+ESM = {
+	color = rgb { 0 0 205 }
+	color_ui = rgb { 0 0 205 }
+}
+
 RED = {
 	color = rgb { 128 0 0 }
 	color_ui = rgb { 128 0 0 }

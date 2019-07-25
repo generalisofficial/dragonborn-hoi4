@@ -3,18 +3,18 @@ skyrim_civil_war = {
 	battle_for_solitude = {
 
 		visible = {
-			original_tag = SKY
-			country_exists = CYR
+			original_tag = ESM
+			country_exists = SKY
 			OR = {
 			    has_government = isolationist
 				has_government = jingoist
 			}
-			CYR = { owns_state = 10 }
+			SKY = { owns_state = 10 }
 			has_global_flag = skyrim_civil_war
 		}
 		
 		available = {
-		    CYR = { owns_state = 10 }
+		    SKY = { owns_state = 10 }
 			owns_state = 11
 			owns_state = 13
 			owns_state = 14
@@ -54,21 +54,21 @@ skyrim_civil_war = {
 		}
 	}
 	
-	SKY_battle_for_morthal = {
+	ESM_battle_for_morthal = {
 
 		visible = {
-			original_tag = SKY
-			country_exists = CYR
+			original_tag = ESM
+			country_exists = SKY
 			OR = {
 			    has_government = isolationist
 				has_government = jingoist
 			}
-			CYR = { owns_state = 12 }
+			SKY = { owns_state = 12 }
 			has_global_flag = skyrim_civil_war
 		}
 		
 		available = {
-		    CYR = { owns_state = 12 }
+		    SKY = { owns_state = 12 }
 			owns_state = 11
 			owns_state = 13
 			owns_state = 14
@@ -110,18 +110,18 @@ skyrim_civil_war = {
 	battle_for_windhelm = {
 
 		visible = {
-			original_tag = CYR
-			country_exists = CYR
+			original_tag = SKY
+			country_exists = SKY
 			OR = {
 			    has_government = internationalist
 				has_government = pragmatic
 			}
-			SKY = { owns_state = 16 }
+			ESM = { owns_state = 16 }
 			has_global_flag = skyrim_civil_war
 		}
 		
 		available = {
-		    SKY = { owns_state = 16 }
+		    ESM = { owns_state = 16 }
 			owns_state = 11
 			owns_state = 13
 			owns_state = 14

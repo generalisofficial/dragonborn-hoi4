@@ -12,6 +12,13 @@ add_ideas = {
     idea_redguard
 }
 
+set_cosmetic_tag = HAM_IMPERIAL
+
+4201.1.1 = {
+    drop_cosmetic_tag = yes
+	leave_faction = yes
+}
+
 set_politics = {	
 	ruling_party = internationalist
 	last_election = "4171.1.1"

@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 10
 
 oob = "SKY_4171"
 
@@ -11,21 +11,23 @@ add_ideas = {
     idea_nord
 }
 
+set_cosmetic_tag = SKY_IMPERIAL
+
 4201.1.1 = {
 	set_global_flag = skyrim_civil_war
 }
 
 set_politics = {	
-	ruling_party = isolationist
+	ruling_party = internationalist
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    internationalist = 0
-    isolationist = 100
-    pragmatic = 0
+    internationalist = 84
+    isolationist = 0
+    pragmatic = 16
     jingoist = 0
 }
 
@@ -42,14 +44,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ulfric Stormcloak"
-	picture = "Ulfric_Stormcloak.dds"
+	name = "Istlod"
+	picture = "Istlod.dds"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
-	name = "Ulfric Stormcloak"
-	picture = "Ulfric_Stormcloak.dds"
+	name = "Istlod"
+	picture = "Istlod.dds"
 	ideology = jingoist_ideology
 }
 
@@ -123,6 +125,90 @@ create_corps_commander = {
 	skill = 1
 }
 
+create_corps_commander = {
+	name = "Rikke"
+	picture = "Rikke.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Cassia"
+	picture = "Cassia.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Justianus Quintus"
+	picture = "Justianus_Quintus.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Adventus Caesennius"
+	picture = "Adventus_Caesennius.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Constantius Tituleius"
+	picture = "Constantius_Tituleius.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Emmanuel Admand"
+	picture = "Emmanuel_Admand.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Fasendil"
+	picture = "Fasendil.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Hrollod"
+	picture = "Hrollod.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Quentin Cipius"
+	picture = "Quentin_Cipius.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Sevan Telendas"
+	picture = "Sevan_Telendas.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Skulnar"
+	picture = "Skulnar.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Taurinus Duilis"
+	picture = "Taurinus_Duilis.dds"
+	traits = { }
+	skill = 1
+}
+
 4201.1.1 = {
     create_country_leader = {
 	    name = "Elisif the Fair"
@@ -134,4 +220,14 @@ create_corps_commander = {
 	    picture = "Elisif_the_Fair.dds"
 	    ideology = pragmatic_ideology
     }
+	create_country_leader = {
+	    name = "Elisif the Fair"
+	    picture = "Elisif_the_Fair.dds"
+	    ideology = isolationist_ideology
+     }
+     create_country_leader = {
+	     name = "Elisif the Fair"
+	     picture = "Elisif_the_Fair.dds"
+	     ideology = jingoist_ideology
+     }
 }

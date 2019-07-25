@@ -9,7 +9,7 @@ country_event = { #Battle for Solitude - Stormcloak Victory
 	
 	option = {
 		name = scw.1.a
-		SKY = { transfer_state = 10 }
+		ESM = { annex_country = { target = SKY transfer_troops = no } }
 		clr_global_flag = skyrim_civil_war
 	}
 }
@@ -47,7 +47,7 @@ country_event = { #Battle for Solitude - Imperial Defeat
 	
 	option = {
 		name = scw.4.a
-		SKY = { transfer_state = 10 }
+		ESM = { annex_country = { target = SKY transfer_troops = no } }
 		clr_global_flag = skyrim_civil_war
 	}
 }
@@ -61,7 +61,7 @@ country_event = { #Battle for Morthal - Stormcloak Victory
 	
 	option = {
 		name = scw.5.a
-		SKY = { transfer_state = 12 }
+		ESM = { transfer_state = 12 }
 	}
 }
 
@@ -98,7 +98,7 @@ country_event = { #Battle for Morthal - Imperial Defeat
 	
 	option = {
 		name = scw.8.a
-		SKY = { transfer_state = 12 }
+		ESM = { transfer_state = 12 }
 	}
 }
 
@@ -123,7 +123,7 @@ country_event = { #Battle for Windhelm - Stormcloak Defeat
 	
 	option = {
 		name = scw.10.a
-		CYR = { annex_country = { target = SKY transfer_troops = no } }
+		SKY = { annex_country = { target = ESM transfer_troops = no } }
 	}
 }
 
@@ -136,7 +136,7 @@ country_event = { #Battle for Windhelm - Imperial Victory
 	
 	option = {
 		name = scw.11.a
-		CYR = { annex_country = { target = SKY transfer_troops = no } }
+		SKY = { annex_country = { target = ESM transfer_troops = no } }
 	}
 }
 

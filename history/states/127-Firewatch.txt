@@ -2,7 +2,7 @@
 state={
 	id=127
 	name="STATE_127"
-	
+
 	history={
 		owner = TEL
 		buildings = {
@@ -11,7 +11,7 @@ state={
 		add_core_of = TEL
 
 	}
-	
+
 	provinces={
 		400 401 404 409 843 1141 1142 1143 2819 5381 5382 5985 
 	}

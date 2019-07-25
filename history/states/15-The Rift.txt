@@ -4,7 +4,7 @@ state={
 	name="STATE_15"
 
 	history={
-		owner = CYR
+		owner = SKY
 		victory_points = {
 		    4099 5 
 		}
@@ -24,7 +24,8 @@ state={
 		add_core_of = SKY
 		add_core_of = RIF
 		4201.1.1 = {
-			owner = SKY
+		    add_core_of = ESM
+			owner = ESM
 
 		}
 
