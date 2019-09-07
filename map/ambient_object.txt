@@ -69,12 +69,11 @@ type={
 type={
 	type="white_gold_entity"
 	use_animation=no
-	scale=100.000000
 	always_visible=yes
 	object={
 		name="white_gold_entity"
 		position={
-			1340.250 0.000 1050.820 
+			1340.620 10.000 1055.840 
 		}
 		rotation={
 			0.000 0.000 0.000 

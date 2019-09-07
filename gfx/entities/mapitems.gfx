@@ -14,9 +14,16 @@ objectTypes = {
 		cull_distance = 99999.0
 	}	
 	
-		pdxmesh = {
+	pdxmesh = {
 		name = "frame_border_logo_mesh"
 		file = "gfx/models/hoi4_logo.mesh"		
+		scale = 1.0
+		cull_distance = 99999.0
+	}
+	
+	pdxmesh = {
+		name = "white_gold_mesh"
+		file = "gfx/models/buildings/white_gold.mesh"		
 		scale = 1.0
 		cull_distance = 99999.0
 	}

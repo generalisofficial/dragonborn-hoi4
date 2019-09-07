@@ -37,6 +37,11 @@ entity = {
 }
 
 entity = {
+	name = "white_gold_entity"
+	pdxmesh = "white_gold_mesh"
+}
+
+entity = {
 	name = "wave_entity"
 	pdxmesh = "wave_mesh"
 	
