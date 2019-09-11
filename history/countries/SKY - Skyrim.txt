@@ -14,7 +14,7 @@ add_ideas = {
 set_cosmetic_tag = SKY_IMPERIAL
 
 4201.1.1 = {
-	set_global_flag = skyrim_civil_war
+	give_guarantee = WTR
 }
 
 set_politics = {	
@@ -55,86 +55,9 @@ create_country_leader = {
 	ideology = jingoist_ideology
 }
 
-create_field_marshal = {
-	name = "Galmar Stone-Fist"
-	picture = "Galmar_Stone_Fist.dds"
-	traits = { }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Yrsarald Thrice-Pierced"
-	picture = "Yrsarald_Thrice_Pierced.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Kai Wet-Pommel"
-	picture = "Kai_Wet_Pommel.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Gonnar Oath-Giver"
-	picture = "Gonnar_Oath_Giver.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Frorkmar Banner-Torn"
-	picture = "Frorkmar_Banner_Torn.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Hjornskar Head-Smasher"
-	picture = "Hjornskar_Head_Smasher.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Thorygg Sun-Killer"
-	picture = "Thorygg_Sun_Killer.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Kottir Red-Shoal"
-	picture = "Kottir_Red_Shoal.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Arrald Frozen-Heart"
-	picture = "Arrald_Frozen_Heart.dds"
-	traits = { }
-	skill = 1
-}
-
-create_corps_commander = {
-	name = "Istar Cairn-Breaker"
-	picture = "Istar_Cairn_Breaker.dds"
-	traits = { }
-	skill = 1
-}
-
 create_corps_commander = {
 	name = "Rikke"
 	picture = "Rikke.dds"
-	traits = { }
-	skill = 2
-}
-
-create_corps_commander = {
-	name = "Cassia"
-	picture = "Cassia.dds"
 	traits = { }
 	skill = 2
 }

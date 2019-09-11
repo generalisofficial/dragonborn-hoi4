@@ -13,6 +13,11 @@ add_ideas = {
 
 4201.1.1 = {
     set_cosmetic_tag = ESM_STORMCLOAK
+	give_guarantee = WTR
+	declare_war_on = {
+	    target = SKY
+	    type = civil_war
+    }
 }
 
 set_politics = {	

@@ -7,15 +7,6 @@ formable_nations = {
 	}
 }
 
-skyrim_civil_war = {
-
-    icon = skyrim_civil_war
-
-	allowed = {
-		always = yes
-	}
-}
-
 excavations = {
 
     icon = generic_formable_nations

@@ -115,3 +115,10 @@ create_field_marshal = {
 	traits = { }
 	skill = 2
 }
+
+create_corps_commander = {
+	name = "Cassia"
+	picture = "Cassia.dds"
+	traits = { }
+	skill = 2
+}
