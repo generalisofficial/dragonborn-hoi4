@@ -13,12 +13,6 @@ add_ideas = {
 	nine_divines
 }
 
-create_faction = "Cyrodiil Empire"
-add_to_faction = CYR
-add_to_faction = SKY
-add_to_faction = HAM
-add_to_faction = HRK
-
 4201.1.1 = {
 	add_ideas = { 
 	    eight_divines
@@ -50,15 +44,15 @@ if = {
 	}
 	set_autonomy = {
 		target = SKY
-		autonomous_state = autonomy_imperial_province
+		autonomous_state = autonomy_dominion
 	}
 	set_autonomy = {
 		target = HRK
-		autonomous_state = autonomy_imperial_province
+		autonomous_state = autonomy_dominion
 	}
 	set_autonomy = {
 		target = HAM
-		autonomous_state = autonomy_imperial_province
+		autonomous_state = autonomy_dominion
 	}
 	else = {
 		puppet = SKY

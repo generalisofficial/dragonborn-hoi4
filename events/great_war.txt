@@ -59,13 +59,7 @@ country_event = {
 	
 	option = {
 		name = "We wish them luck!"
-		release = HAM
-		every_state = {
-			limit = {
-				is_core_of = HAM
-			}
-			remove_core_of = CYR
-			add_claim_by = CYR
-		}
+		end_puppet = HAM
+		HAM = { drop_cosmetic_tag = yes }
 	}
 }
