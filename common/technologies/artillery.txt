@@ -20,6 +20,9 @@ technologies = {
 			leads_to_tech = interwar_antiair 
 			research_cost_coeff = 1
 		}
+		enable_equipment_modules = { 
+			ship_anti_air_1
+		}
 		
 		research_cost = 1.5
 		
@@ -43,6 +46,9 @@ technologies = {
 			soft_attack = 0.1
 		}
 		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -74,6 +80,13 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_2
 		}
+
+		#artillery = {
+		#	soft_attack = 0.1
+		#}
+		#artillery_brigade = {
+		#	soft_attack = 0.1
+		#}
 		
 		path = {
 			leads_to_tech = artillery2
@@ -104,6 +117,9 @@ technologies = {
 			soft_attack = 0.1
 		}
 		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -141,6 +157,9 @@ technologies = {
 			soft_attack = 0.1
 		}
 		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -211,6 +230,9 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
 		
 		research_cost = 1
 
@@ -229,12 +251,37 @@ technologies = {
 			factor = 2
 		}
 	}
+
+	mountain_gun = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		artillery_brigade = {
+			mountain = {
+				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			}
+		}
+
+		anti_tank_brigade = {
+			mountain = {
+				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect ROM_modern_at_guns_tech_tt
+			}
+		}
+	}
 	
 	rocket_artillery = {
 
 		enable_equipments = {
 			rocket_artillery_equipment_1
 		}
+#		enable_subunits = {
+#			rocket_artillery_brigade
+#		}
 		
 		path = {
 			leads_to_tech = rocket_artillery2
@@ -265,6 +312,9 @@ technologies = {
 			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		mot_rocket_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		motorized_rocket_brigade = {
@@ -300,6 +350,9 @@ technologies = {
 			soft_attack = 0.15
 		}
 		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		mot_rocket_artillery_brigade = {
 			soft_attack = 0.15
 		}
 		motorized_rocket_brigade = {
@@ -338,6 +391,13 @@ technologies = {
 			soft_attack = 0.3
 		}
 
+		#rocket_artillery = {
+		#	soft_attack = 0.15
+		#}
+		#rocket_artillery_brigade = {
+		#	soft_attack = 0.15
+		#}
+
 		research_cost = 1
 
 		start_year = 1943
@@ -360,6 +420,10 @@ technologies = {
 
 		enable_equipments = {
 			anti_air_equipment_1
+		}
+
+		enable_equipment_modules = { 
+			ship_anti_air_2
 		}
 
 		enable_building = {
@@ -398,8 +462,11 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
 
-		industry_air_damage_factor = -0.08
+		tech_air_damage_factor = -0.02
 		
 		path = {
 			leads_to_tech = antiair2
@@ -431,6 +498,10 @@ technologies = {
 		}
 
 		static_anti_air_damage_factor = 0.1
+
+		enable_equipment_modules = { 
+			ship_anti_air_3
+		}
 		
 		path = {
 			leads_to_tech = antiair3
@@ -447,7 +518,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 		}
 		
 		categories = {
@@ -463,8 +534,11 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
 		
-		industry_air_damage_factor = -0.08
+		tech_air_damage_factor = -0.02
 
 		path = {
 			leads_to_tech = antiair4
@@ -497,8 +571,11 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
 
-		industry_air_damage_factor = -0.08
+		tech_air_damage_factor = -0.02
 		
 		path = {
 			leads_to_tech = antiair5
@@ -530,6 +607,10 @@ technologies = {
 		}
 
 		static_anti_air_damage_factor = 0.1
+		
+		enable_equipment_modules = { 
+			ship_anti_air_4
+		}
 		
 		research_cost = 1
 
@@ -589,6 +670,10 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.2
 		}
+		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.2
+		}
 		
 		path = {
 			leads_to_tech = antitank2
@@ -619,6 +704,15 @@ technologies = {
 		enable_equipments = {
 			anti_tank_equipment_2
 		}
+		
+		#anti_tank = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
+		#anti_tank_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
 		
 		path = {
 			leads_to_tech = antitank3
@@ -651,6 +745,10 @@ technologies = {
 			ap_attack = 0.1
 		}
 		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		mot_anti_tank_brigade = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
@@ -689,6 +787,10 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
+		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
 	
 		path = {
 			leads_to_tech = antitank5
@@ -719,6 +821,15 @@ technologies = {
 		enable_equipments = {
 			anti_tank_equipment_3
 		}	
+			
+		#anti_tank = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
+		#anti_tank_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
 		
 		research_cost = 1
 
