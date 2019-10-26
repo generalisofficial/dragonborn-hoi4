@@ -90,22 +90,15 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Tullius"
-	picture = "Tullius.dds"
-	traits = { }
-	skill = 3
-}
-
-create_field_marshal = {
 	name = "Decianus"
 	picture = "Decianus.dds"
 	traits = { }
 	skill = 2
 }
 
-create_field_marshal = {
-	name = "Jonna"
-	picture = "Jonna.dds"
+create_corps_commander = {
+	name = "Justianus Quintus"
+	picture = "Justianus_Quintus.dds"
 	traits = { }
 	skill = 2
 }

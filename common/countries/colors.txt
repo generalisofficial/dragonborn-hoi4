@@ -165,11 +165,6 @@ DRG = {
 	color_ui = rgb { 100 100 100 }
 }
 
-NRZ = {
-	color = rgb { 34 139 34 }
-	color_ui = rgb { 34 139 34 }
-}
-
 NZB = {
 	color = rgb { 34 139 34 }
 	color_ui = rgb { 34 139 34 }

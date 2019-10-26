@@ -99,22 +99,6 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
-		bosmeri_pantheon = {
-						
-			cost = 200
-			removal_cost = -1
-			
-			available = {
-			    has_idea = idea_bosmer
-			}
-
-			modifier = {
-			
-			}
-			
-			cancel_if_invalid = yes
-		}
-		
 		khajiiti_pantheon = {
 						
 			cost = 200

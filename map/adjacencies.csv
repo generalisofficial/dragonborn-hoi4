@@ -1,6 +1,8 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5930;4491;sea;6788;-1;-1;-1;-1;;Imperial Isle-Chorrol
-2568;4908;sea;6189;-1;-1;-1;-1;;Karthspire
+2568;4908;sea;5954;-1;-1;-1;-1;;Karthspire
 5337;4796;sea;6560;-1;-1;-1;-1;;Volkihar
 6146;3501;sea;8433;-1;-1;-1;-1;;College of Winterhold
+4097;5593;sea;13453;-1;-1;-1;-1;;Goldenglow
+5525;5113;sea;6636;-1;-1;-1;-1;;The Chain
 -1;-1;;-1;-1;-1;-1;-1;-1
