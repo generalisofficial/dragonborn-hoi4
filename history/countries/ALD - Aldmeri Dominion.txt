@@ -22,7 +22,7 @@ set_popularities = {
     internationalist = 0
     isolationist = 12
     pragmatic = 26
-    jingoist = 49
+    jingoist = 62
 }
 
 if = {
