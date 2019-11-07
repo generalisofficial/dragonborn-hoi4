@@ -1,0 +1,36 @@
+﻿capital = 8
+
+oob = "ESR_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+add_ideas = {
+    idea_imperial
+}
+
+set_politics = {	
+	ruling_party = internationalist
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 100
+    isolationist = 0
+    pragmatic = 0
+    jingoist = 0
+}
+
+create_country_leader = {
+	name = "Alescia Aboral"
+	picture = "Alescia_Aboral.dds"
+	ideology = internationalist_ideology
+	traits = {
+	    dictator
+		princess_of_terror
+	}
+}

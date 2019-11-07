@@ -15,3 +15,14 @@ excavations = {
 		always = yes
 	}
 }
+
+elder_council = {
+	icon = elder_council
+	allowed = {
+		original_tag = CYR
+	}
+
+	scripted_gui = elder_council_decision_ui	
+
+	priority = 85
+}

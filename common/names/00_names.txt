@@ -75,6 +75,17 @@ CYR = {
 	callsigns = { }
 }
 
+ESR = {
+	male = {
+		names = { Adonato Adventus Aerin Agrius Alethius Aquillius Aventus Bassianus Caius Calixto Cicero Constantius Corpulus Crescius Dexion Ennodius Falx Florentius Gaius Gallus Gavros Gian Leontius Lucan Mallus Marcurio Maro Metillus Noster Orthus Paratus Pavo Plautis Proventus Quentin Quintus Reburrus Rexus Rogatus Salviannus Samuel Septiums Sergius Severio Silus Sorex Sulla Tacitus Taurinus Telrav Terek Titus Tyranus Vantus Varnius Venarus Verulus Xander }
+	}
+	female = {
+		names = { Adelaisa Adrianne Aia Alessandra Alexia Arcadia Camilla Carlotta Constance Edda Ganna Gemma Gianna Gilfre Illia Indara Larina Leonara Lucia Mila Pantea Raen Ria Safia Silana Silvan Sosia Valga Vigdis Viola Vittoria }
+	}
+	surnames = { Aeresius Aretino Arius Arria Ateia Attius Avenicci Axius Baenius Caelia Caerellia Caerellius Caesennius Carius Cipius Corrimu Decimus Desidenius Dulius Endario Evicus Giardano Junius Leotelli Lex Loreius Maccius Mede Navale Papius Pelagia Petreia Plinius Quintillius Sallustius Salvarus Signus Sorenshield Tituleius Tragus Trebatius Termellia Tullius Turrianus Vendicci Vesuius Vinicia Vulpin}
+	callsigns = { }
+}
+
 ALD = {
     male = { 
         names = { Armiir Valmdil Meamilrmerel Sindedil Tunve kaelndil Linwve Earali kalail Norrnil Molnar Umbrillian Mormircil Linedil Eldaen Ganmo Tusir Eldve Teliria Eruva }

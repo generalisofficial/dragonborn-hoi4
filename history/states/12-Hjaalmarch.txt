@@ -11,20 +11,12 @@ state={
 		victory_points = {
 			2737 2 
 		}
-		victory_points = {
-			2931 1 
-		}
-		victory_points = {
-			806 1 
-		}
-		victory_points = {
-			2300 1 
-		}
-		victory_points = {
-			6039 1 
-		}
 		buildings = {
+            infrastructure = 3
+			2737 = {
+				bunker = 4
 
+			}
 		}
 		add_core_of = CYR
 		add_core_of = SKY

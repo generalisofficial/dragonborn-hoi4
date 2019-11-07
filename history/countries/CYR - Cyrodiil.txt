@@ -38,6 +38,14 @@ set_popularities = {
     jingoist = 0
 }
 
+#Elder Council
+set_variable = { var = elder_council_support value = 65 }
+set_variable = { var = elder_council_total value = 96 }
+set_variable = { var = quorum_low value = 39 }
+set_variable = { var = quorum_medium value = 49 }
+set_variable = { var = quorum_high value = 58 }
+recalc_elder_council_icon_frames = yes
+
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
@@ -54,37 +62,38 @@ if = {
 		target = HAM
 		autonomous_state = autonomy_dominion
 	}
+	set_autonomy = {
+		target = ESR
+		autonomous_state = autonomy_colony
+	}
 	else = {
 		puppet = SKY
 		puppet = HRK
 		puppet = HAM
+		puppet = ESR
 	}
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
-	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = internationalist_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
-	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
-	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Titus Mede II"
-	desc = "Emperor"
 	picture = "Titus_Mede_II.dds"
 	ideology = jingoist_ideology
 }

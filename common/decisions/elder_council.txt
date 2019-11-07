@@ -1,0 +1,35 @@
+elder_council = {
+	USA_small_lobby_effort = {
+		icon = generic_political_discourse
+		available = {
+			check_variable = {
+                var = elder_council_support
+                value = 96
+                compare = less_than
+            }
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				elder_council_medium_support_trigger = yes
+				factor = 0.5
+			}
+			modifier = {
+				elder_council_low_support_trigger = yes
+				factor = 0.5
+			}
+			modifier = {
+				elder_council_high_support_trigger = yes
+				factor = 0
+			}
+		}
+		modifier = {
+			political_power_gain = -0.3
+		}
+		days_remove = 30
+		remove_effect = {
+			elder_council_small_support = yes
+		}
+	}
+}

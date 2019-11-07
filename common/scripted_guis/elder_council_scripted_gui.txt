@@ -1,0 +1,15 @@
+scripted_gui = {
+
+	elder_council_decision_ui = {
+		context_type = decision_category
+		window_name = "elder_council_decision_ui_window"
+
+		properties = {
+			elder_council_icon = {
+				frame = elder_council_icon_frame
+			}
+		}
+	}
+	
+}
+

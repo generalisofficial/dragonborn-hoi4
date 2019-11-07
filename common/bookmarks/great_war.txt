@@ -40,9 +40,9 @@ bookmarks = {
 			}
 		}
 		
-		"ANQ"={
-			history = "ANQ_GREAT_WAR_DESC"
-			ideology = jingoist
+		"RED"={
+			history = "RED_GREAT_WAR_DESC"
+			ideology = pragmatic
 			ideas = {
 			
 			}
@@ -51,14 +51,45 @@ bookmarks = {
 			}
 		}
 		
-		"PEL"={
-			history = "PEL_GREAT_WAR_DESC"
-			ideology = jingoist
+		"TEL"={
+			history = "TEL_GREAT_WAR_DESC"
+			ideology = isolationist
 			ideas = {
 			
 			}
 			focuses = {
 			
+			}
+		}
+		
+		"IDR"={
+			history = "BLM_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"HLA"={
+			history = "HLA_GREAT_WAR_DESC"
+			ideology = internationalist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"ESR"={
+		    minor = yes
+			history = "ESR_GREAT_WAR_DESC"
+			ideology = internationalist
+			ideas = {
+			   
 			}
 		}
 		
