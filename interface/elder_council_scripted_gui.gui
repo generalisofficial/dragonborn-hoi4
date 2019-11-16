@@ -11,12 +11,12 @@ guiTypes = {
 		iconType = {
 			name ="elder_council_icon"
 			spriteType = "GFX_decision_category_elder_council_ui"
-			position = { x= 190	 y = 5 }
+			position = { x= 195	 y = 5 }
 		}
 
 		instantTextBoxType = {
 			name ="elder_council_support_header"
-			position = { x= 137 y = @HEADERS_Y }
+			position = { x= 147 y = @HEADERS_Y }
 			font = "hoi_24header"
 			text = "elder_council_support_header"
 			format = center
@@ -25,7 +25,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="status_elder_council"
-			position = { x= 137 y = @STATUS_Y }
+			position = { x= 147 y = @STATUS_Y }
 			font = "hoi_18mbs"
 			text = "elder_council_support_amount"
 			format = center

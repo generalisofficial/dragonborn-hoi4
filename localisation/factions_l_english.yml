@@ -1,0 +1,11 @@
+﻿l_english:
+ FACTION_LEADER:0 "Faction leader: §Y$COUNTRY$§!"
+ FACTION_MEMBER:0 "Faction member: §Y$COUNTRY$§!"
+ FACTION_CREATED_UNDER_MASTER_TITLE:0 "Joined Master's Faction"
+ FACTION_CREATED_UNDER_MASTER_MESSAGE:0 "We have joined $FACTION|H$ faction together under our master"
+ FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
+ FACTION_NAME_1:0 "The $LEADER_COUNTRY_ADJ$ Association"
+ FACTION_NAME_2:0 "The $LEADER_COUNTRY_ADJ$ Entente"
+ FACTION_NAME_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"
+ FACTION_NAME_4:0 "The $LEADER_COUNTRY_ADJ$ Union"
+ FACTION_NAME_5:0 "$LEADER_COUNTRY_ADJ$ Coalition"

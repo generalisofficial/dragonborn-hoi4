@@ -28,7 +28,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3474;3937;sea;2883;-1;-1;-1;-1;;Hjaalmarch
 3474;2739;sea;2884;-1;-1;-1;-1;;Hjaalmarch
 661;662;sea;4497;-1;-1;-1;-1;;Riverwood
-4500;5399;sea;5462;-1;-1;-1;-1;;Whiterun
+4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
 2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
 5047;5433;sea;3341;-1;-1;-1;-1;;Abandoned Prison
 3168;1665;sea;6145;-1;-1;-1;-1;;Anga's Mill
