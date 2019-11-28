@@ -1,17 +1,21 @@
 ideas = {
 
 	steward = {
-		generic_reformist = {
+		generic_partisan = {
 			
 			allowed = {
-				#NOT = { OR = { original_tag = WTR } }
+				#NOT = { 
+				#    OR = { 
+				#        original_tag = WTR 
+				#	} 
+				#}
 			}
 
 			available = {
 			
 			}
 			
-			traits = { trait_reformist }
+			traits = { trait_partisan }
 	
 			on_add = {
 			
@@ -26,7 +30,7 @@ ideas = {
 			}
 		}
 			
-		generic_moderate = {
+		generic_compromising = {
 			
 			allowed = {
 				NOT = { OR = { original_tag = WTR } }
@@ -37,7 +41,7 @@ ideas = {
 			
 			}
 			
-			traits = { trait_moderate }
+			traits = { trait_compromising }
 	
 			on_add = {
 			
@@ -52,17 +56,21 @@ ideas = {
 			}
 		}
 		
-		generic_conservative = {
+		generic_nonpartisan = {
 			
 			allowed = {
-				NOT = { OR = { original_tag = WTR } }
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR 
+					} 
+				}
 			}
 
 			available = {
 			
 			}
 			
-			traits = { trait_conservative }
+			traits = { trait_nonpartisan }
 	
 			on_add = {
 			
@@ -79,10 +87,14 @@ ideas = {
 	}
 	
 	diplomatic_advisor = {
-		generic_imperial_supporter = {
+		generic_internationalist = {
 			
 			allowed = {
-				NOT = { OR = { original_tag = WTR } }
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR 
+					} 
+				}
 			}
 
 			available = {

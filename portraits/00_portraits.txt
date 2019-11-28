@@ -452,3 +452,94 @@ HAM = {
 		}
 	}
 }
+
+BLM = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Argonian1.dds"
+			"gfx/leaders/generic/Argonian2.dds"
+			"gfx/leaders/generic/Argonian3.dds"
+			"gfx/leaders/generic/Argonian4.dds"
+			"gfx/leaders/generic/Argonian5.dds"
+			"gfx/leaders/generic/Argonian6.dds"
+			"gfx/leaders/generic/Argonian7.dds"
+			"gfx/leaders/generic/Argonian8.dds"
+			"gfx/leaders/generic/Argonian9.dds"
+			"gfx/leaders/generic/Argonian10.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Argonian1.dds"
+			"gfx/leaders/generic/Argonian2.dds"
+			"gfx/leaders/generic/Argonian3.dds"
+			"gfx/leaders/generic/Argonian4.dds"
+			"gfx/leaders/generic/Argonian5.dds"
+			"gfx/leaders/generic/Argonian6.dds"
+			"gfx/leaders/generic/Argonian7.dds"
+			"gfx/leaders/generic/Argonian8.dds"
+			"gfx/leaders/generic/Argonian9.dds"
+			"gfx/leaders/generic/Argonian10.dds"
+		}
+	}
+
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Argonian1.dds"
+			    "gfx/leaders/generic/Argonian2.dds"
+			    "gfx/leaders/generic/Argonian3.dds"
+			    "gfx/leaders/generic/Argonian4.dds"
+			    "gfx/leaders/generic/Argonian5.dds"
+			    "gfx/leaders/generic/Argonian6.dds"
+			    "gfx/leaders/generic/Argonian7.dds"
+			    "gfx/leaders/generic/Argonian8.dds"
+			    "gfx/leaders/generic/Argonian9.dds"
+			    "gfx/leaders/generic/Argonian10.dds"
+		    }
+		}
+		pragmatic = {
+			    male = {
+			    "gfx/leaders/generic/Argonian1.dds"
+			    "gfx/leaders/generic/Argonian2.dds"
+			    "gfx/leaders/generic/Argonian3.dds"
+			    "gfx/leaders/generic/Argonian4.dds"
+			    "gfx/leaders/generic/Argonian5.dds"
+			    "gfx/leaders/generic/Argonian6.dds"
+			    "gfx/leaders/generic/Argonian7.dds"
+			    "gfx/leaders/generic/Argonian8.dds"
+			    "gfx/leaders/generic/Argonian9.dds"
+			    "gfx/leaders/generic/Argonian10.dds"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Argonian1.dds"
+			    "gfx/leaders/generic/Argonian2.dds"
+			    "gfx/leaders/generic/Argonian3.dds"
+			    "gfx/leaders/generic/Argonian4.dds"
+			    "gfx/leaders/generic/Argonian5.dds"
+			    "gfx/leaders/generic/Argonian6.dds"
+			    "gfx/leaders/generic/Argonian7.dds"
+			    "gfx/leaders/generic/Argonian8.dds"
+			    "gfx/leaders/generic/Argonian9.dds"
+			    "gfx/leaders/generic/Argonian10.dds"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Argonian1.dds"
+			    "gfx/leaders/generic/Argonian2.dds"
+			    "gfx/leaders/generic/Argonian3.dds"
+			    "gfx/leaders/generic/Argonian4.dds"
+			    "gfx/leaders/generic/Argonian5.dds"
+			    "gfx/leaders/generic/Argonian6.dds"
+			    "gfx/leaders/generic/Argonian7.dds"
+			    "gfx/leaders/generic/Argonian8.dds"
+			    "gfx/leaders/generic/Argonian9.dds"
+			    "gfx/leaders/generic/Argonian10.dds"
+		    }
+		}
+	}
+}

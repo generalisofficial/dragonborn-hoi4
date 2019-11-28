@@ -108,32 +108,6 @@ leader_traits = {
 		}
 	}
 	
-	trait_reformist = {
-		random = no
-		drift_defence_factor = -0.5
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	trait_moderate = {
-		random = no
-        stability_factor = 0.1
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	trait_conservative = {
-		random = no
-		drift_defence_factor = 0.5
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	indomitable_perseverance = { # Ground units get 4 more Morale 
 		random = no
 		sprite = 5
@@ -260,48 +234,6 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.1
 		partisan_effect = 0.25
-	}
-
-	### IDEA TRAITS ###
-	
-	trait_imperial_supporter = {
-		random = no
-		sprite = 13
-		internationalist_drift = 0.1
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	trait_pragmatist = {
-		random = no
-		sprite = 13
-		pragmatic_drift = 0.1
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	trait_isolationist = {
-		random = no
-		sprite = 13
-		isolationist_drift = 0.1
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	trait_jingoist = {
-		random = no
-		sprite = 13
-		jingoist_drift = 0.1
-		
-		ai_will_do = {
-			factor = 0
-		}
 	}
 
 	popular_figurehead = {
@@ -2422,4 +2354,85 @@ leader_traits = {
 			}
 		}
 	}
+	
+	### DRAGONBORN ###
+	
+	trait_partisan = {
+		random = no
+		political_power_factor = 0.1
+		stability_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	trait_compromising = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	trait_nonpartisan = {
+		random = no
+		political_power_factor = -0.1
+		stability_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	trait_internationalist  = {
+		random = no
+		internationalist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	trait_pragmatist = {
+		random = no
+		pragmatic_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	trait_isolationist = {
+		random = no
+		isolationist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	trait_jingoist = {
+		random = no
+		jingoist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	trait_imperial_supporter = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	trait_stormcloak_supporter = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 }

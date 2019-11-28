@@ -11,7 +11,7 @@ ideas = {
 			
 			}
 			
-			traits = { trait_moderate }
+			traits = { trait_compromising }
 	
 			on_add = {
 			
@@ -36,7 +36,7 @@ ideas = {
 			
 			}
 			
-			traits = { trait_conservative }
+			traits = { trait_partisan trait_stormcloak_supporter }
 	
 			on_add = {
 			
@@ -63,7 +63,7 @@ ideas = {
 			
 			}
 			
-			traits = { trait_imperial_supporter }
+			traits = { trait_internationalist trait_imperial_supporter }
 	
 			on_add = {
 			
@@ -113,7 +113,7 @@ ideas = {
 			
 			}
 			
-			traits = { trait_isolationist }
+			traits = { trait_isolationist trait_stormcloak_supporter }
 	
 			on_add = {
 			

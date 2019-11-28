@@ -1,5 +1,16 @@
-name="Dragonborn (EARLY ACCESS)"
+version="0.1"
+name="Dragonborn"
 path="mod/elderscrolls4/"
+supported_version="1.8.1"
+tags={
+	"Alternative History"
+	"Ideologies"
+	"Military"
+	"Map"
+	"Technology"
+	"Gameplay"
+}
+
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
@@ -27,14 +38,3 @@ replace_path="map/supplyareas"
 replace_path="music"
 replace_path="events"
 replace_path="portraits"
-tags={
-	"Alternative History"
-	"Ideologies"
-	"Military"
-	"Map"
-	"Technology"
-	"Gameplay"
-}
-picture="photo.jpg"
-remote_file_id="1734970898"
-supported_version="1.7.1"
