@@ -11,7 +11,7 @@ state={
 		add_core_of = CYR
 
 		victory_points = {
-			3929 2 # Chorrol
+			969 2 # Chorrol
 		}
 		victory_points = {
 			2129 2 # Kvatch
