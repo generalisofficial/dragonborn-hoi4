@@ -1,4 +1,4 @@
-
+# Tamriel - Gold Coast - Anvil
 state={
 	id=58
 	name="STATE_58"
@@ -10,11 +10,15 @@ state={
 		}
 		add_core_of = CYR
 
+		victory_points = {
+			3250 2 # Anvil
+		}
+
 	}
 
 	provinces={
 		131 754 755 1007 1008 1009 1010 1011 1096 1097 2521 2574 3246 3247 3248 3249 3250 3251 3957 3958 4283 4284 4315 4316 4317 4735 4807 4808 5035 5036 5091 5092 5300 5479 5813 6091 6190 6192 
 	}
-	manpower=0
+	manpower=82738
 	buildings_max_level_factor=1.000
 }

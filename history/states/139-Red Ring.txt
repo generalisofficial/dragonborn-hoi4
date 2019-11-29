@@ -1,4 +1,4 @@
-
+# Tamriel - Red Ring
 state={
 	id=139
 	name="STATE_139"
@@ -15,6 +15,6 @@ state={
 	provinces={
 		1283 1288 1303 1620 1621 1732 1733 2058 2151 2152 3067 3785 3917 4428 4548 5077 5807 5854 5930 
 	}
-	manpower=0
+	manpower=33683
 	buildings_max_level_factor=1.000
 }
