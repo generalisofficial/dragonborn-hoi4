@@ -1,0 +1,24 @@
+# Tamriel - West Weald - Skingrad
+state={
+	id=59
+	name="STATE_59"
+	
+	history={
+		owner = CYR
+		buildings = {
+
+		}
+		add_core_of = CYR
+
+		victory_points = {
+			5430 2 # Skingrad
+		}
+
+	}
+	
+	provinces={
+		130 136 943 1474 1476 1477 1478 2130 2131 2132 2133 2134 2135 2136 2137 3105 3107 3108 3109 3110 3302 3391 4034 4035 4263 4265 4777 5429 5430 5731 6018 
+	}
+	manpower=64276
+	buildings_max_level_factor=1.000
+}
