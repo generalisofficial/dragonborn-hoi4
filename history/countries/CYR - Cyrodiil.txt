@@ -39,12 +39,12 @@ set_popularities = {
 }
 
 #Elder Council
-set_variable = { var = elder_council_support value = 65 }
-set_variable = { var = elder_council_total value = 96 }
-set_variable = { var = quorum_low value = 39 }
-set_variable = { var = quorum_medium value = 49 }
-set_variable = { var = quorum_high value = 58 }
-recalc_elder_council_icon_frames = yes
+#set_variable = { var = elder_council_support value = 65 }
+#set_variable = { var = elder_council_total value = 96 }
+#set_variable = { var = quorum_low value = 39 }
+#set_variable = { var = quorum_medium value = 49 }
+#set_variable = { var = quorum_high value = 58 }
+#recalc_elder_council_icon_frames = yes
 
 if = {
 	limit = {
