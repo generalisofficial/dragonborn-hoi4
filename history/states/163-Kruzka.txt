@@ -1,0 +1,33 @@
+state={
+	id=163
+	name="STATE_163"
+	
+	
+	history={
+		owner = SKY
+		victory_points = {
+			4282 1 
+		}
+		buildings = {
+		    infrastructure = 2
+            4282 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = CYR
+		add_core_of = SKY
+		4201.1.1 = {
+			add_core_of = ESM
+
+		}
+
+	}
+	
+	provinces={
+		1550 2457 2458 2459 4282 4877 10552
+	}
+	manpower=218
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

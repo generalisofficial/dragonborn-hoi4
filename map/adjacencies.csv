@@ -1,5 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-5930;4491;sea;6788;-1;-1;-1;-1;;Imperial Isle-Chorrol
+5930;4491;sea;6788;-1;-1;-1;-1;;Talos Bridge
 2568;4908;sea;5954;-1;-1;-1;-1;;Karthspire
 2566;4908;sea;5954;-1;-1;-1;-1;;Karthspire
 5337;4796;sea;6560;-1;-1;-1;-1;;Volkihar
@@ -39,4 +39,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5879;2022;sea;6166;-1;-1;-1;-1;;Sarethi Farm
 5500;2023;sea;6166;-1;-1;-1;-1;;Treva's Watch
 2307;5416;sea;13453;-1;-1;-1;-1;;Faldar's Tooth
+2058;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
+4670;3745;sea;9783;-1;-1;-1;-1;;Leyawiin
 -1;-1;;-1;-1;-1;-1;-1;-1
