@@ -1,0 +1,28 @@
+
+state={
+	id=67
+	name="STATE_67"
+
+	history={
+		owner = CYR
+		victory_points = {
+			3923 5
+		}
+		victory_points = {
+			3924 1
+		}
+		buildings = {
+            infrastructure = 3
+			
+		}
+		add_core_of = CYR
+
+	}
+
+	provinces={
+		381 382 383 384 850 851 855 967 968 969 970 972 973 1149 1428 2361 2362 2363 2364 2365 3013 3550 3551 3919 3920 3921 3922 3923 3924 3925 3926 3927 4505 4674 4876 5835 5953 6031 
+	}
+	manpower=10375
+	buildings_max_level_factor=1.000
+	state_category=town
+}

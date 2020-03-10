@@ -1,0 +1,25 @@
+
+state={
+	id=64
+	name="STATE_64"
+
+	history={
+		owner = CYR
+		victory_points = {
+			2422 1
+		}
+		buildings = {
+            infrastructure = 2
+			
+		}
+		add_core_of = CYR
+
+	}
+
+	provinces={
+		939 940 941 942 971 974 975 976 977 1426 1427 1725 2127 2422 3129 3130 3131 3132 3133 3134 3135 3136 5078 5451 5529 5539 5540 5833 6088 
+	}
+	manpower=987
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

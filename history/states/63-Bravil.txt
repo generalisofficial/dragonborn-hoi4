@@ -1,0 +1,25 @@
+
+state={
+	id=63
+	name="STATE_63"
+
+	history={
+		owner = CYR
+		victory_points = {
+			4123 5
+		}
+		buildings = {
+		    infrastructure = 4
+
+		}
+		add_core_of = CYR
+
+	}
+
+	provinces={
+		2320 2321 2322 3794 3795 4123 
+	}
+	manpower=11972
+	buildings_max_level_factor=1.000
+	state_category=town
+}

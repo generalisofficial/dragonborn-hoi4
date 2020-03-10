@@ -1,7 +1,8 @@
+
 state={
 	id=161
 	name="STATE_161"
-	
+
 	history={
 		owner = BLM
 		buildings = {
@@ -10,9 +11,9 @@ state={
 		add_core_of = DRS
 
 	}
-	
+
 	provinces={
-		1883 1884 1885 1886 1890 1892 1893 2194 2593 3418 3419 3420 3421 4195 5446 5684 
+		1883 1884 1885 1886 1890 1892 2194 2593 3418 3419 3420 3421 4195 5446 5684 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

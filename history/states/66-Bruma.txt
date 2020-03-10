@@ -1,0 +1,25 @@
+
+state={
+	id=66
+	name="STATE_66"
+
+	history={
+		owner = CYR
+		victory_points = {
+			518 5
+		}
+		buildings = {
+		    infrastructure = 3
+
+		}
+		add_core_of = CYR
+
+	}
+
+	provinces={
+		247 248 249 250 491 513 514 515 516 517 518 519 520 521 677 678 679 680 1482 1483 1506 1507 1508 1770 1771 1773 1774 1775 1776 1777 2027 2028 2029 2030 2306 2409 2579 2580 2581 2582 3184 4475 4476 4669 5368 5607 6098 
+	}
+	manpower=11642
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

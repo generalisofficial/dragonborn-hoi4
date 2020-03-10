@@ -1,0 +1,24 @@
+state={
+	id=169
+	name="STATE_169"
+	
+	history={
+		owner = CYR
+		victory_points = {
+			5115 1
+		}
+		buildings = {
+            infrastructure = 3
+			
+		}
+		add_core_of = CYR
+
+	}
+	
+	provinces={
+		512 1615 2153 2154 2155 2156 2157 2830 2831 2832 3065 3066 3761 3786 5115 5270 5325 5396 5397 5697 
+	}
+	manpower=1259
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

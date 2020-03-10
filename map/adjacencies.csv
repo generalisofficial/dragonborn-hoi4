@@ -41,4 +41,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2307;5416;sea;13453;-1;-1;-1;-1;;Faldar's Tooth
 2058;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
 4670;3745;sea;9783;-1;-1;-1;-1;;Leyawiin
+3794;4038;sea;6123;-1;-1;-1;-1;;Larsius River Bridge
+1803;388;sea;4698;-1;-1;-1;-1;;Reed River Bridge
+3210;5542;sea;6183;-1;-1;-1;-1;;Silverfish River Bridge 1
+3963;3962;sea;6138;-1;-1;-1;-1;;Silverfish River Bridge 2
+4300;2908;sea;216;-1;-1;-1;-1;;Panther River Bridge
+4490;6194;sea;6799;-1;-1;-1;-1;;Imperial City Waterfront Bridge
+5807;1288;sea;6798;-1;-1;-1;-1;;White Rose River Bridge 1
+1288;5854;sea;6800;-1;-1;-1;-1;;White Rose River Bridge 2
 -1;-1;;-1;-1;-1;-1;-1;-1

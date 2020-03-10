@@ -14,30 +14,6 @@ state={
 		victory_points = {
 			4201 2
 		}
-		victory_points = {
-			6142 1
-		}
-		victory_points = {
-			2493 1
-		}
-		victory_points = {
-			2504 1
-		}
-		victory_points = {
-			5168 1
-		}
-		victory_points = {
-			5169 1
-		}
-		victory_points = {
-			5197 1
-		}
-		victory_points = {
-			2501 1
-		}
-		victory_points = {
-			2500 1
-		}
 		buildings = {
 
 		}
