@@ -1,0 +1,22 @@
+
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = ANQ
+		buildings = {
+
+		}
+		add_core_of = ANQ
+
+	}
+
+	provinces={
+		35 36 1534 1646 1699 1700 1838 1839 1840 1841 1842 4894 6025 
+	}
+	manpower=148
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

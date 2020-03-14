@@ -1,0 +1,24 @@
+state={
+	id=172
+	name="STATE_172"
+	
+	history={
+		owner = PEL
+		victory_points = {
+			5762 1
+		}
+		buildings = {
+		    infrastructure = 2
+
+		}
+		add_core_of = PEL
+
+	}
+	
+	provinces={
+		626 1448 1449 1450 3039 3040 3041 3042 3806 4157 4368 5762 13460 
+	}
+	manpower=1382
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

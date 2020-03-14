@@ -24,7 +24,6 @@ ideas = {
 			modifier = {
 				foreign_subversive_activites = -0.50
 				subversive_activites_upkeep = -0.25
-				partisan_effect = 0.25
 			}
 		}
 	}

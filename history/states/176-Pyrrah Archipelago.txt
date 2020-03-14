@@ -1,0 +1,28 @@
+state={
+	id=176
+	name="STATE_176"
+	
+	history={
+		owner = PYD
+		victory_points = {
+			3625 5
+		}
+		buildings = {
+		    infrastructure = 2
+			3625 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = PYD
+
+	}
+	
+	provinces={
+		2242 2243 2591 2699 2700 2701 2702 3623 3624 3625 3626 3854 3890 4120 4755 4756 5371 5583 6053 13533 
+	}
+	manpower=6129
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

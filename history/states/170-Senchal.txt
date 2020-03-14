@@ -1,0 +1,31 @@
+state={
+	id=170
+	name="STATE_170"
+	
+	history={
+		owner = PEL
+		victory_points = {
+			13506 5
+		}
+		victory_points = {
+			1746 2
+		}
+		buildings = {
+		    infrastructure = 5
+			13506 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = PEL
+
+	}
+	
+	provinces={
+		331 332 333 1744 1745 1746 3439 3622 4822 5483 13506 
+	}
+	manpower=10223
+	buildings_max_level_factor=1.000
+	state_category=town
+}

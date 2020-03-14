@@ -1,19 +1,36 @@
+
 state={
 	id=46
 	name="STATE_46"
-	
+
 	history={
 		owner = PYD
+		victory_points = {
+			1486 5
+		}
+		victory_points = {
+			13527 5
+		}
 		buildings = {
+			infrastructure = 3
+			1486 = {
+				naval_base = 2
+
+			}
+			13527 = {
+				naval_base = 3
+
+			}
 
 		}
 		add_core_of = PYD
 
 	}
-	
+
 	provinces={
-		1485 1486 1487 1488 1489 1490 1491 1492 2250 2251 2252 2253 2505 2587 2588 2658 2659 2721 2722 2723 4247 4878 5458 5967 
+		1485 1486 1487 1488 1489 2250 2251 2252 2253 2587 2659 2721 2722 2723 5458 6057 13526 13527 
 	}
-	manpower=0
+	manpower=12178
 	buildings_max_level_factor=1.000
+	state_category=town
 }

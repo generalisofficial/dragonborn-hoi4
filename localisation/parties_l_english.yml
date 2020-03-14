@@ -1,18 +1,4 @@
 ﻿l_english:
- ALD_jingoist_party:0 "Thalmor"
- ALD_pragmatic_party:0 "Arpena"
- ALD_isolationist_party:0 "Children of the Oath"
- HAM_internationalist_party:0 "Forebears"
- HAM_pragmatic_party:0 "Forebears"
- HAM_isolationist_party:0 "Crowns"
- HAM_jingoist_party:0 "Crowns"
- SKY_isolationist_party:0 "Stormcloaks"
- CYR_internationalist_party:0 "Mede Dynasty"
- CYR_pragmatic_party:0 "Mede Dynasty"
- CYR_isolationist_party:0 "Mede Dynasty"
- CYR_jingoist_party:0 "Mede Dynasty"
- BLM_jingoist_party:0 "An-Xileel"
- REA_jingoist_party:0 "Reachmen"
  pragmatic:0 "Pragmatic"
  pragmatic_desc:0 "Autocratic"
  pragmatic_noun:0 "Pragmatic"
@@ -33,3 +19,29 @@
  internationalist_ideology_desc:0 "This nation is dominated by the Internationalist faction."
  isolationist_ideology:0 "Isolationist"
  isolationist_ideology_desc:0 "This nation is dominated by the Isolationist faction."
+ 
+ #ALD
+ ALD_pragmatic_party:0 "Arpena"
+ ALD_isolationist_party:0 "Children of the Oath"
+ ALD_jingoist_party:0 "Thalmor"
+ 
+ #BLM
+ BLM_jingoist_party:0 "An-Xileel"
+ 
+ #CYR
+ CYR_internationalist_party:0 "Mede Dynasty"
+ CYR_pragmatic_party:0 "Mede Dynasty"
+ CYR_isolationist_party:0 "Mede Dynasty"
+ CYR_jingoist_party:0 "Mede Dynasty"
+ 
+ #HAM
+ HAM_internationalist_party:0 "Forebears"
+ HAM_pragmatic_party:0 "Forebears"
+ HAM_isolationist_party:0 "Crowns"
+ HAM_jingoist_party:0 "Crowns"
+ 
+ #REA
+ REA_jingoist_party:0 "Reachmen"
+ 
+ #SKY
+ SKY_isolationist_party:0 "Stormcloaks"

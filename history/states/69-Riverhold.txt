@@ -1,19 +1,28 @@
+
 state={
 	id=69
 	name="STATE_69"
-	
+
 	history={
 		owner = ANQ
+		victory_points = {
+			13524 5
+		}
+		victory_points = {
+			6002 2
+		}
 		buildings = {
+		    infrastructure = 3
 
 		}
 		add_core_of = ANQ
-		
+
 	}
-	
+
 	provinces={
-		625 628 629 630 631 632 633 1532 3749 3750 4276 4694 5076 5777 
+		135 1971 1972 1976 3303 3304 3541 3611 3612 3613 3614 5805 5920 6002 13521 13522 13523 13524 13525 
 	}
-	manpower=0
+	manpower=8167
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

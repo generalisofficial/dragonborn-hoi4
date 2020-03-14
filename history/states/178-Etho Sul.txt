@@ -1,0 +1,24 @@
+state={
+	id=178
+	name="STATE_178"
+	
+	history={
+		owner = PYD
+		victory_points = {
+			5585 2
+		}
+		buildings = {
+		    infrastructure = 2
+
+		}
+		add_core_of = PYD
+
+	}
+	
+	provinces={
+		1058 1059 1061 4737 5585 
+	}
+	manpower=2761
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -233,7 +233,7 @@ leader_traits = {
 	queen_of_the_people = {
 		random = no
 		war_support_factor = 0.1
-		partisan_effect = 0.25
+		resistance_target_on_our_occupied_states = 0.25
 	}
 
 	popular_figurehead = {
@@ -266,7 +266,7 @@ leader_traits = {
 	
 	prince_of_terror = {
 		sprite = 13
-		enemy_partisan_effect = -0.25
+		resistance_damage_to_garrison = -0.25 
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
 		
@@ -423,7 +423,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		enemy_partisan_effect = -0.25
+		resistance_damage_to_garrison = -0.25 
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
 		

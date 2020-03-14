@@ -1,4 +1,6 @@
 continents = {
     tamriel
     akavir
+	pyandonea
+	atmora
 }

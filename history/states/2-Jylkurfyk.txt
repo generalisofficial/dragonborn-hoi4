@@ -6,7 +6,7 @@ state={
 	history={
 		owner = JLF
 		victory_points = {
-			1118 3
+			1118 3 
 		}
 		buildings = {
 
@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1118 
+		1118 5851 
 	}
-	manpower=293 
+	manpower=293
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

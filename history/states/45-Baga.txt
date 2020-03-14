@@ -1,19 +1,28 @@
+
 state={
 	id=45
 	name="STATE_45"
-	
+
 	history={
 		owner = PYD
+		victory_points = {
+			13528 5
+		}
+		victory_points = {
+			1492 2
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = PYD
 
 	}
-	
+
 	provinces={
-		1493 1494 2242 2243 2591 2614 2833 2834 2835 2836 2837 2838 2898 2899 2900 4088 4228 5236 5237 5238 5239 5553 5554 5651 5742 5913 6053 
+		1490 1491 1492 1493 1494 2505 2614 2658 2833 2834 2835 2836 2837 2838 2898 2899 2900 4088 4228 4247 5236 5237 5238 5239 5553 5554 5651 5742 5913 5967 13528 
 	}
-	manpower=0
+	manpower=8915
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
