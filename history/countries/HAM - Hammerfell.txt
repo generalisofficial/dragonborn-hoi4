@@ -12,10 +12,7 @@ add_ideas = {
     idea_redguard
 }
 
-set_cosmetic_tag = HAM_IMPERIAL
-
 4201.1.1 = {
-    drop_cosmetic_tag = yes
 	leave_faction = yes
 }
 

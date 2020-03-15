@@ -8,8 +8,6 @@ set_technology = {
 
 set_convoys = 10
 
-set_cosmetic_tag = HRK_IMPERIAL
-
 add_ideas = {
     idea_breton
 }

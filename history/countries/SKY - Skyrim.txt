@@ -11,8 +11,6 @@ add_ideas = {
     idea_nord
 }
 
-set_cosmetic_tag = SKY_IMPERIAL
-
 4201.1.1 = {
 	give_guarantee = WTR
 }

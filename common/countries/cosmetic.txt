@@ -1,16 +1,1 @@
 #reload countrycolors
-
-SKY_IMPERIAL = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
-}
-
-HAM_IMPERIAL = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
-}
-
-HRK_IMPERIAL = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
-}
