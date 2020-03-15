@@ -1,0 +1,36 @@
+﻿capital = 123
+
+oob = "ORS_4171"
+
+set_technology = {
+
+}
+set_convoys = 5
+
+add_ideas = {
+    idea_orsimer
+}
+
+set_politics = {	
+	ruling_party = isolationist
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 1
+    isolationist = 61
+    pragmatic = 21
+    jingoist = 17
+}
+
+create_country_leader = {
+	name = "Bughbash gro-Orsinium"
+	picture = "Bughbash_gro_Orsinium.dds"
+	ideology = isolationist_ideology
+	traits = {
+	    stout_defender
+		cornered_fox
+	}
+}

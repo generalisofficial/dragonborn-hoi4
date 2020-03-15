@@ -174,3 +174,8 @@ ESR = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+
+ORS = {
+	color = rgb { 182 142 109 }
+	color_ui = rgb { 182 142 109 }
+}

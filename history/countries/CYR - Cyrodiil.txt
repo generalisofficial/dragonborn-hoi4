@@ -38,33 +38,25 @@ set_popularities = {
     jingoist = 0
 }
 
-#Elder Council
-#set_variable = { var = elder_council_support value = 65 }
-#set_variable = { var = elder_council_total value = 96 }
-#set_variable = { var = quorum_low value = 39 }
-#set_variable = { var = quorum_medium value = 49 }
-#set_variable = { var = quorum_high value = 58 }
-#recalc_elder_council_icon_frames = yes
-
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
 		target = SKY
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
 		target = HRK
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
 		target = HAM
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
 		target = ESR
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_imperial_protectorate
 	}
 	else = {
 		puppet = SKY
