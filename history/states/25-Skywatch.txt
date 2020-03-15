@@ -6,9 +6,20 @@ state={
 	history={
 		owner = ALD
 		victory_points = {
-			5800 5
+		    13541 5 
+		}
+		victory_points = {
+		    5354 2
+		}
+		victory_points = {
+		    6003 2
 		}
 		buildings = {
+		    infrastructure = 3
+			13541  = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = ALD
@@ -16,9 +27,9 @@ state={
 	}
 
 	provinces={
-		1519 1520 1521 1522 1523 1524 4196 4197 4198 4199 5033 5354 5800 
+		1517 1518 1519 1520 1521 1522 1523 1524 2984 4196 4197 4198 4199 5033 5354 5800 6003 13541 
 	}
-	manpower=8729
+	manpower=7729
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

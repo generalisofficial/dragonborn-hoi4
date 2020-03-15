@@ -6,9 +6,17 @@ state={
 	history={
 		owner = ALD
 		victory_points = {
-			5503 6
+			5503 5 
+		}
+		victory_points = {
+			1630 2
 		}
 		buildings = {
+		    infrastructure = 4
+			5503  = {
+				naval_base = 3
+
+			}
 
 		}
 		add_core_of = ALD
@@ -16,7 +24,7 @@ state={
 	}
 
 	provinces={
-		226 227 228 552 553 554 555 815 816 817 1629 1630 1631 1632 2945 4761 5373 5374 5393 5503 6063 
+		226 227 228 552 553 554 555 815 816 817 1629 1630 1631 1632 2945 4761 5373 5374 5393 5503 6063 13542 
 	}
 	manpower=11752
 	buildings_max_level_factor=1.000

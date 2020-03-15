@@ -42,7 +42,7 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Together for Victory"
-		original_tag = CYR
+		OVERLORD = { original_tag = CYR }
 	}
 	
 	can_take_level = {

@@ -6,19 +6,26 @@ state={
 	history={
 		owner = ALD
 		victory_points = {
-			2138 15
+			13540 20
+		}
+		victory_points = {
+			4689 2
 		}
 		buildings = {
+		    infrastructure = 6
+			13540  = {
+				naval_base = 5
 
+			}
 		}
 		add_core_of = ALD
 
 	}
 
 	provinces={
-		2138 2139 2140 3402 3403 3494 3495 3496 3539 3540 4343 4404 4405 4406 4407 4408 4409 4689 4865 4866 5151 5320 5321 5349 5356 5628 5872 5873 5896 6004 
+		2138 2139 2140 2475 3402 3403 3494 3495 3496 3498 3539 3540 4343 4404 4405 4406 4407 4408 4409 4689 4865 4866 5151 5320 5321 5349 5356 5628 5722 5872 5873 5896 6004 13540 
 	}
-	manpower=74618
+	manpower=64618
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

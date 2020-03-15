@@ -1,6 +1,6 @@
 version="0.1"
 name="Dragonborn"
-path="mod/elderscrolls4/"
+path="mod/dragonborn-hoi4/"
 supported_version="1.9.1"
 tags={
 	"Alternative History"
