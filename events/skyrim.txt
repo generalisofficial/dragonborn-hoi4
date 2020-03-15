@@ -1,0 +1,30 @@
+﻿add_namespace = skyrim
+
+country_event = {
+	id = skyrim.1
+	title = skyrim.1.t
+	desc = skyrim.1.d
+	
+	trigger = {
+		original_tag = SKY
+		date > 4190.1.1
+		date < 4201.1.1
+		has_country_leader = { ruling_only = yes name = "Istlod" }
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = skyrim.1.a
+		create_country_leader = {
+	        name = "Torygg"
+	        picture = "Torygg.dds"
+	        ideology = internationalist_ideology
+			traits = {
+	            humble
+	        }
+        }
+	}
+}

@@ -37,24 +37,6 @@ create_country_leader = {
 	ideology = internationalist_ideology
 }
 
-create_country_leader = {
-	name = "Istlod"
-	picture = "Istlod.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
-	name = "Istlod"
-	picture = "Istlod.dds"
-	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Istlod"
-	picture = "Istlod.dds"
-	ideology = jingoist_ideology
-}
-
 create_field_marshal = {
 	name = "Jonna"
 	picture = "Jonna.dds"
