@@ -16,17 +16,6 @@ excavations = {
 	}
 }
 
-elder_council = {
-	icon = elder_council
-	allowed = {
-		original_tag = CYR
-	}
-
-	scripted_gui = elder_council_decision_ui	
-
-	priority = 85
-}
-
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 
