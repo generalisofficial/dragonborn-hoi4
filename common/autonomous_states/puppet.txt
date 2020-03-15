@@ -38,7 +38,10 @@ autonomy_state = {
 	}
 
 	allowed = {
-	
+	   	if = {
+		    has_dlc = "Together for Victory"
+		    NOT = { original_tag = CYR }
+		}
 	}
 
 	#ROOT is puppet - FROM is potential OVERLORD
