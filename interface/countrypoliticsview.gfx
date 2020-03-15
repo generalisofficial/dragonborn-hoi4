@@ -407,8 +407,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_pragmatist_group"
-		texturefile = "gfx/interface/ideologies/pragmatist_group.dds"
+		name = "GFX_ideology_pragmatic_group"
+		texturefile = "gfx/interface/ideologies/pragmatic_group.dds"
 	}
 	
 	spriteType = {
