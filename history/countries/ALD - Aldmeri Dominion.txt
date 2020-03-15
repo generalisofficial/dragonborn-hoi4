@@ -43,26 +43,16 @@ if = {
 	}
 }
 
-#create_country_leader = {
-#	name = "LEADER"
-#	picture = "LEADER.dds"
-#	ideology = internationalist_ideology
-#}
+create_field_marshal = {
+	name = "Naarifin"
+	picture = "Naarifin.dds"
+	traits = { }
+	skill = 3
+}
 
-#create_country_leader = {
-#	name = "LEADER"
-#	picture = "LEADER.dds"
-#	ideology = pragmatic_ideology
-#}
-
-#create_country_leader = {
-#	name = "LEADER"
-#	picture = "LEADER.dds"
-#	ideology = isolationist_ideology
-#}
-
-#create_country_leader = {
-#	name = "LEADER"
-#	picture = "LEADER.dds"
-#	ideology = jingoist_ideology
-#}
+create_field_marshal = {
+	name = "Arannelya"
+	picture = "Arannelya.dds"
+	traits = { }
+	skill = 2
+}
