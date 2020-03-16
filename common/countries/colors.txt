@@ -171,11 +171,26 @@ NZB = {
 }
 
 ESR = {
-	color = rgb { 255 0 0 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb { 222 198 43 }
+	color_ui = rgb { 222 198 43 }
 }
 
 ORS = {
 	color = rgb { 182 142 109 }
 	color_ui = rgb { 182 142 109 }
+}
+
+YSL = {
+	color = rgb { 243 132 217 }
+	color_ui = rgb { 243 132 217 }
+}
+
+CTQ = {
+	color = rgb { 22 91 84 }
+	color_ui = rgb { 22 91 84 }
+}
+
+TRS = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
 }

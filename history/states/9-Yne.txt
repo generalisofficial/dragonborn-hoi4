@@ -1,0 +1,29 @@
+
+state={
+	id=9
+	name="STATE_9"
+
+	history={
+		owner = ESR
+		victory_points = {
+			2963 3
+		}
+		buildings = {
+		    infrastructure = 3
+			2963 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = YSL
+
+	}
+
+	provinces={
+		2963 2964 2965 2966 2967 2968 4064 4065 4066 4438 4439 4982 4983 5440 
+	}
+	manpower=5983
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

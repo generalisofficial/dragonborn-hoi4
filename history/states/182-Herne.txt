@@ -1,0 +1,21 @@
+state={
+	id=182
+	name="STATE_182"
+	
+	history={
+		owner = HAM
+		buildings = {
+		    infrastructure = 2
+
+		}
+		add_core_of = HAM
+
+	}
+	
+	provinces={
+		13563 13564 13565 
+	}
+	manpower=1867
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,25 @@
+state={
+	id=180
+	name="STATE_180"
+	
+	history={
+		owner = ESR
+		victory_points = {
+			4344 1
+		}
+		buildings = {
+		    infrastructure = 2
+
+		}
+		add_core_of = YSL
+
+	}
+
+
+	provinces={
+		4344 4345 5183 5184 5394 5704 13551 13552 13553 13554 
+	}
+	manpower=2161
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -4,17 +4,26 @@ state={
 	name="STATE_6"
 
 	history={
-		owner = CYR
+		owner = ESR
+		victory_points = {
+			1001 3
+		}
 		buildings = {
+		    infrastructure = 3
+			1001 = {
+				naval_base = 3
+
+			}
 
 		}
-		add_core_of = CYR
+		add_core_of = CTQ
 
 	}
 
 	provinces={
-		218 418 419 420 421 422 423 424 999 1000 1001 2946 2947 2948 4226 5071 5072 5179 5384 5609 5723 5840 
+		218 418 419 420 421 422 423 424 999 1000 1001 2946 2947 2948 4226 5071 5072 5179 5384 5609 5723 5840 13545 13546 13547 
 	}
-	manpower=0
+	manpower=7212
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
