@@ -73,4 +73,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13560;13559;sea;10257;-1;-1;-1;-1;;Thras
 13557;13559;sea;12160;-1;-1;-1;-1;;Thras
 13557;13555;sea;12172;-1;-1;-1;-1;;Thras
+13570;4999;sea;6572;-1;-1;-1;-1;;Daggerfall-Betony
+13582;5757;sea;9526;-1;-1;-1;-1;;Balfiera-Camlorn
+13582;5431;sea;8429;-1;-1;-1;-1;;Balfiera-Wayrest
 -1;-1;;-1;-1;-1;-1;-1;-1

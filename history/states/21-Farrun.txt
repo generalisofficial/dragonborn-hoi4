@@ -1,0 +1,29 @@
+
+state={
+	id=21
+	name="STATE_21"
+
+	history={
+		owner = HRK
+		victory_points = {
+			13598 5
+		}
+		buildings = {
+		    infrastructure = 3
+			13598 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = HRK
+
+	}
+
+	provinces={
+		2978 2979 3842 3843 3844 4928 5229 5230 13592 13593 13594 13598 
+	}
+	manpower=6367
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -6,9 +6,17 @@ state={
 	history={
 		owner = HRK
 		victory_points = {
-			2719 10
+			2719 10 
+		}
+		victory_points = {
+			4601 2 
 		}
 		buildings = {
+			infrastructure = 5
+			2719 = {
+				naval_base = 5
+
+			}
 
 		}
 		add_core_of = HRK
@@ -16,9 +24,9 @@ state={
 	}
 
 	provinces={
-		868 869 870 871 2095 2719 2720 4362 4601 4602 4603 4895 4999 5000 5073 5074 5410 5528 
+		868 2719 2720 4362 4601 4602 4603 4895 4999 5000 5073 5074 5528 13571 13572 13573 13574 13575 13576 13577 13578 13579 
 	}
-	manpower=49040
+	manpower=24189
 	buildings_max_level_factor=1.000
 	state_category=city
 }

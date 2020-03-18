@@ -1,0 +1,27 @@
+state={
+	id=184
+	name="STATE_184"
+	
+	history={
+		owner = HRK
+		victory_points = {
+			1034 5
+		}
+		victory_points = {
+			1567 2
+		}
+		buildings = {
+		    infrastructure = 3
+
+		}
+		add_core_of = HRK
+
+	}
+	
+	provinces={
+		1034 1035 1566 1567 1568 2052 2053 2054 2055 3592 5164 5675 
+	}
+	manpower=9285
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

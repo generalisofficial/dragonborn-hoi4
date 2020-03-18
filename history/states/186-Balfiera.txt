@@ -1,0 +1,28 @@
+state={
+	id=186
+	name="STATE_186"
+	
+	history={
+		owner = HRK
+		victory_points = {
+			13582 2
+		}
+		buildings = {
+			infrastructure = 3
+			13582 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = HRK
+
+	}
+	
+	provinces={
+		13582 
+	}
+	manpower=5098
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}
