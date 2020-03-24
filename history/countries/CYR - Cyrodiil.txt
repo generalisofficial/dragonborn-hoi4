@@ -66,6 +66,16 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_intelligence_agency = {
+  		name = "Penitus Oculatus"
+ 		icon = "GFX_intelligence_agency_logo_cyr"
+	}
+}
+
 create_country_leader = {
 	name = "Titus Mede II"
 	picture = "Titus_Mede_II.dds"

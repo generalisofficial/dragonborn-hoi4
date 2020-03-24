@@ -1,0 +1,30 @@
+
+state={
+	id=187
+	name="STATE_187"
+
+	history={
+		owner = ALD
+		victory_points = {
+			13601 5
+		}
+		buildings = {
+			infrastructure = 3
+			13601 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = ALD
+		add_core_of = VAL
+
+	}
+
+	provinces={
+		1021 1022 1023 2017 2450 2451 2452 2453 2454 2455 3204 3289 3290 3434 3435 3436 4326 4327 4494 4495 4774 4775 4776 4800 5137 5138 5654 5682 5788 5789 6079 6120 13601 
+	}
+	manpower=8786
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

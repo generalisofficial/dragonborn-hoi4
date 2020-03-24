@@ -169,6 +169,10 @@ ideologies = {
 		
 		modifiers = {
 		    min_export = 0
+			internationalist_acceptance = -100
+			pragmatic_acceptance = -100
+			isolationist_acceptance = -100
+			jingoist_acceptance = -85
 		}
 		
 		modifiers = {

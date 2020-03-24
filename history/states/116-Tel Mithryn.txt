@@ -10,9 +10,9 @@ state={
 		buildings = {
 
 		}
+		add_core_of = SKL
 		add_core_of = TEL
-		add_claim_by = DRG
-		add_claim_by = RED
+		add_core_of = RED
 
 	}
 	

@@ -29,9 +29,9 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    isolationist = 100
+    isolationist = 91
     pragmatic = 0
-    jingoist = 0
+    jingoist = 9
 }
 
 create_country_leader = {
@@ -41,28 +41,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Brunwulf Free-Winter"
-	picture = "Brunwulf_Free_Winter.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
 	name = "Ulfric Stormcloak"
 	picture = "Ulfric_Stormcloak.dds"
 	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Ulfric Stormcloak"
-	picture = "Ulfric_Stormcloak.dds"
-	ideology = jingoist_ideology
+	traits = {
+	    great_war_hero
+	}
 }
 
 4201.1.1 = {
     create_field_marshal = {
 	    name = "Galmar Stone-Fist"
 	    picture = "Galmar_Stone_Fist.dds"
-	    traits = { }
+	    traits = { great_war_hero }
 	    skill = 2
     }
     create_corps_commander = {

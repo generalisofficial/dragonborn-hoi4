@@ -4,21 +4,23 @@ state={
 	name="STATE_122"
 
 	history={
-		owner = DRG
+		owner = SKL
 		victory_points = {
 			4040 2 
+		}
+		victory_points = {
+			3583 1 
 		}
 		buildings = {
 
 		}
-		add_core_of = DRG
-		add_claim_by = TEL
+		add_core_of = SKL
 		add_claim_by = RED
 
 	}
 
 	provinces={
-		3583 4039 4040 4041 4115 4116 
+		3583 4039 4040 4041 4115 4116 13606 13607 
 	}
 	manpower=1092
 	buildings_max_level_factor=1.000

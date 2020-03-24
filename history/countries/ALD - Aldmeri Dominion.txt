@@ -43,6 +43,25 @@ if = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_intelligence_agency = {
+  		name = "Justiciars"
+ 		icon = "GFX_intelligence_agency_logo_ald"
+	}
+}
+
+create_country_leader = {
+	name = "Corriiel Elsinor"
+	picture = "Corriiel_Elsinor.dds"
+	ideology = jingoist_ideology
+	traits = {
+	    autocratic_imperialist
+	}
+}
+
 create_field_marshal = {
 	name = "Naarifin"
 	picture = "Naarifin.dds"

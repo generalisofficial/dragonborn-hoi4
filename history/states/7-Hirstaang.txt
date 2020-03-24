@@ -4,17 +4,18 @@ state={
 	name="STATE_7"
 
 	history={
-		owner = DRG
+		owner = RED
 		victory_points = {
-			2367 3
+			2367 2
+		}
+		victory_points = {
+			4647 1
 		}
 		buildings = {
 
 		}
-		add_core_of = DRG
-		add_claim_by = TEL
-		add_claim_by = RED
-
+		add_core_of = SKL
+		add_core_of = RED
 	}
 
 	provinces={

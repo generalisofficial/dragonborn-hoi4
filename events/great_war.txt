@@ -8,14 +8,15 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "Accept"
+		name = great_war.1.a
+		add_country_leader_trait = appeaser
 		ALD = { country_event = great_war.3 }
-		add_political_power = -1000
 		remove_ideas = idea_blades
 	}
 	
 	option = {
-		name = "Reject"
+		name = great_war.1.b
+		add_country_leader_trait = indomitable_perseverance
 		ALD = { country_event = great_war.2 }
 	}
 }
@@ -28,7 +29,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "Alinor shall prevail!"
+		name = great_war.2.a
 		declare_war_on = { target = CYR type = annex_everything }
 	}
 }
@@ -41,12 +42,8 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "Did they really just.."
-		add_political_power = 1000
-		transfer_state = 35
-		transfer_state = 32
-		transfer_state = 124
-		CYR = { country_event = great_war.4 }
+		name = great_war.3.a
+		HAM = { country_event = great_war.4 }
 	}
 }
 
@@ -58,8 +55,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "We wish them luck!"
-		end_puppet = HAM
-		HAM = { drop_cosmetic_tag = yes }
+		ALD = { country_event = great_war.5 }
+	}
+	
+	option = {
+		ALD = { country_event = great_war.6 }
 	}
 }

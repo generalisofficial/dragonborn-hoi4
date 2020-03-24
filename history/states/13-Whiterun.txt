@@ -22,11 +22,6 @@ state={
 		}
 		add_core_of = SKY
 		add_core_of = WTR
-		4201.1.1 = {
-			add_core_of = ESM
-			owner = WTR
-
-		}
 
 	}
 

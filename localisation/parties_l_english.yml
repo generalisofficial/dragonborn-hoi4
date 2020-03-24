@@ -45,3 +45,7 @@
  
  #SKY
  SKY_isolationist_party:0 "Stormcloaks"
+ 
+ #SKL
+ SKL_isolationist_party:0 "Skaal"
+ SKL_jingoist_party:0 "Thirsk"

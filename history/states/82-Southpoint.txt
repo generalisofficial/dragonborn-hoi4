@@ -1,0 +1,33 @@
+
+state={
+	id=82
+	name="STATE_82"
+
+	history={
+		owner = ALD
+		victory_points = {
+			13599 5
+		}
+		victory_points = {
+			1740 2
+		}
+		buildings = {
+			infrastructure = 3
+			13599 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ALD
+		add_core_of = VAL
+
+	}
+
+	provinces={
+		138 139 1609 1610 1611 1740 2400 2401 2402 3621 4221 4477 4840 5515 5907 5908 5984 5995 6080 6081 13599 
+	}
+	manpower=7021
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

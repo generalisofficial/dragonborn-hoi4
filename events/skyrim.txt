@@ -1,5 +1,6 @@
 ﻿add_namespace = skyrim
 
+#Death of High King Istlod
 country_event = {
 	id = skyrim.1
 	title = skyrim.1.t
@@ -26,5 +27,73 @@ country_event = {
 	            humble
 	        }
         }
+	}
+}
+
+#Ulfric Stormcloak challenges High King Torygg
+country_event = {
+	id = skyrim.2
+	title = skyrim.2.t
+	desc = skyrim.2.d
+	
+	trigger = {
+		original_tag = SKY
+		is_subject_of = CYR
+		date > 4201.2.1
+		has_idea = idea_white_gold_concordat
+		has_country_leader = { ruling_only = yes name = "Torygg" }
+	}
+
+	mean_time_to_happen = {
+		days = 50
+	}
+	
+	option = {
+		name = skyrim.2.a
+		country_event = skyrim.3
+	}
+}
+
+#Stormcloak Rebellion
+country_event = {
+	id = skyrim.3
+	title = skyrim.3.t
+	desc = skyrim.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = skyrim.3.a
+		SKY = {
+            every_owned_state = {
+                add_core_of = ESM
+            }
+        }
+		ESM = {
+		    set_cosmetic_tag = ESM_STORMCLOAK
+			transfer_state = 16
+			declare_war_on = {
+	            target = SKY
+	            type = civil_war
+            }
+		}
+	}
+	
+	option = {
+		name = skyrim.3.b
+		SKY = {
+            every_owned_state = {
+                add_core_of = ESM
+            }
+        }
+		ESM = {
+		    change_tag_from = ROOT
+		    set_cosmetic_tag = ESM_STORMCLOAK
+			transfer_state = 16
+			declare_war_on = {
+	            target = SKY
+	            type = civil_war
+            }
+		}
 	}
 }

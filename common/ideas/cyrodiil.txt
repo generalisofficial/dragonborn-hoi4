@@ -9,8 +9,21 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			
+			cancel = {
+			    OR = {
+			        NOT = {
+				        OR = {
+					        original_tag = CYR
+						    is_subject_of = CYR
+					    }
+			        }
+					has_war_with = ALD
+				}
+			}
+			
 			modifier = {
-				stability_factor = -0.3
+				stability_factor = -0.2
+				war_support_factor = -0.2
 			}
 		}
 		
