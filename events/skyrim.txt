@@ -50,7 +50,7 @@ country_event = {
 	
 	option = {
 		name = skyrim.2.a
-		country_event = skyrim.3
+		country_event = skyrim.4
 	}
 }
 
@@ -65,16 +65,34 @@ country_event = {
 	option = {
 		name = skyrim.3.a
 		SKY = {
+		    add_civil_war_generals_sky = yes
             every_owned_state = {
                 add_core_of = ESM
             }
         }
 		ESM = {
 		    set_cosmetic_tag = ESM_STORMCLOAK
+			add_civil_war_generals_esm = yes
 			transfer_state = 16
 			declare_war_on = {
 	            target = SKY
 	            type = civil_war
+            }
+			create_country_leader = {
+	            name = "Ulfric Stormcloak"
+	            picture = "Ulfric_Stormcloak.dds"
+	            ideology = isolationist_ideology
+	            traits = {
+	                great_war_hero
+	            }
+            }
+	        create_country_leader = {
+	            name = "Galmar Stone-Fist"
+	            picture = "Galmar_Stone_Fist.dds"
+	            ideology = jingoist_ideology
+	            traits = {
+	                great_war_hero
+	            }
             }
 		}
 	}
@@ -82,6 +100,7 @@ country_event = {
 	option = {
 		name = skyrim.3.b
 		SKY = {
+		    add_civil_war_generals_sky = yes
             every_owned_state = {
                 add_core_of = ESM
             }
@@ -89,11 +108,98 @@ country_event = {
 		ESM = {
 		    change_tag_from = ROOT
 		    set_cosmetic_tag = ESM_STORMCLOAK
+			add_civil_war_generals_esm = yes
 			transfer_state = 16
+			transfer_state = 18
+			transfer_state = 17
+			transfer_state = 15
 			declare_war_on = {
 	            target = SKY
 	            type = civil_war
             }
+			create_country_leader = {
+	            name = "Ulfric Stormcloak"
+	            picture = "Ulfric_Stormcloak.dds"
+	            ideology = isolationist_ideology
+	            traits = {
+	                great_war_hero
+	            }
+            }
+	        create_country_leader = {
+	            name = "Galmar Stone-Fist"
+	            picture = "Galmar_Stone_Fist.dds"
+	            ideology = jingoist_ideology
+	            traits = {
+	                great_war_hero
+	            }
+            }
 		}
+	}
+}
+
+#General Tullius arrives in Solitude
+country_event = {
+	id = skyrim.4
+	title = skyrim.4.t
+	desc = skyrim.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = skyrim.4.a
+		create_country_leader = {
+	        name = "Tullius"
+	        picture = "Tullius.dds"
+	        ideology = internationalist_ideology
+	        traits = {
+	            genial_anti_revolutionary
+	        }
+        }
+		country_event = skyrim.3
+	}
+}
+
+#The Moot
+country_event = {
+	id = skyrim.5
+	title = skyrim.5.t
+	desc = skyrim.5.d
+	
+	trigger = {
+		original_tag = SKY
+		date > 4201.1.1
+		ESM = { exists = no }
+		has_war = no
+		owns_state = 16
+		owns_state = 10
+		has_country_leader = { ruling_only = yes name = "Tullius" }
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = skyrim.5.a
+		create_country_leader = {
+	        name = "Elisif"
+	        picture = "Elisif.dds"
+	        ideology = internationalist_ideology
+	        traits = {
+	            humble
+				popular_queen
+	        }
+        }
+	}
+	option = {
+		name = skyrim.5.b
+		trigger = {
+            has_global_flag = dragonborn_high_king
+	    }
+		create_country_leader = {
+	        name = "Last Dragonborn"
+	        picture = "Last_Dragonborn.dds"
+	        ideology = internationalist_ideology
+        }
 	}
 }

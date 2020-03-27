@@ -1,5 +1,6 @@
 ﻿add_namespace = great_war
 
+#Aldmeri Ultimatum to the Emperor
 country_event = {
 	id = great_war.1
 	title = great_war.1.t
@@ -9,18 +10,25 @@ country_event = {
 	
 	option = {
 		name = great_war.1.a
+		ai_chance = {
+			factor = 15
+		}
 		add_country_leader_trait = appeaser
-		ALD = { country_event = great_war.3 }
+		HAM = { country_event = great_war.3 }
 		remove_ideas = idea_blades
 	}
 	
 	option = {
 		name = great_war.1.b
+		ai_chance = {
+			factor = 85
+		}
 		add_country_leader_trait = indomitable_perseverance
 		ALD = { country_event = great_war.2 }
 	}
 }
 
+#Empire Refuses Ultimatum
 country_event = {
 	id = great_war.2
 	title = great_war.2.t
@@ -30,10 +38,12 @@ country_event = {
 	
 	option = {
 		name = great_war.2.a
-		declare_war_on = { target = CYR type = annex_everything }
+		add_war_support = 0.2
+		create_wargoal = { type = annex_everything target = CYR }
 	}
 }
 
+#Hammerfell's Response
 country_event = {
 	id = great_war.3
 	title = great_war.3.t
@@ -41,12 +51,20 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	#Accept
 	option = {
-		name = great_war.3.a
-		HAM = { country_event = great_war.4 }
+	    name = great_war.3.a
+		ALD = { country_event = great_war.4 }
+	}
+	
+	#Reject
+	option = {
+	    name = great_war.3.b
+		CYR = { country_event = great_war.7 }
 	}
 }
 
+#Empire Accepts Ultimatum
 country_event = {
 	id = great_war.4
 	title = great_war.4.t
@@ -55,10 +73,59 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		ALD = { country_event = great_war.5 }
+	    name = great_war.4.a
+		CYR = { country_event = great_war.6 }
 	}
+}
+
+#Empire Accepts Ultimatum - Hammerfell Rejects
+country_event = {
+	id = great_war.5
+	title = great_war.5.t
+	desc = great_war.5.d
+	
+	is_triggered_only = yes
 	
 	option = {
-		ALD = { country_event = great_war.6 }
+	    name = great_war.5.a
+		add_war_support = 0.05
+		create_wargoal = { type = annex_everything target = HAM }
+		CYR = { country_event = great_war.6 }
+	}
+}
+
+#Signing the White-Gold Concordat
+country_event = {
+	id = great_war.6
+	title = great_war.6.t
+	desc = great_war.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = great_war.6.a
+		add_ideas = { idea_white_gold_concordat }
+	}
+}
+
+#Hammerfell Rejects Concordat
+country_event = {
+	id = great_war.7
+	title = great_war.7.t
+	desc = great_war.7.d
+	
+	is_triggered_only = yes
+	
+	#Stand with Hammerfell
+	option = {
+	    name = great_war.6.a
+		ALD = { country_event = great_war.2 }
+	}
+	
+	#Abandon Hammerfell
+	option = {
+	    name = great_war.6.a
+		end_puppet = HAM
+		ALD = { country_event = great_war.5 }
 	}
 }

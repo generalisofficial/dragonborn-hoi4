@@ -80,24 +80,9 @@ create_country_leader = {
 	name = "Titus Mede II"
 	picture = "Titus_Mede_II.dds"
 	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "Titus Mede II"
-	picture = "Titus_Mede_II.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
-	name = "Titus Mede II"
-	picture = "Titus_Mede_II.dds"
-	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Titus Mede II"
-	picture = "Titus_Mede_II.dds"
-	ideology = jingoist_ideology
+	traits = { 
+	    unpopular_monarch
+	}
 }
 
 create_field_marshal = {

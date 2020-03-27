@@ -121,7 +121,7 @@ ideas = {
 			removal_cost = -1
 			
 			available = {
-			    has_idea = idea_khajiit
+			    has_idea = idea_redguard
 			}
 
 			modifier = {
@@ -154,6 +154,22 @@ ideas = {
 			
 			available = {
 			    has_idea = idea_argonian
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		
+		orcish_pantheon = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    has_idea = idea_orsimer
 			}
 
 			modifier = {

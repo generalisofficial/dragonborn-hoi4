@@ -1,3 +1,11 @@
+STC = {
+	original_tag = ESM
+	OR = {
+	    has_cosmetic_tag = ESM_STORMCLOAK
+		has_cosmetic_tag = ESM_STORMCLOAK_WIN
+    }
+}
+
 MOT = {
 	variable = generic_operation_target
 }

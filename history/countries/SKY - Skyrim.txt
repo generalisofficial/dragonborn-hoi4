@@ -43,90 +43,12 @@ create_field_marshal = {
 }
 
 4201.1.1 = {
-    create_country_leader = {
-	    name = "Elisif the Fair"
-	    picture = "Elisif_the_Fair.dds"
+	create_country_leader = {
+	    name = "Torygg"
+	    picture = "Torygg.dds"
 	    ideology = internationalist_ideology
-    }
-	create_country_leader = {
-	    name = "Elisif the Fair"
-	    picture = "Elisif_the_Fair.dds"
-	    ideology = pragmatic_ideology
-    }
-	create_country_leader = {
-	    name = "Elisif the Fair"
-	    picture = "Elisif_the_Fair.dds"
-	    ideology = isolationist_ideology
-     }
-    create_country_leader = {
-	    name = "Elisif the Fair"
-	    picture = "Elisif_the_Fair.dds"
-	    ideology = jingoist_ideology
-    }
-	create_field_marshal = {
-	    name = "Tullius"
-	    picture = "Tullius.dds"
-	    traits = { }
-	    skill = 3
-    }
-	create_corps_commander = {
-	    name = "Rikke"
-	    picture = "Rikke.dds"
-	    traits = { }
-	    skill = 2
-    }
-    create_corps_commander = {
-	    name = "Adventus Caesennius"
-	    picture = "Adventus_Caesennius.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Constantius Tituleius"
-	    picture = "Constantius_Tituleius.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Emmanuel Admand"
-	    picture = "Emmanuel_Admand.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Fasendil"
-	    picture = "Fasendil.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Hrollod"
-	    picture = "Hrollod.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Quentin Cipius"
-	    picture = "Quentin_Cipius.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Sevan Telendas"
-	    picture = "Sevan_Telendas.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Skulnar"
-	    picture = "Skulnar.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Taurinus Duilis"
-	    picture = "Taurinus_Duilis.dds"
-	    traits = { }
-	    skill = 1
+		traits = {
+	        humble
+	    }
     }
 }

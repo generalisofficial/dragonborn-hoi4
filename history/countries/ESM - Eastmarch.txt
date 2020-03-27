@@ -29,85 +29,24 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    isolationist = 91
+    isolationist = 88
     pragmatic = 0
-    jingoist = 9
+    jingoist = 12
 }
 
 create_country_leader = {
-	name = "Brunwulf Free-Winter"
-	picture = "Brunwulf_Free_Winter.dds"
-	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "Ulfric Stormcloak"
-	picture = "Ulfric_Stormcloak.dds"
+	name = "Hoag Stormcloak"
+	picture = "Hoag_Stormcloak.dds"
 	ideology = isolationist_ideology
-	traits = {
-	    great_war_hero
-	}
 }
 
 4201.1.1 = {
-    create_field_marshal = {
-	    name = "Galmar Stone-Fist"
-	    picture = "Galmar_Stone_Fist.dds"
-	    traits = { great_war_hero }
-	    skill = 2
-    }
-    create_corps_commander = {
-	    name = "Yrsarald Thrice-Pierced"
-	    picture = "Yrsarald_Thrice_Pierced.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Kai Wet-Pommel"
-	    picture = "Kai_Wet_Pommel.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Gonnar Oath-Giver"
-	    picture = "Gonnar_Oath_Giver.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Frorkmar Banner-Torn"
-	    picture = "Frorkmar_Banner_Torn.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Hjornskar Head-Smasher"
-	    picture = "Hjornskar_Head_Smasher.dds"
-	    traits = { }
-	    skill = 1
-    }
-	create_corps_commander = {
-	    name = "Thorygg Sun-Killer"
-	    picture = "Thorygg_Sun_Killer.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Kottir Red-Shoal"
-	    picture = "Kottir_Red_Shoal.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Arrald Frozen-Heart"
-	    picture = "Arrald_Frozen_Heart.dds"
-	    traits = { }
-	    skill = 1
-    }
-    create_corps_commander = {
-	    name = "Istar Cairn-Breaker"
-	    picture = "Istar_Cairn_Breaker.dds"
-	    traits = { }
-	    skill = 1
+    create_country_leader = {
+	    name = "Ulfric Stormcloak"
+	    picture = "Ulfric_Stormcloak.dds"
+	    ideology = isolationist_ideology
+	    traits = {
+	        great_war_hero
+	    }
     }
 }
