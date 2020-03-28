@@ -4099,4 +4099,14 @@ spriteTypes = {
 		name = "GFX_idea_companions"
 		texturefile = "gfx/interface/ideas/companions.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_altmeri_pantheon"
+		texturefile = "gfx/interface/ideas/altmeri_pantheon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_orcish_pantheon"
+		texturefile = "gfx/interface/ideas/orcish_pantheon.dds"
+	}
 }
