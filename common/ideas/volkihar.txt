@@ -14,5 +14,18 @@ ideas = {
 				land_night_attack = 0.5
 			}
 		}
+		
+		idea_tyranny_of_the_sun = {
+			picture = tyranny_of_the_sun
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.2
+				attrition = -0.1
+			}
+		}
 	}
 }
