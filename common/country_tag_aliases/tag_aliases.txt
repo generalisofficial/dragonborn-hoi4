@@ -6,6 +6,14 @@ STC = {
     }
 }
 
+ELS = {
+	has_cosmetic_tag = ELSWEYR
+}
+
+MOR = {
+	has_cosmetic_tag = MORROWIND
+}
+
 MOT = {
 	variable = generic_operation_target
 }
