@@ -78,4 +78,49 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13582;5431;sea;8429;-1;-1;-1;-1;;Balfiera-Wayrest
 5642;6196;sea;7546;-1;-1;-1;-1;;Dominion Isles
 4495;5693;sea;13471;-1;-1;-1;-1;;Silmoor River Bridge
+3787;5197;sea;6258;-1;-1;-1;-1;;Yngvild
+239;5197;sea;8404;-1;-1;-1;-1;;Yngvild
+2496;6148;sea;8433;-1;-1;-1;-1;;Winterhold-Unnamed Island
+3810;6142;sea;8436;-1;-1;-1;-1;;Winterhold-Ysgramor's Tomb
+6142;6114;sea;8436;-1;-1;-1;-1;;Ysgramor's Tomb-Unnamed Island
+6142;5168;sea;11602;-1;-1;-1;-1;;Ysgramor's Tomb-Skytemple Ruins
+6146;5168;sea;8434;-1;-1;-1;-1;;College of Winterhold-Skytemple Ruins
+6146;13647;sea;8434;-1;-1;-1;-1;;College of Winterhold-Unnamed Islands
+13647;5169;sea;8434;-1;-1;-1;-1;;Unnamed Islands-Japhet's Folly
+5460;4297;sea;13626;-1;-1;-1;-1;;Nabia River Bridge
+4299;13622;sea;6228;-1;-1;-1;-1;;Ascadian Isles
+13623;13622;sea;6267;-1;-1;-1;-1;;Ascadian Isles
+13623;6178;sea;6267;-1;-1;-1;-1;;Ascadian Isles
+559;6178;sea;6267;-1;-1;-1;-1;;Ascadian Isles
+4932;4931;sea;6268;-1;-1;-1;-1;;Ascadian Isles
+5459;4931;sea;6268;-1;-1;-1;-1;;Ascadian Isles
+13631;13632;sea;13354;-1;-1;-1;-1;;Zafirbel Isles
+5277;6161;sea;7245;-1;-1;-1;-1;;Zafirbel Isles
+6162;6161;sea;7245;-1;-1;-1;-1;;Zafirbel Isles
+1078;6168;sea;12581;-1;-1;-1;-1;;Zafirbel Isles
+13631;6164;sea;7246;-1;-1;-1;-1;;Zafirbel Isles
+6169;6164;sea;8346;-1;-1;-1;-1;;Zafirbel Isles
+6169;6164;sea;8346;-1;-1;-1;-1;;Zafirbel Isles
+6169;13628;sea;7247;-1;-1;-1;-1;;Zafirbel Isles
+6168;13634;sea;12581;-1;-1;-1;-1;;Zafirbel Isles
+13633;13634;sea;7244;-1;-1;-1;-1;;Zafirbel Isles
+13633;6164;sea;7244;-1;-1;-1;-1;;Zafirbel Isles
+13633;6162;sea;7244;-1;-1;-1;-1;;Zafirbel Isles
+13633;6162;sea;7244;-1;-1;-1;-1;;Zafirbel Isles
+13640;3762;sea;8539;-1;-1;-1;-1;;Sheogorad
+13640;3762;sea;8539;-1;-1;-1;-1;;Sheogorad
+13640;13641;sea;8539;-1;-1;-1;-1;;Sheogorad
+13641;4993;sea;9096;-1;-1;-1;-1;;Sheogorad
+13641;13642;sea;9096;-1;-1;-1;-1;;Sheogorad
+3965;13642;sea;9096;-1;-1;-1;-1;;Sheogorad
+6154;13642;sea;9096;-1;-1;-1;-1;;Sheogorad
+6154;6153;sea;8090;-1;-1;-1;-1;;Sheogorad
+5824;6150;sea;6273;-1;-1;-1;-1;;Sheogorad
+5824;6152;sea;8540;-1;-1;-1;-1;;Sheogorad
+5109;6152;sea;8540;-1;-1;-1;-1;;Sheogorad
+5109;4814;sea;6994;-1;-1;-1;-1;;Sheogorad
+13646;4814;sea;6994;-1;-1;-1;-1;;Sheogorad
+6152;13646;sea;6994;-1;-1;-1;-1;;Sheogorad
+4851;4799;sea;9685;-1;-1;-1;-1;;Gnaar Mok
+4851;4951;sea;9685;-1;-1;-1;-1;;Gnaar Mok
 -1;-1;;-1;-1;-1;-1;-1;-1

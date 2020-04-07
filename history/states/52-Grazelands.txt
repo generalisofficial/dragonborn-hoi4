@@ -5,7 +5,18 @@ state={
 
 	history={
 		owner = TEL
+		victory_points = {
+			13637 5
+		}
+		victory_points = {
+			1069 2
+		}
 		buildings = {
+		    infrastructure = 3
+			1069 = {
+				naval_base = 1
+
+			}
 
 		}
 		add_core_of = TEL
@@ -13,9 +24,9 @@ state={
 	}
 
 	provinces={
-		1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 5119 5277 5278 6118 
+		1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 2928 5119 5277 5278 6118 13637 13638 13639 
 	}
-	manpower=3984
+	manpower=4284
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

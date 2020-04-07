@@ -40,7 +40,7 @@ RED = {
 	color_ui = rgb { 128 0 0 }
 }
 
-HLA = {
+SAD = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 222 187 91 }
 }

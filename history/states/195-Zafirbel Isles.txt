@@ -1,0 +1,31 @@
+state={
+	id=195
+	name="STATE_195"
+	
+	history={
+		owner = TEL
+		victory_points = {
+			13630 5
+		}
+		victory_points = {
+			13633 2
+		}
+		buildings = {
+		    infrastructure = 3
+			13630 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = TEL
+
+	}
+	
+	provinces={
+		4192 6161 6162 6164 6168 6169 13628 13630 13631 13632 13633 13634 
+	}
+	manpower=8858
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -73,8 +73,8 @@ bookmarks = {
 			}
 		}
 		
-		"HLA"={
-			history = "HLA_GREAT_WAR_DESC"
+		"SAD"={
+			history = "SAD_GREAT_WAR_DESC"
 			ideology = internationalist
 			ideas = {
 			

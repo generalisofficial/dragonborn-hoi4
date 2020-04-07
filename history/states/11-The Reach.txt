@@ -18,6 +18,7 @@ state={
 			681 1 
 		}
 		buildings = {
+		    infrastructure = 4
 
 		}
 		add_core_of = SKY

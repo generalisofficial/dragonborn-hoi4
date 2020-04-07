@@ -4,11 +4,11 @@ state={
 	name="STATE_157"
 	
 	history={
-		owner = HLA
+		owner = SAD
 		buildings = {
 
 		}
-		add_core_of = HLA
+		add_core_of = SAD
 
 	}
 	

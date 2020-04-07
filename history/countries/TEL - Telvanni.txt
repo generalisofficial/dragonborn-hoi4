@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 56
 
 oob = "TEL_4171"
 
@@ -9,6 +9,8 @@ set_convoys = 5
 
 add_ideas = {
     idea_dunmer
+	idea_legacy_of_the_red_year
+	idea_dunmer_revanchism
 }
 
 set_politics = {	

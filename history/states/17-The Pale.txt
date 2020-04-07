@@ -15,6 +15,11 @@ state={
 			5575 2
 		}
 		buildings = {
+		    infrastructure = 3
+			3943 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = SKY

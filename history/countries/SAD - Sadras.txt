@@ -1,6 +1,6 @@
 ﻿capital = 1
 
-oob = "HLA_4171"
+oob = "SAD_4171"
 
 set_technology = {
 
@@ -9,6 +9,8 @@ set_convoys = 5
 
 add_ideas = {
     idea_dunmer
+	idea_legacy_of_the_red_year
+	idea_dunmer_revanchism
 }
 
 set_politics = {	

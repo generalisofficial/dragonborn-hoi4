@@ -42,7 +42,7 @@ DRS = {
 	callsigns = { }
 }
 
-HLA = {
+SAD = {
 	male = {
 		names = { Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Shalfar Nisfar Shalik Turimar Nisil Helil Casik Vilyn Bradyn Gathal Elvas Adelv Lloyvn Garnas Saras Fovus }
 	}

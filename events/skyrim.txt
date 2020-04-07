@@ -37,11 +37,12 @@ country_event = {
 	desc = skyrim.2.d
 	
 	trigger = {
-		original_tag = SKY
-		is_subject_of = CYR
-		date > 4201.2.1
-		has_idea = idea_white_gold_concordat
-		has_country_leader = { ruling_only = yes name = "Torygg" }
+		#original_tag = SKY
+		#is_subject_of = CYR
+		#date > 4201.2.1
+		#has_idea = idea_white_gold_concordat
+		#has_country_leader = { ruling_only = yes name = "Torygg" }
+		always = no
 	}
 
 	mean_time_to_happen = {

@@ -9,6 +9,8 @@ set_convoys = 5
 
 add_ideas = {
     idea_dunmer
+	idea_legacy_of_the_red_year
+	idea_dunmer_revanchism
 }
 
 set_politics = {	
@@ -28,8 +30,9 @@ set_popularities = {
 create_faction = "Grand Council"
 add_to_faction = RED
 add_to_faction = TEL
-add_to_faction = HLA
+add_to_faction = SAD
 add_to_faction = IDR
+add_to_faction = DRS
 
 create_country_leader = {
 	name = "Nadsilo Llearen"

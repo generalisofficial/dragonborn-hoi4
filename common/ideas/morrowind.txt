@@ -1,0 +1,33 @@
+ideas = {
+	
+	country = {
+	
+		idea_legacy_of_the_red_year = {
+			picture = red_year
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    consumer_goods_factor = 0.1
+				MONTHLY_POPULATION = -0.2
+			}
+		}
+		
+		idea_dunmer_revanchism = {
+			picture = dunmer_revanchism
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				targeted_modifier = { tag = BLM attack_bonus_against = 0.2 }
+				war_support_factor = 0.2
+				army_morale_factor = 0.1
+				surrender_limit = 0.2
+			}
+		}
+	}
+}
