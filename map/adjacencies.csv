@@ -123,4 +123,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6152;13646;sea;6994;-1;-1;-1;-1;;Sheogorad
 4851;4799;sea;9685;-1;-1;-1;-1;;Gnaar Mok
 4851;4951;sea;9685;-1;-1;-1;-1;;Gnaar Mok
+3856;6190;sea;11533;-1;-1;-1;-1;;Anvil Islands
+3856;6192;sea;11533;-1;-1;-1;-1;;Anvil Islands
+13650;4533;sea;6411;-1;-1;-1;-1;;Telvanni Isles
+4517;3005;sea;11635;-1;-1;-1;-1;;Telvanni Isles
+4518;5782;sea;8543;-1;-1;-1;-1;;Telvanni Isles
+934;5919;sea;10278;-1;-1;-1;-1;;Telvanni Isles
 -1;-1;;-1;-1;-1;-1;-1;-1

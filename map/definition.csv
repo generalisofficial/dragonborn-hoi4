@@ -21,7 +21,7 @@
 20;249;126;129;land;false;mountain;1
 21;127;241;213;land;false;mountain;1
 22;185;153;233;land;false;hills;1
-23;213;152;248;land;true;hills;1
+23;213;152;248;land;false;hills;1
 24;220;180;182;land;false;hills;1
 25;158;244;239;land;false;hills;1
 26;147;235;130;land;false;hills;1
@@ -50,14 +50,14 @@
 49;195;165;168;land;false;forest;1
 50;104;229;173;land;false;forest;1
 51;250;230;223;land;false;forest;1
-52;133;233;248;land;true;forest;1
+52;133;233;248;land;false;forest;1
 53;231;148;176;land;false;forest;1
 54;183;249;88;land;false;forest;1
 55;189;84;234;land;false;forest;1
-56;158;241;181;land;true;forest;1
-57;204;140;170;land;true;forest;1
-58;104;237;219;land;false;forest;0
-59;133;237;145;land;true;forest;1
+56;158;241;181;land;false;forest;1
+57;204;140;170;land;false;forest;1
+58;104;237;219;land;false;forest;1
+59;133;237;145;land;false;forest;1
 60;192;204;143;land;false;forest;1
 61;170;184;234;land;false;forest;1
 62;160;203;145;land;false;forest;1
@@ -3929,7 +3929,7 @@
 3928;203;159;213;land;true;plains;1
 3929;204;238;70;land;false;forest;1
 3930;235;205;219;land;false;forest;1
-3931;231;222;242;land;true;forest;1
+3931;231;222;242;land;false;forest;1
 3932;243;213;184;land;false;forest;1
 3933;138;183;230;land;false;forest;1
 3934;167;250;140;land;false;plains;1
@@ -5320,7 +5320,7 @@
 5319;151;251;225;land;true;hills;1
 5320;246;195;82;land;false;hills;1
 5321;162;191;222;land;true;hills;1
-5322;196;197;166;land;true;forest;1
+5322;196;197;166;land;false;forest;1
 5323;229;125;235;land;true;forest;1
 5324;234;178;166;land;false;hills;1
 5325;228;244;176;land;false;forest;1
@@ -5405,7 +5405,7 @@
 5404;239;237;204;land;false;forest;1
 5405;175;247;213;land;true;plains;1
 5406;213;163;177;land;true;plains;1
-5407;72;239;196;land;true;hills;1
+5407;72;239;196;land;false;hills;1
 5408;250;238;53;land;true;plains;1
 5409;137;211;210;land;true;hills;1
 5410;195;163;245;land;true;forest;1
@@ -13646,3 +13646,6 @@
 13645;196;138;107;land;true;hills;1
 13646;145;111;196;land;true;hills;1
 13647;255;185;142;land;true;forest;1
+13648;99;106;237;land;true;hills;1
+13649;247;216;158;land;true;hills;1
+13650;107;210;255;land;true;urban;1

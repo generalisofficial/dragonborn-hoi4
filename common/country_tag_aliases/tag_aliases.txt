@@ -7,10 +7,21 @@ STC = {
 }
 
 ELS = {
+    OR = {
+	    original_tag = ANQ
+		original_tag = PEL
+    }
 	has_cosmetic_tag = ELSWEYR
 }
 
 MOR = {
+    OR = {
+	    original_tag = RED
+		original_tag = TEL
+		original_tag = SAD
+		original_tag = DRS
+		original_tag = IDR
+    }
 	has_cosmetic_tag = MORROWIND
 }
 
