@@ -1,0 +1,69 @@
+﻿add_namespace = forsworn_uprising
+
+#Forsworn Uprising
+country_event = {
+	id = forsworn_uprising.1
+	title = forsworn_uprising.1.t
+	desc = forsworn_uprising.1.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SKY
+		owns_state = 11
+		is_subject_of = CYR
+		has_war_with = ALD
+		date < 4201.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	option = {
+		name = forsworn_uprising.1.a
+		news_event = forsworn_uprising.2
+		release = REA
+		set_politics = {
+			ruling_party = jingoist
+			elections_allowed = no
+		}
+	}
+
+	option = {
+		name = forsworn_uprising.1.b
+		news_event = forsworn_uprising.2
+		release = REA
+		set_politics = {
+			ruling_party = jingoist
+			elections_allowed = no
+		}
+		REA = {
+			change_tag_from = ROOT
+		}
+	}
+}
+
+#Forsworn Uprising - News
+news_event = {
+	id = forsworn_uprising.2
+	title = forsworn_uprising.2.t
+	desc = forsworn_uprising.2.d
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = forsworn_uprising.2.a
+		trigger = {
+			NOT = { original_tag = REA }
+		}
+	}
+
+	option = {
+		name = forsworn_uprising.2.b
+		trigger = {
+			original_tag = REA
+		}
+	}
+}

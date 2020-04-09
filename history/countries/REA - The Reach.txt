@@ -1,4 +1,4 @@
-﻿capital = 15
+﻿capital = 11
 
 oob = "REA_4171"
 
@@ -19,22 +19,16 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 61
-    isolationist = 17
+    internationalist = 44
+    isolationist = 20
     pragmatic = 0
-    jingoist = 22
+    jingoist = 36
 }
 
 create_country_leader = {
-	name = "Igmund"
-	picture = "Igmund.dds"
+	name = "Hrolfdir"
+	picture = "Hrolfdir.dds"
 	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "Igmund"
-	picture = "Igmund.dds"
-	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
@@ -47,4 +41,15 @@ create_country_leader = {
 	name = "Madanach"
 	picture = "Madanach.dds"
 	ideology = jingoist_ideology
+	traits = { 
+	    popular_figurehead
+	}
+}
+
+4201.1.1 = {
+	create_country_leader = {
+		name = "Igmund"
+		picture = "Igmund.dds"
+		ideology = internationalist_ideology
+	}
 }

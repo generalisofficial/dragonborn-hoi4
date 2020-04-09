@@ -36,7 +36,7 @@
  skyrim.3.t:0 "The Stormcloak Rebellion"
  skyrim.3.d:0 "After violently killing High King Torygg in Solitude, Jarl of Eastmarch, Ulfric Stormcloak has called an uprising against the Empire. The rebellion has been joined by the Old Holds: Eastmarch, Winterhold, The Rift and The Pale, and is openly challenging Imperial authority in Skyrim."
  skyrim.3.a:0 "For the Empire!"
- skyrim.3.b:0 "For Skyrim! (Play as the Stormcloaks)"
+ skyrim.3.b:0 "Skyrim belongs to the Nords! (Play as the Stormcloaks)"
  skyrim.4.t:0 "General Tullius arrives in Solitude"
  skyrim.4.d:0 "With the murder of High King Torygg, the Emperor has sent the one and only General Tullius to Solitude to restore order. Tullius vows to command Imperial forces to crush the Stormcloak Rebellion, and to keep order in Skyrim until the now widowed Jarl Elisif can become High Queen of Skyrim."
  skyrim.4.a:0 "The man we need to stop Ulfric."
@@ -44,3 +44,13 @@
  skyrim.5.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and elect a new High King or Queen. The obvious candidate is Jarl Elisif of Haafingar, widow of the late High King Torygg, but you never know."
  skyrim.5.a:0 "Jarl Elisif will lead."
  skyrim.5.b:0 "The Last Dragonborn will lead."
+
+ #Forsworn Uprising
+ forsworn_uprising.1.t:0 "Forsworn Uprising"
+ forsworn_uprising.1.d:0 "With most available Legions diverted to fighting the Aldmeri Dominion, the native Bretons of the Reach have taken the initiative, and declared independence from Skyrim. The Reachmen under King Madanach have taken control of settlements and military installations in the area, and until the war is over, we will not be able to reclaim the Reach."
+ forsworn_uprising.1.a:0 "Jarl Hrollod will be back!"
+ forsworn_uprising.1.b:0 "The Reach belongs to the Reachmen! (Play as the Reach)"
+ forsworn_uprising.2.t:0 "Forsworn Uprising"
+ forsworn_uprising.2.d:0 "With most available Legions diverted to fighting the Aldmeri Dominion, the native Bretons of the Reach have taken the initiative, and declared independence from Skyrim. The Reachmen under King Madanach have taken control of settlements and military installations in the area, and with all resources devoted to fighting the Dominion, the Reach is likely to remain independent until the end of the war."
+ forsworn_uprising.2.a:0 "A worrying development!"
+ forsworn_uprising.2.b:0 "The Reach is ours!"
