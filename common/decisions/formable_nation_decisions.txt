@@ -37,7 +37,7 @@ formable_nations = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = MORROWIND
+			set_cosmetic_tag = MOR
 			set_global_flag = form_morrowind
 			56 = { add_core_of = ROOT }
 			52 = { add_core_of = ROOT }
@@ -73,8 +73,14 @@ formable_nations = {
 			has_full_control_of_state = 69
 			has_full_control_of_state = 70
 			has_full_control_of_state = 71
+			has_full_control_of_state = 173
+			has_full_control_of_state = 174
+			has_full_control_of_state = 175
 			has_full_control_of_state = 72
 			has_full_control_of_state = 73
+			has_full_control_of_state = 170
+			has_full_control_of_state = 171
+			has_full_control_of_state = 172
 		}
 
 		visible = {
@@ -86,14 +92,60 @@ formable_nations = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = ELSWEYR
+			set_cosmetic_tag = ELS
             set_global_flag = form_elsweyr
 			68 = { add_core_of = ROOT }
 			69 = { add_core_of = ROOT }
 			70 = { add_core_of = ROOT }
 			71 = { add_core_of = ROOT }
+			173 = { add_core_of = ROOT }
+			174 = { add_core_of = ROOT }
+			175 = { add_core_of = ROOT }
 			72 = { add_core_of = ROOT }
 			73 = { add_core_of = ROOT }
+			170 = { add_core_of = ROOT }
+			171 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	form_colovia = {
+
+		icon = generic_form_nation
+
+		available = {
+			is_subject = no
+			has_full_control_of_state = 58
+			has_full_control_of_state = 164
+			has_full_control_of_state = 59
+			has_full_control_of_state = 67
+			has_full_control_of_state = 64
+			has_full_control_of_state = 60
+		}
+
+		visible = {
+			OR = {
+				original_tag = CHO
+				original_tag = ANV
+				original_tag = KVA
+				original_tag = SKN
+			}
+			NOT = { has_global_flag = form_colovia }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = COL
+            set_global_flag = form_colovia
+			58 = { add_core_of = ROOT }
+			164 = { add_core_of = ROOT }
+			59 = { add_core_of = ROOT }
+			67 = { add_core_of = ROOT }
+			64 = { add_core_of = ROOT }
+			60 = { add_core_of = ROOT }
 		}
 		
 		ai_will_do = {

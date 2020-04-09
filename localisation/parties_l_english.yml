@@ -1,22 +1,23 @@
 ﻿l_english:
- pragmatic:0 "Pragmatic"
- pragmatic_desc:0 "Autocratic"
- pragmatic_noun:0 "Pragmatic"
  internationalist:0 "Internationalist"
- internationalist_desc:0 "Autocratic"
+ internationalist_desc:0 "Monarchy"
  internationalist_noun:0 "Internationalist"
+ pragmatic:0 "Pragmatic"
+ pragmatic_desc:0 "Monarchy"
+ pragmatic_noun:0 "Pragmatic"
  isolationist:0 "Isolationist"
- isolationist_desc:0 "Autocratic"
+ isolationist_desc:0 "Monarchy"
  isolationist_noun:0 "Isolationist"
  jingoist:0 "Jingoist"
- jingoist_desc:0 "Autocratic"
+ jingoist_desc:0 "Monarchy"
  jingoist_noun:0 "Jingoist"
+ 
+ internationalist_ideology:0 "Internationalist"
+ internationalist_ideology_desc:0 "This nation is dominated by the Internationalist faction."
  pragmatic_ideology:0 "Pragmatic"
  pragmatic_ideology_desc:0 "This nation is dominated by the Pragmatic faction."
  jingoist_ideology:0 "Jingoist"
  jingoist_ideology_desc:0 "This nation is dominated by the Jingoist faction."
- internationalist_ideology:0 "Internationalist"
- internationalist_ideology_desc:0 "This nation is dominated by the Internationalist faction."
  isolationist_ideology:0 "Isolationist"
  isolationist_ideology_desc:0 "This nation is dominated by the Isolationist faction."
  
@@ -25,20 +26,44 @@
  ALD_isolationist_party:0 "Children of the Oath"
  ALD_jingoist_party:0 "Thalmor"
  
+ ALD_jingoist_party_desc:0 "Autocracy"
+ 
  #BLM
  BLM_jingoist_party:0 "An-Xileel"
  
  #CYR
  CYR_internationalist_party:0 "Mede"
  
+ #DRS
+ DRS_internationalist_party_desc:0 "Great House"
+ DRS_pragmatic_party_desc:0 "Great House"
+ DRS_isolationist_party_desc:0 "Great House"
+ DRS_jingoist_party_desc:0 "Great House"
+ 
  #HAM
  HAM_internationalist_party:0 "Forebears"
- HAM_pragmatic_party:0 "Forebears"
  HAM_isolationist_party:0 "Crowns"
- HAM_jingoist_party:0 "Crowns"
+ 
+ #IDR
+ IDR_internationalist_party_desc:0 "Great House"
+ IDR_pragmatic_party_desc:0 "Great House"
+ IDR_isolationist_party_desc:0 "Great House"
+ IDR_jingoist_party_desc:0 "Great House"
  
  #REA
  REA_jingoist_party:0 "Reachmen"
+ 
+ #RED
+ RED_internationalist_party_desc:0 "Great House"
+ RED_pragmatic_party_desc:0 "Great House"
+ RED_isolationist_party_desc:0 "Great House"
+ RED_jingoist_party_desc:0 "Great House"
+ 
+ #SAD
+ SAD_internationalist_party_desc:0 "Great House"
+ SAD_pragmatic_party_desc:0 "Great House"
+ SAD_isolationist_party_desc:0 "Great House"
+ SAD_jingoist_party_desc:0 "Great House"
  
  #SKY
  SKY_isolationist_party:0 "Stormcloaks"
@@ -46,3 +71,9 @@
  #SKL
  SKL_isolationist_party:0 "Skaal"
  SKL_jingoist_party:0 "Thirsk"
+ 
+ #TEL
+ TEL_internationalist_party_desc:0 "Great House"
+ TEL_pragmatic_party_desc:0 "Great House"
+ TEL_isolationist_party_desc:0 "Great House"
+ TEL_jingoist_party_desc:0 "Great House"

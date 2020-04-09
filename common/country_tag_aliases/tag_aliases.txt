@@ -11,7 +11,7 @@ ELS = {
 	    original_tag = ANQ
 		original_tag = PEL
     }
-	has_cosmetic_tag = ELSWEYR
+	has_cosmetic_tag = ELS
 }
 
 MOR = {
@@ -22,7 +22,7 @@ MOR = {
 		original_tag = DRS
 		original_tag = IDR
     }
-	has_cosmetic_tag = MORROWIND
+	has_cosmetic_tag = MOR
 }
 
 MOT = {

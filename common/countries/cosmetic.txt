@@ -1,1 +1,6 @@
 #reload countrycolors
+
+ELS = {
+	color = rgb { 234 108 21 }
+	color_ui = rgb { 234 108 21 }
+}

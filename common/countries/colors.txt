@@ -16,12 +16,12 @@ ALD = {
 }
 
 ANQ = {
-	color = rgb { 119 136 153 }
-	color_ui = rgb { 119 136 153 }
+	color = rgb { 77 120 48 }
+	color_ui = rgb { 77 120 48 }
 }
 
 PEL = {
-	color = rgb { 119 136 153 }
+	color = rgb { 47 85 151 }
 	color_ui = rgb { 119 136 153 }
 }
 
@@ -208,4 +208,19 @@ ANV = {
 LEY = {
 	color = rgb { 56 87 35 }
 	color_ui = rgb { 56 87 35 }
+}
+
+KVA = {
+	color = rgb { 225 225 225 }
+	color_ui = rgb { 225 225 225 }
+}
+
+CHO = {
+	color = rgb { 88 105 146 }
+	color_ui = rgb { 88 105 146 }
+}
+
+SKN = {
+	color = rgb { 164 0 0 }
+	color_ui = rgb { 164 0 0 }
 }
