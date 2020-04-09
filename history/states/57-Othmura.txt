@@ -1,0 +1,20 @@
+
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = SAD
+		buildings = {
+
+		}
+		add_core_of = SAD
+
+	}
+
+	provinces={
+		1416 1419 1420 1891 1893 4472 5755 5756 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

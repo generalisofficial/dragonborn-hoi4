@@ -1,0 +1,25 @@
+
+state={
+	id=161
+	name="STATE_161"
+
+	history={
+		owner = BLM
+		victory_points = {
+			13658 5
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SAD
+
+	}
+
+	provinces={
+		1883 1884 1885 1886 1887 1888 1889 1890 1892 2194 2593 3418 3419 3420 3421 4195 4644 5446 5684 13656 13657 13658 
+	}
+	manpower=14935
+	buildings_max_level_factor=1.000
+	state_category=town
+}

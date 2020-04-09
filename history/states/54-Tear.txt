@@ -5,15 +5,28 @@ state={
 
 	history={
 		owner = BLM
+		victory_points = {
+			13651 5 
+		}
+		victory_points = {
+			530 2
+		}
+		victory_points = {
+			1664 2
+		}
 		buildings = {
+			infrastructure = 3
+			13651 = {
+				naval_base = 3
 
+			}
 		}
 		add_core_of = DRS
 
 	}
 
 	provinces={
-		529 530 1662 1663 1664 5385 5386 5552 5665 
+		529 530 1662 1663 1664 5385 5386 5552 5665 13651 13652 13654 
 	}
 	manpower=8958
 	buildings_max_level_factor=1.000

@@ -4,7 +4,11 @@ state={
 	
 	history={
 		owner = DRS
+		victory_points = {
+			1305 3
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = DRS
@@ -14,6 +18,7 @@ state={
 	provinces={
 		758 759 1304 1305 1306 1667 2482 2483 2484 2485 5213 
 	}
-	manpower=0
+	manpower=5756
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

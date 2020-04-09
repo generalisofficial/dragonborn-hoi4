@@ -1,0 +1,25 @@
+
+state={
+	id=126
+	name="STATE_126"
+
+	history={
+		owner = DRS
+		victory_points = {
+			1661 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = DRS
+
+	}
+
+	provinces={
+		1660 1661 1666 2074 3021 5512 5513 
+	}
+	manpower=2618
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
