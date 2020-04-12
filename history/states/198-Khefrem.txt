@@ -1,0 +1,28 @@
+state={
+	id=198
+	name="STATE_198"
+
+	history={
+		owner = HAM
+		victory_points = {
+			13669 3 
+		}
+		buildings = {
+			infrastructure = 3
+			13669 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		2093 4583 4584 4585 4586 4587 4588 5372 5517 13669 13672 
+	}
+	manpower=7461
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

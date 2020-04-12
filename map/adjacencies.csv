@@ -5,7 +5,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5337;4796;sea;6560;-1;-1;-1;-1;;Volkihar
 6146;3501;sea;8433;-1;-1;-1;-1;;College of Winterhold
 4097;5593;sea;13453;-1;-1;-1;-1;;Goldenglow
-5525;5113;sea;6636;-1;-1;-1;-1;;The Chain
+5525;5113;sea;8115;-1;-1;-1;-1;;The Chain
 687;5584;sea;1551;-1;-1;-1;-1;;Lost Valley Redoubt
 2567;2568;sea;2825;-1;-1;-1;-1;;Old Hroldan
 2329;5749;sea;2461;-1;-1;-1;-1;;Karthwasten

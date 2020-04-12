@@ -5,7 +5,18 @@ state={
 
 	history={
 		owner = HAM
+		victory_points = {
+			13663 5
+		}
+		victory_points = {
+			2849 2
+		}
 		buildings = {
+			infrastructure = 4
+			13663 = {
+				naval_base = 4
+
+			}
 
 		}
 		add_core_of = HAM
@@ -13,8 +24,9 @@ state={
 	}
 
 	provinces={
-		714 715 1012 1013 1882 1977 1978 1979 2573 2849 2850 2851 3371 3373 4872 4955 4963 5877 
+		714 715 852 853 854 1012 1013 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1977 1978 1979 2573 2849 2850 2851 3370 3371 3372 3373 3374 3375 4872 4955 4963 4964 5860 5877 13663 
 	}
-	manpower=0
+	manpower=9763
 	buildings_max_level_factor=1.000
+	state_category=town
 }

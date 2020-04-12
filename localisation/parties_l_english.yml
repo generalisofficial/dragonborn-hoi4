@@ -21,6 +21,9 @@
  isolationist_ideology:0 "Isolationist"
  isolationist_ideology_desc:0 "This nation is dominated by the Isolationist faction."
  
+ #ANQ
+ ALD_jingoist_party:0 "Thalmor"
+
  #ALD
  ALD_pragmatic_party:0 "Arpena"
  ALD_isolationist_party:0 "Children of the Oath"
@@ -49,6 +52,9 @@
  IDR_pragmatic_party_desc:0 "Great House"
  IDR_isolationist_party_desc:0 "Great House"
  IDR_jingoist_party_desc:0 "Great House"
+
+ #PEL
+ PEL_jingoist_party:0 "Thalmor"
  
  #REA
  REA_isolationist_party:0 "Silver-Bloods"

@@ -9,6 +9,11 @@ state={
 			4227 3 
 		}
 		buildings = {
+			infrastructure = 3
+			4227 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = HAM
@@ -20,5 +25,5 @@ state={
 	}
 	manpower=4791
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=small_island
 }
