@@ -24,9 +24,11 @@ country_event = {
 		name = forsworn_uprising.1.a
 		news_event = forsworn_uprising.2
 		release = REA
-		set_politics = {
-			ruling_party = jingoist
-			elections_allowed = no
+		REA = {
+		    set_politics = {
+			    ruling_party = jingoist
+			    elections_allowed = no
+			}
 		}
 	}
 
