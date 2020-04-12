@@ -5,6 +5,11 @@ state={
 	history={
 		owner = HAM
 		buildings = {
+			infrastructure = 1
+			5113 = {
+				naval_base = 1
+
+			}
 
 		}
 		add_core_of = HAM
@@ -14,7 +19,7 @@ state={
 	provinces={
 		5113 5525 
 	}
-	manpower=62
+	manpower=65
 	buildings_max_level_factor=1.000
 	state_category=tiny_island
 }

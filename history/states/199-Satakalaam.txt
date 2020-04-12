@@ -1,0 +1,28 @@
+state={
+	id=199
+	name="STATE_199"
+
+	history={
+		owner = HAM
+		victory_points = {
+			2 3
+		}
+		victory_points = {
+			3178 2
+		}
+		buildings = {
+			infrastructure = 3
+
+
+		}
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		1 2 3 4 5 192 3178 3211 3212 3631 3632 4373 4374 4375 4376 4377 4859 4923 
+	}
+	manpower=4467
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

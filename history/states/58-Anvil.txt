@@ -6,14 +6,15 @@ state={
 	history={
 		owner = CYR
 		victory_points = {
-			3856 5
+			3856 5 
 		}
 		buildings = {
-		    infrastructure = 4
-            3856 = {
+			infrastructure = 4
+			3856 = {
 				naval_base = 5
 
 			}
+
 		}
 		add_core_of = CYR
 		add_core_of = ANV

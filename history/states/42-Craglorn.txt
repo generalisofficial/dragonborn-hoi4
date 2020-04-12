@@ -1,0 +1,25 @@
+
+state={
+	id=42
+	name="STATE_42"
+
+	history={
+		owner = HAM
+		victory_points = {
+			704 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		175 176 177 178 179 324 325 329 330 688 693 694 695 696 697 698 699 702 703 704 1981 1983 2571 2572 2951 2952 2953 3143 3144 3145 4222 4239 4631 4632 4633 5055 5056 5057 5155 5217 5218 5305 5662 5880 5900 5915 6111 13692 13694 13696 
+	}
+	manpower=4145
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

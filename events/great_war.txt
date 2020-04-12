@@ -15,7 +15,6 @@ country_event = {
 		}
 		add_country_leader_trait = appeaser
 		HAM = { country_event = great_war.3 }
-		remove_ideas = idea_blades
 	}
 	
 	option = {
@@ -105,6 +104,19 @@ country_event = {
 	option = {
 	    name = great_war.6.a
 		add_ideas = { idea_white_gold_concordat }
+		if = {
+			limit = { HAM = { is_subject_of = CYR } }
+			ALD = { 
+				transfer_state = 124
+				transfer_state = 35
+				transfer_state = 32
+				transfer_state = 38
+				transfer_state = 198
+				transfer_state = 37
+				transfer_state = 36
+				transfer_state = 43
+			}
+		}
 	}
 }
 
@@ -124,7 +136,7 @@ country_event = {
 	
 	#Abandon Hammerfell
 	option = {
-	    name = great_war.6.a
+	    name = great_war.6.b
 		end_puppet = HAM
 		ALD = { country_event = great_war.5 }
 	}

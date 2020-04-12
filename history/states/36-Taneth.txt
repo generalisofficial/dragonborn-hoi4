@@ -1,0 +1,30 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = HAM
+		victory_points = {
+			13671 5
+		}
+		buildings = {
+			infrastructure = 4
+			13671 = {
+				naval_base = 4
+
+			}
+
+
+		}
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		2359 3369 3376 3377 3378 3379 3384 3387 3388 3519 4193 4281 4486 5568 6110 13668 13670 13671 
+	}
+	manpower=10182
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,20 +1,27 @@
+
 state={
 	id=32
 	name="STATE_32"
-	
+
 	history={
 		owner = HAM
 		victory_points = {
-			4089 3
+			4089 3 
 		}
 		buildings = {
+			infrastructure = 3
+			4089 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = HAM
+
 	}
-	
+
 	provinces={
-		3351 3352 4089 4268 4269 4270 4271 4586 4587 4588 5271 5272 5372 6085 
+		3351 3352 4089 4268 4269 4270 4271 5271 5272 6085 13664 13665 
 	}
 	manpower=6829
 	buildings_max_level_factor=1.000

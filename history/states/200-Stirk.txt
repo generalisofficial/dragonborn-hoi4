@@ -1,0 +1,25 @@
+state={
+	id=200
+	name="STATE_200"
+
+	history={
+		owner = CYR
+		buildings = {
+			infrastructure = 2
+			13661 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CYR
+
+	}
+
+	provinces={
+		13660 13661 13662 
+	}
+	manpower=1437
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

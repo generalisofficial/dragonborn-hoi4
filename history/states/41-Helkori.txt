@@ -1,0 +1,28 @@
+
+state={
+	id=41
+	name="STATE_41"
+
+	history={
+		owner = HAM
+		victory_points = {
+			13680 5
+		}
+		victory_points = {
+			5084 2
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		172 173 174 326 327 328 1134 1647 1648 1649 1650 1651 1788 1789 1790 2202 2274 2275 2954 2956 2957 2958 3382 3383 3385 3386 3717 3874 3875 3876 3877 4238 4465 5084 5165 5661 5730 6104 13678 13680 13681 13685 13687 13689 
+	}
+	manpower=9417
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
