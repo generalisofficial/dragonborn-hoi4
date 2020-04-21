@@ -149,6 +149,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	thalmor_puppet = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	
 	political_dancer = {
 		random = no
@@ -369,6 +378,7 @@ leader_traits = {
 			factor = 2
 		}
 	}
+
 	editor = {
 		sprite = 10
 		random = yes
@@ -2357,6 +2367,15 @@ leader_traits = {
 	
 	### DRAGONBORN ###
 	
+	trait_dragonborn = {
+		random = no
+		stability_factor = 0.10
+		war_support_factor = 0.25
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 	trait_partisan = {
 		random = no
 		political_power_factor = 0.1

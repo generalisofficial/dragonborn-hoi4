@@ -35,13 +35,6 @@ create_country_leader = {
 	ideology = internationalist_ideology
 }
 
-create_field_marshal = {
-	name = "Jonna"
-	picture = "Jonna.dds"
-	traits = { }
-	skill = 2
-}
-
 4201.1.1 = {
 	create_country_leader = {
 	    name = "Torygg"

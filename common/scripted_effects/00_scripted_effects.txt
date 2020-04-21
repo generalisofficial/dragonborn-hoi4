@@ -271,7 +271,7 @@ add_civil_war_generals_esm = {
     create_field_marshal = {
 	    name = "Galmar Stone-Fist"
 	    picture = "Galmar_Stone_Fist.dds"
-	    traits = { great_war_hero }
+	    traits = { }
 	    skill = 2
     }
     create_corps_commander = {

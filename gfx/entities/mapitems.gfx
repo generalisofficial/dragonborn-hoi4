@@ -22,13 +22,6 @@ objectTypes = {
 	}
 	
 	pdxmesh = {
-		name = "white_gold_mesh"
-		file = "gfx/models/buildings/white_gold.mesh"		
-		scale = 1.0
-		cull_distance = 99999.0
-	}
-	
-	pdxmesh = {
 		name = "wave_mesh"
 		file = "gfx/models/mapitems/wave.mesh"
 		
@@ -48,5 +41,19 @@ objectTypes = {
 		animation = { id = "idle"	type = "tutorial_arrow_idle_animation" }
 		animation = { id = "floating"	type = "tutorial_arrow_no_rotation_idle_animation" }
 		scale = 5.0
+	}
+
+	#DRAGONBORN	
+	pdxmesh = {
+		name = "white_gold_tower_mesh"
+		file = "gfx/models/buildings/white_gold_tower.mesh"		
+		scale = 1.0
+		cull_distance = 99999.0
+	}
+	pdxmesh = {
+		name = "direnni_tower_mesh"
+		file = "gfx/models/buildings/direnni_tower.mesh"		
+		scale = 1.0
+		cull_distance = 99999.0
 	}
 }

@@ -11,6 +11,7 @@ tags={
 	"Gameplay"
 }
 
+replace_path="common/abilities"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"

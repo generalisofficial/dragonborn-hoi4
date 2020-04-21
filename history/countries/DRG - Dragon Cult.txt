@@ -25,23 +25,36 @@ set_popularities = {
 create_country_leader = {
 	name = "Miraak"
 	picture = "Miraak.dds"
-	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "Miraak"
-	picture = "Miraak.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
-	name = "Miraak"
-	picture = "Miraak.dds"
-	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Miraak"
-	picture = "Miraak.dds"
 	ideology = jingoist_ideology
+	traits = {
+		trait_dragonborn
+	}
+}
+
+create_field_marshal = {
+	name = "Vahlok"
+	picture = "Vahlok.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Ahzidal"
+	picture = "Ahzidal.dds"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Dukaan"
+	picture = "Dukaan.dds"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Zakriisos"
+	picture = "Zakriisos.dds"
+	traits = { }
+	skill = 1
 }

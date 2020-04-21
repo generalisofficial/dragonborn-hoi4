@@ -85,6 +85,13 @@ create_field_marshal = {
 	name = "Decianus"
 	picture = "Decianus.dds"
 	traits = { }
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Jonna"
+	picture = "Jonna.dds"
+	traits = { }
 	skill = 2
 }
 

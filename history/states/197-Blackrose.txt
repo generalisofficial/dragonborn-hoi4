@@ -1,3 +1,4 @@
+
 state={
 	id=197
 	name="STATE_197"
@@ -10,9 +11,9 @@ state={
 		add_core_of = BLM
 
 	}
-	
+
 	provinces={
-		357 359 872 873 874 1812 3320 4267 4713 4714 5176 5211 
+		357 359 872 873 874 1812 3320 4267 4713 4714 5211 13713 13715 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

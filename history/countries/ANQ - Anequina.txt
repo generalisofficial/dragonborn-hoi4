@@ -26,13 +26,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "M'zah Rahknaihn"
-	picture = "gfx/leaders/generic/Khajiit6.dds"
-	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "M'zah Rahknaihn"
-	picture = "gfx/leaders/generic/Khajiit6.dds"
+	name = "Zan'zahn"
+	picture = "Zan_zahn.dds"
 	ideology = jingoist_ideology
+	traits = { 
+	    thalmor_puppet
+	}
 }

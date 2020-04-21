@@ -37,15 +37,21 @@ entity = {
 }
 
 entity = {
-	name = "white_gold_entity"
-	pdxmesh = "white_gold_mesh"
-}
-
-entity = {
 	name = "wave_entity"
 	pdxmesh = "wave_mesh"
 	
 	state = { name = "idle" animation = "idle" animation_blend_time = 0.3 }
 	
 	scale = 0.2
+}
+
+#DRAGONBORN
+entity = {
+	name = "white_gold_tower_entity"
+	pdxmesh = "white_gold_tower_mesh"
+}
+
+entity = {
+	name = "direnni_tower_entity"
+	pdxmesh = "direnni_tower_mesh"
 }

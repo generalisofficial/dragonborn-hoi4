@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 196
 
 oob = "BLM_4171"
 

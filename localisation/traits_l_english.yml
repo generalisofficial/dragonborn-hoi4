@@ -298,8 +298,7 @@
  autocratic_imperialist:0 "Autocratic Imperialist"
  cabinet_crisis:0 "Cabinet Crisis"
  spirit_of_genghis:0 "Spirit Of Genghis"
- stalins_puppet:0 "Stalin's Puppet"
- stalins_puppet_desc:0 "§LAs loyal as he is patriotic, he will never betray the International, the plight of the worker, or his home country. In that order.§!"
+ thalmor_puppet:0 "Thalmor Puppet"
  exiled:0 "Exiled"
  exiled_desc:0 "§LUnder threat of persecution they have spent much of the recent years of political turmoil abroad.§!"
  indomitable_perseverance:1 "Indomitable Perseverance"
@@ -619,6 +618,7 @@
  connected_citizen:0 "Connected Citizen"
  
  #DRAGONBORN
+ trait_dragonborn:0 "Dragonborn"
  trait_internationalist:0 "Internationalist"
  trait_pragmatist:0 "Pragmatist"
  trait_isolationist:0 "Isolationist"

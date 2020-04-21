@@ -1,0 +1,19 @@
+
+state={
+	id=78
+	name="STATE_78"
+
+	history={
+		owner = BLM
+		add_core_of = BLM
+
+	}
+
+	provinces={
+		151 152 153 154 155 156 157 158 159 354 355 356 844 3321 3355 3627 5160 5186 5524 13718 
+	}
+	manpower=8
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}
