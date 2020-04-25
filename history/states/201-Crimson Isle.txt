@@ -5,6 +5,7 @@ state={
 	history={
 		owner = BLM
 		buildings = {
+			infrastructure = 1
 
 		}
 		add_core_of = BLM
@@ -14,6 +15,7 @@ state={
 	provinces={
 		5831 
 	}
-	manpower=0
+	manpower=927
 	buildings_max_level_factor=1.000
+	state_category=tiny_island
 }

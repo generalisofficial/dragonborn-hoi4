@@ -51,6 +51,86 @@ ideas = {
 			}
 		}
 	}
+
+	court_wizard = {
+			
+		farengar_secret_fire = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_defensive_mage }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	social_advisor = {
+		heimskr = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_conservative }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		danica_pure_spring = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_reformist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
 	
 	diplomatic_advisor = {
 		olfrid_battle_born = {
@@ -139,6 +219,58 @@ ideas = {
 			}
 			
 			traits = { trait_jingoist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	economic_advisor = {
+		nazeem = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_free_trade_advocate }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		eorlund_gray_mane = {
+			
+			allowed = {
+				original_tag = WTR
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_protectionist }
 	
 			on_add = {
 			

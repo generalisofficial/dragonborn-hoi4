@@ -15,9 +15,9 @@ idea_categories = {
 	}
 	
 	court = {
-	    slot = steward
+	    slot = deputy
 		slot = court_wizard
-		slot = head_of_security
+		slot = spy_chief
 		slot = social_advisor
 		slot = diplomatic_advisor
 		slot = economic_advisor

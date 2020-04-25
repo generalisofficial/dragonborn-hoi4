@@ -4,7 +4,14 @@ state={
 
 	history={
 		owner = BLM
+		victory_points = {
+			2643 2
+		}
+		victory_points = {
+			5012 2
+		}
 		buildings = {
+			infrastructure = 2
 
 		}
 		add_core_of = BLM
@@ -14,6 +21,7 @@ state={
 	provinces={
 		2428 2429 2430 2642 2643 2644 2645 2646 2713 2714 4578 4826 4827 5002 5012 5210 5911 6047 
 	}
-	manpower=0
+	manpower=3326
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -1,12 +1,12 @@
 ideas = {
 
-	steward = {
+	deputy = {
 		generic_partisan = {
 			
 			allowed = {
 				#NOT = { 
 				#    OR = { 
-				#        original_tag = WTR 
+				#        original_tag = XXX
 				#	} 
 				#}
 			}
@@ -33,8 +33,11 @@ ideas = {
 		generic_compromising = {
 			
 			allowed = {
-				NOT = { OR = { original_tag = WTR } }
-				
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR 
+					} 
+				}
 			}
 
 			available = {
@@ -85,6 +88,126 @@ ideas = {
 			}
 		}
 	}
+
+	court_wizard = {
+		generic_offensive_mage = {
+			
+			allowed = {
+				#NOT = { 
+				#    OR = { 
+				#        original_tag = XXX
+				#	} 
+				#}
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_offensive_mage }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_defensive_mage = {
+			
+			allowed = {
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR
+					} 
+				}
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_defensive_mage }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	social_advisor = {
+		generic_conservative = {
+			
+			allowed = {
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR
+					} 
+				}
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_conservative }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_reformist = {
+			
+			allowed = {
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR
+					} 
+				}
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_reformist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
 	
 	diplomatic_advisor = {
 		generic_internationalist = {
@@ -119,7 +242,11 @@ ideas = {
 		generic_pragmatist = {
 			
 			allowed = {
-				NOT = { OR = { original_tag = WTR } }
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR 
+					} 
+				}
 			}
 
 			available = {
@@ -144,7 +271,11 @@ ideas = {
 		generic_isolationist = {
 			
 			allowed = {
-				NOT = { OR = { original_tag = WTR } }
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR 
+					} 
+				}
 			}
 
 			available = {
@@ -169,7 +300,11 @@ ideas = {
 		generic_jingoist = {
 			
 			allowed = {
-				NOT = { OR = { original_tag = WTR } }
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR 
+					} 
+				}
 			}
 
 			available = {
@@ -177,6 +312,66 @@ ideas = {
 			}
 			
 			traits = { trait_jingoist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	economic_advisor = {
+		generic_free_trade_advocate = {
+			
+			allowed = {
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR
+					} 
+				}
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_free_trade_advocate }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_protectionist = {
+			
+			allowed = {
+				NOT = { 
+				    OR = { 
+				        original_tag = WTR
+					} 
+				}
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_protectionist }
 	
 			on_add = {
 			

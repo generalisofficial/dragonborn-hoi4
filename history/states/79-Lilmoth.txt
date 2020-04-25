@@ -5,7 +5,15 @@ state={
 
 	history={
 		owner = BLM
+		victory_points = {
+			13710 5
+		}
 		buildings = {
+			infrastructure = 4
+			13710 = {
+				naval_base = 3
+
+			}
 
 		}
 		add_core_of = BLM
@@ -15,6 +23,7 @@ state={
 	provinces={
 		1813 1814 2314 3002 3003 3121 3122 3123 3124 3125 3845 3846 3847 3848 4112 5176 5690 6027 13704 13705 13707 13710 13711 13712 
 	}
-	manpower=0
+	manpower=10387
 	buildings_max_level_factor=1.000
+	state_category=town
 }

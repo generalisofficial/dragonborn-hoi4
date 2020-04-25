@@ -2453,5 +2453,52 @@ leader_traits = {
 			factor = 0
 		}
 	}
-	
+
+	trait_offensive_mage = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	trait_defensive_mage = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	trait_conservative = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	trait_reformist = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	trait_free_trade_advocate = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	trait_protectionist = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

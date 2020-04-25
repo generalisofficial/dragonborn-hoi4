@@ -130,13 +130,13 @@ country_event = {
 	
 	#Stand with Hammerfell
 	option = {
-	    name = great_war.6.a
+	    name = great_war.7.a
 		ALD = { country_event = great_war.2 }
 	}
 	
 	#Abandon Hammerfell
 	option = {
-	    name = great_war.6.b
+	    name = great_war.7.b
 		end_puppet = HAM
 		ALD = { country_event = great_war.5 }
 	}

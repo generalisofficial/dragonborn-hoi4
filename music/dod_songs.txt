@@ -14,19 +14,6 @@ music = {
 			factor = 0.25
 			has_war = no
 		}
-		modifier = {
-			factor = 2
-			has_government = fascism
-		}
-		modifier = {
-			factor = 3
-			OR = {
-				original_tag = HUN
-				original_tag = ROM
-				original_tag = CZE				
-				original_tag = YUG				
-			}
-		}
 	}
 }
 
@@ -46,19 +33,6 @@ music = {
 			factor = 0.25
 			has_war = no
 		}
-		modifier = {
-			factor = 2
-			has_government = fascism
-		}
-		modifier = {
-			factor = 3
-			OR = {
-				original_tag = HUN
-				original_tag = ROM
-				original_tag = CZE				
-				original_tag = YUG				
-			}
-		}
 	}
 }
 
@@ -74,19 +48,6 @@ music = {
 		modifier = {
 			factor = 0.25
 			has_war = no
-		}
-		modifier = {
-			factor = 2
-			has_government = fascism
-		}
-		modifier = {
-			factor = 3
-			OR = {
-				original_tag = HUN
-				original_tag = ROM
-				original_tag = CZE				
-				original_tag = YUG				
-			}
 		}
 	}
 }

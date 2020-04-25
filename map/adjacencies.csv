@@ -155,5 +155,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2558;2557;sea;13498;-1;-1;-1;-1;;The Marshes
 2001;5338;sea;13499;-1;-1;-1;-1;;The Marshes
 1801;1147;sea;13504;-1;-1;-1;-1;;The Marshes
-1798;4624;sea;13499;-1;-1;-1;-1;;The Marshes
+1798;4624;sea;13503;-1;-1;-1;-1;;The Marshes
+1011;1012;sea;221;-1;-1;-1;-1;;Brena River Bridge 1
+4888;714;sea;215;-1;-1;-1;-1;;Brena River Bridge 2
+4955;3370;sea;6174;-1;-1;-1;-1;;Hammerfell Rivers
+2357;4639;sea;6173;-1;-1;-1;-1;;Hammerfell Rivers
 -1;-1;;-1;-1;-1;-1;-1;-1
