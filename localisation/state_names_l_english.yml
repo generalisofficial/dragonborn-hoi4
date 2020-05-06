@@ -146,7 +146,7 @@
  STATE_145:0 "Ebonheart"
  STATE_146:0 "Ildrim"
  STATE_147:0 "Davon's Watch"
- STATE_148:0 "Thirr"
+ STATE_148:0 "Almas Thirr"
  STATE_149:0 "Lhendal"
  STATE_150:0 "Othrensis"
  STATE_151:0 "Meralag"
@@ -203,3 +203,4 @@
  STATE_202:0 "Greenspring"
  STATE_203:0 "Moonmarch"
  STATE_204:0 "Rockpark"
+ STATE_205:0 "Roa Dyr"

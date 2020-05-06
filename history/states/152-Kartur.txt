@@ -4,7 +4,14 @@ state={
 	
 	history={
 		owner = RED
+		victory_points = {
+			459 3
+		}
+		victory_points = {
+			4568 2
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = RED
@@ -14,6 +21,7 @@ state={
 	provinces={
 		457 458 459 460 461 462 463 4563 4566 4567 4568 
 	}
-	manpower=0
+	manpower=4456
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

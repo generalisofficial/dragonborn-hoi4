@@ -22,7 +22,7 @@
  isolationist_ideology_desc:0 "This nation is dominated by the Isolationist faction."
  
  #ANQ
- ALD_jingoist_party:0 "Thalmor"
+ ANQ_jingoist_party:0 "Thalmor"
 
  #ALD
  ALD_pragmatic_party:0 "Arpena"

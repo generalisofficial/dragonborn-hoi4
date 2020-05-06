@@ -5,7 +5,11 @@ state={
 	
 	history={
 		owner = IDR
+		victory_points = {
+			757 2
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = IDR
@@ -15,6 +19,7 @@ state={
 	provinces={
 		756 757 760 1307 1309 
 	}
-	manpower=0
+	manpower=2213
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

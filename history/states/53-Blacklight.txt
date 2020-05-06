@@ -5,7 +5,21 @@ state={
 
 	history={
 		owner = RED
+		victory_points = {
+			13742 10
+		}
+		victory_points = {
+			2487 2
+		}
+		victory_points = {
+			4010 2
+		}
 		buildings = {
+			infrastructure = 4
+			13742 = {
+				naval_base = 4
+			
+			}
 
 		}
 		add_core_of = RED
@@ -13,8 +27,9 @@ state={
 	}
 
 	provinces={
-		644 2487 2488 4007 4008 4009 4010 4011 4680 
+		644 2487 2488 4007 4008 4009 4010 4011 4680 13740 13741 13742 
 	}
-	manpower=0
+	manpower=14879
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

@@ -1,0 +1,15 @@
+﻿add_namespace = whiterun
+
+#Nazeem gets to the Cloud District
+country_event = {
+	id = whiterun.1
+	title = whiterun.1.t
+	desc = whiterun.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = whiterun.1.a
+	}
+}

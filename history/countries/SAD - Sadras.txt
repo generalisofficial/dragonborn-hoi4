@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 57
 
 oob = "SAD_4171"
 
@@ -21,14 +21,14 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 100
-    isolationist = 0
-    pragmatic = 0
+    internationalist = 76
+    isolationist = 3
+    pragmatic = 21
     jingoist = 0
 }
 
 create_country_leader = {
-	name = "Naryyth Serivon"
-	picture = "hlaalu.dds"
+	name = "Slythyr Sadras"
+	picture = "Slythyr_Sadras.dds"
 	ideology = internationalist_ideology
 }

@@ -5,16 +5,21 @@ state={
 
 	history={
 		owner = IDR
+		victory_points = {
+			2099 3
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = IDR
 
 	}
-	
+
 	provinces={
-		1098 1099 1100 1101 1102 1103 1104 1178 1179 1957 1958 2098 2099 2100 2116 3001 3824 3826 3827 3828 3829 3865 3866 4479 4519 4575 5051 5111 5615 5921 
+		1098 1099 1100 1101 2098 2099 2100 3824 3826 3827 3828 3829 3865 3866 4479 4519 4575 5051 5921 
 	}
-	manpower=0
+	manpower=4674
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

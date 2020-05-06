@@ -6,13 +6,17 @@ state={
 	history={
 		owner = DRS
 		victory_points = {
-			4530 3
+			4530 3 
 		}
 		victory_points = {
-			4469 2
+			4469 2 
 		}
 		buildings = {
 			infrastructure = 3
+			4530 = {
+				naval_base = 1
+			
+			}
 
 		}
 		add_core_of = DRS
@@ -20,7 +24,7 @@ state={
 	}
 
 	provinces={
-		3020 4469 4529 4530 5167 6021 
+		3020 4469 4529 4530 6021 
 	}
 	manpower=4960
 	buildings_max_level_factor=1.000

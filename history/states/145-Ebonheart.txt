@@ -1,19 +1,25 @@
+
 state={
 	id=145
 	name="STATE_145"
-	
+
 	history={
 		owner = IDR
+		victory_points = {
+			13748 5
+		}
 		buildings = {
+			infrastructure = 4
 
 		}
 		add_core_of = IDR
 
 	}
-	
+
 	provinces={
-		3240 4216 
+		3239 3240 4216 5741 13747 13748 
 	}
-	manpower=0
+	manpower=8687
 	buildings_max_level_factor=1.000
+	state_category=town
 }

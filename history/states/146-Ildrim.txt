@@ -1,19 +1,25 @@
+
 state={
 	id=146
 	name="STATE_146"
-	
+
 	history={
 		owner = IDR
+		victory_points = {
+			1106 2
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = IDR
 
 	}
-	
+
 	provinces={
-		1105 1106 1387 3180 3181 3933 4532 5787 
+		1102 1103 1104 1105 1106 1179 1387 2116 3180 3181 3933 5111 5615 5787 
 	}
-	manpower=0
+	manpower=2982
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

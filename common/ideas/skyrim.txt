@@ -1,0 +1,289 @@
+ideas = {
+
+    deputy = {
+
+		falk_firebeard = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_compromising }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	court_wizard = {
+			
+		sybille_stentor = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_offensive_mage }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		melaran = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_defensive_mage }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	social_advisor = {
+		rorlund = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_conservative }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+			
+		silana_petreia = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_reformist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	diplomatic_advisor = {
+		erikur = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_internationalist trait_imperial_supporter }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+			
+		bryling = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_pragmatist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		roggvir = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_isolationist trait_stormcloak_supporter }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		jaree_ra = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_jingoist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	economic_advisor = {
+		vittoria_vici = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_free_trade_advocate }
+	
+			on_add = {
+				
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+			
+		beirand = {
+			
+			allowed = {
+				original_tag = SKY
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_protectionist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

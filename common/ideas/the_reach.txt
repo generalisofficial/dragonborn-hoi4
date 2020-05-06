@@ -1,0 +1,289 @@
+ideas = {
+
+    deputy = {
+
+		reburrus_quintilius = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_partisan trait_stormcloak_supporter }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		raerek = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_nonpartisan }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	court_wizard = {
+			
+		calcelmo = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_defensive_mage }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	social_advisor = {
+		verulus = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_conservative }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+			
+		hamal = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_reformist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	diplomatic_advisor = {
+		margret = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_internationalist trait_imperial_supporter }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+			
+		faleen = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_pragmatist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		yngvar_the_singer = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_isolationist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		nepos_the_nose = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_jingoist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	economic_advisor = {
+		lisbet = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_free_trade_advocate }
+	
+			on_add = {
+				
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+			
+		ghorza_gra_bagol = {
+			
+			allowed = {
+				original_tag = REA
+			}
+
+			available = {
+			
+			}
+			
+			traits = { trait_protectionist }
+	
+			on_add = {
+			
+			}
+	
+			do_effect = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

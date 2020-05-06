@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 53
 
 oob = "RED_4171"
 

@@ -8,6 +8,11 @@ state={
 			5895 5
 		}
 		buildings = {
+			infrastructure = 4
+			5895 = {
+				naval_base = 3
+			
+			}
 
 		}
 		add_core_of = SKL

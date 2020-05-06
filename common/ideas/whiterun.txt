@@ -1,6 +1,6 @@
 ideas = {
 
-    steward = {
+    deputy = {
 		proventus_avenicci = {
 			
 			allowed = {
@@ -22,7 +22,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -47,7 +47,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -75,7 +75,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -102,7 +102,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -127,7 +127,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -154,7 +154,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -179,7 +179,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 		
@@ -204,7 +204,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 		
@@ -229,7 +229,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -248,7 +248,7 @@ ideas = {
 			traits = { trait_free_trade_advocate }
 	
 			on_add = {
-			
+				country_event = whiterun.1
 			}
 	
 			do_effect = {
@@ -256,7 +256,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -281,7 +281,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}

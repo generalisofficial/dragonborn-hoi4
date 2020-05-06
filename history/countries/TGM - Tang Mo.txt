@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 90
 
 oob = "TGM_4171"
 

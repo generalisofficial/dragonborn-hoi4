@@ -4,11 +4,12 @@ ideas = {
 		generic_partisan = {
 			
 			allowed = {
-				#NOT = { 
-				#    OR = { 
-				#        original_tag = XXX
-				#	} 
-				#}
+				NOT = { 
+				    OR = { 
+						original_tag = REA
+						original_tag = WTR
+					} 
+				}
 			}
 
 			available = {
@@ -26,7 +27,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -35,7 +36,8 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR 
+						original_tag = WTR 
+						original_tag = SKY
 					} 
 				}
 			}
@@ -55,7 +57,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 		
@@ -64,7 +66,7 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR 
+						original_tag = REA
 					} 
 				}
 			}
@@ -84,7 +86,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -93,11 +95,11 @@ ideas = {
 		generic_offensive_mage = {
 			
 			allowed = {
-				#NOT = { 
-				#    OR = { 
-				#        original_tag = XXX
-				#	} 
-				#}
+				NOT = { 
+				    OR = { 
+				        original_tag = SKY
+					} 
+				}
 			}
 
 			available = {
@@ -115,7 +117,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -124,7 +126,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR
+						original_tag = WTR
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -144,7 +148,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -155,7 +159,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR
+						original_tag = WTR
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -175,7 +181,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -184,7 +190,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR
+						original_tag = WTR
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -204,7 +212,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -215,7 +223,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR 
+						original_tag = WTR 
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -235,7 +245,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -244,7 +254,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR 
+						original_tag = WTR 
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -264,7 +276,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 		
@@ -273,7 +285,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR 
+						original_tag = WTR 
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -293,7 +307,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 		
@@ -302,7 +316,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR 
+						original_tag = WTR 
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -322,7 +338,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}
@@ -333,7 +349,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR
+						original_tag = WTR
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -353,7 +371,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 			
@@ -362,7 +380,9 @@ ideas = {
 			allowed = {
 				NOT = { 
 				    OR = { 
-				        original_tag = WTR
+						original_tag = WTR
+						original_tag = REA
+						original_tag = SKY
 					} 
 				}
 			}
@@ -382,7 +402,7 @@ ideas = {
 			}
 	
 			ai_will_do = {
-				factor = 0
+				factor = 1
 			}
 		}
 	}

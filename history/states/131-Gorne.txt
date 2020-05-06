@@ -5,6 +5,7 @@ state={
 	history={
 		owner = IDR
 		buildings = {
+			infrastructure = 2
 
 		}
 		add_core_of = IDR
@@ -14,6 +15,7 @@ state={
 	provinces={
 		4797 
 	}
-	manpower=0
+	manpower=678
 	buildings_max_level_factor=1.000
+	state_category=small_island
 }

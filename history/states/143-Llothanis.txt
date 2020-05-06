@@ -4,7 +4,11 @@ state={
 	
 	history={
 		owner = TEL
+		victory_points = {
+			5587 3
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = TEL
@@ -14,6 +18,7 @@ state={
 	provinces={
 		3779 5317 5318 5586 5587 5782 5988 
 	}
-	manpower=0
+	manpower=4658
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

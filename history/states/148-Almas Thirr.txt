@@ -2,19 +2,24 @@
 state={
 	id=148
 	name="STATE_148"
-	
+
 	history={
 		owner = IDR
+		victory_points = {
+			13746 3
+		}
 		buildings = {
+			infrastructure = 4
 
 		}
 		add_core_of = IDR
 
 	}
-	
+
 	provinces={
-		41 1423 3239 4346 4347 4348 4910 4911 5166 5741 5818 5826 
+		13746 
 	}
-	manpower=0
+	manpower=4978
 	buildings_max_level_factor=1.000
+	state_category=enclave
 }

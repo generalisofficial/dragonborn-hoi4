@@ -1,7 +1,7 @@
-version="0.1"
+version="0.2"
 name="Dragonborn"
 path="mod/dragonborn-hoi4/"
-supported_version="1.9.1"
+supported_version="1.9.2"
 tags={
 	"Alternative History"
 	"Ideologies"

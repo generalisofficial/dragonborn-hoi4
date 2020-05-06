@@ -224,3 +224,8 @@ SKN = {
 	color = rgb { 164 0 0 }
 	color_ui = rgb { 164 0 0 }
 }
+
+BRM = {
+	color = rgb { 255 192 0 }
+	color_ui = rgb { 255 192 0 }
+}

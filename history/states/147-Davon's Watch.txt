@@ -2,19 +2,31 @@
 state={
 	id=147
 	name="STATE_147"
-	
+
 	history={
 		owner = IDR
+		victory_points = {
+			4766 3
+		}
+		victory_points = {
+			4217 1
+		}
 		buildings = {
+			infrastructure = 3
+			4766 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = IDR
 
 	}
-	
+
 	provinces={
-		3892 4217 4218 4765 4766 
+		41 42 1388 3790 3892 4217 4218 4532 4764 4765 4766 5939 
 	}
-	manpower=0
+	manpower=4096
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

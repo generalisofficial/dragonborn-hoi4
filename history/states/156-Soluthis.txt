@@ -1,19 +1,25 @@
+
 state={
 	id=156
 	name="STATE_156"
-	
+
 	history={
 		owner = RED
+		victory_points = {
+			13738 2
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = RED
 
 	}
-	
+
 	provinces={
-		1762 2867 2868 2995 
+		1762 2867 2868 2995 13738 
 	}
-	manpower=0
+	manpower=3871
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
