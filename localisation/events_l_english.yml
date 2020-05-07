@@ -59,3 +59,9 @@
  whiterun.1.t:0 "Nazeem gets to the Cloud District"
  whiterun.1.d:0 "After intense debate within the Jarl's Court, local businessman Nazeem was today appointed as Economic Advisor to the Jarl. Nazeem, owner of Chillfurrow Farm, is notorous for having insulted innocent travellers for not having been to the Cloud District. In a recent poll, he was voted the most hated person of Whiterun, and many people are voicing their opposition to his ascension to the Cloud District. Will our Whiterun be polarized forever?"
  whiterun.1.a:0 "Do you get to the Cloud District very often?"
+
+ #Miraak
+ miraak.1.t:0 "Resurgent Dragon Cult"
+ miraak.1.d:0 "Disturbing reports have arrived from Solstheim. Authorities in Raven Rock have gotten news of a resurgent Dragon Cult having seized control over parts of the island. This new group is led by a so called "Miraak", and has been seen building temples all across the island. Assistance has been requested."
+ miraak.1.a:0 "It shall be dealt with immediately!"
+ miraak.1.b:0 "Our only salvation. (Play as the Dragon Cult)"

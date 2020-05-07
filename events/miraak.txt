@@ -1,0 +1,70 @@
+﻿add_namespace = miraak
+
+#Resurgent Dragon Cult
+country_event = {
+	id = miraak.1
+	title = miraak.1.t
+	desc = miraak.1.d
+	
+	trigger = {
+		owns_state = 7
+		has_global_flag = dragon_crisis
+	}
+
+	only_fire_once = yes
+
+	mean_time_to_happen = {
+		days = 100
+	}
+	
+	#Continue
+	option = {
+		name = miraak.1.a
+		DRG = {
+			add_state_core = 7
+			add_state_core = 121
+			add_state_core = 122
+			add_state_core = 115
+			add_state_core = 116
+	        transfer_state = 7
+		}
+		if = {
+			trigger = {
+				owns_state = 121
+			}
+	        DRG = { transfer_state = 121 }
+		}
+		if = {
+			trigger = {
+				owns_state = 122
+			}
+	        DRG = { transfer_state = 122 }
+		}
+	}
+
+	#Play as the Dragon Cult
+	option = {
+		name = miraak.1.b
+		DRG = {
+			change_tag_from = ROOT
+			add_state_core = 7
+			add_state_core = 121
+			add_state_core = 122
+			add_state_core = 115
+			add_state_core = 116
+	        transfer_state = 7
+		}
+		if = {
+			trigger = {
+				owns_state = 121
+			}
+	        DRG = { transfer_state = 121 }
+		}
+		if = {
+			trigger = {
+				owns_state = 122
+			}
+	        DRG = { transfer_state = 122 }
+		}
+	}
+}

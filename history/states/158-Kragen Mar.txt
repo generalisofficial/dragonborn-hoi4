@@ -5,7 +5,11 @@ state={
 	
 	history={
 		owner = SAD
+		victory_points = {
+			70 3
+		}
 		buildings = {
+			infrastructure = 3
 
 		}
 		add_core_of = SAD
@@ -15,6 +19,7 @@ state={
 	provinces={
 		67 68 69 70 71 72 74 75 416 417 952 953 954 2333 3582 4401 5632 5702 5703 
 	}
-	manpower=0
+	manpower=7438
 	buildings_max_level_factor=1.000
+	state_category=town
 }

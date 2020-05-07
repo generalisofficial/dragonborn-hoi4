@@ -5,7 +5,18 @@ state={
 	
 	history={
 		owner = SAD
+		victory_points = {
+			711 3
+		}
+		victory_points = {
+			2126 1
+		}
 		buildings = {
+			infrastructure = 3
+			711 = {
+				naval_base = 2
+			
+			}
 
 		}
 		add_core_of = SAD
@@ -15,6 +26,7 @@ state={
 	provinces={
 		710 711 712 713 2125 2126 5508 5509 6134 
 	}
-	manpower=0
+	manpower=9026
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

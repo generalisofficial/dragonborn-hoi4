@@ -164,4 +164,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5167;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 1
 1420;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 2
 3734;4797;sea;8485;-1;-1;-1;-1;;Gorne
+1891;13658;sea;6191;-1;-1;-1;-1;;Thirr River Bridge Narsis
+4825;2135;sea;13477;-1;-1;-1;-1;;Strid River Bridge 1
+4736;4735;sea;13472;-1;-1;-1;-1;;Strid River Bridge 2
+1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
 -1;-1;;-1;-1;-1;-1;-1;-1

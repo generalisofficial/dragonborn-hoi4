@@ -111,6 +111,7 @@
  religion:0 "Religion"
  eight_divines:0 "Eight Divines"
  nine_divines:0 "Nine Divines"
+ nine_divines_desc:0 "The Nine Divines consists of the most important religious order in Tamriel. The religion combines the Eight Divines pantheon created by Alessia with the apotheosized form of the founder of the Third Empire, Tiber Septim (Talos), the ninth Divine."
  nordic_pantheon:0 "Nordic Pantheon"
  altmeri_pantheon:0 "Altmeri Pantheon"
  khajiiti_pantheon:0 "Khajiiti Pantheon"
@@ -119,6 +120,7 @@
  bosmeri_pantheon:0 "Bosmeri Pantheon"
  bretony_pantheon:0 "Bretony Pantheon"
  orcish_pantheon:0 "Orcish Pantheon"
+ redguard_pantheon:0 "Redguard Pantheon"
  
  #GUILDS
  guilds:0 "Guilds"

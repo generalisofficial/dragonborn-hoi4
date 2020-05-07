@@ -4,7 +4,20 @@ state={
 	
 	history={
 		owner = SAD
+		victory_points = {
+			1417 2
+		}
+		victory_points = {
+			1894 1
+		}
+		victory_points = {
+			1895 1
+		}
+		victory_points = {
+			73 1
+		}
 		buildings = {
+			infrastructure = 2
 
 		}
 		add_core_of = SAD
@@ -14,6 +27,7 @@ state={
 	provinces={
 		73 1298 1299 1417 1418 1894 1895 
 	}
-	manpower=0
+	manpower=3645
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
