@@ -1,22 +1,23 @@
+
 state={
 	id=168
 	name="STATE_168"
-	
+
 	history={
 		owner = CYR
 		victory_points = {
-			1688 1
+			1688 1 
 		}
 		buildings = {
-            infrastructure = 3
-			
+			infrastructure = 3
+
 		}
 		add_core_of = CYR
 
 	}
-	
+
 	provinces={
-		1616 1617 1618 1619 1622 1623 1624 1688 1689 1690 1803 1804 2141 4057 4058 4549 5235 5627 5743 
+		1616 1617 1618 1619 1622 1623 1624 1688 1689 1690 1803 1804 2141 4057 4058 4549 5235 5627 5743 13791 
 	}
 	manpower=2872
 	buildings_max_level_factor=1.000

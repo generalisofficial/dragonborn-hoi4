@@ -1,0 +1,9 @@
+strategic_region={
+	id=93
+	name="STRATEGICREGION_93"
+	provinces={
+		6845 7551 7552 7553 
+	}
+	weather={
+	}
+}
