@@ -29,13 +29,13 @@ country_event = {
 	        transfer_state = 7
 		}
 		if = {
-			trigger = {
+			limit = {
 				owns_state = 121
 			}
 	        DRG = { transfer_state = 121 }
 		}
 		if = {
-			trigger = {
+			limit = {
 				owns_state = 122
 			}
 	        DRG = { transfer_state = 122 }
@@ -55,13 +55,13 @@ country_event = {
 	        transfer_state = 7
 		}
 		if = {
-			trigger = {
+			limit = {
 				owns_state = 121
 			}
 	        DRG = { transfer_state = 121 }
 		}
 		if = {
-			trigger = {
+			limit = {
 				owns_state = 122
 			}
 	        DRG = { transfer_state = 122 }
