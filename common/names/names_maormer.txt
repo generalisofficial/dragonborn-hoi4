@@ -1,0 +1,10 @@
+﻿PYD = {
+	male = {
+		names = { Cedu Isyslith Keinvornis Lirgnu Cranwi Mymilu AaddilnuhQodeh Elryndan Crihmylvin Zanvur Qrargin Carsteddelnyom Yssal Jilir Ryrgnoslyndaal Nilenmyni Cargarneth Keslo Rolmes}
+	}
+	female = {
+		names = { Donnynwur Hisny Ydo Chylmenvenden Osmeh Esheh Tenlial Sunhuht Dyhniht Homnisloh Syrrohusla Ady Puhnuon Unralwardi Dhynnaht Teerlonoht Amosa Cesmuon Elith Yyrria}
+	}
+	surnames = { }
+	callsigns = { }
+}

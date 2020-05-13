@@ -1,0 +1,54 @@
+﻿RED = {
+	male = {
+		names = { Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Shalfar Nisfar Shalik Turimar Nisil Helil Casik Vilyn Bradyn Gathal Elvas Adelv Lloyvn Garnas Saras Fovus }
+	}
+	female = {
+		names = { Mireuva Tilneri Venaasu Lolethys Hekiah }
+	}
+	surnames = { Hledndus Senothren Gimoran Daldus Tellin Mavabar Valoelo Alasis Baruralo R'aron Sailathil Dagoth Aravel R'on Helben Moabam Verethi Selarys Rindu Uvulas Valaai Dredil Thenim Ginith Dalvilu Velothi }
+	callsigns = { }
+}
+
+IDR = {
+	male = {
+		names = { Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Shalfar Nisfar Shalik Turimar Nisil Helil Casik Vilyn Bradyn Gathal Elvas Adelv Lloyvn Garnas Saras Fovus }
+	}
+	female = {
+		names = { Mireuva Tilneri Venaasu Lolethys Hekiah }
+	}
+	surnames = { Hledndus Senothren Gimoran Daldus Tellin Mavabar Valoelo Alasis Baruralo R'aron Sailathil Dagoth Aravel R'on Helben Moabam Verethi Selarys Rindu Uvulas Valaai Dredil Thenim Ginith Dalvilu Velothi }
+	callsigns = { }
+}
+
+DRS = {
+	male = {
+		names = { Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Shalfar Nisfar Shalik Turimar Nisil Helil Casik Vilyn Bradyn Gathal Elvas Adelv Lloyvn Garnas Saras Fovus }
+	}
+	female = {
+		names = { Mireuva Tilneri Venaasu Lolethys Hekiah }
+	}
+	surnames = { Hledndus Senothren Gimoran Daldus Tellin Mavabar Valoelo Alasis Baruralo R'aron Sailathil Dagoth Aravel R'on Helben Moabam Verethi Selarys Rindu Uvulas Valaai Dredil Thenim Ginith Dalvilu Velothi }
+	callsigns = { }
+}
+
+SAD = {
+	male = {
+		names = { Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Shalfar Nisfar Shalik Turimar Nisil Helil Casik Vilyn Bradyn Gathal Elvas Adelv Lloyvn Garnas Saras Fovus }
+	}
+	female = {
+		names = { Mireuva Tilneri Venaasu Lolethys Hekiah }
+	}
+	surnames = { Hledndus Senothren Gimoran Daldus Tellin Mavabar Valoelo Alasis Baruralo R'aron Sailathil Dagoth Aravel R'on Helben Moabam Verethi Selarys Rindu Uvulas Valaai Dredil Thenim Ginith Dalvilu Velothi }
+	callsigns = { }
+}
+
+TEL = {
+	male = {
+		names = { Vandus Drelnor Ernthus Feldris Urvemir Vedth Divaosi Ererynis Eraredh Shalfar Nisfar Shalik Turimar Nisil Helil Casik Vilyn Bradyn Gathal Elvas Adelv Lloyvn Garnas Saras Fovus }
+	}
+	female = {
+		names = { Mireuva Tilneri Venaasu Lolethys Hekiah }
+	}
+	surnames = { Hledndus Senothren Gimoran Daldus Tellin Mavabar Valoelo Alasis Baruralo R'aron Sailathil Dagoth Aravel R'on Helben Moabam Verethi Selarys Rindu Uvulas Valaai Dredil Thenim Ginith Dalvilu Velothi }
+	callsigns = { }
+}

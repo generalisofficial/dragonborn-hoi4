@@ -124,7 +124,6 @@ formable_nations = {
 			has_full_control_of_state = 59
 			has_full_control_of_state = 67
 			has_full_control_of_state = 64
-			has_full_control_of_state = 60
 		}
 
 		visible = {
@@ -145,7 +144,6 @@ formable_nations = {
 			59 = { add_core_of = ROOT }
 			67 = { add_core_of = ROOT }
 			64 = { add_core_of = ROOT }
-			60 = { add_core_of = ROOT }
 		}
 		
 		ai_will_do = {

@@ -1,0 +1,42 @@
+TRS = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Sload1.dds"
+			"gfx/leaders/generic/Sload2.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Sload1.dds"
+			"gfx/leaders/generic/Sload2.dds"
+		}
+	}
+
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Sload1.dds"
+			    "gfx/leaders/generic/Sload2.dds"
+		    }
+		}
+		pragmatic = {
+			male = {
+				"gfx/leaders/generic/Sload1.dds"
+				"gfx/leaders/generic/Sload2.dds"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Sload1.dds"
+			    "gfx/leaders/generic/Sload2.dds"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Sload1.dds"
+			    "gfx/leaders/generic/Sload2.dds"
+		    }
+		}
+	}
+}

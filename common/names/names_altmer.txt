@@ -1,0 +1,10 @@
+﻿ALD = {
+    male = { 
+        names = { Armiir Valmdil Meamilrmerel Sindedil Tunve kaelndil Linwve Earali kalail Norrnil Molnar Umbrillian Mormircil Linedil Eldaen Ganmo Tusir Eldve Teliria Eruva }
+    }
+    female = {
+        names = { Sonia Faraen Lirena Dhaea Naldara Nirnte Eldel Eleena Erukilia }
+    }
+    surnames = { Aedus Elsinore Grayeal Adlock Koroth Charmione Aedearea Camius }
+	callsigns = { }
+}

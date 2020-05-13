@@ -85,7 +85,7 @@ ideas = {
 		rorlund = {
 			
 			allowed = {
-				original_tag = REA
+				original_tag = SKY
 			}
 
 			available = {
@@ -110,7 +110,7 @@ ideas = {
 		silana_petreia = {
 			
 			allowed = {
-				original_tag = REA
+				original_tag = SKY
 			}
 
 			available = {

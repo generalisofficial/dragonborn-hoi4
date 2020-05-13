@@ -1,0 +1,10 @@
+﻿HAM = {
+	male = {
+		names = { Rellnzo Erneson Avidnd Athonzo Alonina Razsur Limalen Amirk Dinogel Demeand Tritklith Halis Glaald Namadon Pranebras Irgoimir Gogrter Kinola Thernet Triton }
+	}
+	female = {
+		names = { Adadsa Jamannah Davha Jearonia Rienine Enjiine Sudiaia Dhoaia Siniona Monannah Dholeer Salet Whiticky Adaicky Jeanrvek-Si Jearfaye Rashmen Relma Maleaye Lashian }
+	}
+	surnames = { Baldin Ghovt Fhilpi Boircfa M'ivem Cyurnim Boortum Ghafylba Maillem Ghashen Rhulpim Lhujar Ternom Kharte Dhashi Lochin F'actja Blirnim C'urnka Firke }
+	callsigns = { }
+}

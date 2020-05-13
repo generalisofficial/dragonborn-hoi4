@@ -1,0 +1,10 @@
+﻿default = {
+	male = {
+		names = { Henkr Hroathor Jaysim Olaf Horkrek Kveni Kusnal Ulfgon Hefarik Eifiit Metdor Keldnl Alldar Bjorsten Throsskar Hodck Atarid Eifot Mantstus Fjord Hans Haming Harrald Jorn Jurgen Argis Arngeir Logrolf Talsgar Sven Garuk Geirmund Froki Alvor Aldis Stenvar Stig Storn Styrr Hjalfar Hjornskar Lod Lodi Lodvar Jesper Jervar Gonnar Golldir }
+	}
+	female = {
+		names = { Maerlod Sergi Hreidi Rukor Kireki Thutta Eiriica Bjarine Jordo Ysoldil Agneja Botili Hefsel Gwengeth Merthi Dania Ilflith Alvissa Serata Ridja Fanari }
+	}
+	surnames = { Jorgervonson Asgornesen Ulrarmesen Bearclaw Wind-Sailer Alrisversen Fjariksen Trollsbane Alfansen Mojaldseon Fenrenson Winternight Asgarson Shadowbull Okfarson Fenroson Stonehammer Svenson Fjordensen Coldsword Strong-Voice }
+	callsigns = { Dragonborn }
+}

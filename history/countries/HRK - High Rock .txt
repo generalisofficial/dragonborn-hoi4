@@ -10,6 +10,14 @@ set_convoys = 10
 
 add_ideas = {
     idea_breton
+    nine_divines
+}
+
+4201.1.1 = {
+	add_ideas = { 
+	    eight_divines
+		idea_white_gold_concordat
+	}
 }
 
 set_politics = {	

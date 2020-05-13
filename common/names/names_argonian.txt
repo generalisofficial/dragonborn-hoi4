@@ -1,0 +1,10 @@
+﻿BLM = {
+	male = {
+		names = { Yeleek Deehepa Reenesi Wud-Ru Okan-Lei Eleedal-Ze Ushiith Oleen-Jasaiin Amusius Pad-Tan Reenee Gulum-Ei Dernum Haj-Ei Wumeil Skeish Okan-Tei Jeetum Asumsa Ushate}
+	}
+	female = {
+		names = { Akiava Neeei Beeha Kud-Meeka En-Sa Wusatan Neema Milaye Beehota Olink-Ei Bur Meen-Menari Ocheen Tashhee Dejeen Tar-Meei Euteeva Gilmos Sesh-Jeen Gillz}
+	}
+	surnames = { Calidorees Magsar Galmarush Peseene Taierteus Neferean Maglus Agiuscles Caeseene Mereesifon Cayseus Catus Tiberdesh Cayacalees Nagteus Tikeersar Theonaresh Xemmarush Caysilus}
+	callsigns = { }
+}

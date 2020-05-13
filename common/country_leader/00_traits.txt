@@ -2488,7 +2488,9 @@ leader_traits = {
 
 	trait_free_trade_advocate = {
 		random = no
-		
+		industrial_capacity_factory = -0.05
+		trade_opinion_factor = 0.25
+
 		ai_will_do = {
 			factor = 0
 		}
@@ -2496,6 +2498,8 @@ leader_traits = {
 
 	trait_protectionist = {
 		random = no
+		industrial_capacity_factory = 0.05
+		trade_opinion_factor = -0.25
 		
 		ai_will_do = {
 			factor = 0

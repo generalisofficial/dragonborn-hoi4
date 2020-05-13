@@ -37,11 +37,11 @@ country_event = {
 		news_event = forsworn_uprising.2
 		release = REA
 		REA = {
-			change_tag_from = ROOT
 			set_politics = {
 				ruling_party = jingoist
 				elections_allowed = no
 			}
+			change_tag_from = ROOT
 		}
 	}
 }

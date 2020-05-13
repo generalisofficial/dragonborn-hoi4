@@ -1,0 +1,90 @@
+HRK = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Breton1.dds"
+			"gfx/leaders/generic/Breton2.dds"
+			"gfx/leaders/generic/Breton3.dds"
+			"gfx/leaders/generic/Breton4.dds"
+			"gfx/leaders/generic/Breton5.dds"
+			"gfx/leaders/generic/Breton6.dds"
+			"gfx/leaders/generic/Breton7.dds"
+			"gfx/leaders/generic/Breton8.dds"
+			"gfx/leaders/generic/Breton9.dds"
+			"gfx/leaders/generic/Breton10.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Breton1.dds"
+			"gfx/leaders/generic/Breton2.dds"
+			"gfx/leaders/generic/Breton3.dds"
+			"gfx/leaders/generic/Breton4.dds"
+			"gfx/leaders/generic/Breton5.dds"
+			"gfx/leaders/generic/Breton6.dds"
+			"gfx/leaders/generic/Breton7.dds"
+			"gfx/leaders/generic/Breton8.dds"
+			"gfx/leaders/generic/Breton9.dds"
+			"gfx/leaders/generic/Breton10.dds"
+		}
+	}
+
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Breton1.dds"
+			    "gfx/leaders/generic/Breton2.dds"
+			    "gfx/leaders/generic/Breton3.dds"
+			    "gfx/leaders/generic/Breton4.dds"
+			    "gfx/leaders/generic/Breton5.dds"
+			    "gfx/leaders/generic/Breton6.dds"
+			    "gfx/leaders/generic/Breton7.dds"
+			    "gfx/leaders/generic/Breton8.dds"
+			    "gfx/leaders/generic/Breton9.dds"
+			    "gfx/leaders/generic/Breton10.dds"
+		    }
+		}
+		pragmatic = {
+			    male = {
+			    "gfx/leaders/generic/Breton1.dds"
+			    "gfx/leaders/generic/Breton2.dds"
+			    "gfx/leaders/generic/Breton3.dds"
+			    "gfx/leaders/generic/Breton4.dds"
+			    "gfx/leaders/generic/Breton5.dds"
+			    "gfx/leaders/generic/Breton6.dds"
+			    "gfx/leaders/generic/Breton7.dds"
+			    "gfx/leaders/generic/Breton8.dds"
+			    "gfx/leaders/generic/Breton9.dds"
+			    "gfx/leaders/generic/Breton10.dds"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Breton1.dds"
+			    "gfx/leaders/generic/Breton2.dds"
+			    "gfx/leaders/generic/Breton3.dds"
+			    "gfx/leaders/generic/Breton4.dds"
+			    "gfx/leaders/generic/Breton5.dds"
+			    "gfx/leaders/generic/Breton6.dds"
+			    "gfx/leaders/generic/Breton7.dds"
+			    "gfx/leaders/generic/Breton8.dds"
+			    "gfx/leaders/generic/Breton9.dds"
+			    "gfx/leaders/generic/Breton10.dds"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Breton1.dds"
+			    "gfx/leaders/generic/Breton2.dds"
+			    "gfx/leaders/generic/Breton3.dds"
+			    "gfx/leaders/generic/Breton4.dds"
+			    "gfx/leaders/generic/Breton5.dds"
+			    "gfx/leaders/generic/Breton6.dds"
+			    "gfx/leaders/generic/Breton7.dds"
+			    "gfx/leaders/generic/Breton8.dds"
+			    "gfx/leaders/generic/Breton9.dds"
+			    "gfx/leaders/generic/Breton10.dds"
+		    }
+		}
+	}
+}

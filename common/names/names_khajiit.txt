@@ -1,0 +1,21 @@
+﻿ANQ = {
+	male = {
+		names = { Akh'iq Vasarr M'had Josraym Jobin-Dar Ak'tasarr Zoarisk Mojsakhar Daro M'aji Jothur Ak'kir Daro R'jhad Ri'hur Zanar Kazaska Vassava Ranasha S'kar}
+	}
+	female = {
+		names = { Ma'jirra Dar'ni Ahnsma Shabhana Ashizura Ko'abi Yusja Shumba Ri'vari Faivva Zabhia M'abi Tsabsha Shunra J'ada Kinja Adanisi Tsalia Kisjjan Rabirra}
+	}
+	surnames = { Marahoni Tovikhirn Salkahr Amahni Rahkhir Zabihrri Jahkdavi Amanrin Sihaan Tovikmhan Hannubus Sirakar Rawistahe Jahkbari Zahhan Ravimnim Sanai Rahkhir R'rassa Khanjstae}
+	callsigns = { }
+}
+
+PEL = {
+	male = {
+		names = { Akh'iq Vasarr M'had Josraym Jobin-Dar Ak'tasarr Zoarisk Mojsakhar Daro M'aji Jothur Ak'kir Daro R'jhad Ri'hur Zanar Kazaska Vassava Ranasha S'kar}
+	}
+	female = {
+		names = { Ma'jirra Dar'ni Ahnsma Shabhana Ashizura Ko'abi Yusja Shumba Ri'vari Faivva Zabhia M'abi Tsabsha Shunra J'ada Kinja Adanisi Tsalia Kisjjan Rabirra}
+	}
+	surnames = { Marahoni Tovikhirn Salkahr Amahni Rahkhir Zabihrri Jahkdavi Amanrin Sihaan Tovikmhan Hannubus Sirakar Rawistahe Jahkbari Zahhan Ravimnim Sanai Rahkhir R'rassa Khanjstae}
+	callsigns = { }
+}

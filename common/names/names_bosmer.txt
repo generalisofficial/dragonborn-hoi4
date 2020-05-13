@@ -1,0 +1,10 @@
+﻿VAL = {
+	male = {
+		names = { Thaddor Erigan Thragon Galmdil Baenoth Daeedhel Bolwilon Fillglos Pegronor Ungrlos Anolim Endrdan Brolin Ronhaur Synhiel Gwilgvir Mendus Alenhiel Alenadan Anrrm }
+	}
+	female = {
+		names = { Anedraen Andraon Cirwrael Dagcialfin Gaelnan Cuunrifin Elphdhel Ciinlyth Beorioniel Niolereth Glalerva Dairwenyl Eraathil Anrnia Milblerva Anurinthil Ulanlithil Nateelaen Niolrwen Gannor }
+	}
+	surnames = { Softscrub Willowstone Camoblossom Appledale Forestdale Balfdale Roserock Applebrook Shadyscrub Mossscrub Seedwood Mossstone Shadyrun Nightblossom Bluelock Duskthorn Sagemire Balfgrass Seedvale Lichensky }
+	callsigns = { }
+}

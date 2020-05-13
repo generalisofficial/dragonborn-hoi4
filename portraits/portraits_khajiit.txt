@@ -1,0 +1,181 @@
+ANQ = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Khajiit1.dds"
+			"gfx/leaders/generic/Khajiit2.dds"
+			"gfx/leaders/generic/Khajiit3.dds"
+			"gfx/leaders/generic/Khajiit4.dds"
+			"gfx/leaders/generic/Khajiit5.dds"
+			"gfx/leaders/generic/Khajiit6.dds"
+			"gfx/leaders/generic/Khajiit7.dds"
+			"gfx/leaders/generic/Khajiit8.dds"
+			"gfx/leaders/generic/Khajiit9.dds"
+			"gfx/leaders/generic/Khajiit10.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Khajiit1.dds"
+			"gfx/leaders/generic/Khajiit2.dds"
+			"gfx/leaders/generic/Khajiit3.dds"
+			"gfx/leaders/generic/Khajiit4.dds"
+			"gfx/leaders/generic/Khajiit5.dds"
+			"gfx/leaders/generic/Khajiit6.dds"
+			"gfx/leaders/generic/Khajiit7.dds"
+			"gfx/leaders/generic/Khajiit8.dds"
+			"gfx/leaders/generic/Khajiit9.dds"
+			"gfx/leaders/generic/Khajiit10.dds"
+		}
+	}
+
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+		pragmatic = {
+			    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+	}
+}
+
+PEL = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Khajiit1.dds"
+			"gfx/leaders/generic/Khajiit2.dds"
+			"gfx/leaders/generic/Khajiit3.dds"
+			"gfx/leaders/generic/Khajiit4.dds"
+			"gfx/leaders/generic/Khajiit5.dds"
+			"gfx/leaders/generic/Khajiit6.dds"
+			"gfx/leaders/generic/Khajiit7.dds"
+			"gfx/leaders/generic/Khajiit8.dds"
+			"gfx/leaders/generic/Khajiit9.dds"
+			"gfx/leaders/generic/Khajiit10.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Khajiit1.dds"
+			"gfx/leaders/generic/Khajiit2.dds"
+			"gfx/leaders/generic/Khajiit3.dds"
+			"gfx/leaders/generic/Khajiit4.dds"
+			"gfx/leaders/generic/Khajiit5.dds"
+			"gfx/leaders/generic/Khajiit6.dds"
+			"gfx/leaders/generic/Khajiit7.dds"
+			"gfx/leaders/generic/Khajiit8.dds"
+			"gfx/leaders/generic/Khajiit9.dds"
+			"gfx/leaders/generic/Khajiit10.dds"
+		}
+	}
+
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+		pragmatic = {
+			    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Khajiit1.dds"
+			    "gfx/leaders/generic/Khajiit2.dds"
+			    "gfx/leaders/generic/Khajiit3.dds"
+			    "gfx/leaders/generic/Khajiit4.dds"
+			    "gfx/leaders/generic/Khajiit5.dds"
+			    "gfx/leaders/generic/Khajiit6.dds"
+			    "gfx/leaders/generic/Khajiit7.dds"
+			    "gfx/leaders/generic/Khajiit8.dds"
+			    "gfx/leaders/generic/Khajiit9.dds"
+			    "gfx/leaders/generic/Khajiit10.dds"
+		    }
+		}
+	}
+}

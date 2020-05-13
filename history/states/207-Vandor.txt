@@ -1,0 +1,21 @@
+state={
+	id=207
+	name="STATE_207"
+
+	history={
+		owner = TRS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TRS
+
+	}
+
+	provinces={
+		13555 13557 13559 
+	}
+	manpower=2875
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

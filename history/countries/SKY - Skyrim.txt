@@ -8,11 +8,15 @@ set_technology = {
 set_convoys = 5
 
 add_ideas = {
-    idea_nord
+	idea_nord
+	nine_divines
 }
 
 4201.1.1 = {
-	give_guarantee = WTR
+	add_ideas = { 
+	    eight_divines
+		idea_white_gold_concordat
+	}
 }
 
 set_politics = {	

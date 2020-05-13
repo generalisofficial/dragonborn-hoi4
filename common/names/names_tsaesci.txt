@@ -1,0 +1,10 @@
+﻿TSA = {
+	male = {
+		names = { Redekes Enigis-Dinarrih Genassi Ennikan-Minnaga Idrelissis Yrsha Gishelykieh Rygra Ennynikaj-Shirshij Zylrinek Yfisek-Dedduk Iddirras Gelrylixu Nivik Kisuh-Chan Essuk Kardun Raneh Igaxhi-Zhyrshan Keshixaj}
+	}
+	female = {
+		names = { Rynduh Melne-Enna Arshagaj Dharrirade-Zhyssik Gandysa-Vesin Vashuk Gilres-Kellej Rildes-Mydes Nydaxu-Rydiku Zharak-Kirysa Alessinik-Xhazen Dhalruek-Nilranues Issi Igrij-Nis Derij Shillilinek-Challikes Kelvesyku-Gassu Dynderrara Ilru Izzij}
+	}
+	surnames = { }
+	callsigns = { }
+}

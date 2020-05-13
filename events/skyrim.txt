@@ -37,12 +37,11 @@ country_event = {
 	desc = skyrim.2.d
 	
 	trigger = {
-		#original_tag = SKY
-		#is_subject_of = CYR
-		#date > 4201.2.1
-		#has_idea = idea_white_gold_concordat
-		#has_country_leader = { ruling_only = yes name = "Torygg" }
-		always = no
+		original_tag = SKY
+		is_subject_of = CYR
+		date > 4201.2.1
+		has_idea = idea_white_gold_concordat
+		has_country_leader = { ruling_only = yes name = "Torygg" }
 	}
 
 	mean_time_to_happen = {
@@ -51,7 +50,7 @@ country_event = {
 	
 	option = {
 		name = skyrim.2.a
-		country_event = skyrim.4
+		country_event = skyrim.3
 	}
 }
 
@@ -69,7 +68,8 @@ country_event = {
 		    add_civil_war_generals_sky = yes
             every_owned_state = {
                 add_core_of = ESM
-            }
+			}
+			country_event = skyrim.4
         }
 		ESM = {
 		    set_cosmetic_tag = ESM_STORMCLOAK
@@ -113,7 +113,6 @@ country_event = {
             }
         }
 		ESM = {
-		    change_tag_from = ROOT
 		    set_cosmetic_tag = ESM_STORMCLOAK
 			add_civil_war_generals_esm = yes
 			transfer_state = 16
@@ -142,7 +141,8 @@ country_event = {
 	            traits = {
 	                great_war_hero
 	            }
-            }
+			}
+			change_tag_from = ROOT
 		}
 	}
 }
@@ -165,11 +165,10 @@ country_event = {
 	            genial_anti_revolutionary
 	        }
         }
-		country_event = skyrim.3
 	}
 }
 
-#The Moot
+#The Moot - Imperial
 country_event = {
 	id = skyrim.5
 	title = skyrim.5.t
@@ -191,25 +190,15 @@ country_event = {
 	
 	option = {
 		name = skyrim.5.a
+		set_country_flag = moot_elisif_the_fair
 		create_country_leader = {
-	        name = "Elisif"
-	        picture = "Elisif.dds"
+	        name = "Elisif the Fair"
+	        picture = "Elisif_the_Fair.dds"
 	        ideology = internationalist_ideology
 	        traits = {
 	            humble
 				popular_queen
 	        }
-        }
-	}
-	option = {
-		name = skyrim.5.b
-		trigger = {
-            has_global_flag = dragonborn_high_king
-	    }
-		create_country_leader = {
-	        name = "Last Dragonborn"
-	        picture = "Last_Dragonborn.dds"
-	        ideology = internationalist_ideology
         }
 	}
 }

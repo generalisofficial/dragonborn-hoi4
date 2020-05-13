@@ -13,7 +13,6 @@ state={
 			
 		}
 		add_core_of = CYR
-		add_core_of = CHO
 
 	}
 

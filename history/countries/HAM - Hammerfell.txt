@@ -9,11 +9,14 @@ set_technology = {
 set_convoys = 10
 
 add_ideas = {
-    idea_redguard
+	idea_redguard
+	nine_divines
 }
 
 4201.1.1 = {
-	leave_faction = yes
+	add_ideas = { 
+	    redguard_pantheon
+	}
 }
 
 set_politics = {	
