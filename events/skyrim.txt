@@ -102,6 +102,9 @@ country_event = {
 	            }
             }
 		}
+		hidden_effect = {
+			news_event = skyrim.6
+		}
 	}
 	
 	option = {
@@ -143,6 +146,9 @@ country_event = {
 	            }
 			}
 			change_tag_from = ROOT
+		}
+		hidden_effect = {
+			news_event = skyrim.6
 		}
 	}
 }
@@ -200,5 +206,33 @@ country_event = {
 				popular_queen
 	        }
         }
+	}
+}
+
+#Stormcloak Rebellion - News
+news_event = {
+	id = skyrim.6
+	title = skyrim.6.t
+	desc = skyrim.6.d
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = skyrim.6.a
+		trigger = {
+			NOT = {
+				original_tag = ESM
+				has_cosmetic_tag = ESM_STORMCLOAK
+			}
+		}
+	}
+
+	option = {
+		name = skyrim.6.b
+		trigger = {
+			original_tag = ESM
+			has_cosmetic_tag = ESM_STORMCLOAK
+		}
 	}
 }

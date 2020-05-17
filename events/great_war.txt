@@ -104,6 +104,9 @@ country_event = {
 	option = {
 	    name = great_war.6.a
 		add_ideas = { idea_white_gold_concordat }
+		hidden_effect = {
+			news_event = great_war.8
+		}
 		if = {
 			limit = { HAM = { is_subject_of = CYR } }
 			ALD = { 
@@ -139,5 +142,36 @@ country_event = {
 	    name = great_war.7.b
 		end_puppet = HAM
 		ALD = { country_event = great_war.5 }
+	}
+}
+
+#White-Gold Concordat - News
+news_event = {
+	id = great_war.8
+	title = great_war.8.t
+	desc = great_war.8.d
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = great_war.8.a
+		trigger = {
+			NOT = { original_tag = ALD original_tag = CYR }
+		}
+	}
+
+	option = {
+		name = great_war.8.b
+		trigger = {
+			original_tag = ALD
+		}
+	}
+
+	option = {
+		name = great_war.8.c
+		trigger = {
+			original_tag = CYR
+		}
 	}
 }

@@ -25,6 +25,11 @@
  great_war.7.d:0 "With our decision to solve the Dominion issue diplomatically, Hammerfell has made it explicitly clear that no land will be ceded. This conflicts directly with the treaty, and it is now clear that the Redguards will not cooperate. We can now either keep the Redguards loyal and fight the Dominion, or leave Hammerfell alone against the Dominion. Which is it?"
  great_war.7.a:0 "Hammerfell are our brothers!"
  great_war.7.b:0 "We cannot afford a war."
+ great_war.8.t:0 "EMPIRE-DOMINION TREATY!"
+ great_war.8.d:0 "After facing pressure from all sides, Emperor Titus Mede II has decided to sign a treaty with the Aldmeri Dominion. The reasoning is unclear, but is suspected to be avoiding further bloodshed between the 2 powers. Treaty conditions stipulate the total ban on Talos worship within the Empire, likely to anger Skyrim, and the cession of Southern Hammerfell, something the Redguards will hardly accept."
+ great_war.8.a:0 "A lasting peace!"
+ great_war.8.b:0 "We will return."
+ great_war.8.c:0 "We did what we had to."
  
  #Skyrim
  skyrim.1.t:0 "Death of High King Istlod"
@@ -34,7 +39,7 @@
  skyrim.2.d:0 "It was a normal morning, until Jarl of Eastmarch, Ulfric Stormcloak marched into Solitude, and challenged the humble High King Torygg to a duel. Torygg accepted the request honourably, however when the duel started, Ulfric turned out to have a trick up his sleve. After studying with the Greybeards, Ulfric learned the ability to use Dragon Shouts. This turned out to give him a radical advantage against Torygg, and the High King was shouted to the ground and killed."
  skyrim.2.a:0 "Horrible murder!"
  skyrim.3.t:0 "The Stormcloak Rebellion"
- skyrim.3.d:0 "After violently killing High King Torygg in Solitude, Jarl of Eastmarch, Ulfric Stormcloak has called an uprising against the Empire. The rebellion has been joined by the Old Holds: Eastmarch, Winterhold, The Rift and The Pale, and is openly challenging Imperial authority in Skyrim."
+ skyrim.3.d:0 "After murdering High King Torygg in Solitude, Jarl of Eastmarch, Ulfric Stormcloak has called an uprising against the Empire. The rebellion has been joined by the Old Holds: Eastmarch, Winterhold, The Rift and The Pale, and is openly challenging Imperial authority in Skyrim."
  skyrim.3.a:0 "For the Empire!"
  skyrim.3.b:0 "Skyrim belongs to the Nords! (Play as the Stormcloaks)"
  skyrim.4.t:0 "General Tullius arrives in Solitude"
@@ -43,6 +48,8 @@
  skyrim.5.t:0 "The Moot"
  skyrim.5.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and elect a new High King or Queen. The obvious candidate is Jarl Elisif the Fair of Haafingar, widow of the late High King Torygg."
  skyrim.5.a:0 "Jarl Elisif the Fair will lead."
+ skyrim.6.t:0 "CIVIL WAR IN SKYRIM!"
+ skyrim.6.d:0 "After Jarl of Eastmarch, Ulfric Stormcloak, marched into Solitude and murdered High King Torygg, conflict was inevitable. It has now arrived, with Ulfric declaring a rebellion against Imperial rule in Skyrim. Ulfric has been joined by the Old Holds of Winterhold, The Rift and The Pale, as well as his own Eastmarch. The uprising is opposed by newly-arrived General Tullius of the Imperial Legion, who has gathered Legion forces to battle the Stormcloaks."
 
  #Stormcloak Skyrim
  skyrim_stormcloak.1.t:0 "The Moot"
