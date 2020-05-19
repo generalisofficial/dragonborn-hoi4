@@ -1,7 +1,5 @@
 version="0.2"
 name="Dragonborn"
-path="mod/dragonborn-hoi4/"
-supported_version="1.9.2"
 tags={
 	"Alternative History"
 	"Ideologies"
@@ -10,7 +8,6 @@ tags={
 	"Technology"
 	"Gameplay"
 }
-
 replace_path="common/abilities"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
@@ -44,3 +41,6 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="events"
 replace_path="portraits"
+supported_version="1.9.2"
+path="mod/dragonborn-hoi4/"
+remote_file_id="1734970898"

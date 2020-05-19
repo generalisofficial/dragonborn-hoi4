@@ -23,7 +23,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				targeted_modifier = { tag = BLM attack_bonus_against = 0.2 }
+				army_core_attack_factor = 0.2
 				war_support_factor = 0.2
 				army_morale_factor = 0.1
 				surrender_limit = 0.2

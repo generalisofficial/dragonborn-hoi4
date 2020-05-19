@@ -11,7 +11,7 @@
 
 units = {
 	division = {
-		name = "1st Legion"
+		name = "Test Legion"
 		location = 1554
 		division_template = "Legion"
 		start_experience_factor = 0.30

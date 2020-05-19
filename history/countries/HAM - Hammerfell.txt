@@ -32,16 +32,3 @@ set_popularities = {
     isolationist = 44
     jingoist = 0
 }
-
-create_country_leader = {
-	name = "Nannoc Forebear"
-	picture = "gfx/leaders/generic/Redguard8.dds"
-	ideology = internationalist_ideology
-}
-
-create_country_leader = {
-	name = "Jindal Crown"
-	picture = "gfx/leaders/generic/Redguard7.dds"
-	ideology = isolationist_ideology
-}
-
