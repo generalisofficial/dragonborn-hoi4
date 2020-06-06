@@ -1,0 +1,29 @@
+
+state={
+	id=215
+	name="STATE_215"
+
+	history={
+		owner = SKY
+		victory_points = {
+			2329 3 
+		}
+		victory_points = {
+			2327 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SKY
+		add_core_of = REA
+
+	}
+
+	provinces={
+		676 1867 2173 2174 2175 2176 2177 2178 2180 2181 2182 2327 2329 2749 3938 4734 5140 5170 5749 11154 13569 
+	}
+	manpower=8125
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1863,7 +1863,7 @@
 1862;245;178;125;land;false;hills;1
 1863;216;251;101;land;false;hills;1
 1864;221;173;127;land;false;hills;1
-1865;247;245;140;land;false;desert;1
+1865;247;245;140;land;true;plains;1
 1866;205;242;187;land;false;desert;1
 1867;244;220;154;land;false;desert;1
 1868;235;138;225;land;false;desert;1

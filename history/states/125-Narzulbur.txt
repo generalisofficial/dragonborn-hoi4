@@ -5,7 +5,7 @@ state={
 	history={
 		owner = NZB
 		victory_points = {
-			550 2
+			5324 2
 		}
 		buildings = {
 

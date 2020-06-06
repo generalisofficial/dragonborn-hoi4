@@ -76,3 +76,11 @@
  miraak.1.d:0 "Disturbing reports have arrived from Solstheim. Authorities in Raven Rock have gotten news of a resurgent Dragon Cult having seized control over parts of the island. This new group is led by a so called "Miraak", and has been seen building temples all across the island. Assistance has been requested."
  miraak.1.a:0 "It shall be dealt with immediately!"
  miraak.1.b:0 "Our only salvation. (Play as the Dragon Cult)"
+
+ #Dragon Crisis
+ dragon_crisis.1.t:0 "Dragon Attack at Helgen"
+ dragon_crisis.1.d:0 "Grim news have arrived from Helgen. During a routine prisoner execution, it seems that the town was assaulted by a dragon, this despite their disappearance for over 4000 years. The prisoners were able to escape, Helgen was obliterated, and we have heard news of further dragon sightings."
+ dragon_crisis.1.a:0 "This needs to be dealt with immediately!"
+ dragon_crisis.2.t:0 "DRAGONS RETURNING TO SKYRIM?"
+ dragon_crisis.2.d:0 "Despite the complete disappearance of the dragons ever since the Dragon War, dragons are now starting to return to Skyrim. During a routine execution of prisoners in Helgen, a dragon attacked the town, allowing the prisoners to flee before the town was reduced to rubble. Additional sightings of dragons have been reported in the holds of Falkreath and Whiterun."
+ dragon_crisis.2.a:0 "Is Tamriel coming to an end?"

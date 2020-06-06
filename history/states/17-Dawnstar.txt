@@ -1,0 +1,30 @@
+
+state={
+	id=17
+	name="STATE_17"
+
+	history={
+		owner = SKY
+		victory_points = {
+			3943 5 
+		}
+		buildings = {
+			infrastructure = 3
+			3943 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SKY
+		add_core_of = PLE
+
+	}
+
+	provinces={
+		239 390 391 392 792 2299 3939 3940 3941 3943 5646 5948 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

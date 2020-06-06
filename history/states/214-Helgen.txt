@@ -1,0 +1,25 @@
+state={
+	id=214
+	name="STATE_214"
+
+	history={
+		owner = SKY
+		victory_points = {
+			2411 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SKY
+		add_core_of = FLK
+
+	}
+
+	provinces={
+		2405 2406 2407 2408 2410 2411 2412 2413 2414 2415 2416 2417 4915 5543 
+	}
+	manpower=3871
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,28 @@
+state={
+	id=213
+	name="STATE_213"
+
+	history={
+		owner = SKY
+		victory_points = {
+			2918 3 
+		}
+		victory_points = {
+			5951 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SKY
+		add_core_of = ESM
+
+	}
+
+	provinces={
+		113 114 2486 2910 2911 2912 2913 2914 2915 2916 2917 2918 2919 4082 4083 5588 5951 
+	}
+	manpower=5172
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

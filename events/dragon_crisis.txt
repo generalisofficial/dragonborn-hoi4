@@ -1,0 +1,40 @@
+﻿add_namespace = dragon_crisis
+
+#Dragon Attack at Helgen
+country_event = {
+	id = dragon_crisis.1
+	title = dragon_crisis.1.t
+	desc = dragon_crisis.1.d
+	
+	trigger = {
+		owns_state = 214
+		date > 4201.1.1
+		NOT = { has_global_flag = dragon_crisis }
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	option = {
+		name = dragon_crisis.1.a
+		set_global_flag = dragon_crisis
+		hidden_effect = {
+			news_event = dragon_crisis.2
+		}
+	}
+}
+
+#Dragon Crisis - News
+news_event = {
+	id = dragon_crisis.2
+	title = dragon_crisis.2.t
+	desc = dragon_crisis.2.d
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = dragon_crisis.2.a
+	}
+}
