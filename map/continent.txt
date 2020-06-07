@@ -1,5 +1,13 @@
 continents = {
-    tamriel
+	skyrim
+	morrowind
+	cyrodiil
+	hammerfell
+	highrock
+	argonia
+	alinor
+	valenwood
+	elsweyr
     akavir
 	pyandonea
 	atmora
