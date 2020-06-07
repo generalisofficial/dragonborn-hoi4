@@ -8,12 +8,12 @@ country_event = {
 	
 	trigger = {
 		owns_state = 214
-		date > 4201.1.1
+		date > 4201.9.1
 		NOT = { has_global_flag = dragon_crisis }
 	}
 
 	mean_time_to_happen = {
-		days = 365
+		days = 50
 	}
 	
 	option = {
