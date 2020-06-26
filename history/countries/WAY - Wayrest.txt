@@ -1,0 +1,56 @@
+﻿capital = 22
+
+oob = "WAY_4171"
+
+set_technology = {
+
+}
+
+set_convoys = 10
+
+add_ideas = {
+    idea_breton
+    nine_divines
+}
+
+4201.1.1 = {
+	add_ideas = { 
+	    pirate_republic
+	}
+	set_politics = {	
+		ruling_party = isolationist
+		elections_allowed = no
+	}
+	set_popularities = {
+		internationalist = 0
+		pragmatic = 63
+		isolationist = 37
+		jingoist = 0
+	}
+}
+
+set_politics = {	
+	ruling_party = pragmatic
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 0
+    pragmatic = 92
+    isolationist = 8
+    jingoist = 0
+}
+
+create_country_leader = {
+	name = "Barynia"
+	picture = "Barynia.dds"
+	ideology = pragmatic_ideology
+}
+
+create_country_leader = {
+	name = "Captain Phiron"
+	picture = "Captain_Phiron.dds"
+	ideology = isolationist_ideology
+}

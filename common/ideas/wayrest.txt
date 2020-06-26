@@ -1,0 +1,22 @@
+ideas = {
+	
+	country = {
+	
+		idea_pirate_republic = {
+			picture = pirate_republic
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			cancel = {
+			    NOT = { has_government = isolationist }
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = 0.2
+			}
+		}
+	}
+}

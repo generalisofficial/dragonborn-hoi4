@@ -43,7 +43,7 @@ if = {
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
-		target = HRK
+		target = DAG
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
@@ -56,7 +56,7 @@ if = {
 	}
 	else = {
 		puppet = SKY
-		puppet = HRK
+		puppet = DAG
 		puppet = HAM
 		puppet = ESR
 	}

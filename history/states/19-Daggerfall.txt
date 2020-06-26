@@ -4,7 +4,7 @@ state={
 	name="STATE_19"
 
 	history={
-		owner = HRK
+		owner = DAG
 		victory_points = {
 			2719 10 
 		}
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = HRK
+		add_core_of = DAG
 
 	}
 

@@ -1,6 +1,6 @@
 ﻿capital = 19
 
-oob = "HRK_4171"
+oob = "DAG_4171"
 
 set_technology = {
 
@@ -12,6 +12,8 @@ add_ideas = {
     idea_breton
     nine_divines
 }
+
+set_cosmetic_tag = HRK
 
 4201.1.1 = {
 	add_ideas = { 

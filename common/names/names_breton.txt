@@ -1,4 +1,15 @@
-﻿HRK = {
+﻿DAG = {
+	male = {
+		names = { Gilblynver Rodeeus Norrbert Norbistair Alondre Matcourtaine Albenven Eugicekoran Celcoisyd Cedrore Branntienic Weynean Haneanr Louifreben Frosinean Enmnean Inwncois Albedie Beleciusine Ennostian }
+	}
+	female = {
+		names = { Sybiielle Milbe Virene Jolicine Irenphine Surudette Murnche Edwincine Canrine Angeuerite AnginVoauerite Zoecette Edwielle Edrealyn Colte Bernene Suradette Emusrelle Deroline }
+		}
+	surnames = { Nestin Chrorel Razeley Magiie Jonoric Fesrush Anchans Fanrrick Montuche Gelick Nytmaulese Merore Wirioric Laroush Woodeph Lelaush Fralatha Lelistiana Stedmine Kingeley }
+	callsigns = { }
+}
+
+WAY = {
 	male = {
 		names = { Gilblynver Rodeeus Norrbert Norbistair Alondre Matcourtaine Albenven Eugicekoran Celcoisyd Cedrore Branntienic Weynean Haneanr Louifreben Frosinean Enmnean Inwncois Albedie Beleciusine Ennostian }
 	}

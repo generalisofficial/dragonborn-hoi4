@@ -6,6 +6,11 @@ STC = {
     }
 }
 
+HRK = {
+	original_tag = DAG
+	has_cosmetic_tag = HRK
+}
+
 MOT = {
 	variable = generic_operation_target
 }

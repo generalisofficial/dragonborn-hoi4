@@ -42,7 +42,7 @@ autonomy_state = {
 	allowed = {
 	   	if = {
 		    has_dlc = "Together for Victory"
-		    NOT = { OVERLORD = { original_tag = CYR } }
+		    NOT = { is_subject_of = CYR }
 		}
 	}
 

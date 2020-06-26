@@ -84,3 +84,7 @@
  TEL_pragmatic_party_desc:0 "Great House"
  TEL_isolationist_party_desc:0 "Great House"
  TEL_jingoist_party_desc:0 "Great House"
+
+ #WAY
+ WAY_isolationist_party:0 "Wayrest Corsairs"
+ WAY_isolationist_party_desc:0 "Pirate Republic"

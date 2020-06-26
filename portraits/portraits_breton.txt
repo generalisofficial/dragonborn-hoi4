@@ -1,4 +1,4 @@
-HRK = {
+DAG = {
 	army = {
 		male = {
 			"gfx/leaders/generic/Breton1.dds"

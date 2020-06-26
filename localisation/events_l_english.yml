@@ -84,3 +84,11 @@
  dragon_crisis.2.t:0 "DRAGONS RETURNING TO SKYRIM?"
  dragon_crisis.2.d:0 "Despite the complete disappearance of the dragons ever since the Dragon War, dragons are now starting to return to Skyrim. During a routine execution of prisoners in Helgen, a dragon attacked the town, allowing the prisoners to flee before the town was reduced to rubble. Additional sightings of dragons have been reported in the holds of Falkreath and Whiterun."
  dragon_crisis.2.a:0 "Is Tamriel coming to an end?"
+
+ #High Rock
+ high_rock.1.t:0 "Breakup of High Rock"
+ high_rock.1.d:0 "High Rock has left the Empire. The fragile provincial peace that was kept in place by the Emperor in Cyrodiil is now gone. With the collapse of central authority, High Rock as a single entity no longer exists. High Rock is now the independent states of Daggerfall, Jehanna, Wayrest, Northpoint and Camlorn."
+ high_rock.1.a:0 "Independence has a cost."
+ high_rock.2.t:0 "HIGH ROCK COLLAPSING?"
+ high_rock.2.d:0 "With the province of High Rock no longer being affiliated with the Empire, the fragile provincial peace that was kept in place by the Emperor is now gone. With the collapse of central authority, High Rock as a single entity no longer exists. High Rock is now the independent states of Daggerfall, Jehanna, Wayrest, Northpoint and Camlorn. What does this mean for Bretons across Tamriel?"
+ high_rock.2.a:0 "What else is new?"
