@@ -1,27 +1,31 @@
+
 state={
 	id=186
 	name="STATE_186"
-	
+
 	history={
-		owner = DAG
+		owner = DIR
 		victory_points = {
-			13582 2
+			13582 10
+		}
+		victory_points = {
+			3214 2 
 		}
 		buildings = {
 			infrastructure = 3
-			13582 = {
+			3214 = {
 				naval_base = 2
 
 			}
 
 		}
-		add_core_of = DAG
+		add_core_of = DIR
 		add_claim_by = ALD
 
 	}
-	
+
 	provinces={
-		13582 
+		3214 13567 13582 
 	}
 	manpower=5098
 	buildings_max_level_factor=1.000

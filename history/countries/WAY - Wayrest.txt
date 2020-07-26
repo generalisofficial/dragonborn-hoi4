@@ -15,7 +15,7 @@ add_ideas = {
 
 4201.1.1 = {
 	add_ideas = { 
-	    pirate_republic
+	    idea_pirate_republic
 	}
 	set_politics = {	
 		ruling_party = isolationist

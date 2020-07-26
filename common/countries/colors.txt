@@ -244,3 +244,8 @@ CHE = {
 	color = rgb { 124 148 24 }
 	color_ui = rgb { 124 148 24 }
 }
+
+DIR = {
+	color = rgb { 60 179 113 }
+	color_ui = rgb { 60 179 113 }
+}

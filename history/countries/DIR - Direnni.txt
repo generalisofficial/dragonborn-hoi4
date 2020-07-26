@@ -1,0 +1,28 @@
+﻿capital = 186
+
+oob = "DIR_4171"
+
+set_technology = {
+
+}
+
+set_convoys = 10
+
+add_ideas = {
+    idea_breton
+    nine_divines
+}
+
+set_politics = {	
+	ruling_party = isolationist
+	last_election = "4171.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    internationalist = 3
+    pragmatic = 6
+    isolationist = 78
+	jingoist = 13
+}

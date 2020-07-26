@@ -74,8 +74,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13557;13559;sea;12160;-1;-1;-1;-1;;Thras
 13557;13555;sea;12172;-1;-1;-1;-1;;Thras
 13570;4999;sea;6572;-1;-1;-1;-1;;Daggerfall-Betony
-13582;5757;sea;9526;-1;-1;-1;-1;;Balfiera-Camlorn
-13582;5431;sea;8429;-1;-1;-1;-1;;Balfiera-Wayrest
+13567;5757;sea;9526;-1;-1;-1;-1;;Balfiera-Camlorn
+3214;5431;sea;8429;-1;-1;-1;-1;;Balfiera-Wayrest
 5642;6196;sea;7546;-1;-1;-1;-1;;Dominion Isles
 4495;5693;sea;13471;-1;-1;-1;-1;;Silmoor River Bridge
 3787;5197;sea;6258;-1;-1;-1;-1;;Yngvild
