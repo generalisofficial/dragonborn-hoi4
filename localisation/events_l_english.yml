@@ -92,3 +92,8 @@
  high_rock.2.t:0 "HIGH ROCK COLLAPSING?"
  high_rock.2.d:0 "With the province of High Rock no longer being affiliated with the Empire, the fragile provincial peace that was kept in place by the Emperor is now gone. With the collapse of central authority, High Rock as a single entity no longer exists. High Rock is now the independent states of Daggerfall, Jehanna, Wayrest, Northpoint and Camlorn. What does this mean for Bretons across Tamriel?"
  high_rock.2.a:0 "What else is new?"
+
+ #Flavor News
+ flavor_news.1.t:0 "BRAVILIAN DRUG WAR"
+ flavor_news.1.d:0 "Riots have ensued in the major Cyrodiilic city of Bravil, after clashes between 2 major skooma traffickers. Reports say that the Lucky Old Lady statue was also burnt down by the rioters, and that clashes have ensued between Dark Brotherhood elements and skooma rioters. Bravil is said to be a shadow of its former self."
+ flavor_news.1.a:0 "Damn addicts."
