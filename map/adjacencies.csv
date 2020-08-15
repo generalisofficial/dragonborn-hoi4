@@ -168,4 +168,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4825;2135;sea;13477;-1;-1;-1;-1;;Strid River Bridge 1
 4736;4735;sea;13472;-1;-1;-1;-1;;Strid River Bridge 2
 1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
+4642;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+13860;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+13860;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+104;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+104;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+110;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+5969;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+5969;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+113;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+114;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+114;115;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+13861;115;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+13861;116;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+13861;13739;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+2486;13739;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+2486;4011;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+2486;13741;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+2486;2487;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
 -1;-1;;-1;-1;-1;-1;-1;-1

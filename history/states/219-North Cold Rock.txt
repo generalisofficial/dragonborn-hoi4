@@ -1,0 +1,18 @@
+state={
+	id=219
+	name="STATE_219"
+
+	history={
+		owner = SKY
+		add_core_of = SKY
+		add_core_of = HJA
+	}
+	
+	provinces={
+		6089 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}
