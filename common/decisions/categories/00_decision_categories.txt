@@ -7,6 +7,15 @@ formable_nations = {
 	}
 }
 
+topal_island_dispute = {
+
+    icon = border_conflicts
+
+	allowed = {
+		always = yes
+	}
+}
+
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 

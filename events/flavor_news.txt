@@ -12,6 +12,7 @@ news_event = {
 	}
 
 	fire_only_once = yes
+	major = yes
 
 	mean_time_to_happen = {
 		days = 360

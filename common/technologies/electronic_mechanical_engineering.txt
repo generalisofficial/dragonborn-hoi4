@@ -70,7 +70,7 @@ technologies = {
 
 		# 
 		enable_building = {
-			building = radar_station
+			building = watchtower
 			level = 1
 		}
 		
@@ -125,7 +125,7 @@ technologies = {
 		}
 		
 		enable_building = {
-			building = radar_station
+			building = watchtower
 			level = 2
 		}
 	}
@@ -134,7 +134,7 @@ technologies = {
 
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
-			building = radar_station
+			building = watchtower
 			level = 3
 		}
 		
@@ -169,7 +169,7 @@ technologies = {
 
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
-			building = radar_station
+			building = watchtower
 			level = 4
 		}
 
@@ -206,7 +206,7 @@ technologies = {
 
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
-			building = radar_station
+			building = watchtower
 			level = 5
 		}
 
@@ -241,7 +241,7 @@ technologies = {
 
 		# radar boost in air/sea combat depends on radar level
 		enable_building = {
-			building = radar_station
+			building = watchtower
 			level = 6
 		}
 

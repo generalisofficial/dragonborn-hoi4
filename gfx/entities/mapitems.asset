@@ -55,3 +55,8 @@ entity = {
 	name = "direnni_tower_entity"
 	pdxmesh = "direnni_tower_mesh"
 }
+
+entity = {
+	name = "cloud_ruler_temple_entity"
+	pdxmesh = "cloud_ruler_temple_mesh"
+}

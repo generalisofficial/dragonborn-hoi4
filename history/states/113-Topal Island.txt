@@ -5,10 +5,19 @@ state={
 	history={
 		owner = CYR
 		buildings = {
+			infrastructure = 2
+			2941 = {
+				naval_base = 1
+
+			}
 
 		}
 		add_core_of = CYR
 		add_core_of = BLM
+		4201.1.1 = {
+			owner = BLM
+
+		}
 
 	}
 	

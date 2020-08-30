@@ -20,3 +20,11 @@
  
  #Skyrim Civil War
  skyrim_civil_war:0 "Skyrim Civil War"
+
+ #Topal Island Dispute
+ topal_island_dispute:0 "Status of Topal Island"
+ topal_island_dispute_desc:0 "We have for long maintained a claim to Topal Island, due to its militarily strategic location at the center of Topal Bay. This puts us at odds with the government in Cyrodiil, who claims the island as an integral part of their realm. If the opportunity arises, there is the possibility of seizing the island. Alternatively, we could drop our claims to the island, in order to improve relations with Cyrodiil."
+ seize_topal_island:0 "Seize Topal Island"
+ seize_topal_island_desc:0 "Scouts have reported a complete absence of Imperial Legion troops on Topal Island, indicating a lack of willingness to defend the island. High Command has suggested seizing the island without bloodshed while the enemy's guard is down."
+ abandon_claims_to_topal_island:0 "Abandon Claims to Topal Island"
+ abandon_claims_to_topal_island_desc:0 "Despite a majority of citizens supporting a military confrontation, there is the always the option of just dropping the claim to Topal Island, in order to promote better relations with Cyrodiil."

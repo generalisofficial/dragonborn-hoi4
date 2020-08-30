@@ -56,4 +56,10 @@ objectTypes = {
 		scale = 1.0
 		cull_distance = 99999.0
 	}
+	pdxmesh = {
+		name = "cloud_ruler_temple_mesh"
+		file = "gfx/models/buildings/cloud_ruler_temple.mesh"		
+		scale = 1.0
+		cull_distance = 99999.0
+	}
 }

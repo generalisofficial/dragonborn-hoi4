@@ -31,9 +31,11 @@
  synthetic_refinery_desc:0 "This building provides the state with"
  synthetic_refinery_amount:0 "$VALUE|Y0=$"
  synthetic_refinery_resource:0 "£resources_strip|$FRAME$"
- radar_station:0 "Radar Station"
- radar_station_plural:0 "Radar Stations"
- radar_station_desc:3 "Radar allows you to gain intel on enemy troops in nearby states.\nA higher radar level in a state increases the effective range of the radar.\nRadar also provides the state with better detection of enemy air forces, giving your planes a better chance to engage them.\nIn addition the radars are increasing detection of enemy fleets at sea."
+
+ watchtower:0 "Watchtower"
+ watchtower_plural:0 "Watchtowers"
+ watchtower_desc:3 "Watchtowers allow you to gain intel on enemy troops in nearby states.\nA higher watchtower level in a state increases the effective visual range of the watchtower.\nWatchtowers also provide the state with better detection of enemy air forces, giving you a better chance to engage them.\nIn addition the watchtowers are increasing detection of enemy fleets at sea."
+
  rocket_site:0 "Rocket Site"
  rocket_site_plural:0 "Rocket Sites"
  rocket_site_desc:0 "This building provides the state with deployment for produced rockets."
@@ -43,6 +45,7 @@
  fuel_silo:0 "Grain Silo"
  fuel_silo_plural:0 "Grain Silos"
  fuel_silo_desc:0 "This building provides your nation with more room for stockpiling §HFood§!."
+
  BUILDING_BOMBED:0 "$BUILDING$ bombed!"
  BUILDING_SABOTAGED:0 "$BUILDING$ sabotaged!"
  BUILDING_REPAIRED:0 "$BUILDING$ repaired!"

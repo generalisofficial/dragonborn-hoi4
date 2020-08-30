@@ -199,8 +199,9 @@ objectTypes = {
 		
 		scale = 0.18
 	}
+	
 	pdxmesh = {
-		name = "building_radar_station_mesh"
+		name = "building_watchtower_mesh"
 		file = "gfx/models/buildings/radar.mesh"
 		
 		animation = { id = "idle"  			type = "radar_idle_animation" }

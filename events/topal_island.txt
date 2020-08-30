@@ -1,0 +1,71 @@
+﻿add_namespace = topal_island
+
+#Topal Island seized by Argonia
+country_event = {
+	id = topal_island.1
+	title = topal_island.1.t
+	desc = topal_island.1.d
+	
+	is_triggered_only = yes
+	
+	option = { #Take it back!
+		name = topal_island.1.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				has_war_with = ALD
+				factor = 20
+			}
+		}
+		hidden_effect = {
+			news_event = topal_island.2
+		}
+		declare_war_on = {
+			target = BLM
+			type = take_core_state
+			generator = { 113 }
+		}
+	}
+
+	option = { #Let them have it
+		name = topal_island.1.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				has_war_with = ALD
+				factor = 80
+			}
+		}
+		hidden_effect = {
+			news_event = topal_island.3
+		}
+		113 = { remove_core_of = CYR }
+	}
+}
+
+#Topal War
+news_event = {
+	id = topal_island.2
+	title = topal_island.2.t
+	desc = topal_island.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = topal_island.2.a
+	}
+}
+
+#Topal Island ceded to Argonia
+news_event = {
+	id = topal_island.3
+	title = topal_island.3.t
+	desc = topal_island.3.d
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = topal_island.3.a
+	}
+}

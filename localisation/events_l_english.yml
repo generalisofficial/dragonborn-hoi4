@@ -97,3 +97,15 @@
  flavor_news.1.t:0 "BRAVILIAN DRUG WAR"
  flavor_news.1.d:0 "Riots have ensued in the major Cyrodiilic city of Bravil, after clashes between 2 major skooma traffickers. Reports say that the Lucky Old Lady statue was also burnt down by the rioters, and that clashes have ensued between Dark Brotherhood elements and skooma rioters. Bravil is said to be a shadow of its former self."
  flavor_news.1.a:0 "Damn addicts."
+
+ #Topal Island
+ topal_island.1.t:0 "Topal Island seized by Argonia"
+ topal_island.1.d:0 "Taking advantage of our lack of a garrison force, the damned Argonians have taken the chance to land on the island, and take it as their own. Without the island, the entire bay may fall to enemy forces! Several members of the Elder Council have already called for a military response to this horrible attack."
+ topal_island.1.a:0 "Take it back!"
+ topal_island.1.b:0 "Let them have it."
+ topal_island.2.t:0 "TOPAL WAR"
+ topal_island.2.d:0 "Taking advantage of the lack of a Cyrodiilic garrison force, Argonian forces have landed on the disputed Topal Island, and claimed it as their own. With control of the island comes control of the entire Topal Bay, due to its strategic military position at the center of the bay. After an emergency session of the Elder Council, the Imperial Legion is now marching towards Argonia. A war has broken out over the island."
+ topal_island.2.a:0 "Uh oh."
+ topal_island.3.t:0 "TOPAL CESSION"
+ topal_island.3.d:0 "Taking advantage of the lack of a Cyrodiilic garrison force, Argonian forces have landed on the disputed Topal Island, and claimed it as their own. With control of the island comes control of the entire Topal Bay, due to its strategic military position at the center of the bay. After an emergency session of the Elder Council, the island has now officially been ceded to Argonia, likely due to avoid another catastrophic war breaking out in the region."
+ topal_island.3.a:0 "Just like that?"

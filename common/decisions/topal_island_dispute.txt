@@ -1,0 +1,83 @@
+topal_island_dispute = {
+	
+	seize_topal_island = {
+
+		icon = border_war
+
+		available = {
+			CYR = { 
+				owns_state = 113
+				controls_state = 113
+				113 = {
+					has_ROOT_at_least_1_div_in_current_state_scope = no
+				} 
+			}
+			NOT = { 
+				has_non_aggression_pact_with = CYR 
+				is_in_faction_with = CYR
+			}
+		}
+
+		visible = {
+			original_tag = BLM
+			CYR = { owns_state = 113 }
+			113 = { is_core_of = BLM }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			transfer_state = 113
+			CYR = { country_event = topal_island.1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				CYR = { has_war_with = ALD }
+				factor = 15
+			}
+			modifier = {
+				CYR = { surrender_progress > 0.3 }
+				factor = 40
+			}
+		}
+	}
+
+	abandon_claims_to_topal_island = {
+
+		icon = generic_political_discourse
+
+		available = {
+			NOT = { 
+				has_non_aggression_pact_with = CYR 
+				is_in_faction_with = CYR
+			}
+		}
+
+		visible = {
+			original_tag = BLM
+			CYR = { owns_state = 113 }
+			113 = { is_core_of = BLM }
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			113 = { remove_core_of = BLM }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_government = internationalist
+				factor = 25
+			}
+			modifier = {
+				has_war_with = CYR
+				factor = -100
+			}
+		}
+	}
+}
+
