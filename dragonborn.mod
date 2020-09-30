@@ -1,4 +1,4 @@
-version="0.2"
+version="Alpha 0.2"
 name="Dragonborn"
 path="mod/dragonborn-hoi4/"
 supported_version="1.9.3"
