@@ -52,6 +52,10 @@
  vittoria_vici:0 "Vittoria Vici"
  beirand:0 "Beirand" 
 
+ ticellus_mede:0 "Ticellus Mede"
+ mernil_ocato:0 "Mernil Ocato"
+ amaund_motierre:0 "Amaund Motierre"
+
   #MILITARY
  idea_category_military:0 "Military Staff"
  idea_category_military_desc:0 "Adopt ideas/hire ministers to help steer your military"
@@ -106,14 +110,16 @@
  idea_orsimer:0 "Orsimer"
  idea_sload:0 "Sload"
  
- 
  #RELIGION
- religion:0 "Religion"
+ religion:0 "State Religion"
  eight_divines:0 "Eight Divines"
+ eight_divines_desc:0 "The original pantheon of Divines under the Alessian Empire, consisting of Akatosh, Arkay, Dibella, Julianos, Kynareth, Mara, Stendarr, and Zenithar. Worship of the Eight Divines was introduced by Alessia at the start of the First Era. It was a carefully designed compromise between the Aldmeri deities that the humans of Cyrodiil were accustomed to worshipping and the deities of Alessia's Nordic allies Following the deification of Tiber Septim, Talos was added to the pantheon and they became the Nine Divines."
  nine_divines:0 "Nine Divines"
  nine_divines_desc:0 "The Nine Divines consists of the most important religious order in Tamriel. The religion combines the Eight Divines pantheon created by Alessia with the apotheosized form of the founder of the Third Empire, Tiber Septim (Talos), the ninth Divine."
  nordic_pantheon:0 "Nordic Pantheon"
+ nordic_pantheon_desc:0 "The Nordic pantheon of Skyrim has many similar gods to that of Cyrodiil, with obvious name similarities between the two pantheons. However, the Nordic representations are almost always more warlike than their Cyrodiilic counterparts. The pantheon consists of Alduin, Kyne, Orkney, Shor, Stuhn, Tsun, Jhunal, Mara and Dibella. Unlike most pantheons, the Nordic gods are not led by the Dragon God of Time. Instead, Alduin is seen as the wellspring of the pantheon, rather than its leader. Some consider Kyne to be the head of the pantheon, who is one of the hearth gods."
  altmeri_pantheon:0 "Altmeri Pantheon"
+ altmeri_pantheon_desc:0 "The Altmeri Pantheon is the set of gods worshiped by the Altmer. Derived from Aldmer ancestor worship, it focuses on a select group of spirits from which all Altmer claim descent. The pantheon consists of Auri-El, Trinimac, Magnus, Syrabane, Y'ffre, Mara and Xarxes. Merish religion is more focused towards their ancestors than other pantheons, evidenced by the use of the term Aedra (our ancestors) to describe them."
  khajiiti_pantheon:0 "Khajiiti Pantheon"
  new_temple:0 "New Temple"
  the_hist:0 "The Hist"

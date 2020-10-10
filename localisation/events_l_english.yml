@@ -109,3 +109,15 @@
  topal_island.3.t:0 "TOPAL CESSION"
  topal_island.3.d:0 "Taking advantage of the lack of a Cyrodiilic garrison force, Argonian forces have landed on the disputed Topal Island, and claimed it as their own. With control of the island comes control of the entire Topal Bay, due to its strategic military position at the center of the bay. After an emergency session of the Elder Council, the island has now officially been ceded to Argonia, likely due to avoid another catastrophic war breaking out in the region."
  topal_island.3.a:0 "Just like that?"
+
+ #Captured City
+ captured_city.1.t:0 "FALL OF THE IMPERIAL CITY"
+ captured_city.1.d:0 "After the arrival of heavy reinforcements this morning, Aldmeri forces began a major offensive against Imperial forces defending the Imperial City. With one army driving north to surround the city, the main Aldmeri force started assaulting the city from the west, south and east. With the Eighth Legion fighting a desperate last stand at the walls of the city, Emperor [CYR.GetLeader] lead the main Imperial army out from the city northwards, fighting off enemy forces besieging the city along the way. Meanwhile, the capital of Cyrodiil fell to the main Aldmeri force. The Imperial Palace was burned, the White-Gold Tower looted, and all manner of atrocities carried out by the vengeful elves on the innocent populace. Despite this loss, it is rumoured that with the escape of Emperor [CYR.GetLeader] and the arrival of new Legion forces from other provinces, a counteroffensive is within reach."
+ captured_city.1.a:0 "The Emperor is finished."
+ captured_city.1.b:0 "By the Emperor, we'll be back!"
+ captured_city.1.c:0 "Altmer reigns supreme over Tamriel."
+ captured_city.2.t:0 "FALL OF ALINOR"
+ captured_city.2.d:0 "As the elves of Alinor prepared their daily breakfast, the greatest assaulting force in the history of the Summerset Isles appeared on the horizon. After a long campaign, Emperor [CYR.GetLeader] led a force of tens of thousands into the Aldmeri capital, gruesomly battling fanatical Altmer defenders along the way. Thousands of civilians were massacred as fire from catapults in the hills rained across the sky, and the great towers of the city fell one by one. Alinor Docks was captured by Imperial Navy forces in brutal combat, as thousands of legionnaires charged the city's Temple of the Divines. Meanwhile, retreating Altmer forces destroyed and burned the old Alinor Royal Palace to prevent its capture by the Legion, erasing history stretching back to the founding of the city. With the battle coming to a conclusion and most of the city destroyed, [ALD.GetLeader] and the rest of the government fled the city through secret tunnels, vowing to continue the fight from elsewhere.
+ captured_city.2.a:0 "What a battle!"
+ captured_city.2.b:0 "For the Empire!"
+ captured_city.2.c:0 "We're not finished that easily."

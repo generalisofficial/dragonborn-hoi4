@@ -7,6 +7,35 @@ formable_nations = {
 	}
 }
 
+political_actions = {
+	icon = generic_political_actions
+
+	allowed = {
+		always = yes
+	}
+}
+
+propaganda_efforts = {
+	icon = generic_propaganda
+
+	visible = {
+
+	}
+}
+
+war_measures = {
+	icon = generic_propaganda
+
+	visible = {
+		has_war = yes
+	}
+}
+
+economy_decisions = {
+	icon = generic_economy
+
+}
+
 topal_island_dispute = {
 
     icon = border_conflicts

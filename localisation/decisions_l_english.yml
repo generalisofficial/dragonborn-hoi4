@@ -17,9 +17,14 @@
  form_morrowind:0 "Form Morrowind"
  form_elsweyr:0 "Form Elsweyr"
  form_colovia:0 "Form Colovia"
- 
- #Skyrim Civil War
- skyrim_civil_war:0 "Skyrim Civil War"
+
+ #Political Actions
+
+ #Propaganda Efforts
+
+ #War Measures
+
+ #Economy Decisions
 
  #Topal Island Dispute
  topal_island_dispute:0 "Status of Topal Island"

@@ -1,0 +1,73 @@
+add_namespace = captured_city
+
+# Fall of the Imperial City (ALD)
+news_event = {
+	id = captured_city.1
+	title = captured_city.1.t
+	desc = captured_city.1.d
+	
+	major = yes
+	
+	trigger = {
+		5 = { is_owned_by = CYR is_controlled_by = ALD }
+		ALD = { has_war_with = CYR }
+		NOT = { has_global_flag = fall_of_imperial_city_ALD }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_imperial_city_ALD
+	}
+	
+	option = {
+		name = captured_city.1.a
+		trigger = {
+			NOT = { tag = CYR tag = ALD }
+		}
+	}
+
+	option = {
+		name = captured_city.1.b
+		trigger = { tag = CYR }
+	}
+
+	option = {
+		name = captured_city.1.c
+		trigger = { tag = ALD }
+	}
+}
+
+# Fall of Alinor (CYR)
+news_event = {
+	id = captured_city.2
+	title = captured_city.2.t
+	desc = captured_city.2.d
+	
+	major = yes
+	
+	trigger = {
+		30 = { is_owned_by = ALD is_controlled_by = CYR }
+		CYR = { has_war_with = ALD }
+		NOT = { has_global_flag = fall_of_alinor_CYR }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_alinor_CYR
+	}
+	
+	option = {
+		name = captured_city.2.a
+		trigger = {
+			NOT = { tag = CYR tag = ALD }
+		}
+	}
+	
+	option = {
+		name = captured_city.2.b
+		trigger = { tag = ALD }
+	}
+
+	option = {
+		name = captured_city.2.c
+		trigger = { tag = CYR }
+	}
+}

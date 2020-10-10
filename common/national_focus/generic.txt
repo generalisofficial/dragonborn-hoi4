@@ -252,7 +252,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = special_forces
+			#add_ideas = special_forces
 			add_tech_bonus = {
 				name = special_forces_bonus
 				bonus = 1.0
