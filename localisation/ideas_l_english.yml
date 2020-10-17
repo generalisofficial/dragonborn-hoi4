@@ -99,16 +99,27 @@
 
  #RACES
  idea_nord:0 "Nord"
+ idea_nord_desc:0 "Nords are a race that were led to Skyrim by Ysgramor. They are enthusiastic warriors, and act as soldiers, mercenaries, merchants and blacksmiths all over Tamriel. Eager to augment their martial skills beyond the traditional methods of Skyrim, they excel in all manner of warfare. Above all else in Nord culture is the quest for honor and glory, and a great emphasis is placed on family values. They thrive in the cold, reminiscent of their native Atmora, and are known as a militant people by their neighbors. Nords are also naturally superior at sea, and have benefited from nautical trade since their first migrations across the sea from Atmora."
  idea_imperial:0 "Imperial"
+ idea_imperial_desc:0 "Natives of the cosmopolitan province of Cyrodiil, the Imperials are some of the most well-educated, wealthy and well-spoken of the races in Tamriel. Imperials are also known for their discipline and training of their citizen armies. Because of this, the Imperials have dominated Tamriel for more than 2,000 years."
  idea_breton:0 "Breton"
+ idea_breton_desc:0 "Bretons are a race of both human and elven ancestry. They are excellent mages with high magic resistance, but have few other distinctive features. They are considered an intelligent race in Tamriel, known for a proficiency in abstract thinking, a possible reason for their adeptness in the magical arts. It is suggested that they may also carry Aldmer blood, which would further account for their magical prowess."
  idea_dunmer:0 "Dunmer"
+ idea_dunmer_desc:0 "The Dunmer, more commonly known as Dark Elves, are the grey-skinned elven natives of the province of Morrowind. After the eruption of Red Mountain, many Dunmer fled to Skyrim, where they have endured extreme prejudice as a result of their elven heritage and status as refugees. In spite of this, many Dunmer have been able to establish themselves in Tamriel's northernmost province as skillful merchants and mages."
  idea_argonian:0 "Argonian"
+ idea_argonian_desc:0 "Enigmatic and intelligent, the Argonians are experts at guerrilla warfare, and their natural abilities suit their swampy homeland, Black Marsh. They have developed immunities to the diseases that have doomed many would-be explorers in the region, and they are capable of easily exploring underwater locations due to their ability to breathe underwater. Argonians make proficient thieves, due to their increased lockpicking and sneaking skills."
  idea_khajiit:0 "Khajiit"
+ idea_khajiit_desc:0 "Khajiit are one of the beast races which inhabit the continent of Tamriel, primarily their home province of Elsweyr. They are known for their natural agility, stealth, and their production of moon sugar, which can be refined into skooma. They travel around selling their wares but are not usually trusted, due to the racial prejudice of many of the races in Tamriel, resulting possibly from the belief that most Khajiit are thieves. They usually talk about themselves in the third person."
  idea_altmer:0 "Altmer"
+ idea_altmer_desc:0 "Altmer are the light-skinned and tall Elves of the Summerset Isles. In the Empire, the name High Elves is given to the Altmer, with the word High being used to describe the Altmer as tall, proud, and culturally snobbish. The Altmer consider themselves the perfect race."
  idea_bosmer:0 "Bosmer"
+ idea_bosmer_desc:0 "Bosmer, or Wood Elves, hail from the province of Valenwood. Rejecting the formalities of the civilized world, the Bosmer discarded lavish living for a life in the wilderness, among nature, the trees, and animals. Because of this, many view them as barbarians. Despite their infamy, they are known to be extremely agile and quick. Their nimbleness serves them best in any art involving thievery. Many are well respected archers, due to their inherent mastery of the bow."
  idea_redguard:0 "Redguard"
+ idea_redguard_desc:0 "The Redguards are a race of humans who hail from the lost continent of Yokuda and now reside primarily in the province of Hammerfell. Due to their swift and decisive conquest of Hammerfell, the Redguards are renowned as some of the most naturally gifted warriors in Tamriel. Their ferocity and versatility is also manifested in their personality, which lends itself to why they are most effective as scouts and in small units as opposed to being deployed as rank and file soldiers."
  idea_orsimer:0 "Orsimer"
+ idea_orsimer_desc:0 "The Orsimer, commonly known as Orcs, are considered to be barbarian people by most of the other races on Nirn and are from the mountainous regions of western Tamriel. They are centrally located in Orsinium, the City of Orcs, but are common in other locations in Tamriel. Orsimer are of Elven blood, but this heritage is either not recognized or is forgotten by many in Tamriel. With skin tones ranging from light green to dark brown, a heavily muscular frame, and considerable stature the Orsimer stand apart amongst Mer and Men. They also are the only race to display tusks."
  idea_sload:0 "Sload"
+ idea_sload_desc:0 "The Sload, also referred to as Slugmen, are an amphibious, slug-like, bestial race native to the isles of Thras within the Abecean Sea. Well known for their mastery of Necromancy, they are arguably the most hated race amongst the people of Tamriel."
  
  #RELIGION
  religion:0 "State Religion"
@@ -123,10 +134,14 @@
  khajiiti_pantheon:0 "Khajiiti Pantheon"
  new_temple:0 "New Temple"
  the_hist:0 "The Hist"
+ the_hist_desc:0 "The Hist are a species of giant spore trees growing in the innermost swamps of Black Marsh. Argonians are known to have deep connections with the Hist, calling themselves people of the root, and licking the leaking sap of their trunks in religious rites. Others claim the trees are, in fact, a sentient race, more ancient than all the races of man and mer. Hist trees usually have red bioluminescent flowers growing out of them, but the Naga-Kur tribe have blue flowers. One tribe dedicated to ice spells have a Hist that drips with icicles and is said to be located deep within Black Marsh."
  bosmeri_pantheon:0 "Bosmeri Pantheon"
  bretony_pantheon:0 "Bretony Pantheon"
+ bretony_pantheon_desc:0 "The Breton Pantheon is the primary religion of the Bretons. The religion worships twelve different entities of the Aedra, with major similarities to entities worshipped in Cyrodiil and Skyrim. The pantheon consists of Akatosh, Arkay, Dibella, Julianos, Kynareth, Sheor, Magnus, Mara, Phynaster, Stendarr, Y'ffre and Zenithar"
  orcish_pantheon:0 "Orcish Pantheon"
+ orcish_pantheon_desc:0 "Orcs typically worship Malacath, the changed remnant of Trinimac, and his code informs much of their law and practices. Malacath is occasionally also called Mauloch, in this context. In the Third Era the orc chief Gortwog established a separate priesthood for Trinimac directly in his Orsinium. This was viewed as heresy by most orcs outside Orsinium and a minority within it, and a bad omen for orcs as a whole."
  redguard_pantheon:0 "Redguard Pantheon"
+ redguard_pantheon_desc:0 "The Reguard pantheon is very different to most others, although again comparisons can be drawn between some gods, most notably Sep and Lorkhan. Where most cultures start with Anu and Padomay, Yokudan faith starts with one, Satakal, the World-Skin. They also believe their gods were tricked into becoming mortal, in the same way to most merish belief, and consider it their birthright to return to the Far Shores, the world beyond Mundus. Yokudan belief holds special reverence to the stars, believing them to be the way back to the Far Shores, although they do not acknowledge the Magna-Ge as distinct from the rest of their pantheon, and it is Tu'Wacca, their god of death, who helps them get there, not any kind of equivalent to Magnus. Where Imperial culture has Shezarr as a god of human achievement, and the Nords have Shor, the Yokudans have the Hoon'Ding, the Make Way God, who comes at a time of crisis to make way for his people. He has historically materialized as a variety of things, such as a sword, a crown or both."
  
  #GUILDS
  guilds:0 "Guilds"

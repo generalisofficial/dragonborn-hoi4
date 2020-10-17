@@ -4109,4 +4109,19 @@ spriteTypes = {
 		name = "GFX_idea_orcish_pantheon"
 		texturefile = "gfx/interface/ideas/orcish_pantheon.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_eight_divines"
+		texturefile = "gfx/interface/ideas/eight_divines.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nine_divines"
+		texturefile = "gfx/interface/ideas/nine_divines.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_new_temple"
+		texturefile = "gfx/interface/ideas/new_temple.dds"
+	}
 }

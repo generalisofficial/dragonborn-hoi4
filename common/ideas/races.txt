@@ -143,8 +143,14 @@ ideas = {
 			
 			modifier = {
 			    offence = 0.1
-			    defence = 0.1
-				army_speed_factor = -0.2
+			    defence = 0.2
+				army_speed_factor = -0.15
+				heat_attrition_factor = -0.5
+				winter_attrition_factor = -0.5
+				resistance_target_on_our_occupied_states = 0.3
+				trade_opinion_factor = -1
+				opinion_gain_monthly_factor = -1
+				opinion_gain_monthly_same_ideology_factor = -1
 			}
 		}
 	}
