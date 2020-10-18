@@ -1,6 +1,6 @@
 lar_local_recruitment = {
-	#unlocks decisions to recruit in nirn
-	recruit_in_nirn = {
+
+	recruit_in_skyrim = {
 
 		#icon = generic_research
 
@@ -11,22 +11,22 @@ lar_local_recruitment = {
 		visible = {
 			capital_scope = {
 				NOT = {
-					is_on_continent = nirn
+					is_on_continent = skyrim
 				}
 			}
 			OR = {
 				any_owned_state = {
-					is_on_continent = nirn
+					is_on_continent = skyrim
 				}
 				any_allied_country = {
 					any_owned_state = {
-						is_on_continent = nirn
+						is_on_continent = skyrim
 					}
 				}
 				any_other_country = {
 					is_subject_of = ROOT
 					any_owned_state = {
-						is_on_continent = nirn
+						is_on_continent = skyrim
 					}
 				}
 			}
@@ -42,7 +42,7 @@ lar_local_recruitment = {
 		days_remove = 90
 
 		remove_effect = {
-			set_country_flag = nirn_recruitment_unlocked
+			set_country_flag = skyrim_recruitment_unlocked
 		}
 
 		ai_will_do = {
@@ -50,7 +50,7 @@ lar_local_recruitment = {
 		}
 	}
 
-	recruit_in_nirn_state = {
+	recruit_in_skyrim_state = {
 
 		icon = onmap_recruit_operative
 
@@ -61,7 +61,7 @@ lar_local_recruitment = {
 		state_target = yes
 		target_trigger = {
 			FROM = {
-				is_on_continent = nirn
+				is_on_continent = skyrim
 				CONTROLLER = {
 					NOT = {
 						tag = ROOT
@@ -72,10 +72,10 @@ lar_local_recruitment = {
 		}
 		visible = {
 			OR = {
-				has_country_flag = nirn_recruitment_unlocked
-				capital_scope = { is_on_continent = nirn }
+				has_country_flag = skyrim_recruitment_unlocked
+				capital_scope = { is_on_continent = skyrim }
 			}
-			NOT = { has_country_flag = nirn_recruitment_in_process }
+			NOT = { has_country_flag = skyrim_recruitment_in_process }
 		}
 
 		fire_only_once = no
@@ -84,7 +84,7 @@ lar_local_recruitment = {
 		days_re_enable = 180
 		on_map_mode = map_only
 		complete_effect = {
-			set_country_flag = { flag = nirn_recruitment_in_process days = 180 value = 1 }
+			set_country_flag = { flag = skyrim_recruitment_in_process days = 180 value = 1 }
 			if = {
 				limit = {
 					num_of_operatives < num_operative_slots
@@ -103,6 +103,870 @@ lar_local_recruitment = {
 			}
 		}
 
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_morrowind = {
+
+		#icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = morrowind
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = morrowind
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = morrowind
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = morrowind
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+		cost = 50
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		remove_effect = {
+			set_country_flag = morrowind_recruitment_unlocked
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_morrowind_state = {
+
+		icon = onmap_recruit_operative
+
+		available = {
+			
+		}
+
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = morrowind
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = morrowind_recruitment_unlocked
+				capital_scope = { is_on_continent = morrowind }
+			}
+			NOT = { has_country_flag = morrowind_recruitment_in_process }
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = morrowind_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_cyrodiil = {
+
+		#icon = generic_research
+
+		available = {
+			
+		}
+
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = cyrodiil
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = cyrodiil
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = cyrodiil
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = cyrodiil
+					}
+				}
+			}
+		}
+
+		fire_only_once = yes
+		cost = 50
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		days_remove = 90
+
+		remove_effect = {
+			set_country_flag = cyrodiil_recruitment_unlocked
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_cyrodiil_state = {
+
+		icon = onmap_recruit_operative
+
+		available = {
+			
+		}
+
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = cyrodiil
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = cyrodiil_recruitment_unlocked
+				capital_scope = { is_on_continent = cyrodiil }
+			}
+			NOT = { has_country_flag = cyrodiil_recruitment_in_process }
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = cyrodiil_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_hammerfell = {
+
+		#icon = generic_research
+	
+		available = {
+			
+		}
+	
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = hammerfell
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = hammerfell
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = hammerfell
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = hammerfell
+					}
+				}
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		days_remove = 90
+	
+		remove_effect = {
+			set_country_flag = hammerfell_recruitment_unlocked
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	recruit_in_hammerfell_state = {
+	
+		icon = onmap_recruit_operative
+	
+		available = {
+			
+		}
+	
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = hammerfell
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = hammerfell_recruitment_unlocked
+				capital_scope = { is_on_continent = hammerfell }
+			}
+			NOT = { has_country_flag = hammerfell_recruitment_in_process }
+		}
+	
+		fire_only_once = no
+		cost = 0
+	
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = hammerfell_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_highrock = {
+
+		#icon = generic_research
+	
+		available = {
+			
+		}
+	
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = highrock
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = highrock
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = highrock
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = highrock
+					}
+				}
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		days_remove = 90
+	
+		remove_effect = {
+			set_country_flag = highrock_recruitment_unlocked
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	recruit_in_highrock_state = {
+	
+		icon = onmap_recruit_operative
+	
+		available = {
+			
+		}
+	
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = highrock
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = highrock_recruitment_unlocked
+				capital_scope = { is_on_continent = highrock }
+			}
+			NOT = { has_country_flag = highrock_recruitment_in_process }
+		}
+	
+		fire_only_once = no
+		cost = 0
+	
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = highrock_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_argonia = {
+
+		#icon = generic_research
+	
+		available = {
+			
+		}
+	
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = argonia
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = argonia
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = argonia
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = argonia
+					}
+				}
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		days_remove = 90
+	
+		remove_effect = {
+			set_country_flag = argonia_recruitment_unlocked
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	recruit_in_argonia_state = {
+	
+		icon = onmap_recruit_operative
+	
+		available = {
+			
+		}
+	
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = argonia
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = argonia_recruitment_unlocked
+				capital_scope = { is_on_continent = argonia }
+			}
+			NOT = { has_country_flag = argonia_recruitment_in_process }
+		}
+	
+		fire_only_once = no
+		cost = 0
+	
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = argonia_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_alinor = {
+
+		#icon = generic_research
+	
+		available = {
+			
+		}
+	
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = alinor
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = alinor
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = alinor
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = alinor
+					}
+				}
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		days_remove = 90
+	
+		remove_effect = {
+			set_country_flag = alinor_recruitment_unlocked
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	recruit_in_alinor_state = {
+	
+		icon = onmap_recruit_operative
+	
+		available = {
+			
+		}
+	
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = alinor
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = alinor_recruitment_unlocked
+				capital_scope = { is_on_continent = alinor }
+			}
+			NOT = { has_country_flag = alinor_recruitment_in_process }
+		}
+	
+		fire_only_once = no
+		cost = 0
+	
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = alinor_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_valenwood = {
+
+		#icon = generic_research
+	
+		available = {
+			
+		}
+	
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = valenwood
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = valenwood
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = valenwood
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = valenwood
+					}
+				}
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		days_remove = 90
+	
+		remove_effect = {
+			set_country_flag = valenwood_recruitment_unlocked
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	recruit_in_valenwood_state = {
+	
+		icon = onmap_recruit_operative
+	
+		available = {
+			
+		}
+	
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = valenwood
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = valenwood_recruitment_unlocked
+				capital_scope = { is_on_continent = valenwood }
+			}
+			NOT = { has_country_flag = valenwood_recruitment_in_process }
+		}
+	
+		fire_only_once = no
+		cost = 0
+	
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = valenwood_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	recruit_in_elsweyr = {
+
+		#icon = generic_research
+	
+		available = {
+			
+		}
+	
+		visible = {
+			capital_scope = {
+				NOT = {
+					is_on_continent = elsweyr
+				}
+			}
+			OR = {
+				any_owned_state = {
+					is_on_continent = elsweyr
+				}
+				any_allied_country = {
+					any_owned_state = {
+						is_on_continent = elsweyr
+					}
+				}
+				any_other_country = {
+					is_subject_of = ROOT
+					any_owned_state = {
+						is_on_continent = elsweyr
+					}
+				}
+			}
+		}
+	
+		fire_only_once = yes
+		cost = 50
+	
+		modifier = {
+			civilian_factory_use = 3
+		}
+	
+		days_remove = 90
+	
+		remove_effect = {
+			set_country_flag = elsweyr_recruitment_unlocked
+		}
+	
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	recruit_in_elsweyr_state = {
+	
+		icon = onmap_recruit_operative
+	
+		available = {
+			
+		}
+	
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				is_on_continent = elsweyr
+				CONTROLLER = {
+					NOT = {
+						tag = ROOT
+					}
+				}
+				is_capital = yes
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = elsweyr_recruitment_unlocked
+				capital_scope = { is_on_continent = elsweyr }
+			}
+			NOT = { has_country_flag = elsweyr_recruitment_in_process }
+		}
+	
+		fire_only_once = no
+		cost = 0
+	
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = elsweyr_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	
 		ai_will_do = {
 			base = 0
 		}
