@@ -5,7 +5,12 @@ oob = "PYD_4171"
 set_technology = {
 
 }
+
 set_convoys = 5
+
+add_ideas = {
+	idea_maormer
+}
 
 set_politics = {	
 	ruling_party = isolationist

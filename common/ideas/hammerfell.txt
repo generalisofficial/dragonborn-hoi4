@@ -1,0 +1,17 @@
+ideas = {
+	
+	country = {
+	
+		idea_the_uncivil_war = {
+			picture = the_uncivil_war
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+			    stability_factor = -0.2
+			}
+		}
+	}
+}

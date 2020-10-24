@@ -28,6 +28,54 @@ bookmarks = {
 			
 			}
 		}
+
+		"BLM"={
+			history = "BLM_GREAT_WAR_DESC"
+			ideology = jingoist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"RED"={
+			history = "RED_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"TEL"={
+			history = "TEL_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"IDR"={
+			history = "IDR_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"---"={
+			history = "OTHER_GREAT_WAR_DESC"
+		}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

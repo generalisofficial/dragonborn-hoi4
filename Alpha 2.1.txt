@@ -1,0 +1,10 @@
+- Updated the mod to HOI4 version 10.1
+- Added more Skyrim states
+- Regenerated terrain map
+- Added several impassable mountain ranges and passes
+- Added the starting leader for Hammerfell
+- Added localisation for race and religion laws
+- Added gfx for several religion icons
+- Added custom events for the Empire capturing Alinor and the Dominion capturing the Imperial City
+- Added flavor event for the Bravilian Drug War
+- Added a cosmetic 3d model for the Cloud Ruler Temple

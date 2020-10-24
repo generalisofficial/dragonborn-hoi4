@@ -141,6 +141,8 @@ country_event = {
 	option = {
 	    name = great_war.7.b
 		end_puppet = HAM
+		remove_from_faction = HAM
+		HAM = { country_event = hammerfell.1 }
 		ALD = { country_event = great_war.5 }
 	}
 }

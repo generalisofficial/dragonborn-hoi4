@@ -1,0 +1,31 @@
+﻿add_namespace = hammerfell
+
+#Abandoned by the Emperor
+country_event = {
+	id = hammerfell.1
+	title = hammerfell.1.t
+	desc = hammerfell.1.d
+	
+	is_triggered_only = yes
+	
+	option = { #The Crowns take the reigns
+		name = hammerfell.1.a
+		ai_chance = {
+			factor = party_popularity@isolationist
+		}
+		retire_country_leader = yes
+		set_politics = {	
+			ruling_party = isolationist
+		}
+		add_popularity = { ideology = isolationist popularity = 0.2 }
+	}
+	
+	option = { #The Forebears hold on to power
+		name = hammerfell.1.b
+		ai_chance = {
+			factor = party_popularity@internationalist
+		}
+		retire_country_leader = yes
+		add_popularity = { ideology = isolationist popularity = 0.2 }
+	}
+}

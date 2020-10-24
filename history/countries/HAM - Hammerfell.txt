@@ -11,6 +11,7 @@ set_convoys = 10
 add_ideas = {
 	idea_redguard
 	nine_divines
+	idea_the_uncivil_war
 }
 
 4201.1.1 = {
@@ -27,8 +28,26 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 56
+    internationalist = 55
     pragmatic = 0
-    isolationist = 44
+    isolationist = 45
     jingoist = 0
+}
+
+create_country_leader = {
+	name = "Azacean"
+	picture = "Azacean.dds"
+	ideology = internationalist_ideology
+	traits = { 
+	    prince_of_terror
+	}
+}
+
+create_country_leader = {
+	name = "Bodeuin"
+	picture = "generic/Redguard7.dds"
+	ideology = isolationist_ideology
+	traits = { 
+	    indomitable_perseverance
+	}
 }

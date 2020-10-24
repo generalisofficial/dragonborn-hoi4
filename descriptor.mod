@@ -1,4 +1,4 @@
-version="Alpha 0.2"
+version="Alpha 0.2.1"
 name="Dragonborn"
 tags={
 	"Alternative History"
@@ -41,6 +41,6 @@ replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="events"
 replace_path="portraits"
-supported_version="1.9.3"
+supported_version="1.10.1"
 path="mod/dragonborn-hoi4/"
 remote_file_id="1734970898"
