@@ -45,6 +45,15 @@ topal_island_dispute = {
 	}
 }
 
+dealing_with_the_reachmen = {
+
+    icon = border_conflicts
+
+	allowed = {
+		always = yes
+	}
+}
+
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }
 

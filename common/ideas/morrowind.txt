@@ -21,12 +21,25 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
+
+			cancel = { 
+				NOT = { 
+					BLM = { 
+						owns_state = 54
+						owns_state = 162
+						owns_state = 161
+					}
+				}
+			}
+
+			targeted_modifier = {
+				tag = BLM
+				attack_bonus_against = 0.2
+			}
 			
 			modifier = {
-				army_core_attack_factor = 0.2
-				war_support_factor = 0.2
+				war_support_factor = 0.3
 				army_morale_factor = 0.1
-				surrender_limit = 0.2
 			}
 		}
 	}

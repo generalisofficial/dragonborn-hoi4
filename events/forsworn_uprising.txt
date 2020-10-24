@@ -26,6 +26,7 @@ country_event = {
 			news_event = forsworn_uprising.2
 		}
 		release = REA
+		set_global_flag = forsworn_uprising_check
 		REA = {
 		    set_politics = {
 			    ruling_party = jingoist
@@ -40,6 +41,7 @@ country_event = {
 			news_event = forsworn_uprising.2
 		}
 		release = REA
+		set_global_flag = forsworn_uprising_check
 		REA = {
 			set_politics = {
 				ruling_party = jingoist

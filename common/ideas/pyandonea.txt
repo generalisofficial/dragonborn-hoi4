@@ -1,0 +1,18 @@
+ideas = {
+	
+	country = {
+	
+		idea_jungles_of_pyandonea = {
+			picture = jungles_of_pyandonea
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				resistance_target_on_our_occupied_states = 0.1
+				army_core_defence_factor = 0.2
+			}
+		}
+	}
+}

@@ -10,6 +10,7 @@ set_convoys = 5
 
 add_ideas = {
 	idea_maormer
+	idea_jungles_of_pyandonea
 }
 
 set_politics = {	
