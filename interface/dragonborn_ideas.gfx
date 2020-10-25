@@ -134,4 +134,9 @@ spriteTypes = {
 		name = "GFX_idea_jungles_of_pyandonea"
 		texturefile = "gfx/interface/ideas/jungles_of_pyandonea.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_the_uncivil_war"
+		texturefile = "gfx/interface/ideas/the_uncivil_war.dds"
+	}
 }

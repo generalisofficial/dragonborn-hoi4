@@ -1,0 +1,20 @@
+ideas = {
+	
+	country = {
+	
+		idea_orb_of_vaermina = {
+			picture = orb_of_vaermina
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				civilian_intel_factor = 1
+				army_intel_factor = 1
+				navy_intel_factor = 1
+				decryption_factor = 1
+			}
+		}
+	}
+}

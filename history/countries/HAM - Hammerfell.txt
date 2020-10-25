@@ -36,6 +36,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Azacean"
+	desc = "Azacean_desc"
 	picture = "Azacean.dds"
 	ideology = internationalist_ideology
 	traits = { 
