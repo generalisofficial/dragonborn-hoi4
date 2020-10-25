@@ -53,8 +53,11 @@
  beirand:0 "Beirand" 
 
  ticellus_mede:0 "Ticellus Mede"
+ ticellus_mede_desc:0 "Ticellus Mede is known for many things, and most of them aren't very good. As the main yes-man for his father's policies in the Elder Council, Ticellus is universally despised by most people and even council members. Despite this, the Emperor has continued to back his son, who is certain to provide great power for the regime if appointed as High Chancellor."
  mernil_ocato:0 "Mernil Ocato"
+ mernil_ocato_desc:0 "As great grandson of former High Chancellor Ocato of Firsthold, Mernil Ocato has been a unifying voice in the Elder Council for decades. Ocato has countless amounts of times organized key negotiations between the Emperor's supporters and more populist members, using his moderate rhetoric and respect from other members. As part of an exile Altmer family, Ocato is a militant advocate of action against the Aldmeri Dominion, accusing them of organizing the murder of his great grandfather. Many traditionalists continue to support Ocato for High Chancellor, as a compromising voice between the Emperor and the people."
  amaund_motierre:0 "Amaund Motierre"
+ amaund_motierre_desc:0 "After the passing of senior Elder Council member Benjamin Motierre in 4E 169, Emperor Titus Mede II out of respect appointed his son Amaund to fill his seat, becoming the youngest Council member ever. As a member of a prominent merchant family, Amaund Motierre has made a name for himself in fighting for the economic rights of the people of Cyrodiil, often defying the Emperor's policies while at it. Using populist rhetoric, Motierre has been able to gather a wide following, and isn't afraid to do what needs to be done for his people. Despite his youth, Motierre is a high-profile candidate for High Chancellor, a position which he'd certainly use to weaken the power of the Emperor, but the wide support from the populace would bring the Empire together."
 
   #MILITARY
  idea_category_military:0 "Military Staff"
@@ -120,6 +123,8 @@
  idea_orsimer_desc:0 "The Orsimer, commonly known as Orcs, are considered to be barbarian people by most of the other races on Nirn and are from the mountainous regions of western Tamriel. They are centrally located in Orsinium, the City of Orcs, but are common in other locations in Tamriel. Orsimer are of Elven blood, but this heritage is either not recognized or is forgotten by many in Tamriel. With skin tones ranging from light green to dark brown, a heavily muscular frame, and considerable stature the Orsimer stand apart amongst Mer and Men. They also are the only race to display tusks."
  idea_sload:0 "Sload"
  idea_sload_desc:0 "The Sload, also referred to as Slugmen, are an amphibious, slug-like, bestial race native to the isles of Thras within the Abecean Sea. Well known for their mastery of Necromancy, they are arguably the most hated race amongst the people of Tamriel."
+ idea_maormer:0 "Maormer"
+ idea_maormer_desc:0 "The Maormer, also known as Tropical Elves, Sea Elves, Fish Elves, or Pyandoneans, are a race of Mer that live on the continent Pyandonea, far south of the Summerset Isles, after migrating there from the legendary continent Aldmeris as Aldmer in the Merethic Era. Maormer are acclimated to life on the waves, and are steady on their feet in even the roughest waters."
  
  #RELIGION
  religion:0 "State Religion"
@@ -169,3 +174,7 @@
  idea_dunmer_revanchism_desc:0 "Dunmer are itching for war as Argonian forces continue to occupy Southern Morrowind, including the House Dres capital of Tear, and the House Sadras capital of Narsis."
  idea_pirate_republic:0 "Pirate Republic"
  idea_pirate_republic_desc:0 "With the takeover by Corsairs, Wayrest has been turned into a haven for pirates and criminals, who now use it as a base to raid other locations in High Rock and Hammerfell. Without law and order, every man is for himself in corsair-ruled Wayrest."
+ idea_the_uncivil_war:0 "The Uncivil War"
+ idea_the_uncivil_war_desc:0 "Even after being integrated into the Empire during the Second Era, the progressive Forebears and traditionalist Crowns have continued fighting for power in the province of Hammerfell, effectively tearing the province apart. With Crown resistance rampant, the imperial-backed Forebear government in Sentinel will have a hard time exercising control over several provinces."
+ idea_jungles_of_pyandonea:0 "Jungles of Pyandonea"
+ idea_jungles_of_pyandonea_desc:0 "In the year 2E 486, a small Maormeri fleet was sighted off the coast of Alinor, and King Hidellith ordered his navy to give chase. The navy followed the ships through uncharted waters, into an ambush in Pyandonea itself. Most of the Alinor navy was destroyed, but a single warship returned to Summerset to describe the land as a sea jungle. Massive plateaus spilling over with vegetation form mazes around valleys of ocean. Waving tendrils of kelp trap all but the Maormer's own ships, and provide a well-camouflaged home for the sea serpents that are Orgnum's guards and occasional mounts. Mist storms spill over the land, further disorienting one's views."

@@ -1,0 +1,53 @@
+dealing_with_the_reachmen = {
+	
+	retake_the_reach = {
+
+		icon = border_war
+
+		available = {
+			has_war = no
+		}
+
+		visible = {
+			original_tag = SKY
+			has_global_flag = forsworn_uprising_check
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			clr_global_flag = forsworn_uprising_check
+			declare_war_on = {
+				target = REA
+				type = annex_everything
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	recognize_reachman_independence = {
+
+		icon = generic_political_discourse
+
+		visible = {
+			original_tag = SKY
+			has_global_flag = forsworn_uprising_check
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			clr_global_flag = forsworn_uprising_check
+			remove_state_core = 11
+			remove_state_core = 215
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

@@ -1,0 +1,65 @@
+﻿CYR_01 = {
+	name = "Legion - Standard"
+
+	for_countries = { CYR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Legion"
+
+	ordered = {
+		1 = { "%dst Legion" }
+		2 = { "%dnd Legion" }
+		3 = { "%drd Legion" }
+		4 = { "%dth Legion" }
+		5 = { "%dth Legion" }
+		6 = { "%dth Legion" }
+		7 = { "%dth Legion" }
+		8 = { "%dth Legion" }
+		9 = { "%dth Legion" }
+		10 = { "%dth Legion" }
+		11 = { "%dth Legion" }
+		12 = { "%dth Legion" }
+		13 = { "%dth Legion" }
+		14 = { "%dth Legion" }
+		15 = { "%dth Legion" }
+		16 = { "%dth Legion" }
+		17 = { "%dth Legion" }
+		18 = { "%dth Legion" }
+		19 = { "%dth Legion" }
+		20 = { "%dth Legion" }
+		21 = { "%dst Legion" }
+		22 = { "%dnd Legion" }
+		23 = { "%drd Legion" }
+		24 = { "%dth Legion" }
+		25 = { "%dth Legion" }
+		26 = { "%dth Legion" }
+		27 = { "%dth Legion" }
+		28 = { "%dth Legion" }
+		29 = { "%dth Legion" }
+		30 = { "%dth Legion" }
+	}
+}
+
+CYR_02 = {
+	name = "Legion - Cities of Cyrodiil"
+
+	for_countries = { CYR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Legion"
+
+	ordered = {
+		1 = { "%dst Legion „Bravil“" }
+		2 = { "%dnd Legion „Kvatch“" }
+		3 = { "%drd Legion „Skingrad“" }
+		4 = { "%dth Legion „Cheydinhal“" }
+		5 = { "%dth Legion „Bruma“" }
+		6 = { "%dth Legion „Leyawiin“" }
+	}
+}

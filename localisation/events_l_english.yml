@@ -121,3 +121,9 @@
  captured_city.2.a:0 "What a battle!"
  captured_city.2.b:0 "For the Empire!"
  captured_city.2.c:0 "We're not finished that easily."
+
+ #Hammerfell
+ hammerfell.1.t:0 "Abandoned by the Emperor"
+ hammerfell.1.d:0 "With the Emperor preparing to accept Aldmeri peace terms, we have officially been rescinded as an Imperial province. The Imperial Legion has been ordered back to Cyrodiil, leaving our defenses weakened. Harassed by angry protestors, Forebear High King Azacean quickly announced his resignation, before being escorted to exile in Cyrodiil by Legionnaires. With the resulting power vacuum and popular hate against the Empire, Crown-aligned forces are attempting to seize power in Hammerfell."
+ hammerfell.1.a:0 "The Crowns take power"
+ hammerfell.1.b:0 "The uprising is crushed"
