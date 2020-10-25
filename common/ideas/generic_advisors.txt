@@ -8,6 +8,7 @@ ideas = {
 				    OR = { 
 						original_tag = REA
 						original_tag = WTR
+						original_tag = CYR
 					} 
 				}
 			}
@@ -38,6 +39,7 @@ ideas = {
 				    OR = { 
 						original_tag = WTR 
 						original_tag = SKY
+						original_tag = CYR
 					} 
 				}
 			}
@@ -67,6 +69,7 @@ ideas = {
 				NOT = { 
 				    OR = { 
 						original_tag = REA
+						original_tag = CYR
 					} 
 				}
 			}

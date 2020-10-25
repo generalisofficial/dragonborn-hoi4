@@ -129,4 +129,9 @@ spriteTypes = {
 		name = "GFX_idea_red_year"
 		texturefile = "gfx/interface/ideas/red_year.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_jungles_of_pyandonea"
+		texturefile = "gfx/interface/ideas/jungles_of_pyandonea.dds"
+	}
 }
