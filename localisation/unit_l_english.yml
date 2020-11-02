@@ -319,8 +319,6 @@
  light_tank_recon_desc:0 "Using light tanks in a recon role, we can conduct reconnaisance by fire and get a better understanding of what we are facing."
  armored_car:0 "Armored Car"
  armored_car_desc:0 ""
- engineer:0 "Engineer Company"
- engineer_desc:0 "Construction of fortifications and breaching obstacles make combat engineers vital in the field. Giving our engineers a versatile role enables us to deploy them in the diverse situations where they will be needed."
  field_hospital:0 "Field Hospital"
  field_hospital_desc:0 "Provides emergency medical attention to wounded soldiers in the field."
  logistics_company:0 "Logistics Company"
@@ -517,5 +515,10 @@
  rudder_jammed:0 "Rudder Jammed"
  ballast_tanks_inoperable:0 "Ballast Tanks Inoperable"
  damaged_secondaries:0 "Secondaries Knocked Out"
+
  CONFIRM_DISBAND_FLEET_TITLE:0 "Disband fleet"
  CONFIRM_DISBAND_FLEET_DESC:0 "Are you sure you want to §YDISBAND§! the fleet $NAME|H$?\n\nAll the task forces will be moved to reserve."
+
+ #Magic
+ frost_mages:0 "Frost Mages"
+ frost_mages_desc:0 ""

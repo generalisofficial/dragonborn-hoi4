@@ -71,14 +71,14 @@ technology_categories = {
 	mot_rockets
 	support_tech
 	para_tech
-	engineers_tech
-	recon_tech
+	forst_tech
+	alteration_tech
 	mountaineers_tech
-	military_police_tech
-	hospital_tech
+	shock_tech
+	restoration_tech
 	logistics_tech
-	signal_company_tech
-	maintenance_company_tech
+	illusion_tech
+	conjuration_tech
 	naval_mines
 	concentrated_industry_category
 	dispersed_industry_category
