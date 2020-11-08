@@ -4,7 +4,7 @@ state={
 	name="STATE_101"
 
 	history={
-		owner = TSA
+		#owner = TSA
 		buildings = {
 
 		}

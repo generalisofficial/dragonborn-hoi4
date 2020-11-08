@@ -168,6 +168,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4825;2135;sea;13477;-1;-1;-1;-1;;Strid River Bridge 1
 4736;4735;sea;13472;-1;-1;-1;-1;;Strid River Bridge 2
 1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
+2502;13673;sea;8341;-1;-1;-1;-1;;Khenarthi's Roost 1
+13673;13610;sea;8342;-1;-1;-1;-1;;Khenarthi's Roost 2
 4642;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
 13860;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
 13860;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains

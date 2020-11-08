@@ -1,0 +1,35 @@
+
+state={
+	id=10
+	name="STATE_10"
+
+	history={
+		owner = SKY
+		victory_points = {
+			5117 10 
+		}
+		victory_points = {
+			2744 3 
+		}
+		victory_points = {
+			5691 2 
+		}
+		buildings = {
+			infrastructure = 5
+			5117 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = SKY
+
+	}
+
+	provinces={
+		2080 2081 2082 3807 4163 5117 5663 6144 
+	}
+	manpower=114287
+	buildings_max_level_factor=1.000
+	state_category=city
+}

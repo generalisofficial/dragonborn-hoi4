@@ -10,7 +10,8 @@ set_convoys = 10
 
 add_ideas = {
     idea_breton
-    nine_divines
+	nine_divines
+	idea_direnni_tower
 }
 
 set_politics = {	
@@ -23,6 +24,12 @@ set_politics = {
 set_popularities = {
     internationalist = 3
     pragmatic = 6
-    isolationist = 78
-	jingoist = 13
+    isolationist = 81
+	jingoist = 10
+}
+
+create_country_leader = {
+	name = "Medora Direnni"
+	picture = "Medora_Direnni.dds"
+	ideology = isolationist_ideology
 }

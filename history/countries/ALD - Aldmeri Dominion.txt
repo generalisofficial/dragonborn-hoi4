@@ -9,7 +9,7 @@ set_convoys = 5
 
 add_ideas = {
 	idea_altmer
-	idea_orb_of_vaermina
+	#idea_orb_of_vaermina
 }
 
 set_politics = {	

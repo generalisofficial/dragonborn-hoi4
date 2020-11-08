@@ -1,0 +1,24 @@
+ideas = {
+	
+	country = {
+	
+		idea_direnni_tower = {
+			picture = direnni_tower
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			cancel = {
+				NOT = {
+					owns_state = 186
+				}
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+	}
+}

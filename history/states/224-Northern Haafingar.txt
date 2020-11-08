@@ -1,0 +1,28 @@
+state={
+	id=224
+	name="STATE_224"
+
+	history={
+		owner = SKY
+		victory_points = {
+			2925 2 
+		}
+		buildings = {
+			infrastructure = 2
+			2925 = {
+				bunker = 5
+
+			}
+
+		}
+		add_core_of = SKY
+
+	}
+
+	provinces={
+		1119 2118 2119 2179 2925 3808 3809 5335 5336 5337 5486 5664 
+	}
+	manpower=2981
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -37,6 +37,9 @@
  #CYR
  CYR_internationalist_party:0 "Mede"
  
+ #DIR
+ DIR_isolationist_party:0 "Direnni"
+
  #DRS
  DRS_internationalist_party_desc:0 "Great House"
  DRS_pragmatic_party_desc:0 "Great House"

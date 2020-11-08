@@ -4,7 +4,7 @@ state={
 	name="STATE_103"
 
 	history={
-		owner = KML
+		#owner = KML
 		buildings = {
 
 		}
