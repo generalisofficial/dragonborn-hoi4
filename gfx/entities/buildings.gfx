@@ -216,11 +216,11 @@ objectTypes = {
 #	}
 
 	pdxmesh = {
-		name = "building_industrial_complex"
+		name = "building_lumber_mill"
 		file = "gfx/models/buildings/factory.mesh"
 	}
 	pdxmesh = {
-		name = "building_arms_factory"
+		name = "building_blacksmith"
 		file = "gfx/models/buildings/factory.mesh"
 	}
 }

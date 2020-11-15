@@ -1,0 +1,3 @@
+0.2.2
+
+- Updated the mod to HOI4 version 10.2

@@ -396,8 +396,8 @@ entity = {
 }
 
 entity = {
-	name = "building_radar_station"
-	pdxmesh = "building_radar_station_mesh"
+	name = "building_watchtower"
+	pdxmesh = "building_watchtower_mesh"
 
 	locator = { name = "damage_locator_01"	position = { 0.8 0.0 -0.4 } }
 	locator = { name = "damage_locator_02"	position = { -0.4 1.2 -0.6 } }
@@ -467,8 +467,8 @@ entity = {
 }
 
 entity = {
-	name = "building_industrial_complex"
-	pdxmesh = "building_industrial_complex"
+	name = "building_lumber_mill"
+	pdxmesh = "building_lumber_mill"
 	
 	locator = { name = "damage_locator_01"	position = { 0.4 0.1 0.4 } }
 	locator = { name = "damage_locator_02"	position = { -0.1 0.45 -0.3 } }
@@ -486,8 +486,8 @@ entity = {
 }
 
 entity = {
-	name = "building_arms_factory"
-	pdxmesh = "building_arms_factory"
+	name = "building_blacksmith"
+	pdxmesh = "building_blacksmith"
 	
 	default_state = "idle"
 	state = { name = "idle" 

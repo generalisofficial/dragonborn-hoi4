@@ -16,7 +16,7 @@ buildings = {
 		max_fuel_building = 0.75 #k
 	}
 
-	arms_factory = {
+	blacksmith = {
 		show_on_map = 6
 		base_cost = 7200
 		base_cost_conversion = 4000
@@ -28,7 +28,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 
-	industrial_complex = {
+	lumber_mill = {
 		show_on_map = 6
 		base_cost = 10800
 		base_cost_conversion = 9000
