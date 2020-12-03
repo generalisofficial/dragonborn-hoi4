@@ -4,7 +4,6 @@ state={
 	name="STATE_2"
 
 	history={
-		owner = JLF
 		victory_points = {
 			1118 3 
 		}
@@ -16,7 +15,6 @@ state={
 			}
 
 		}
-		add_core_of = JLF
 
 	}
 

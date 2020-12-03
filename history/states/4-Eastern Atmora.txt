@@ -3,15 +3,6 @@ state={
 	id=4
 	name="STATE_4"
 
-	history={
-		owner = JLF
-		buildings = {
-
-		}
-		add_core_of = JLF
-
-	}
-
 	provinces={
 		3935 
 	}
