@@ -12,6 +12,7 @@ add_ideas = {
     idea_dunmer
 	idea_legacy_of_the_red_year
 	idea_dunmer_revanchism
+	idea_memories_of_slavery
 }
 
 set_politics = {	
@@ -29,7 +30,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Rarydris Selvo"
+	name = "Veneval Dres"
 	picture = "dres.dds"
 	ideology = isolationist_ideology
 }

@@ -42,5 +42,18 @@ ideas = {
 				army_morale_factor = 0.1
 			}
 		}
+
+		idea_memories_of_slavery = {
+			picture = memories_of_slavery
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
 	}
 }
