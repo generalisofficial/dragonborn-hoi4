@@ -59,40 +59,45 @@ spriteTypes = {
 		name = "GFX_idea_race_orsimer"
 		texturefile = "gfx/interface/ideas/race_orsimer.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_race_sload"
+		texturefile = "gfx/interface/ideas/race_sload.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_maormer"
+		texturefile = "gfx/interface/ideas/race_maormer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_tsaesci"
+		texturefile = "gfx/interface/ideas/race_tsaesci.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_ka_po_tun"
+		texturefile = "gfx/interface/ideas/race_ka_po_tun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_kamal"
+		texturefile = "gfx/interface/ideas/race_kamal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_tang_mo"
+		texturefile = "gfx/interface/ideas/race_tang_mo.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_white_gold_concordat"
 		texturefile = "gfx/interface/ideas/white_gold_concordat.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_idea_dark_brotherhood"
-		texturefile = "gfx/interface/ideas/dark_brotherhood.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_thieves_guild"
-		texturefile = "gfx/interface/ideas/thieves_guild.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_college_of_winterhold"
-		texturefile = "gfx/interface/ideas/college_of_winterhold.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_fighters_guild"
-		texturefile = "gfx/interface/ideas/fighters_guild.dds"
-	}
 		
 	spriteType = {
 		name = "GFX_idea_blades"
 		texturefile = "gfx/interface/ideas/blades.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_companions"
-		texturefile = "gfx/interface/ideas/companions.dds"
 	}
 	
 	spriteType = {
@@ -138,5 +143,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_the_uncivil_war"
 		texturefile = "gfx/interface/ideas/the_uncivil_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_direnni_tower"
+		texturefile = "gfx/interface/ideas/direnni_tower.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_orb_of_vaermina"
+		texturefile = "gfx/interface/ideas/orb_of_vaermina.dds"
 	}
 }

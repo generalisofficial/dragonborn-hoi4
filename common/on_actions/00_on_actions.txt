@@ -209,6 +209,28 @@ on_actions = {
 			#}
 			#CYR = { country_event = great_war.1 }
 		}
+		effect = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 35
+						state = 124
+						state = 181
+						state = 182
+						state = 38 
+						state = 198
+						state = 39
+					}
+				}
+				#add_province_modifier = {
+				#	static_modifiers = { crown_resistance }
+				#	province = {
+				#		all_provinces = yes
+				#	}
+				#}
+				set_state_flag = crown_resistance_flag
+			}
+		}
 	}
 	
 	on_unit_leader_created = {

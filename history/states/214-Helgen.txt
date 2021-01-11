@@ -7,8 +7,15 @@ state={
 		victory_points = {
 			2411 3 
 		}
+		victory_points = {
+			2408 2
+		}
 		buildings = {
 			infrastructure = 3
+			2408 = {
+				bunker = 5
+
+			}
 
 		}
 		add_core_of = SKY

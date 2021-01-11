@@ -148,19 +148,6 @@
  redguard_pantheon:0 "Redguard Pantheon"
  redguard_pantheon_desc:0 "The Reguard pantheon is very different to most others, although again comparisons can be drawn between some gods, most notably Sep and Lorkhan. Where most cultures start with Anu and Padomay, Yokudan faith starts with one, Satakal, the World-Skin. They also believe their gods were tricked into becoming mortal, in the same way to most merish belief, and consider it their birthright to return to the Far Shores, the world beyond Mundus. Yokudan belief holds special reverence to the stars, believing them to be the way back to the Far Shores, although they do not acknowledge the Magna-Ge as distinct from the rest of their pantheon, and it is Tu'Wacca, their god of death, who helps them get there, not any kind of equivalent to Magnus. Where Imperial culture has Shezarr as a god of human achievement, and the Nords have Shor, the Yokudans have the Hoon'Ding, the Make Way God, who comes at a time of crisis to make way for his people. He has historically materialized as a variety of things, such as a sword, a crown or both."
  
- #GUILDS
- guilds:0 "Guilds"
- thieves_guild:0 "Thieves Guild"
- thieves_guild_desc:0 "Cooperating with the Thieves Guild will give us a fine profit in gold, however letting thieves operate on our soil might give us a taste of our own medicine."
- fighters_guild:0 "Fighters Guild"
- fighters_guild_desc:0 "Cooperating with the Fighters Guild will give us an increase in recruits for our armed forces."
- college_of_winterhold:0 "College of Winterhold"
- college_of_winterhold_desc:0 "Cooperating with the College of Winterhold will let our mages practice new spells and increase their efficiency on the battlefield."
- the_companions:0 "The Companions"
- the_companions_desc:0 "Cooperating with the Companions will let our ground soldiers receive valuable training, mentally and physically."
- dark_brotherhood:0 "Dark Brotherhood"
- dark_brotherhood_desc:0 "Cooperating with the Dark Brotherhood opens up a plethora of new options to deal with the enemy, but many nations will be reluctant to work with a nation openly supporting an illegal organization."
- 
  #UNIQUE
  idea_vampirism:0 "Vampirism"
  idea_vampirism_desc:0 "While vampirism is a great gift to anyone looking to terrorize the world, the weakness to sunlight proves operating at day a massive challenge. They say a certain prophecy can change this..."
@@ -183,4 +170,4 @@
  idea_direnni_tower:0 "Direnni Tower"
  idea_direnni_tower_desc:0 "Previously named the Adamantine Tower, the Direnni Tower is believed to be the oldest building in Tamriel, and is located on the island of Balfiera. The tower contains the Zero Stone, making it one of the great towers of Tamriel."
  idea_memories_of_slavery:0 "Memories of Slavery"
- idea_memories_of_slavery_desc:0 "Despite losing more than half of Dres lands and our plantations over a hundred years ago, our core ideals and traditions remain with us. Slavery will always remain within our people, and until we regain our slaves and our plantations, we will never be whole.
+ idea_memories_of_slavery_desc:0 "Despite losing more than half of Dres lands and our plantations over a hundred years ago, our core ideals and traditions remain with us. Slavery will always remain within our people, and until we regain our slaves and our plantations, we will never be whole.""

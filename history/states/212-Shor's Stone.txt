@@ -12,6 +12,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			105 = {
+				bunker = 4
+
+			}
 
 		}
 		add_core_of = SKY
