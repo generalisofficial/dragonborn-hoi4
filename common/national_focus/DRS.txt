@@ -1,0 +1,607 @@
+focus_tree = {
+	id = dresfocuses
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DRS
+		}
+	}
+	default = no
+	focus = {
+		id = drespolitical1
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = drespolitical2
+		icon = GFX_focus_spa_caudillo_of_spain
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical1
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = drespolitical10
+		icon = GFX_focus_generic_manpower
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical2
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = drespolitical11
+		icon = GFX_focus_spa_save_the_alcazar
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical10
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = drespolitical12
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical11
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = drespolitical3
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical2
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = drespolitical4
+		icon = GFX_focus_mex_privatisation
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical3
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = drespolitical5
+		icon = GFX_focus_AST_squander_bug
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical4
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = drespolitical6
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical2
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = drespolitical7
+		icon = GFX_focus_generic_monarchy_2
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical6
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = drespolitical8
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical7
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = drespolitical9
+		icon = GFX_focus_rom_parties_end
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical8
+		}
+		prerequisite = {
+			focus = drespolitical5
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = drespolitical36
+		icon = GFX_focus_BUL_plot_against_boris
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical9
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = drespolitical44
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical36
+		}
+		mutually_exclusive = {
+			focus = drespolitical43
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical43
+		icon = GFX_focus_generic_royal_wedding
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical36
+		}
+		mutually_exclusive = {
+			focus = drespolitical44
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical37
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical36
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical40
+		icon = GFX_focus_eng_special_air_service
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical36
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical13
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical2
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = drespolitical14
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical13
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = drespolitical15
+		icon = GFX_focus_por_concordat
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical14
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = drespolitical25
+		icon = GFX_focus_eng_global_defense
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical9
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = drespolitical26
+		icon = GFX_focus_TUR_ratify_the_six_arrows
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical25
+		}
+		mutually_exclusive = {
+			focus = drespolitical28
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical27
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical26
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical28
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical25
+		}
+		mutually_exclusive = {
+			focus = drespolitical26
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical29
+		icon = GFX_focus_eng_decolonization
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical28
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical31
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical27
+			focus = drespolitical29
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical33
+		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical31
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = drespolitical35
+		icon = GFX_focus_usa_focus_on_asia
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical31
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = drespolitical16
+		icon = GFX_focus_cze_german_puppet
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical9
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = drespolitical18
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical16
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = drespolitical18
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical16
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical19
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical18
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical20
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical18
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical21
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical19
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical22
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical20
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical23
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical22
+		}
+		x = 16
+		y = 10
+
+	}
+	focus = {
+		id = drespolitical24
+		icon = GFX_focus_hol_prepare_the_inundation_lines
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical23
+		}
+		prerequisite = {
+			focus = drespolitical21
+		}
+		prerequisite = {
+			focus = drespolitical51
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = drespolitical30
+		icon = GFX_focus_jap_strike_south
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical28
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical32
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical33
+		}
+		prerequisite = {
+			focus = drespolitical35
+		}
+		x = 22
+		y = 11
+
+	}
+	focus = {
+		id = drespolitical34
+		icon = GFX_focus_eng_imperial_federation
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical30
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical38
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical37
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical39
+		icon = GFX_focus_mex_exile_calles
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical38
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical41
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical40
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical42
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical41
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical45
+		icon = GFX_focus_fra_devalue_the_franc
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical43
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical46
+		icon = GFX_focus_BUL_form_a_regency_council
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical45
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical47
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical44
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = drespolitical48
+		icon = GFX_goal_tfv_smiling_buddha
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical47
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = drespolitical49
+		icon = GFX_focus_generic_monarchy_1
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical46
+			focus = drespolitical48
+		}
+		prerequisite = {
+			focus = drespolitical39
+		}
+		prerequisite = {
+			focus = drespolitical42
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = drespolitical50
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical24
+		}
+		prerequisite = {
+			focus = drespolitical49
+		}
+		prerequisite = {
+			focus = drespolitical32
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = drespolitical51
+		icon = GFX_focus_TUR_the_montreux_convention
+		cost = 10.00
+		prerequisite = {
+			focus = drespolitical18
+		}
+		x = 14
+		y = 9
+
+	}
+}

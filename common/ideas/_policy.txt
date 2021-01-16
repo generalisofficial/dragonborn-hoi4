@@ -17,6 +17,13 @@ ideas = {
 			
 			default = yes
 			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
 		}
 		
 		nine_divines = {
@@ -33,6 +40,13 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
 		}
 		
 	    nordic_pantheon = {
@@ -49,6 +63,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		new_temple = {
@@ -65,6 +82,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		altmeri_pantheon = {
@@ -81,6 +101,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		bosmeri_pantheon = {
@@ -97,6 +120,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		khajiiti_pantheon = {
@@ -113,6 +139,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		redguard_pantheon = {
@@ -129,6 +158,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		bretony_pantheon = {
@@ -145,6 +177,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		the_hist = {
@@ -161,6 +196,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		orcish_pantheon = {
@@ -177,6 +215,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
 }

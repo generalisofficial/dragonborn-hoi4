@@ -12,24 +12,26 @@ add_ideas = {
     idea_dunmer
 	idea_legacy_of_the_red_year
 	idea_dunmer_revanchism
+	idea_the_shadow_house
+	#idea_religious_problems
 }
 
 set_politics = {	
-	ruling_party = internationalist
+	ruling_party = pragmatic
 	last_election = "4171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    internationalist = 76
+    internationalist = 21
     isolationist = 3
-    pragmatic = 21
+    pragmatic = 76
     jingoist = 0
 }
 
 create_country_leader = {
-	name = "Slythyr Sadras"
-	picture = "Slythyr_Sadras.dds"
-	ideology = internationalist_ideology
+	name = "Gaelion Sadras"
+	picture = "Gaelion_Sadras.dds"
+	ideology = pragmatist_ideology
 }

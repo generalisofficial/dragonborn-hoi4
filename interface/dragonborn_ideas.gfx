@@ -154,4 +154,9 @@ spriteTypes = {
 		name = "GFX_idea_orb_of_vaermina"
 		texturefile = "gfx/interface/ideas/orb_of_vaermina.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_memories_of_slavery"
+		texturefile = "gfx/interface/ideas/memories_of_slavery.dds"
+	}
 }
