@@ -23,8 +23,8 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    isolationist = 0
-    pragmatic = 100
+    isolationist = 16
+    pragmatic = 84
     jingoist = 0
 }
 
@@ -36,7 +36,13 @@ add_to_faction = IDR
 add_to_faction = DRS
 
 create_country_leader = {
-	name = "Nadsilo Llearen"
-	picture = "redoran.dds"
+	name = "Felseth Redoran"
+	picture = "felseth.dds"
 	ideology = pragmatic_ideology
+}
+
+create_country_leader = {
+	name = "Vurdras Redoran"
+	picture = "vurdras.dds"
+	ideology = isolationist_ideology
 }

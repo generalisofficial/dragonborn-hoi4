@@ -24,13 +24,19 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    isolationist = 100
+    isolationist = 62
     pragmatic = 0
-    jingoist = 0
+    jingoist = 38
 }
 
 create_country_leader = {
 	name = "Veneval Dres"
-	picture = "dres.dds"
+	picture = "veneval.dds"
 	ideology = isolationist_ideology
+}
+
+create_country_leader = {
+	name = "Lloros Dres"
+	picture = "lloros.dds"
+	ideology = jingoist_ideology
 }

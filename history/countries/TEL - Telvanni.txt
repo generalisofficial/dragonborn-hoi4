@@ -23,13 +23,13 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    isolationist = 100
+    isolationist = 91
     pragmatic = 0
-    jingoist = 0
+    jingoist = 9
 }
 
 create_country_leader = {
-	name = "Lython Sadthen"
-	picture = "telvanni.dds"
+	name = "Irvalam Telvanni"
+	picture = "irvalam.dds"
 	ideology = isolationist_ideology
 }

@@ -23,13 +23,19 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    isolationist = 100
+    isolationist = 87
     pragmatic = 0
-    jingoist = 0
+    jingoist = 13
 }
 
 create_country_leader = {
-	name = "Edrader Narodor"
-	picture = "indoril.dds"
+	name = "Mendyn Indoril"
+	picture = "mendyn.dds"
 	ideology = isolationist_ideology
+}
+
+create_country_leader = {
+	name = "Drores Indoril"
+	picture = "drores.dds"
+	ideology = jingoist_ideology
 }

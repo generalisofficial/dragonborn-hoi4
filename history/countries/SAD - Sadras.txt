@@ -32,6 +32,12 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Gaelion Sadras"
-	picture = "Gaelion_Sadras.dds"
-	ideology = pragmatist_ideology
+	picture = "gaelion.dds"
+	ideology = pragmatiс_ideology
+}
+
+create_country_leader = {
+	name = "Nireli Arinith"
+	picture = "nireli.dds"
+	ideology = internationalist_ideology
 }

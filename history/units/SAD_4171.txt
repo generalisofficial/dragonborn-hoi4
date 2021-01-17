@@ -1,0 +1,60 @@
+﻿division_template = {
+	name = "Sadras Lawmen"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+}
+
+units = {
+	division = {
+		name = "Kragen Mar Guard"
+		location = 70
+		division_template = "Sadras Lawmen"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Andothren Guard"
+		location = 711
+		division_template = "Sadras Lawmen"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Shirpal-Sharai Guard"
+		location = 1891
+		division_template = "Sadras Lawmen"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Hlarud Guard"
+		location = 1895
+		division_template = "Sadras Lawmen"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Indal-Ruhn Guard"
+		location = 1422
+		division_template = "Sadras Lawmen"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Othmura Guard"
+		location = 5756
+		division_template = "Sadras Lawmen"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}

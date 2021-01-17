@@ -41,6 +41,10 @@
  DIR_isolationist_party:0 "Direnni"
 
  #DRS
+ DRS_internationalist_party:0 "Followers of the Divines"
+ DRS_pragmatic_party:0 "Unorganized Mer"
+ DRS_isolationist_party:0 "House Council"
+ DRS_jingoist_party:0 "Lloros Dres' Clique"
  DRS_internationalist_party_desc:0 "Great House"
  DRS_pragmatic_party_desc:0 "Great House"
  DRS_isolationist_party_desc:0 "Great House"
@@ -51,6 +55,10 @@
  HAM_isolationist_party:0 "Crowns"
  
  #IDR
+ IDR_internationalist_party:0 "Followers of the Divines"
+ IDR_pragmatic_party:0 "Unorganized Mer"
+ IDR_isolationist_party:0 "Grandmaster's Loyal"
+ IDR_jingoist_party:0 "Clerical Council"
  IDR_internationalist_party_desc:0 "Great House"
  IDR_pragmatic_party_desc:0 "Great House"
  IDR_isolationist_party_desc:0 "Great House"
@@ -64,12 +72,20 @@
  REA_jingoist_party:0 "Reachmen"
  
  #RED
+ RED_internationalist_party:0 "Followers of the Divines"
+ RED_pragmatic_party:0 "Grandmaster's Circle"
+ RED_isolationist_party:0 "Redoran Honorbounds"
+ RED_jingoist_party:0 "Unorganized Mer"
  RED_internationalist_party_desc:0 "Great House"
  RED_pragmatic_party_desc:0 "Great House"
  RED_isolationist_party_desc:0 "Great House"
  RED_jingoist_party_desc:0 "Great House"
  
  #SAD
+ SAD_internationalist_party:0 "Hlaalu Remnants"
+ SAD_pragmatic_party:0 "Sadras Trade Council"
+ SAD_isolationist_party:0 "Unorganized Mer"
+ SAD_jingoist_party:0 "Plantation Owners"
  SAD_internationalist_party_desc:0 "Great House"
  SAD_pragmatic_party_desc:0 "Great House"
  SAD_isolationist_party_desc:0 "Great House"
@@ -83,6 +99,10 @@
  SKL_jingoist_party:0 "Thirsk"
  
  #TEL
+ TEL_internationalist_party:0 "Followers of the Divines"
+ TEL_pragmatic_party:0 "Unorganized Mer"
+ TEL_isolationist_party:0 "Telvanni Magisters"
+ TEL_jingoist_party:0 "Eccentric Lords"
  TEL_internationalist_party_desc:0 "Great House"
  TEL_pragmatic_party_desc:0 "Great House"
  TEL_isolationist_party_desc:0 "Great House"
