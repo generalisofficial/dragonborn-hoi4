@@ -40,7 +40,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 
-	air_base = {
+	skyport = {
 		show_on_map = 1
 		base_cost = 1250
 		icon_frame = 5
@@ -50,7 +50,7 @@ buildings = {
 		damage_factor = 0.5
 	}
 
-	naval_base = {
+	port = {
 		show_on_map = 1
 		show_on_map_meshes = 3
 		always_shown = yes
@@ -63,7 +63,7 @@ buildings = {
 		value = 1
 	}
 
-	bunker = {
+	fort = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
 		base_cost = 500
@@ -76,7 +76,7 @@ buildings = {
 		value = 1
 	}
 
-	coastal_bunker = {
+	coastal_fort = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
 		base_cost = 500
@@ -90,7 +90,7 @@ buildings = {
 		value = 1
 	}
 
-	dockyard = {
+	shipyard = {
 		show_on_map = 1
 		show_on_map_meshes = 3
 		base_cost = 6400
@@ -103,9 +103,8 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = yes
 	}
-
 	
-	anti_air_building = {
+	archer_tower = {
 		show_on_map = 3
 		base_cost = 2500
 		icon_frame = 9
@@ -117,7 +116,7 @@ buildings = {
 		value = 1
 	}
 
-	synthetic_refinery = {
+	farm = {
 		show_on_map = 1
 		base_cost = 14500
 		icon_frame = 10
@@ -133,7 +132,7 @@ buildings = {
 		fuel_gain_from_states = 2.0 #per hour
 	}
 
-	fuel_silo = {
+	grain_silo = {
 		show_on_map = 1
 		base_cost = 5000
 		icon_frame = 14

@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			1865 = {
-				naval_base = 1
+				port = 1
 
 			}
 
