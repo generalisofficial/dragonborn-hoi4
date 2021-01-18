@@ -30,12 +30,12 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Mendyn Indoril"
-	picture = "mendyn.dds"
+	picture = "Mendyn_Indoril.dds"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Drores Indoril"
-	picture = "drores.dds"
+	picture = "Drores_Indoril.dds"
 	ideology = jingoist_ideology
 }

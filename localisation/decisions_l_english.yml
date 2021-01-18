@@ -19,12 +19,26 @@
  form_colovia:0 "Form Colovia"
 
  #Political Actions
+ promises_of_peace:0 "Promises of Peace"
+ promises_of_peace_desc:0 "History has taught us the horrors of war. We must never let it happen again. It is time for our nation to know peace and prosperity."
 
  #Propaganda Efforts
+ war_propaganda:0 "War Propaganda"
+ war_propaganda_desc:0 "As the world burns around us, our people are woefully unprepared for war. We must rally their support to take up arms for our nation."
+ war_propaganda_against_warmonger:1 "War Propaganda Against [From.GetName]"
+ war_propaganda_against_warmonger_desc:0 "The nation calls for every man, woman and child. A war like that of [From.GetName] could happen here as well."
+ war_propaganda_against_warmonger_neighbor:1 "War Propaganda Against [From.GetName]"
+ war_propaganda_against_warmonger_neighbor_desc:0 "Tomorrow [From.GetName] could be our enemy. We need YOU to defend your country TODAY!"
 
  #War Measures
+ desperate_defense:0 "Desperate Defense"
+ desperate_defense_desc:0 "We can't fall back any further. Our soldiers have to dig in and hold the line."
 
  #Economy Decisions
+ infrastructure_building_slot:0 "Region-wide Industrial Integration"
+ infrastructure_building_slot_flag:0 "Has not already received an extra building slot from infrastructure."
+ war_building_slot:0 "Industrial Land Appropriation"
+ war_building_slot_flag:0 "Has not already received an extra building slot from land appropriation."
 
  #Topal Island Dispute
  topal_island_dispute:0 "Status of Topal Island"

@@ -30,6 +30,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Irvalam Telvanni"
-	picture = "irvalam.dds"
+	picture = "Irvalam_Telvanni.dds"
 	ideology = isolationist_ideology
 }

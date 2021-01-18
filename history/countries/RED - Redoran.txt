@@ -37,12 +37,12 @@ add_to_faction = DRS
 
 create_country_leader = {
 	name = "Felseth Redoran"
-	picture = "felseth.dds"
+	picture = "Felseth_Redoran.dds"
 	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Vurdras Redoran"
-	picture = "vurdras.dds"
+	picture = "Vurdras_Redoran.dds"
 	ideology = isolationist_ideology
 }
