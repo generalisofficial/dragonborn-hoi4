@@ -177,8 +177,8 @@ entity = {
  
 
 entity = {
-	name = "building_dockyard_1"
-	pdxmesh = "building_dockyard_1"
+	name = "building_shipyard_1"
+	pdxmesh = "building_shipyard_1"
 	scale = 0.8
 	
 	locator = { name = "damage_locator_01"	position = { 1.7 1.0 -1.7 } }
@@ -193,8 +193,8 @@ entity = {
 	}
 }
 entity = {
-	name = "building_dockyard_2"
-	pdxmesh = "building_dockyard_2"
+	name = "building_shipyard_2"
+	pdxmesh = "building_shipyard_2"
 	scale = 0.8
 	
 	locator = { name = "damage_locator_01"	position = { 1.7 1.0 -1.7 } }
@@ -209,8 +209,8 @@ entity = {
 	}
 }
 entity = {
-	name = "building_dockyard_3"
-	pdxmesh = "building_dockyard_3"
+	name = "building_shipyard_3"
+	pdxmesh = "building_shipyard_3"
 	scale = 0.8
 	
 	locator = { name = "damage_locator_01"	position = { 1.7 1.0 -1.7 } }
@@ -226,8 +226,8 @@ entity = {
 }
 
 entity = {
-	name = "building_air_base"
-	pdxmesh = "building_air_base"	
+	name = "building_skyport"
+	pdxmesh = "building_skyport"	
 	scale = 1.4
 	
 	locator = { name = "damage_locator_01"	position = { 1.35 0.0 -0.35 } }
@@ -245,8 +245,8 @@ entity = {
 }
 
 entity = {
-	name = "building_naval_base_1"
-	pdxmesh = "building_naval_base_1"
+	name = "building_port_1"
+	pdxmesh = "building_port_1"
 	scale = 0.8
 	
 	locator = { name = "damage_locator_01"	position = { -0.8 0.4 -3.5 } }
@@ -263,8 +263,8 @@ entity = {
 	}
 }
 entity = {
-	name = "building_naval_base_2"
-	pdxmesh = "building_naval_base_2"
+	name = "building_port_2"
+	pdxmesh = "building_port_2"
 	scale = 0.8
 	
 	locator = { name = "damage_locator_01"	position = { -0.8 0.4 -3.5 } }
@@ -281,8 +281,8 @@ entity = {
 	}
 }
 entity = {
-	name = "building_naval_base_3"
-	pdxmesh = "building_naval_base_3"
+	name = "building_port_3"
+	pdxmesh = "building_port_3"
 	scale = 0.8
 	
 	locator = { name = "damage_locator_01"	position = { -0.8 0.4 -3.5 } }
@@ -300,8 +300,8 @@ entity = {
 }
 
 entity = {
-	name = "building_bunker"
-	pdxmesh = "building_bunker"
+	name = "building_fort"
+	pdxmesh = "building_fort"
 	
 	default_state = "idle"
 	state = { name = "idle" 
@@ -309,8 +309,8 @@ entity = {
 }
 
 entity = {
-	name = "building_bunker_destroyed"
-	pdxmesh = "building_bunker_destroyed"
+	name = "building_fort_destroyed"
+	pdxmesh = "building_fort_destroyed"
 	
 	
 	locator = { name = "damage_locator_01"	position = { 0.0 1.1 -1.0 } }
@@ -329,8 +329,8 @@ entity = {
 }
 
 entity = {
-	name = "building_coastal_bunker"
-	pdxmesh = "building_coastal_bunker"
+	name = "building_coastal_fort"
+	pdxmesh = "building_coastal_fort"
 	
 	default_state = "idle"
 	state = { name = "idle" 
@@ -338,8 +338,8 @@ entity = {
 }
 
 entity = {
-	name = "building_coastal_bunker_destroyed"
-	pdxmesh = "building_coastal_bunker_destroyed"
+	name = "building_coastal_fort_destroyed"
+	pdxmesh = "building_coastal_fort_destroyed"
 	
 	
 	locator = { name = "damage_locator_01"	position = { -0.2 0.4 -0.3 } }
@@ -355,8 +355,8 @@ entity = {
 }
 
 entity = {
-	name = "building_anti_air_building"
-	pdxmesh = "building_anti_air_building"
+	name = "building_archer_tower"
+	pdxmesh = "building_archer_tower"
 	
 	locator = { name = "damage_locator_01"	position = { 0.8 0.0 -0.4 } }
 	locator = { name = "damage_locator_02"	position = { -0.4 1.5 -0.7 } }
@@ -449,8 +449,8 @@ entity = {
 }
 
 entity = {
-	name = "building_synthetic_refinery"
-	pdxmesh = "building_oil_refinery"
+	name = "building_farm"
+	pdxmesh = "building_farm"
 	
 	locator = { name = "damage_locator_01"	position = { 0.4 0.4 -0.1 } }
 	locator = { name = "damage_locator_02"	position = { -1.4 0.2 0.2 } }
