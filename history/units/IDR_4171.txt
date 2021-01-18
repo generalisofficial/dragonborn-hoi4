@@ -20,24 +20,8 @@ units = {
 	}
 
 	division = {
-		name = "Othrensis Guard"
-		location = 1952
-		division_template = "Indoril Lawmen"
-		start_experience_factor = 0.30
-		start_equipment_factor = 1.0
-	}
-
-	division = {
 		name = "Roa Dyr Guard"
 		location = 5166
-		division_template = "Indoril Lawmen"
-		start_experience_factor = 0.30
-		start_equipment_factor = 1.0
-	}
-
-	division = {
-		name = "Akamora Guard"
-		location = 2099
 		division_template = "Indoril Lawmen"
 		start_experience_factor = 0.30
 		start_equipment_factor = 1.0
@@ -76,7 +60,7 @@ units = {
 	}
 
 	division = {
-		name = "Weeping Ordinators"
+		name = "Ordinators in Mourning"
 		location = 6032
 		division_template = "Ordinators"
 		start_experience_factor = 1.0
@@ -84,7 +68,7 @@ units = {
 	}
 
 	division = {
-		name = "Ordinators"
+		name = "Ordinators of Thirr"
 		location = 13746
 		division_template = "Ordinators"
 		start_experience_factor = 1.0
@@ -92,7 +76,7 @@ units = {
 	}
 
 	division = {
-		name = "Ordinators"
+		name = "Ordinators of Khand"
 		location = 3506
 		division_template = "Ordinators"
 		start_experience_factor = 1.0

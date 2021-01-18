@@ -1,0 +1,28 @@
+﻿division_template = {
+	name = "Orc Warriors"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+}
+
+units = {
+	division = {
+		name = "Wild Ravagers"
+		location = 689
+		division_template = "Orc Warriors"
+		start_experience_factor = 0.60
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Staunch Defenders"
+		location = 689
+		division_template = "Orc Warriors"
+		start_experience_factor = 0.60
+		start_equipment_factor = 1.0
+	}
