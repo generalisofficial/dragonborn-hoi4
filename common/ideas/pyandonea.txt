@@ -14,5 +14,17 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 		}
+
+		idea_king_orgnums_coffer = {
+			picture = king_orgnums_coffer
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 5.0
+			}
+		}
 	}
 }

@@ -73,6 +73,17 @@ bookmarks = {
 			}
 		}
 
+		"PYD"={
+			history = "PYD_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
 		"---"={
 			history = "OTHER_GREAT_WAR_DESC"
 		}

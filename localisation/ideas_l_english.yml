@@ -1,4 +1,4 @@
-﻿l_english:
+﻿ l_english:
  received_attache:0 "Received attaché"
  received_attache_desc:0 "Foreign military attachés residing in our country."
  ATTACHE_LIST:0 "We received military attachés from $LIST$. And they give us the following effects:"
@@ -59,7 +59,7 @@
  amaund_motierre:0 "Amaund Motierre"
  amaund_motierre_desc:0 "After the passing of senior Elder Council member Benjamin Motierre in 4E 169, Emperor Titus Mede II out of respect appointed his son Amaund to fill his seat, becoming the youngest Council member ever. As a member of a prominent merchant family, Amaund Motierre has made a name for himself in fighting for the economic rights of the people of Cyrodiil, often defying the Emperor's policies while at it. Using populist rhetoric, Motierre has been able to gather a wide following, and isn't afraid to do what needs to be done for his people. Despite his youth, Motierre is a high-profile candidate for High Chancellor, a position which he'd certainly use to weaken the power of the Emperor, but the wide support from the populace would bring the Empire together."
 
-  #MILITARY
+ #MILITARY
  idea_category_military:0 "Military Staff"
  idea_category_military_desc:0 "Adopt ideas/hire ministers to help steer your military"
  mobilization_laws:0 "Conscription Law"
@@ -71,13 +71,13 @@
  idea_group_navy_chief:0 "Chief of Navy"
  military_staff:0 "Military Staff"
  idea_group_mobilization_laws:0 "Recruitment"
- disarmed_nation:0 "No Army"
- volunteer_only:0 "Volunteers"
- limited_conscription:0 "Low Quota"
- extensive_conscription:0 "High Quota"
- service_by_requirement:0 "Every Man Serves"
- all_adults_serve:0 "Every Adult Serves"
- scraping_the_barrel:0 "Men, Women and Children"
+ disarmed_nation:0 "Disarmed Nation"
+ volunteer_only:0 "Volunteer Only"
+ limited_conscription:0 "Limited Conscription"
+ extensive_conscription:0 "Extensive Conscription"
+ service_by_requirement:0 "Service by Requirement"
+ all_adults_serve:0 "All Adults Serve"
+ scraping_the_barrel:0 "Scraping the Barrel"
  generic_army_chief_offensive:0 "Offensive Army Chief"
  generic_army_chief_defensive:0 "Defensive Army Chief"
  generic_army_chief_reform:0 "Innovative Army Chief"
@@ -146,7 +146,23 @@
  orcish_pantheon:0 "Orcish Pantheon"
  orcish_pantheon_desc:0 "Orcs typically worship Malacath, the changed remnant of Trinimac, and his code informs much of their law and practices. Malacath is occasionally also called Mauloch, in this context. In the Third Era the orc chief Gortwog established a separate priesthood for Trinimac directly in his Orsinium. This was viewed as heresy by most orcs outside Orsinium and a minority within it, and a bad omen for orcs as a whole."
  redguard_pantheon:0 "Redguard Pantheon"
- redguard_pantheon_desc:0 "The Reguard pantheon is very different to most others, although again comparisons can be drawn between some gods, most notably Sep and Lorkhan. Where most cultures start with Anu and Padomay, Yokudan faith starts with one, Satakal, the World-Skin. They also believe their gods were tricked into becoming mortal, in the same way to most merish belief, and consider it their birthright to return to the Far Shores, the world beyond Mundus. Yokudan belief holds special reverence to the stars, believing them to be the way back to the Far Shores, although they do not acknowledge the Magna-Ge as distinct from the rest of their pantheon, and it is Tu'Wacca, their god of death, who helps them get there, not any kind of equivalent to Magnus. Where Imperial culture has Shezarr as a god of human achievement, and the Nords have Shor, the Yokudans have the Hoon'Ding, the Make Way God, who comes at a time of crisis to make way for his people. He has historically materialized as a variety of things, such as a sword, a crown or both."
+ redguard_pantheon_desc:0 "The Redguard pantheon is very different to most others, although again comparisons can be drawn between some gods, most notably Sep and Lorkhan. Where most cultures start with Anu and Padomay, Yokudan faith starts with one, Satakal, the World-Skin. They also believe their gods were tricked into becoming mortal, in the same way to most merish belief, and consider it their birthright to return to the Far Shores, the world beyond Mundus. Yokudan belief holds special reverence to the stars, believing them to be the way back to the Far Shores, although they do not acknowledge the Magna-Ge as distinct from the rest of their pantheon, and it is Tu'Wacca, their god of death, who helps them get there, not any kind of equivalent to Magnus. Where Imperial culture has Shezarr as a god of human achievement, and the Nords have Shor, the Yokudans have the Hoon'Ding, the Make Way God, who comes at a time of crisis to make way for his people. He has historically materialized as a variety of things, such as a sword, a crown or both."
+
+ #TAXATION
+ taxation:0 "Taxation"
+ very_high_taxes:0 "Very High Taxes"
+ high_taxes:0 "High Taxes"
+ moderate_taxes:0 "Moderate Taxes"
+ low_taxes:0 "Low Taxes"
+ very_low_taxes:0 "Very Low Taxes"
+
+ #TARIFFS
+ tariffs:0 "Tariffs"
+ very_high_tariffs:0 "Very High Tariffs"
+ high_tariffs:0 "High Tariffs"
+ moderate_tariffs:0 "Moderate Tariffs"
+ low_tariffs:0 "Low Tariffs"
+ very_low_tariffs:0 "Very Low Tariffs"
  
  #UNIQUE
  idea_vampirism:0 "Vampirism"
@@ -167,9 +183,15 @@
  idea_jungles_of_pyandonea_desc:0 "In the year 2E 486, a small Maormeri fleet was sighted off the coast of Alinor, and King Hidellith ordered his navy to give chase. The navy followed the ships through uncharted waters, into an ambush in Pyandonea itself. Most of the Alinor navy was destroyed, but a single warship returned to Summerset to describe the land as a sea jungle. Massive plateaus spilling over with vegetation form mazes around valleys of ocean. Waving tendrils of kelp trap all but the Maormer's own ships, and provide a well-camouflaged home for the sea serpents that are Orgnum's guards and occasional mounts. Mist storms spill over the land, further disorienting one's views."
  idea_orb_of_vaermina:0 "Orb of Vaermina"
  idea_orb_of_vaermina_desc:0 "The Orb of Vaermina, named for its patron, is an orb with the ability to see anywhere and everywhere, as long as the user knows what he or she is looking at."
- idea_direnni_tower:0 "Direnni Tower"
+ idea_direnni_tower:0 "Direnni Tower"s
  idea_direnni_tower_desc:0 "Previously named the Adamantine Tower, the Direnni Tower is believed to be the oldest building in Tamriel, and is located on the island of Balfiera. The tower contains the Zero Stone, making it one of the great towers of Tamriel."
  idea_memories_of_slavery:0 "Memories of Slavery"
  idea_memories_of_slavery_desc:0 "Despite losing more than half of Dres lands and our plantations over a hundred years ago, our core ideals and traditions remain with us. Slavery will always remain within our people, and until we regain our slaves and our plantations, we will never be whole."
  idea_the_shadow_house:0 "The Shadow House"
  idea_the_shadow_house_desc:0 "Despite us taking over House Hlaalu's seat at the Grand Council, other houses still view us with mistrust and disregard. If we want to stop being seen as Imperial traitors or weak cowards, we will have to prove our worth to the other houses."
+ idea_justice_never_sleeps:0 "Justice Never Sleeps"
+ idea_justice_never_sleeps_desc:0 "WIP"
+ idea_overwhelming_clerical_power:0 "Overwhelming Clerical Power"
+ idea_overwhelming_clerical_power_desc:0 "WIP"
+ idea_king_orgnums_coffer:0 "King Orgnum's Coffer"
+ idea_king_orgnums_coffer_desc:0 "The coffer has been returned to its King. With a practically infinite source of gold, we will embark on a new era of conquest and victory. However, once our vaults are filled, the coffer will vanish once more."

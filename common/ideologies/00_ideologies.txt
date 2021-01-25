@@ -32,11 +32,7 @@ ideologies = {
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {
-			min_export = 0.8
-			industrial_capacity_factory = 0.15
-			industrial_capacity_shipyard = 0.15
-			production_speed_buildings_factor = 0.15
-			research_speed_factor = -0.10
+
 		}
 		
 		faction_modifiers = {
@@ -80,11 +76,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			min_export = 0.5
-			industrial_capacity_factory = 0.1
-			industrial_capacity_shipyard = 0.1
-			production_speed_buildings_factor = 0.1
-			research_speed_factor = -0.05
+
 		}
 		
 		faction_modifiers = {
@@ -125,11 +117,10 @@ ideologies = {
 		}
 		
 		modifiers = {
-			min_export = 0.25
-			industrial_capacity_factory = 0.05
-			industrial_capacity_shipyard = 0.05
-			production_speed_buildings_factor = 0.05
-			research_speed_factor = -0.01
+			internationalist_acceptance = -15
+			pragmatic_acceptance = -15
+			isolationist_acceptance = -15
+			jingoist_acceptance = -15
 		}
 
 		ai_neutral = yes 
@@ -168,11 +159,10 @@ ideologies = {
 		}
 		
 		modifiers = {
-		    min_export = 0
 			internationalist_acceptance = -100
 			pragmatic_acceptance = -100
 			isolationist_acceptance = -100
-			jingoist_acceptance = -85
+			jingoist_acceptance = -100
 		}
 		
 		modifiers = {

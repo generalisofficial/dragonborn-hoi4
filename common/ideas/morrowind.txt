@@ -67,5 +67,31 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+
+		
+		idea_justice_never_sleeps = {
+			picture = justice_never_sleeps
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+
+		
+		idea_overwhelming_clerical_power = {
+			picture = overwhelming_clerical_power
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 	}
 }

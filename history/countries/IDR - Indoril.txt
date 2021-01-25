@@ -12,6 +12,8 @@ add_ideas = {
     idea_dunmer
 	idea_legacy_of_the_red_year
 	idea_dunmer_revanchism
+	idea_justice_never_sleeps
+	idea_overwhelming_clerical_power
 }
 
 set_politics = {	

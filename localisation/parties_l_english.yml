@@ -32,10 +32,11 @@
  ALD_jingoist_party_desc:0 "Autocracy"
  
  #BLM
+ BLM_internationalist_party:0 "Imperial Supporters"
  BLM_jingoist_party:0 "An-Xileel"
  
  #CYR
- CYR_internationalist_party:0 "Mede"
+ CYR_internationalist_party:0 "The Establishment"
  
  #DIR
  DIR_isolationist_party:0 "Direnni"
