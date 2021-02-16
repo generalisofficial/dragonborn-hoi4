@@ -6,10 +6,10 @@ state={
 	history={
 		owner = PYD
 		victory_points = {
-			13529 15
+			13529 15 
 		}
 		buildings = {
-		    infrastructure = 4
+			infrastructure = 4
 			13529 = {
 				port = 6
 
@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		2244 2245 2246 2247 2248 2249 2254 2588 2589 2590 2639 3746 4493 4878 5363 5672 5892 13529 
+		2244 2245 2246 2247 2248 2249 2254 2588 2589 2590 2639 3746 4493 4878 5363 5672 5892 13529 13530 
 	}
 	manpower=23871
 	buildings_max_level_factor=1.000

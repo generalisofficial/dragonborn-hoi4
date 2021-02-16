@@ -43,7 +43,7 @@ create_country_leader = {
 	picture = "Madanach.dds"
 	ideology = jingoist_ideology
 	traits = { 
-	    popular_figurehead
+		trait_the_king_in_rags
 	}
 }
 

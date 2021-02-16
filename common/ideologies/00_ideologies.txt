@@ -32,7 +32,7 @@ ideologies = {
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {
-
+			internationalist_acceptance = 15
 		}
 		
 		faction_modifiers = {

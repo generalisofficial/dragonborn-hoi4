@@ -1,3 +1,4 @@
+
 state={
 	id=223
 	name="STATE_223"
@@ -6,10 +7,11 @@ state={
 		owner = SKY
 		add_core_of = SKY
 		add_core_of = RIF
+
 	}
 
 	provinces={
-		1095 2025 2026 3294 4483 
+		1095 2025 2026 4483 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

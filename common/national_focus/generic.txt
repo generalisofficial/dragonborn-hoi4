@@ -616,7 +616,7 @@ focus_tree = {
 				limit = {
 					NOT = {
 						any_owned_state = {
-							dockyard > 0
+							shipyard > 0
 							free_building_slots = {
 								building = shipyard
 								size > 2
@@ -650,7 +650,7 @@ focus_tree = {
 				limit = {
 					NOT = { has_country_flag = naval_effort_built }
 					any_owned_state = {
-						dockyard > 0
+						shipyard > 0
 						free_building_slots = {
 							building = shipyard
 							size > 2
@@ -660,7 +660,7 @@ focus_tree = {
 				}
 				random_owned_controlled_state = {
 					limit = {
-						dockyard > 0
+						shipyard > 0
 						free_building_slots = {
 							building = shipyard
 							size > 2
@@ -731,7 +731,7 @@ focus_tree = {
 				all_owned_state = {
 					OR = {
 						is_coastal = no
-						dockyard < 1
+						shipyard < 1
 					}
 				}
 			}
@@ -773,7 +773,7 @@ focus_tree = {
 				all_owned_state = {
 					OR = {
 						is_coastal = no
-						dockyard < 1
+						shipyard < 1
 					}
 				}
 			}
@@ -810,7 +810,7 @@ focus_tree = {
 				all_owned_state = {
 					OR = {
 						is_coastal = no
-						dockyard < 1
+						shipyard < 1
 					}
 				}
 			}
@@ -848,7 +848,7 @@ focus_tree = {
 				all_owned_state = {
 					OR = {
 						is_coastal = no
-						dockyard < 1
+						shipyard < 1
 					}
 				}
 			}
@@ -887,7 +887,7 @@ focus_tree = {
 				all_owned_state = {
 					OR = {
 						is_coastal = no
-						dockyard < 1
+						shipyard < 1
 					}
 				}
 			}
@@ -924,7 +924,7 @@ focus_tree = {
 				all_owned_state = {
 					OR = {
 						is_coastal = no
-						dockyard < 1
+						shipyard < 1
 					}
 				}
 			}

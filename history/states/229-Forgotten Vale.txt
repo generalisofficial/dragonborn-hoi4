@@ -1,0 +1,17 @@
+state={
+	id=229
+	name="STATE_229"
+
+	history={
+		owner = DAG
+		add_core_of = DAG
+	}
+
+	provinces={
+		1120 1121 6135 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

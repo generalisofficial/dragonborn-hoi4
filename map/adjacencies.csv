@@ -33,7 +33,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5047;5433;sea;3341;-1;-1;-1;-1;;Abandoned Prison
 3168;1665;sea;6145;-1;-1;-1;-1;;Anga's Mill
 4083;4084;sea;6151;-1;-1;-1;-1;;Windhelm Stables
-4083;4080;sea;6151;-1;-1;-1;-1;;Windhelm
+4083;110;sea;6151;-1;-1;-1;-1;;Windhelm
 2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing
 2679;2678;sea;591;-1;-1;-1;-1;;Darkwater Pass
 5879;2022;sea;6166;-1;-1;-1;-1;;Sarethi Farm
@@ -170,22 +170,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
 2502;13673;sea;8341;-1;-1;-1;-1;;Khenarthi's Roost 1
 13673;13610;sea;8342;-1;-1;-1;-1;;Khenarthi's Roost 2
-4642;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13860;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13860;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-104;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-104;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-110;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-5969;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-5969;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-113;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-114;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-114;115;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13861;115;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13861;116;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13861;13739;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;13739;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;4011;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;13741;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;2487;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
 -1;-1;;-1;-1;-1;-1;-1;-1

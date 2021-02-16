@@ -6,13 +6,13 @@ state={
 	history={
 		owner = DAG
 		victory_points = {
-			13596 5
+			13596 5 
 		}
 		victory_points = {
-			2977 2
+			2977 2 
 		}
 		buildings = {
-		    infrastructure = 3
+			infrastructure = 3
 			13596 = {
 				port = 4
 
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		765 1120 1121 1987 1988 1989 2665 2666 2976 2977 3990 3991 3992 5139 5141 5943 5998 6135 13596 
+		765 1987 1988 1989 2665 2666 2976 2977 3990 3991 3992 5139 5141 5943 5998 13596 
 	}
 	manpower=8679
 	buildings_max_level_factor=1.000

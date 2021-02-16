@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Skaal Clanmen"
+	name = "Skaal Clansmen"
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +14,8 @@ units = {
 	division = {
 		name = "Warriors of Solstheim"
 		location = 4040
-		division_template = "Sload Warriors"
+		division_template = "Skaal Clanmen"
 		start_experience_factor = 0.30
 		start_equipment_factor = 1.0
 	}
+}

@@ -1,3 +1,13 @@
 ﻿l_english:
+ #Leader Titles
+ leader_title:0 "[ROOT.GetLeaderTitle]"
+ TITLE_DEFAULT:0 "King"
+ TITLE_EMPEROR:0 "Emperor"
+ TITLE_GRANDMASTER:0 "Grandmaster"
+ TITLE_HIGH_KING:0 "High King"
+
+ #Cyrodiil
+ Titus_Mede_II_desc:0 "Crowned just three years prior, Emperor Titus Mede II inherited a weak and fractured Empire, consisting only of Cyrodiil, High Rock, Skyrim, and the civil war-ridden Hammerfell. Now, tensions are growing against the Aldmeri Dominion, and while the Empire is nowhere near its past size, Emperor Mede is determined to bring upon a new Imperial golden age. With a fractured Empire and a weakened military, only time will tell if the great Emperor will succeed."
+
  #Hammerfell
  Azacean_desc:0 "Azacean, High King of Hammerfell and leader of the Forebears, rules over his land and his people with an iron fist. Though as times goes by his grip is becoming weaker and weaker and his power slowly crumbles amidst the ongoing internal political conflict. Having not garnered neither popularity, nor support of the people, Azacean now relies completely on what small influence the Empire and the Emperor himself have in Hammerfell, and even more so on the power of the Imperial Legions still left in the province."

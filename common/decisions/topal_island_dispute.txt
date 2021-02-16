@@ -15,6 +15,7 @@ topal_island_dispute = {
 			NOT = { 
 				has_non_aggression_pact_with = CYR 
 				is_in_faction_with = CYR
+				has_war_with = CYR
 			}
 		}
 
@@ -49,9 +50,9 @@ topal_island_dispute = {
 		icon = generic_political_discourse
 
 		available = {
-			NOT = { 
-				has_non_aggression_pact_with = CYR 
-				is_in_faction_with = CYR
+			NOT = {
+				controls_state = 113
+				has_war_with = CYR
 			}
 		}
 

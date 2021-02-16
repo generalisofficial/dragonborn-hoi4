@@ -75,6 +75,7 @@ if = {
 
 create_country_leader = {
 	name = "Titus Mede II"
+	desc = "Titus_Mede_II_desc"
 	picture = "Titus_Mede_II.dds"
 	ideology = internationalist_ideology
 	traits = { 

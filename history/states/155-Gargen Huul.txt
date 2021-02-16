@@ -6,7 +6,7 @@ state={
 	history={
 		owner = RED
 		victory_points = {
-			1578 3
+			1578 3 
 		}
 		buildings = {
 			infrastructure = 3
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		112 115 116 1576 1577 1578 5643 5644 13739 
+		1576 1577 1578 5643 5644 
 	}
 	manpower=35245
 	buildings_max_level_factor=1.000

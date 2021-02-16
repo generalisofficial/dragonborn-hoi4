@@ -1,0 +1,33 @@
+defined_text = {
+	name = GetLeaderTitle
+	text = {
+		trigger = {
+			original_tag = CYR
+		}
+		localization_key = TITLE_EMPEROR
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = RED
+				original_tag = IDR
+				original_tag = TEL
+				original_tag = SAD
+				original_tag = DRS
+			}
+		}
+		localization_key = TITLE_GRANDMASTER
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = SKY
+				original_tag = HAM
+			}
+		}
+		localization_key = TITLE_HIGH_KING
+	}
+	text = {
+		localization_key = TITLE_DEFAULT
+	}
+}

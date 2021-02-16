@@ -1,0 +1,17 @@
+guiTypes = {
+	containerWindowType = {
+		name = "leader_title_politics_view_container"
+		position = { x = 0 y = 0 }
+
+		instantTextBoxType = {
+			name ="leader_title_text"
+			position = { x = 18 y = 57 }
+			font = "hoi_16mbs"
+			text = "leader_title"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+}

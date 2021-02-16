@@ -1,0 +1,22 @@
+scripted_gui = {
+
+	leader_title_politics_view = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "leader_title_politics_view_container"
+
+		properties = {
+
+		}
+		
+		visible = {
+		}
+		
+		effects = {
+		}
+		
+		triggers = {
+		}
+	}
+}
+
