@@ -14,7 +14,7 @@ units = {
 	division = {
 		name = "Warriors of Solstheim"
 		location = 4040
-		division_template = "Skaal Clanmen"
+		division_template = "Skaal Clansmen"
 		start_experience_factor = 0.30
 		start_equipment_factor = 1.0
 	}
