@@ -28,6 +28,15 @@ defined_text = {
 		localization_key = TITLE_HIGH_KING
 	}
 	text = {
+		trigger = {
+			OR = {
+				original_tag = ALD
+				has_government = jingoist
+			}
+		}
+		localization_key = TITLE_HOLY_RULER_OF_WAR
+	}
+	text = {
 		localization_key = TITLE_DEFAULT
 	}
 }
