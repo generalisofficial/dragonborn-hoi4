@@ -127,3 +127,8 @@
  hammerfell.1.d:0 "With the Emperor preparing to accept Aldmeri peace terms, we have officially been rescinded as an Imperial province. The Imperial Legion has been ordered back to Cyrodiil, leaving our defenses weakened. Harassed by angry protestors, Forebear High King Azacean quickly announced his resignation, before being escorted to exile in Cyrodiil by Legionnaires. With the resulting power vacuum and popular hate against the Empire, Crown-aligned forces are attempting to seize power in Hammerfell."
  hammerfell.1.a:0 "The Crowns take power"
  hammerfell.1.b:0 "The uprising is crushed"
+
+ #Dres
+ dres.1.t:0 "An Emergency Session"
+ dres.1.d:0 "After a long and painful period of illness, Grandmaster [DRS.GetLeader] has peacefully passed away in his sleep. The Grandmaster served our House honorably for most of his life, fending off threats and keeping our people together. It is now time for the House Council to begin the process of choosing our House's next Grandmaster. In the meantime, the House Council will take charge of the day-to-day duties of running the House."
+ dres.1.a:0 "Rest in peace!"

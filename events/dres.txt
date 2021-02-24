@@ -1,0 +1,21 @@
+﻿add_namespace = dres
+
+#An Emergency Session
+country_event = {
+	id = dres.1
+	title = dres.1.t
+	desc = dres.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.1.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "House Council"
+			picture = "House_Council.dds"
+			ideology = isolationist_ideology
+		}
+		complete_national_focus = DRS_an_emergency_session
+	}
+}

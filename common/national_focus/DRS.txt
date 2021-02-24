@@ -11,7 +11,10 @@ focus_tree = {
 	focus = {
 		id = DRS_an_emergency_session
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 10.00
+		cost = 1.00
+		available = {
+			always = no
+		}
 		x = 21
 		y = 0
 
@@ -19,9 +22,12 @@ focus_tree = {
 	focus = {
 		id = DRS_the_new_grandmaster
 		icon = GFX_focus_spa_caudillo_of_spain
-		cost = 10.00
+		cost = 2.00
 		prerequisite = {
 			focus = DRS_an_emergency_session
+		}
+		completion_reward = {
+			#Triggers event
 		}
 		x = 21
 		y = 1
@@ -30,9 +36,12 @@ focus_tree = {
 	focus = {
 		id = DRS_bolster_border_patrols
 		icon = GFX_focus_generic_manpower
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = DRS_the_new_grandmaster
+		}
+		completion_reward = {
+			add_manpower = 1500
 		}
 		x = 17
 		y = 2
@@ -41,9 +50,19 @@ focus_tree = {
 	focus = {
 		id = DRS_renovate_the_watchtowers
 		icon = GFX_focus_spa_save_the_alcazar
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = DRS_bolster_border_patrols
+		}
+		completion_reward = {
+			#Modify national spirit
+			capital_scope = {
+				add_building_construction = {
+					type = watchtower
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		x = 17
 		y = 3
@@ -52,9 +71,14 @@ focus_tree = {
 	focus = {
 		id = DRS_and_wait_patiently
 		icon = GFX_goal_generic_construct_military
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = DRS_renovate_the_watchtowers
+		}
+		completion_reward = {
+			#Modify national spirit
+			army_experience = 15
+			#Trigger an event
 		}
 		x = 17
 		y = 4
@@ -174,6 +198,15 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = DRS_focus_on_land_owners
+		}
+		completion_reward = {
+			add_stability = 0.05
+			149 = {
+				remove_building = {
+					type = farm
+					level = 1
+				}
+			}
 		}
 		x = 13
 		y = 7
@@ -466,6 +499,12 @@ focus_tree = {
 		prerequisite = {
 			focus = DRS_send_in_the_agents
 		}
+		available = {
+			owns_state = 55
+		}
+		completion_reward = {
+			set_capital = 55
+		}
 		x = 30
 		y = 9
 
@@ -542,6 +581,21 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = DRS_focus_on_land_owners
+		}
+		available = {
+			has_full_control_of_state = 134
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_stability = 0.05
+			134 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = farm
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		x = 11
 		y = 8
