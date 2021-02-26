@@ -41,8 +41,13 @@ autonomy_state = {
 
 	allowed = {
 	   	if = {
-		    has_dlc = "Together for Victory"
+			limit = {
+		    	has_dlc = "Together for Victory"
+			}
 		    NOT = { is_subject_of = CYR }
+			else = {
+				always = yes
+			}
 		}
 	}
 
