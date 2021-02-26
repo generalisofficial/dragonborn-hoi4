@@ -27,7 +27,7 @@ focus_tree = {
 			focus = DRS_an_emergency_session
 		}
 		completion_reward = {
-			#Triggers event
+			country_event = dres.2
 		}
 		x = 21
 		y = 1
@@ -91,6 +91,10 @@ focus_tree = {
 		prerequisite = {
 			focus = DRS_the_new_grandmaster
 		}
+		completion_reward = {
+			add_ideas = { idea_satisfied_populace }
+			add_stability = 0.1
+		}
 		x = 20
 		y = 2
 
@@ -102,6 +106,9 @@ focus_tree = {
 		prerequisite = {
 			focus = DRS_earn_their_trust
 		}
+		completion_reward = {
+			add_political_power = -100
+		}
 		x = 20
 		y = 3
 
@@ -112,6 +119,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = DRS_fill_their_coffers
+		}
+		completion_reward = {
+			add_popularity = { ideology = jingoist popularity = 0.05 }
 		}
 		x = 20
 		y = 4

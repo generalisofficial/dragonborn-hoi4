@@ -93,5 +93,17 @@ ideas = {
 				
 			}
 		}
+
+		idea_satisfied_populace = {
+			picture = satisfied_populace
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 	}
 }

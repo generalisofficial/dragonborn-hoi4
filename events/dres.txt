@@ -19,3 +19,19 @@ country_event = {
 		complete_national_focus = DRS_an_emergency_session
 	}
 }
+
+#The New Grandmaster
+country_event = {
+	id = dres.2
+	title = dres.2.t
+	desc = dres.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.2.a
+		set_politics = {
+			ruling_party = jingoist
+		}
+	}
+}
