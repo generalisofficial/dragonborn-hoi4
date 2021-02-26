@@ -31,7 +31,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
 2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
 5047;5433;sea;3341;-1;-1;-1;-1;;Abandoned Prison
-3168;1665;sea;6145;-1;-1;-1;-1;;Anga's Mill
 4083;4084;sea;6151;-1;-1;-1;-1;;Windhelm Stables
 4083;110;sea;6151;-1;-1;-1;-1;;Windhelm
 2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing

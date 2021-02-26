@@ -4,6 +4,9 @@ state={
 
 	history={
 		owner = SKY
+		victory_points = {
+			13611 1
+		}
 		buildings = {
 			infrastructure = 1
 

@@ -227,4 +227,7 @@
  STATE_226:0 "Khenarthi's Roost"
  STATE_227:0 "Western Winterhold"
  STATE_228:0 "Velothi Mountains"
- STATE_229:0 "Forgotten Vale"
+ STATE_229:0 "Reachman Hills"
+ STATE_230:0 "Eastern Jerall Mountains"
+ STATE_231:0 "Western Jerall Mountains"
+ STATE_232:0 "Dragontail Mountains"
