@@ -2,8 +2,8 @@ bookmarks = {
 	bookmark = {
 		name = "SKYRIM_CIVIL_WAR_NAME"
 		desc = "SKYRIM_CIVIL_WAR_DESC"
-		date = 4201.1.1.12
-		picture = "GFX_select_date_4201"
+		date = 201.1.1.12
+		picture = "GFX_select_date_201"
 		default_country = "CYR"
 		default = yes
 		

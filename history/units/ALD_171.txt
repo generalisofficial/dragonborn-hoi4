@@ -1,0 +1,230 @@
+﻿division_template = {
+	name = "Thalmor Regiment"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+}
+
+units = {
+	division = {
+		name = "1st Regiment"
+		location = 13540
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2nd Regiment"
+		location = 13540
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3rd Regiment"
+		location = 13540
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4th Regiment"
+		location = 13540
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "5th Regiment"
+		location = 5503
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "6th Regiment"
+		location = 368
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "7th Regiment"
+		location = 3986
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "8th Regiment"
+		location = 13539
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "9th Regiment"
+		location = 13538
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "10th Regiment"
+		location = 13544
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "11th Regiment"
+		location = 13541
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "12th Regiment"
+		location = 13601
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "13th Regiment"
+		location = 13600
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "14th Regiment"
+		location = 13599
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "15th Regiment"
+		location = 1453
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "16th Regiment"
+		location = 13602
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "17th Regiment"
+		location = 13603
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "18th Regiment"
+		location = 13604
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "19th Regiment"
+		location = 5019
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "20th Regiment"
+		location = 13515
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "21st Regiment"
+		location = 13524
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "22nd Regiment"
+		location = 2757
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "23rd Regiment"
+		location = 13517
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "24th Regiment"
+		location = 5622
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "25th Regiment"
+		location = 1645
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "26th Regiment"
+		location = 13506
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "27th Regiment"
+		location = 4156
+		division_template = "Thalmor Regiment"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+}

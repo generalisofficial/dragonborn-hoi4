@@ -13,7 +13,7 @@ country_event = {
 		owns_state = 11
 		is_subject_of = CYR
 		has_war_with = ALD
-		date < 4201.1.1
+		date < 201.1.1
 	}
 
 	mean_time_to_happen = {

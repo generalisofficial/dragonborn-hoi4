@@ -8,8 +8,8 @@ country_event = {
 	
 	trigger = {
 		original_tag = SKY
-		date > 4190.1.1
-		date < 4201.1.1
+		date > 190.1.1
+		date < 201.1.1
 		has_country_leader = { ruling_only = yes name = "Istlod" }
 	}
 
@@ -39,7 +39,7 @@ country_event = {
 	trigger = {
 		original_tag = SKY
 		is_subject_of = CYR
-		date > 4201.2.1
+		date > 201.2.1
 		has_idea = idea_white_gold_concordat
 		has_country_leader = { ruling_only = yes name = "Torygg" }
 	}
@@ -187,7 +187,7 @@ country_event = {
 	
 	trigger = {
 		original_tag = SKY
-		date > 4201.1.1
+		date > 201.1.1
 		ESM = { exists = no }
 		has_war = no
 		owns_state = 16

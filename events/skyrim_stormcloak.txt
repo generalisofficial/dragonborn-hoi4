@@ -1,0 +1,28 @@
+﻿add_namespace = skyrim_stormcloak
+
+#The Moot - Stormcloak
+country_event = {
+	id = skyrim_stormcloak.1
+	title = skyrim_stormcloak.1.t
+	desc = skyrim_stormcloak.1.d
+	
+	trigger = {
+		original_tag = ESM
+		has_cosmetic_tag = ESM_STORMCLOAK
+		date > 201.1.1
+		SKY = { exists = no }
+		has_war = no
+		owns_state = 16
+		owns_state = 10
+		has_country_leader = { ruling_only = yes name = "Ulfric Stormcloak" }
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = skyrim_stormcloak.1.a
+		set_country_flag = moot_ulfric_stormcloak
+	}
+}

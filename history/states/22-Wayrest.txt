@@ -24,7 +24,7 @@ state={
 		}
 		add_core_of = DAG
 		add_core_of = WAY
-		4201.1.1 = {
+		201.1.1 = {
 			owner = WAY
 
 		}
