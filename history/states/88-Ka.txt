@@ -8,7 +8,7 @@ state={
 		buildings = {
 
 		}
-		add_core_of = KPT
+		#add_core_of = KPT
 
 	}
 

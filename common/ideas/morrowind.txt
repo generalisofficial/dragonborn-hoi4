@@ -105,5 +105,17 @@ ideas = {
 				
 			}
 		}
+
+		idea_southern_military_buildup = {
+			picture = southern_military_buildup
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 	}
 }

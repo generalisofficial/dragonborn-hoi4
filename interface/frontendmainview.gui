@@ -58,34 +58,37 @@ guiTypes = {
 	
 	### MAIN MENU PANEL (upperright)
 	containerWindowType = {
-		name ="mainmenu_panel_upperright"
-		position = { x=0 y =-1 }
-		show_position = { x=-256 y =-1 }
-		animation_type = decelerated
-		animation_time = 1000					
-		size = { width = 256 height = 768}
-		Orientation = upper_right
+		name = "mainmenu_panel_upperright"
+		position = { x = -402 y = 2 }		
+		size = { width = 400 height = 120 }
+		orientation = upper_right
+		margin = { left = 10 right = 10 top = 10 }
 
-		ButtonType = {
-			name = "achievements_button"
-			position = { x = -50 y = 25 }
-			quadTextureSprite ="achievements"
-			pdx_tooltip = "MENU_ACHIEVEMENTS"
+		#SUBMOD MENU
+		background = {
+			name = "background"
+			spriteType = "GFX_mini_tooltip"
 		}
 
-		iconType =
-		{
-			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 15 y = 15 }
+		instantTextBoxType = {
+			name ="submod_box_title"
+			position = { x = 115 y = -5 }
+			font = "hoi_18mbs"
+			text = "Submods"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
 		}
 		
-		iconType =
-		{
-			name ="pdx_int_logo"
-			spriteType = "GFX_pdx_int_logo"
-			position = { x= 135 y = 15 }
-		}		
+		buttonType = {
+			name ="frontend_submod_dragonborn_music"
+			spriteType = "GFX_submod_dragonborn_music"
+			position = { x = 0 y = 10 }
+			pdx_tooltip = "submod_dragonborn_music"
+			oversound = ui_menu_over
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2049478241"
+		}
 		
 	}		
 
@@ -345,6 +348,7 @@ guiTypes = {
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=1734970898"
 		}
 		ButtonType = {
 			name = "forum_button"
@@ -352,7 +356,7 @@ guiTypes = {
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+			web_link = "https://discord.gg/atZaA32"
 		}
 		ButtonType = {
 			name = "facebook_button"

@@ -8,7 +8,7 @@ state={
 		buildings = {
 
 		}
-		add_core_of = TGM
+		#add_core_of = TGM
 
 	}
 

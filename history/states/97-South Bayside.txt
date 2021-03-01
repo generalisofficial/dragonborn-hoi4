@@ -7,7 +7,7 @@ state={
 		buildings = {
 
 		}
-		add_core_of = TSA
+		#add_core_of = TSA
 
 	}
 	

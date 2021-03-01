@@ -41,6 +41,7 @@ focus_tree = {
 			focus = DRS_the_new_grandmaster
 		}
 		completion_reward = {
+			add_ideas = { idea_southern_military_buildup }
 			add_manpower = 1500
 		}
 		x = 17
