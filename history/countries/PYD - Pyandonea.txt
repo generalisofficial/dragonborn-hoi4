@@ -29,6 +29,10 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Orgnum"
+	desc = "Orgnum_desc"
 	picture = "Orgnum.dds"
 	ideology = isolationist_ideology
+	traits = { 
+		trait_immortal
+	}
 }

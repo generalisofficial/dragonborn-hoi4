@@ -2393,6 +2393,14 @@ leader_traits = {
 		}
 	}
 
+	trait_immortal = {
+		random = no
+		stability_factor = 0.2
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 	trait_partisan = {
 		random = no
 		political_power_factor = 0.1

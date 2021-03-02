@@ -107,6 +107,14 @@ defined_text = {
 		localization_key = Azacean_desc
 	}
 	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Orgnum" }
+			}
+		}
+		localization_key = Orgnum_desc
+	}
+	text = {
 		localization_key = ""
 	}
 }
