@@ -135,6 +135,13 @@ focus_tree = {
 		prerequisite = {
 			focus = DRS_the_new_grandmaster
 		}
+		completion_reward = {
+			every_owned_state = {
+				add_manpower = -100
+			}
+			add_political_power = -50
+			add_popularity = { ideology = isolationist popularity = -0.05 }
+		}
 		x = 22
 		y = 2
 
@@ -248,9 +255,18 @@ focus_tree = {
 	focus = {
 		id = DRS_send_a_letter_north
 		icon = GFX_focus_hol_the_foundations_of_defense
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = DRS_the_new_grandmaster
+		}
+		completion_reward = {
+			random_country = { 
+				limit = { 
+					has_country_flag = grand_council_leader
+				}
+				country_event = dres.3 
+			}
+			add_political_power = 150
 		}
 		x = 25
 		y = 2
@@ -259,7 +275,7 @@ focus_tree = {
 	focus = {
 		id = DRS_make_big_promises
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = DRS_send_a_letter_north
 		}
@@ -270,7 +286,7 @@ focus_tree = {
 	focus = {
 		id = DRS_and_praise_the_reclamations
 		icon = GFX_focus_por_concordat
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = DRS_make_big_promises
 		}

@@ -38,6 +38,9 @@ create_country_leader = {
 	name = "Istlod"
 	picture = "Istlod.dds"
 	ideology = internationalist_ideology
+	traits = {
+		popular_figurehead
+	}
 }
 
 201.1.1 = {

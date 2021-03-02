@@ -2,50 +2,111 @@ defined_text = {
 	name = GetLeaderTitle
 	text = {
 		trigger = {
-			original_tag = CYR
+			THIS = {
+				OR = {
+					AND = {
+						original_tag = ALD
+						NOT = { has_government = jingoist }
+					}
+					original_tag = PYD
+				}
+			}
+		}
+		localization_key = TITLE_KING
+	}
+	text = {
+		trigger = {
+			THIS = {
+				original_tag = CYR
+			}
 		}
 		localization_key = TITLE_EMPEROR
 	}
 	text = {
 		trigger = {
-			OR = {
-				original_tag = RED
-				original_tag = IDR
-				original_tag = TEL
-				original_tag = SAD
-				original_tag = DRS
+			THIS = {
+				OR = {
+					original_tag = RED
+					original_tag = IDR
+					original_tag = TEL
+					original_tag = SAD
+					original_tag = DRS
+				}
 			}
 		}
 		localization_key = TITLE_GRANDMASTER
 	}
 	text = {
 		trigger = {
-			OR = {
-				original_tag = SKY
-				original_tag = HAM
+			THIS = {
+				OR = {
+					original_tag = SKY
+					original_tag = HAM
+				}
 			}
 		}
 		localization_key = TITLE_HIGH_KING
 	}
 	text = {
 		trigger = {
-			original_tag = ALD
-			has_government = jingoist
+			THIS = {
+				original_tag = ALD
+				has_government = jingoist
+			}
 		}
 		localization_key = TITLE_HOLY_RULER_OF_WAR
 	}
 	text = {
 		trigger = {
-			OR = {
-				original_tag = DKY
-				original_tag = MKG
-				original_tag = LGB
-				original_tag = NZB
+			THIS = {
+				has_idea = idea_orsimer
 			}
 		}
 		localization_key = TITLE_CHIEF
 	}
 	text = {
+		trigger = {
+			THIS = {
+				OR = {
+					original_tag = WTR
+					original_tag = ESM
+					original_tag = RIF
+					original_tag = WIN
+					original_tag = FLK
+					original_tag = PLE
+					original_tag = REA
+					original_tag = HJA
+					has_cosmetic_tag = HAF
+				}
+				NOT = { has_cosmetic_tag = ESM_STORMCLOAK }
+			}
+		}
+		localization_key = TITLE_JARL
+	}
+	text = {
 		localization_key = TITLE_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetLeaderDescription
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Titus Mede II" }
+			}
+		}
+		localization_key = Titus_Mede_II_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Azacean" }
+			}
+		}
+		localization_key = Azacean_desc
+	}
+	text = {
+		localization_key = ""
 	}
 }

@@ -19,6 +19,7 @@ country_event = {
 	
 	option = {
 		name = skyrim.1.a
+		kill_country_leader = yes
 		create_country_leader = {
 	        name = "Torygg"
 	        picture = "Torygg.dds"
@@ -130,6 +131,9 @@ country_event = {
 			transfer_state = 192
 			transfer_state = 190
 			transfer_state = 191
+			transfer_state = 227
+			transfer_state = 222
+			transfer_state = 223
 			declare_war_on = {
 	            target = SKY
 	            type = civil_war

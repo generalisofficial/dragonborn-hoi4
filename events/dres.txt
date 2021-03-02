@@ -35,3 +35,16 @@ country_event = {
 		}
 	}
 }
+
+#Send a Letter North
+country_event = {
+	id = dres.3
+	title = dres.3.t
+	desc = dres.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.3.a
+	}
+}

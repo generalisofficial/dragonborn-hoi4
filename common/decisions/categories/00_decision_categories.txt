@@ -7,6 +7,21 @@ formable_nations = {
 	}
 }
 
+unifying_morrowind = {
+
+    icon = generic_formable_nations
+
+	allowed = {
+		OR = {
+			original_tag = DRS
+			original_tag = IDR
+			original_tag = RED
+			original_tag = SAD
+			original_tag = TEL
+		}
+	}
+}
+
 political_actions = {
 	icon = generic_political_actions
 

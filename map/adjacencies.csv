@@ -168,4 +168,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
 2502;13673;sea;8341;-1;-1;-1;-1;;Khenarthi's Roost 1
 13673;13610;sea;8342;-1;-1;-1;-1;;Khenarthi's Roost 2
+6153;5382;sea;8094;-1;-1;-1;-1;;Vvardenfell 1
+2868;13635;sea;9845;-1;-1;-1;-1;;Vvardenfell 2
+711;5959;sea;9945;-1;-1;-1;-1;;Vvardenfell 3
+1178;3437;sea;11172;-1;-1;-1;-1;;Vvardenfell 4
+5945;5645;sea;7197;-1;-1;-1;-1;;Vvardenfell 5
+5485;4851;sea;8164;-1;-1;-1;-1;;Vvardenfell 6
 -1;-1;;-1;-1;-1;-1;-1;-1

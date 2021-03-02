@@ -11,7 +11,7 @@ set_convoys = 5
 add_ideas = {
 	new_temple
     idea_dunmer
-	idea_legacy_of_the_red_year
+	idea_grand_council_member
 	idea_dunmer_revanchism
 }
 

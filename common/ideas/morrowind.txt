@@ -2,16 +2,15 @@ ideas = {
 	
 	country = {
 	
-		idea_legacy_of_the_red_year = {
-			picture = red_year
+		idea_grand_council_member = {
+			picture = grand_council
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			
 			modifier = {
-			    consumer_goods_factor = 0.1
-				MONTHLY_POPULATION = -0.2
+			    stability_factor = 0.1
 			}
 		}
 		

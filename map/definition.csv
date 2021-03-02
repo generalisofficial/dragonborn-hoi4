@@ -13484,7 +13484,7 @@
 13483;132;161;255;sea;true;ocean;0
 13484;202;255;196;sea;true;ocean;0
 13485;196;255;102;sea;true;ocean;0
-13486;225;117;255;land;false;mountain;0
+13486;225;117;255;land;false;mountain;1
 13487;165;255;173;sea;true;ocean;0
 13488;255;233;175;sea;true;ocean;0
 13489;255;191;168;sea;true;ocean;0
