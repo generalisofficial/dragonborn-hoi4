@@ -9,6 +9,7 @@ set_technology = {
 set_convoys = 5
 
 add_ideas = {
+	all_maker
     idea_nord
 }
 

@@ -7,7 +7,7 @@
 - Added weather to Tamriel
 - Fixed the glitch with the map lights at night
 - Major map work in Skyrim
-- Fixed crashing for players without Together for Victory
+- Fixed crashing for players without Together for Victory (TfV no longer required)
 - Added impassable mountain ranges around Skyrim
 - Added a submods menu to the start screen
 - Added a Leader Title mechanic

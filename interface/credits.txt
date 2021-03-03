@@ -1,4 +1,4 @@
-#Hearts of Iron IV: Dragonborn
+﻿#Hearts of Iron IV: Dragonborn
 
 #Head Developer
 Generalis
@@ -16,4 +16,3 @@ Reddus1
 Crabe King
 UtoftFighter
 ImgaBjorn
-
