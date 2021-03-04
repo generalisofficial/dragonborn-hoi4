@@ -1,9 +1,9 @@
 ﻿#Hearts of Iron IV: Dragonborn
 
-#Head Developer
+#HEAD DEVELOPER
 Generalis
 
-#Project Contributors
+#PROJECT CONTRIBUTORS
 Informal Informant
 legionnaire
 Germania

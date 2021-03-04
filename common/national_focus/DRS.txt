@@ -266,7 +266,6 @@ focus_tree = {
 				}
 				country_event = dres.3 
 			}
-			add_political_power = 150
 		}
 		x = 25
 		y = 2
@@ -279,6 +278,14 @@ focus_tree = {
 		prerequisite = {
 			focus = DRS_send_a_letter_north
 		}
+		completion_reward = {
+			random_country = { 
+				limit = { 
+					has_country_flag = grand_council_leader
+				}
+				country_event = dres.4
+			}
+		}
 		x = 25
 		y = 3
 
@@ -289,6 +296,14 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = DRS_make_big_promises
+		}
+		completion_reward = {
+			random_country = { 
+				limit = { 
+					owns_state = 55
+				}
+				country_event = dres.6
+			}
 		}
 		x = 25
 		y = 4

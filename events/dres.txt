@@ -48,3 +48,43 @@ country_event = {
 		name = dres.3.a
 	}
 }
+
+#Make Big Promises - Grand Council Leader
+country_event = {
+	id = dres.4
+	title = dres.4.t
+	desc = dres.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.4.a
+		DRS = { country_event = dres.5 }
+	}
+}
+
+#Make Big Promises - Dres
+country_event = {
+	id = dres.5
+	title = dres.5.t
+	desc = dres.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.5.a
+	}
+}
+
+#And Praise The Reclamations
+country_event = {
+	id = dres.6
+	title = dres.6.t
+	desc = dres.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.6.a
+	}
+}

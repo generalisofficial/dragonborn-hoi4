@@ -38,6 +38,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			always = no
+			#Has leader trait
+		}
+		localization_key = TITLE_HORTATOR
+	}
+	text = {
+		trigger = {
 			THIS = {
 				OR = {
 					original_tag = SKY

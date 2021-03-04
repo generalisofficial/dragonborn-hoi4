@@ -5,18 +5,15 @@ state={
 
 	history={
 		owner = SKL
-		buildings = {
-
-		}
 		add_core_of = SKL
 		add_claim_by = RED
-
 	}
 
 	provinces={
 		322 323 2366 2368 2369 2370 2371 6097 
 	}
-	manpower=898
+	manpower=28
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
+	impassable=yes
 }
