@@ -107,10 +107,6 @@
  RULE_ALLOW_TAKE_OVER_FACTION_ALLOWED_DESC:0 "Countries may take over faction leadership if they fullfil the criteria."
  RULE_ALLOW_TAKE_OVER_FACTION_BLOCKED_DESC:0 "Countries may not take over faction leadership."
 
- RULE_PLAYER_LED_PEACE_CONFERENCES:0 "Player-Led Peace Conferences"
- RULE_PLAYER_LED_PEACE_CONFERENCES_DISABLED_DESC:0 "Peace Conferences will proceed as usual."
- RULE_PLAYER_LED_PEACE_CONFERENCES_ENABLED_DESC:0 "Peace Conferences will see the AI remaining dormant, allowing players to decide the outcome."
-
  RULE_ALLOW_PARATROOPERS:0 "Paradrops"
  RULE_ALLOW_PARATROOPERS_ALLOWED_DESC:0 "Countries may execute parachute drops freely."
  RULE_ALLOW_PARATROOPERS_BLOCKED_DESC:0 "Countries may not execute parachute drops under any circumstances. Paratrooper divisions may still be recruited, but will not be able to execute airborne attacks."

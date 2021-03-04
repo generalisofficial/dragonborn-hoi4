@@ -11,7 +11,7 @@ country_event = {
 	option = { #The Crowns take the reigns
 		name = hammerfell.1.a
 		ai_chance = {
-			factor = party_popularity@isolationist
+			factor = 50
 		}
 		retire_country_leader = yes
 		set_politics = {	
@@ -23,7 +23,7 @@ country_event = {
 	option = { #The Forebears hold on to power
 		name = hammerfell.1.b
 		ai_chance = {
-			factor = party_popularity@internationalist
+			factor = 50
 		}
 		retire_country_leader = yes
 		add_popularity = { ideology = isolationist popularity = 0.2 }
