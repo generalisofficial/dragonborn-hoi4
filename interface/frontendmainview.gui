@@ -39,22 +39,6 @@ guiTypes = {
 		}
 		
 	}
-
-	#containerWindowType = {
-	#	name  ="frontend_alpha_stamp"
-	#	position = { x=100 y =-100  }
-	#	size = { width = 131 height = 132}
-	#	orientation = lower_left
-	#	origo = lower_left
-	#	
-	#	iconType =
-	#	{
-	#		name ="frontend_alpha_stamp"
-	#		spriteType = "GFX_alpha_stamp"
-	#		position = { x= 0 y = 20 }
-	#	}		
-	#	
-	#}	
 	
 	### MAIN MENU PANEL (upperright)
 	containerWindowType = {
@@ -64,6 +48,13 @@ guiTypes = {
 		orientation = upper_right
 		margin = { left = 10 right = 10 top = 10 }
 
+		ButtonType = {
+			name = "achievements_button"
+			position = { x = -50 y = 25 }
+			quadTextureSprite ="achievements"
+			pdx_tooltip = "MENU_ACHIEVEMENTS"
+		}
+		
 		#SUBMOD MENU
 		background = {
 			name = "background"
