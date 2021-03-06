@@ -1,0 +1,23 @@
+﻿add_namespace = system
+
+#Grand Council spirit removal
+country_event = {
+	id = system.1
+	title = system.1.t
+	desc = system.1.d
+	
+	trigger = {
+		has_idea = idea_grand_council_member
+		NOT = { has_country_flag = grand_council_leader }
+		any_country = { 
+			has_country_flag = grand_council_leader
+			NOT = { is_in_faction_with = ROOT }
+		}
+	}
+
+	hidden = yes
+
+	immediate = {
+		remove_idea = idea_grand_council_member
+	}
+}

@@ -1,0 +1,39 @@
+is_diplomatic_action_valid_stage_coup = {
+	NOT = { has_dlc = "La Resistance" }
+}
+
+is_diplomatic_action_valid_boost_party_popularity = {
+	NOT = { has_dlc = "La Resistance" }
+}
+
+is_diplomatic_action_valid_join_faction = {
+    if = {
+        limit = {
+            has_idea = idea_grand_council_member
+        }
+        FROM = {         
+            OR = {
+                original_tag = DRS
+                original_tag = RED
+                original_tag = TEL
+                original_tag = SAD
+                original_tag = IDR
+            }
+        }  
+    }
+}
+
+is_diplomatic_action_valid_offer_join_faction = {
+    if = {
+        limit = {
+            FROM = { has_idea = idea_grand_council_member }
+        }
+        OR = {
+            original_tag = DRS
+            original_tag = RED
+            original_tag = TEL
+            original_tag = SAD
+            original_tag = IDR
+        }
+    }
+}

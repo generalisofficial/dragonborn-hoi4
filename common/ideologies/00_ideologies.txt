@@ -59,7 +59,7 @@ ideologies = {
 			"FACTION_NAME_5"
 		}
 		
-		color = { 240 230 140 }
+		color = { 220 210 120 }
 		
 		war_impact_on_world_tension = 0.75	
 		faction_impact_on_world_tension = 0.5

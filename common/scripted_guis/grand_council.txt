@@ -1,0 +1,18 @@
+scripted_gui = {
+	grand_council_window = {
+		context_type = player_context
+
+		window_name = "grand_council_window_container"
+		
+		visible = {
+			#always = yes
+			has_global_flag = show_grand_council
+		}
+		
+		effects = {
+			close_button_click = {
+				clr_global_flag = show_grand_council
+			}
+		}
+	}
+}
