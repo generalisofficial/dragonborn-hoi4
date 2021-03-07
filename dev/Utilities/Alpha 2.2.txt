@@ -10,4 +10,6 @@
 - Fixed crashing for players without Together for Victory (TfV no longer required)
 - Added impassable mountain ranges around Skyrim
 - Added a submods menu to the start screen
-- Added a Leader Title mechanic
+- Added a Leader Titles mechanic
+- Added a Grand Council mechanic
+- Added trees to the map 

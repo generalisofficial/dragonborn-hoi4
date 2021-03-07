@@ -29,7 +29,7 @@ set_popularities = {
     jingoist = 0
 }
 
-create_faction = "Grand Council"
+create_faction = FACTION_NAME_GRAND_COUNCIL
 add_to_faction = RED
 add_to_faction = TEL
 add_to_faction = SAD

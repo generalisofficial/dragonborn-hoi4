@@ -39,6 +39,12 @@ guiTypes = {
 			vertical_alignment = center
 		}
 
+		buttonType = {
+			name = "goto_capital_button"
+			spriteType = "button_left"
+			position = { x = 510 y = 80 }
+		}
+
 		instantTextBoxType = {
 			name ="lord_high_councilor_header"
 			position = { x = 240 y = 160 }
@@ -71,4 +77,19 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}
+	}
+
+	containerWindowType = {
+		name = "grand_council_button_container"
+		position = { x = 600 y = -10 }
+		show_sound = open_sub_window
+
+		buttonType = {
+			name = "grand_council_button"
+			spriteType = "GFX_grand_council_button"
+			position = { x = 805 y = 10 }
+			orientation = "UPPER_RIGHT"
+			pdx_tooltip = "grand_council_button_tooltip"
+		}
+	}
 }

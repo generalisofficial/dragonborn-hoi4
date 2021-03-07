@@ -27,22 +27,22 @@ state={
 			6139 2 
 		}
 		victory_points = {
-			6194 2
+			6194 2 
 		}
 		buildings = {
-            infrastructure = 8
+			infrastructure = 8
 			6194 = {
 				port = 4
 
 			}
-			
+
 		}
 		add_core_of = CYR
 
 	}
 
 	provinces={
-		1553 1554 4490 4491 4492 5053 5100 5178 5360 5960 6139 6140 6141 6147 6186 6187 6194 
+		1553 1554 4490 4491 4492 5053 5100 5178 5360 5960 6139 6140 6141 6147 6180 6181 6186 6187 6194 
 	}
 	manpower=91281
 	buildings_max_level_factor=1.000

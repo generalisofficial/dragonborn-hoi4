@@ -58,3 +58,8 @@
  retake_the_reach_desc:0 "Enough is enough! We will not be bullied by some half-Bretons. Once we have dealt with any ongoing military conflicts, our forces must immediately be directed towards retaking the Reach, and to making sure the leaders of this treachery are hanged in the streets of Markarth!"
  recognize_reachman_independence:0 "Recognize Reachman Independence"
  recognize_reachman_independence_desc:0 "We are not ready for a confrontation with the Reachmen. As they have already shown, they will defend the Reach to the last man. To avoid an unwinnable conflict, the best option is to simply recognize their independence, and to instead of fighting, strive towards friendly relations with the Reachmen."
+
+ #Reclaiming Solstheim
+ reclaiming_solstheim:0 "Reclaiming Solstheim"
+ reclaiming_solstheim_desc:0 "Our people have had enough. Ever since we were so cowardly abandoned by the High King of Skyrim after the Red Year, our island has been under constant colonization by the Dunmer of Morrowind. Our people have been pushed around and oppressed. It's time to retake Solstheim for the Nords and hang the colonizers in the streets of Raven Rock!"
+ form_the_kingdom_of_solstheim:0 "Form the §YKingdom of Solstheim§!"

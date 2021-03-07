@@ -1,4 +1,5 @@
 ﻿l_english:
+	grand_council_button_tooltip:0 "Grand Council\n §gThe Grand Council is a meeting of representatives from each Great House of Morrowind. The council is headed by the §YLord High Councilor§!, who by tradition is the Grandmaster of the dominant House.§!"
 	grand_council_header:0 "Grand Council"
 	get_grand_council_capital:0 "[GetGrandCouncilCapital]"
 	get_grand_council_capital_RED:0 "Seated in §Y[RED.Capital.GetName]§!"
@@ -9,11 +10,11 @@
 
 	lord_high_councilor_header:0 "Lord High Councilor"
 	get_lord_high_councilor:0 "[GetLordHighCouncilor]"
-	get_lord_high_councilor_RED:0 "§Y[RED.GetLeader]§!"
-	get_lord_high_councilor_IDR:0 "§Y[IDR.GetLeader]§!"
-	get_lord_high_councilor_TEL:0 "§Y[TEL.GetLeader]§!"
-	get_lord_high_councilor_DRS:0 "§Y[DRS.GetLeader]§!"
-	get_lord_high_councilor_SAD:0 "§Y[SAD.GetLeader]§!"
+	get_lord_high_councilor_RED:0 "[RED.GetLeaderTitle] §Y[RED.GetLeader]§!"
+	get_lord_high_councilor_IDR:0 "[IDR.GetLeaderTitle] §Y[IDR.GetLeader]§!"
+	get_lord_high_councilor_TEL:0 "[TEL.GetLeaderTitle] §Y[TEL.GetLeader]§!"
+	get_lord_high_councilor_DRS:0 "[DRS.GetLeaderTitle] §Y[DRS.GetLeader]§!"
+	get_lord_high_councilor_SAD:0 "[SAD.GetLeaderTitle] §Y[SAD.GetLeader]§!"
 	get_lord_high_councilor_tag:0 "[GetLordHighCouncilorTag]"
 	get_lord_high_councilor_tag_RED:0 "of §Y[RED.GetNameWithFlag]§!"
 	get_lord_high_councilor_tag_IDR:0 "of §Y[IDR.GetNameWithFlag]§!"

@@ -27,6 +27,11 @@ set_popularities = {
     jingoist = 62
 }
 
+create_faction = FACTION_NAME_ALDMERI_DOMINION
+add_to_faction = ALD
+add_to_faction = ANQ
+add_to_faction = PEL
+
 if = {
 	limit = {
 		has_dlc = "Together for Victory"

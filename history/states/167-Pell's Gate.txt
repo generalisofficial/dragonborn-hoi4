@@ -1,24 +1,25 @@
+
 state={
 	id=167
 	name="STATE_167"
-	
+
 	history={
 		owner = CYR
 		victory_points = {
-			2060 1
+			2060 1 
 		}
 		buildings = {
-            infrastructure = 2
-		
+			infrastructure = 2
+
 		}
 		add_core_of = CYR
 
 	}
-	
+
 	provinces={
-		136 137 1282 1284 1285 1286 1287 1474 1475 1476 2057 2059 2060 2061 2062 2063 2064 2065 3302 3793 4031 4032 4033 4034 4035 4036 4037 4038 4124 4125 4126 4127 4265 4864 4929 5731 5931 
+		136 137 1282 1284 1285 1286 1287 1474 1475 1476 2057 2059 2060 2061 2062 2063 2064 2065 3302 3793 4031 4032 4033 4034 4035 4036 4037 4038 4124 4125 4126 4127 4265 4864 4929 5731 5931 6159 
 	}
 	manpower=1436
-	buildings_max_level_factor=1.00
+	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

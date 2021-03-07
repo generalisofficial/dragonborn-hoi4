@@ -64,3 +64,36 @@ news_event = {
 		trigger = { tag = CYR }
 	}
 }
+
+# Battle of Raven Rock (SKL)
+news_event = {
+	id = captured_city.3
+	title = captured_city.3.t
+	desc = captured_city.3.d
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		115 = { is_owned_by = RED is_controlled_by = SKL }
+		SKL = { has_war_with = RED }
+		NOT = { has_global_flag = fall_of_raven_rock_SKL }
+	}
+	
+	option = {
+		name = captured_city.3.a
+		trigger = {
+			NOT = { tag = RED tag = SKL }
+		}
+	}
+	
+	option = {
+		name = captured_city.3.b
+		trigger = { tag = RED }
+	}
+
+	option = {
+		name = captured_city.3.c
+		trigger = { tag = SKL }
+	}
+}

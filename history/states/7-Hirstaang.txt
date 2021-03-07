@@ -9,14 +9,20 @@ state={
 			4647 1 
 		}
 		buildings = {
+			infrastructure = 2
+			4202 = {
+				fort = 2
+
+			}
 
 		}
 		add_core_of = SKL
 		add_claim_by = RED
+
 	}
 
 	provinces={
-		2004 2005 2372 4599 4600 4646 4647 
+		2004 2005 2372 4113 4599 4600 4646 4647 
 	}
 	manpower=5718
 	buildings_max_level_factor=1.000

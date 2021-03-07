@@ -18,24 +18,13 @@ guiTypes = {
 	containerWindowType = {
 		name = "leader_title_diplomacy_view_container"
 		position = { x = -15 y = 60 }
-		
-		#instantTextBoxType = {
-		#	name ="leader_title_text"
-		#	position = { x = 17 y = 57 }
-		#	font = "hoi_16mbs"
-		#	text = "leader_title"
-		#	maxWidth = 155
-		#	maxHeight = 20
-		#	format = center
-		#	vertical_alignment = center
-		#}
 
 		iconType = {
 			name = "leader_portrait_overlay"
 			position = { x = 35 y = 58 }
 			spriteType = "GFX_leader_portrait_transparent"
 			scale = 0.74
-			pdx_tooltip = "RULER_OF"
+			pdx_tooltip = "leader_title_tooltip"
 		}
 	}
 }

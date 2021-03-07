@@ -116,11 +116,16 @@
  captured_city.1.a:0 "The Emperor is finished."
  captured_city.1.b:0 "By the Emperor, we'll be back!"
  captured_city.1.c:0 "Altmer reigns supreme over Tamriel."
- captured_city.2.t:0 "FALL OF ALINOR"
- captured_city.2.d:0 "As the elves of Alinor prepared their daily breakfast, the greatest assaulting force in the history of the Summerset Isles appeared on the horizon. After a long campaign, Emperor [CYR.GetLeader] led a force of tens of thousands into the Aldmeri capital, gruesomly battling fanatical Altmer defenders along the way. Thousands of civilians were massacred as fire from catapults in the hills rained across the sky, and the great towers of the city fell one by one. Alinor Docks was captured by Imperial Navy forces in brutal combat, as thousands of legionnaires charged the city's Temple of the Divines. Meanwhile, retreating Altmer forces destroyed and burned the old Alinor Royal Palace to prevent its capture by the Legion, erasing history stretching back to the founding of the city. With the battle coming to a conclusion and most of the city destroyed, [ALD.GetLeader] and the rest of the government fled the city through secret tunnels, vowing to continue the fight from elsewhere.
+ captured_city.2.t:0 "THE FALL OF ALINOR"
+ captured_city.2.d:0 "As the elves of Alinor prepared their daily breakfast, the greatest assaulting force in the history of the Summerset Isles appeared on the horizon. After a long campaign, Emperor [CYR.GetLeader] led a force of tens of thousands into the Aldmeri capital, gruesomly battling fanatical Altmer defenders along the way. Thousands of civilians were massacred as fire from catapults in the hills rained across the sky, and the great towers of the city fell one by one. Alinor Docks was captured by Imperial Navy forces in brutal combat, as thousands of legionnaires charged the city's Temple of the Divines. Meanwhile, retreating Altmer forces destroyed and burned the old Alinor Royal Palace to prevent its capture by the Legion, erasing history stretching back to the founding of the city. With the battle coming to a conclusion and most of the city destroyed, [ALD.GetLeader] and the rest of the government fled the city through secret tunnels, vowing to continue the fight from elsewhere."
  captured_city.2.a:0 "What a battle!"
  captured_city.2.b:0 "For the Empire!"
  captured_city.2.c:0 "We're not finished that easily."
+ captured_city.3.t:0 "THE BATTLE OF RAVEN ROCK"
+ captured_city.3.d:0 "After the Red Year, the island of Solstheim along with its capital Raven Rock was given to Morrowind by the High King of Skyrim, as place to settle refugees after the recent brutality. This sidelined the island's local Skaal Nords, and the influx of Dunmer forced them to retreat to the barren northern part of the island. This all changed today, as Skaal soldiers broke through House Redoran defenses and captured Raven Rock. Skaal were seen dragging Dunmer civilians out of their homes, and Councillor Lleril Morvayn was publically executed in the middle of the town. With the island's only port town captured by the Skaal, the future looks grim for any remaining House Redoran troops."
+ captured_city.3.a:0 "Such brutality!"
+ captured_city.3.b:0 "HOW DARE THEY!"
+ captured_city.3.c:0 "Solstheim is ours!"
 
  #Hammerfell
  hammerfell.1.t:0 "Abandoned by the Emperor"

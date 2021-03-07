@@ -201,8 +201,8 @@ TRS = {
 }
 
 SKL = {
-	color = rgb { 135 206 250 }
-	color_ui = rgb { 135 206 250 }
+	color = rgb { 115 186 230 }
+	color_ui = rgb { 115 186 230 }
 }
 
 ANV = {

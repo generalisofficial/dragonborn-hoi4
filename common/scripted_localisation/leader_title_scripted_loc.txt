@@ -9,6 +9,7 @@ defined_text = {
 						NOT = { has_government = jingoist }
 					}
 					original_tag = PYD
+					has_cosmetic_tag = SKL_SOLSTHEIM
 				}
 			}
 		}

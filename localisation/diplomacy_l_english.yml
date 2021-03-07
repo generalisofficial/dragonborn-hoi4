@@ -532,7 +532,7 @@
  DR_US_PUPPET:1 "§Y$US|U$§! is a puppet of §Y$THEM$§!: "
  DR_NOT_READY:1 "§Y$THEM|U$§! is not ready for war against §Y$ENEMY$§!: "
  DR_TOO_DANGEROUS:1 "§Y$THEM|U$§! has dangerous borders against the enemies."
- RULER_OF:0 "§H[THIS.GetLeader]§! \n[THIS.GetLeaderTitle] of §Y[This.GetNameWithFlag]§!\n---------------\n §g[THIS.GetLeaderDescription]§!"
+ RULER_OF:0 "Leader of @$TAG$$COUNTRY|Y$"
  DR_BORDERS_ENEMY:1 "$US|U$ has a border with $ENEMY$: "
  DR_HAS_CORE_ON_ANY_STATE:1 "$COUNTRY|UY$ has at least one of the targeted states as a Core: "
  DR_HAS_CLAIM_ON_ANY_STATE:1 "$COUNTRY|UY$ has a claim on at least one of the targeted states: "

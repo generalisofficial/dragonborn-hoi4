@@ -35,6 +35,13 @@ set_popularities = {
     jingoist = 0
 }
 
+create_faction = FACTION_NAME_EMPIRE_OF_TAMRIEL
+add_to_faction = CYR
+add_to_faction = SKY
+add_to_faction = HAM
+add_to_faction = HRK
+add_to_faction = ESR
+
 if = {
 	limit = {
 		has_dlc = "Together for Victory"

@@ -535,12 +535,12 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "DateText"
-				position = { x = -175 y = 0 }
+				position = { x = -164 y = -2 }
 				textureFile = ""
 				font = "hoi_16mbs"
 				text = "7:00 29, September 1939"
-				maxWidth = 150
-				maxHeight = 25
+				maxWidth = 132
+				maxHeight = 30
 				format = centre
 				Orientation = "UPPER_RIGHT"	
 				alwaystransparent = yes
