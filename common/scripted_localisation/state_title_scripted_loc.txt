@@ -11,6 +11,14 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
+				state = 233
+			}
+		}
+		localization_key = STATE_TITLE_VOLCANO
+	}
+	text = {
+		trigger = {
+			THIS = {
 				impassable = yes
 			}
 		}
