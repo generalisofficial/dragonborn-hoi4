@@ -1,0 +1,40 @@
+defined_text = {
+	name = GetStateTitle
+	text = {
+		trigger = {
+			THIS = {
+				is_capital = yes
+			}
+		}
+		localization_key = STATE_TITLE_CAPITAL
+	}
+	text = {
+		trigger = {
+			THIS = {
+				impassable = yes
+			}
+		}
+		localization_key = STATE_TITLE_IMPASSABLE
+	}
+	text = {
+		trigger = {
+			THIS = {
+				is_owned_by = CYR
+				is_core_of = CYR
+			}
+		}
+		localization_key = STATE_TITLE_COUNTY
+	}
+	text = {
+		trigger = {
+			THIS = {
+				is_owned_by = SKY
+				is_core_of = SKY
+			}
+		}
+		localization_key = STATE_TITLE_HOLD
+	}
+	text = {
+		localization_key = STATE_TITLE_DEFAULT
+	}
+}
