@@ -19,7 +19,14 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
-				impassable = yes
+				OR = {
+					impassable = yes
+					NOT = {
+						any_country = {
+							owns_state = PREV
+						}
+					}
+				}
 			}
 		}
 		localization_key = STATE_TITLE_IMPASSABLE
@@ -36,13 +43,41 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
-				is_owned_by = SKY
-				is_core_of = SKY
+				OR = {
+					AND = {
+						is_owned_by = RED
+						is_core_of = RED
+					}
+					AND = {
+						is_owned_by = IDR
+						is_core_of = IDR
+					}
+					AND = {
+						is_owned_by = TEL
+						is_core_of = TEL
+					}
+					AND = {
+						is_owned_by = SAD
+						is_core_of = SAD
+					}
+					AND = {
+						is_owned_by = DRS
+						is_core_of = DRS
+					}
+				}
 			}
 		}
-		localization_key = STATE_TITLE_HOLD
+		localization_key = STATE_TITLE_DISTRICT
 	}
 	text = {
-		localization_key = STATE_TITLE_DEFAULT
+		trigger = {
+			THIS = {
+				is_core_of = owner
+			}
+		}
+		localization_key = STATE_TITLE_DEFAULT_CORE
+	}
+	text = {
+		localization_key = STATE_TITLE_DEFAULT_NOT_CORE
 	}
 }

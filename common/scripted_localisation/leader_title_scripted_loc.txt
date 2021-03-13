@@ -67,7 +67,13 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
-				has_idea = idea_orsimer
+				OR = {
+					has_idea = idea_orsimer
+					AND = {
+						original_tag = SKL
+						NOT  = { has_cosmetic_tag = SKL_SOLSTHEIM }
+					}
+				}
 			}
 		}
 		localization_key = TITLE_CHIEF

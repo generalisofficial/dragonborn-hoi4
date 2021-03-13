@@ -10,8 +10,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			4202 = {
-				fort = 2
+			4647 = {
+				fort = 3
 
 			}
 
