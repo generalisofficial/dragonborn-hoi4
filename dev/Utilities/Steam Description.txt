@@ -2,9 +2,7 @@
 
 [img]https://media.discordapp.net/attachments/620010363320008744/816700585013149706/steampage_0_2_1.png[/img]
 
-[h1]Focus Trees & Starting Units coming in 0.2.2[/h1]
-
-[b]Dragonborn[/b] is an ambitious project to have a Hearts of Iron IV Mod set on the planet of Nirn, from the popular video game series "the Elder Scrolls". The new in-game custom map includes Tamriel, Atmora, Akavir and Pyandonea. The mod is set during the eventful Fourth Era, with several major military conflicts breaking out across Tamriel.
+[b]Dragonborn[/b] is an ambitious project to have a Hearts of Iron IV Mod set on the planet of Nirn, from the popular fantasy video game series "the Elder Scrolls". The new in-game custom map includes Tamriel, Atmora, Akavir and Pyandonea. The mod is set during the eventful Fourth Era, with several major military conflicts breaking out across Tamriel.
 
 [b]The Great War - 4E 171[/b]
 The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder of the unstable Cyrodiilic Empire, now under Titus Mede II. Will Mer triumph over Man in total war, or shall the Empire triumph over the elves once more? Take charge of one of the two giants and win the coming Great War, or head into the new era as one of the newly independent regional powers, such as An-Xileel-ruled Argonia, or one of the Houses of Morrowind, such as Redoran, Telvanni, Indoril or Dres. Perhaps head East, and take control of one of the 4 civilisations of Akavir? The choice is yours.
@@ -26,20 +24,22 @@ The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder o
 Generalis
 
 [b]Project Contributors[/b]
-Informal Informant
-legionnaire
-Germania
-VitorHL
-Ireheart
-Gigi
-Aspen the Eh
-Yukon
-Reddus1
-Crabe King
-UtoftFighter
-ImgaBjorn
+Informal Informant (Map)
+legionnaire (Content Design, GFX, Misc)
+Germania (Content Design)
+VitorHL (GFX)
+Ireheart (Misc)
+Gigi (Misc)
+Aspen the Eh (Flag Design)
+Yukon (Content Design)
+Reddus1 (Music)
+Crabe King (Misc) 
+UtoftFighter (3D Models)
+ImgaBjorn (Loading Quotes) 
 
 [b]Extra[/b]
+"Planewalker" font by Pixel Sagas
+Placeholder items from Europa Universalis IV
 Player-Led Peace Conferences
 Yard1's Intelligence Agency Blocker
 Country Flags by [url=https://www.reddit.com/user/The_Irish_Jet/]The_Irish_Jet[/url]

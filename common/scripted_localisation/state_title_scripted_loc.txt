@@ -43,6 +43,15 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
+				is_owned_by = SKY
+				is_core_of = SKY
+			}
+		}
+		localization_key = STATE_TITLE_HOLD
+	}
+	text = {
+		trigger = {
+			THIS = {
 				OR = {
 					AND = {
 						is_owned_by = RED

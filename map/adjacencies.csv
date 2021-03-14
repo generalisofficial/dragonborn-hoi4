@@ -35,8 +35,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4083;110;sea;6151;-1;-1;-1;-1;;Windhelm
 2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing
 2679;2678;sea;591;-1;-1;-1;-1;;Darkwater Pass
-5879;2022;sea;6166;-1;-1;-1;-1;;Sarethi Farm
-5500;2023;sea;6166;-1;-1;-1;-1;;Treva's Watch
 2307;5416;sea;13453;-1;-1;-1;-1;;Faldar's Tooth
 2058;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
 4670;3745;sea;9783;-1;-1;-1;-1;;Leyawiin
@@ -48,8 +46,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3963;3962;sea;6138;-1;-1;-1;-1;;Silverfish River Bridge 2
 4300;2908;sea;216;-1;-1;-1;-1;;Panther River Bridge
 4490;6194;sea;6799;-1;-1;-1;-1;;Imperial City Waterfront Bridge
-5807;1288;sea;6798;-1;-1;-1;-1;;White Rose River Bridge 1
-1288;5854;sea;6800;-1;-1;-1;-1;;White Rose River Bridge 2
 4156;4157;sea;13463;-1;-1;-1;-1;;Torval River Bridge 1
 5762;4136;sea;13465;-1;-1;-1;-1;;Torval River Bridge 2
 632;5777;sea;13469;-1;-1;-1;-1;;Torval River Bridge 3
@@ -76,7 +72,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13567;5757;sea;9526;-1;-1;-1;-1;;Balfiera-Camlorn
 3214;5431;sea;8429;-1;-1;-1;-1;;Balfiera-Wayrest
 5642;6196;sea;7546;-1;-1;-1;-1;;Dominion Isles
-4495;5693;sea;13471;-1;-1;-1;-1;;Silmoor River Bridge
 3787;5197;sea;6258;-1;-1;-1;-1;;Yngvild
 239;5197;sea;8404;-1;-1;-1;-1;;Yngvild
 2496;6148;sea;8433;-1;-1;-1;-1;;Winterhold-Unnamed Island
@@ -162,7 +157,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5167;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 1
 1420;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 2
 3734;4797;sea;8485;-1;-1;-1;-1;;Gorne
-1891;13658;sea;6191;-1;-1;-1;-1;;Thirr River Bridge Narsis
 4825;2135;sea;13477;-1;-1;-1;-1;;Strid River Bridge 1
 4736;4735;sea;13472;-1;-1;-1;-1;;Strid River Bridge 2
 1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3

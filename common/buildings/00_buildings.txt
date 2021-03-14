@@ -52,7 +52,6 @@ buildings = {
 
 	port = {
 		show_on_map = 1
-		show_on_map_meshes = 3
 		always_shown = yes
 		base_cost = 3000
 		provincial = yes
@@ -65,27 +64,25 @@ buildings = {
 
 	fort = {
 		show_on_map = 1
-		has_destroyed_mesh = yes
-		base_cost = 500
+		base_cost = 1000
 		per_level_extra_cost = 500
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 7
 		land_fort = 1
-		max_level = 10
+		naval_fort = 1
+		max_level = 5
 		value = 1
 	}
 
-	coastal_fort = {
+	trench = {
 		show_on_map = 1
-		has_destroyed_mesh = yes
-		base_cost = 500
-		per_level_extra_cost = 500
+		base_cost = 250
+		per_level_extra_cost = 100
 		provincial = yes
 		disabled_in_dmz = yes
-		only_costal = yes
 		icon_frame = 8
-		naval_fort = 1
+		land_fort = 1
 		max_level = 10
 		value = 1
 	}
@@ -121,7 +118,6 @@ buildings = {
 		base_cost = 14500
 		icon_frame = 10
 		#local_resources_oil = 1 # May use local_resources_ + any resource name
-		local_resources_rubber = 1 # May use local_resources_ + any resource name
 		refinery = yes
 		max_level = 3 # This is the max unlock level
 		shares_slots = yes

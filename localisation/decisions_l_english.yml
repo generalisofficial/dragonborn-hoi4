@@ -12,6 +12,12 @@
  DECISION_COST_NOT_ENOUGH:0 "It costs £pol_power $VAL|HR0$ to take the decision"
  ON_MAP_DECISION_NAME_DEFAULT:0 "Find decisions on the map."
  
+ #Debug
+ debug:0 "Debug"
+ debug_desc:0 "§YDragonborn§! is still §Rin development§!. Many features are not yet finished and therefore not visible to the normal player. With debug mode on, you can make this in-development content visible."
+ enable_grand_council:0 "Enable the §YGrand Council§!"
+ enable_national_focus_trees:0 "Enable §YNational Focus Trees§!"
+
  #Formable Nations
  formable_nations:0 "Formable Nations"
  form_elsweyr:0 "Form Elsweyr"

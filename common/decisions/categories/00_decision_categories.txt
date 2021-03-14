@@ -1,3 +1,13 @@
+debug = {
+
+    icon = decision_category_generic
+
+	allowed = {
+		is_debug = yes
+		is_ai = no
+	}
+}
+
 formable_nations = {
 
     icon = generic_formable_nations

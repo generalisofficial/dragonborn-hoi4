@@ -6,13 +6,13 @@ state={
 	history={
 		owner = SAD
 		victory_points = {
-			5756 3
+			5756 3 
 		}
 		victory_points = {
-			4472 2
+			4472 2 
 		}
 		victory_points = {
-			1891 1
+			1891 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		1416 1419 1420 1891 1893 4472 5755 5756 
+		1416 1419 1420 1891 1893 4472 5755 5756 6191 
 	}
 	manpower=37973
 	buildings_max_level_factor=1.000

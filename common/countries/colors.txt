@@ -141,8 +141,8 @@ FLK = {
 }
 
 RIF = {
-	color = rgb { 153 50 204 }
-	color_ui = rgb { 153 50 204 }
+	color = rgb { 128 0 128 }
+	color_ui = rgb { 128 0 128 }
 }
 
 DKY = {

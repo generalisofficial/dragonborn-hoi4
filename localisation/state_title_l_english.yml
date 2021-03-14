@@ -1,5 +1,5 @@
 ﻿l_english:
- state_title:0 "[GetStateTitle]"
+ state_title:0 "[THIS.owner.GetFlag][GetStateTitle]"
  STATE_TITLE_DEFAULT_NOT_CORE:0 "§RTerritory§!"
  STATE_TITLE_DEFAULT_CORE:0 "§GProvince§!"
  STATE_TITLE_CAPITAL:0 "§YCapital§!"

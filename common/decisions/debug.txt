@@ -1,0 +1,30 @@
+debug = {
+
+	enable_grand_council = {
+
+		icon = generic_decision
+
+		complete_effect = {
+			set_global_flag = enable_grand_council
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	
+	enable_national_focus_trees = {
+
+		icon = generic_decision
+
+		complete_effect = {
+			set_global_flag = enable_national_focus_trees
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

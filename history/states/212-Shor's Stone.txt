@@ -6,15 +6,22 @@ state={
 	history={
 		owner = SKY
 		victory_points = {
-			108 2 
+			3492 2 
 		}
 		victory_points = {
 			105 1 
+		}
+		victory_points = {
+			2023 1 
 		}
 		buildings = {
 			infrastructure = 3
 			105 = {
 				fort = 4
+
+			}
+			2023 = {
+				fort = 3
 
 			}
 
@@ -25,7 +32,7 @@ state={
 	}
 
 	provinces={
-		104 105 106 107 108 109 112 116 2022 2023 2676 2678 3961 4138 4139 4140 5428 5888 5889 5969 5972 
+		104 105 106 107 108 109 112 116 2022 2023 2676 2678 3492 3961 4138 4139 4140 5428 5888 5889 5969 5972 
 	}
 	manpower=9671
 	buildings_max_level_factor=1.000

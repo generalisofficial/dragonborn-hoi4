@@ -98,6 +98,14 @@ defined_text = {
 		localization_key = TITLE_JARL
 	}
 	text = {
+		trigger = {
+			THIS = {
+				original_tag = PEL
+			}
+		}
+		localization_key = TITLE_MANE
+	}
+	text = {
 		localization_key = TITLE_DEFAULT
 	}
 }

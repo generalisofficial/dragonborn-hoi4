@@ -5,6 +5,7 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = DRS
+			has_global_flag = enable_national_focus_trees
 		}
 	}
 	default = no
