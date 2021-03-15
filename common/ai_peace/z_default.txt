@@ -71,11 +71,7 @@ default_peace = {
 
 	# ROOT = Taker, FROM = Giver
 	puppet = {
-		factor = 0 #200
-		modifier = {
-			factor = 0
-			NOT = { is_owner_neighbor_of = FROM }
-		}
+		factor = 200
 		modifier = { #Don't puppet nations in civil war... this is too buggy.
 			factor = 0
 			FROM = { has_civil_war = yes }

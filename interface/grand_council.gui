@@ -42,7 +42,7 @@ guiTypes = {
 		buttonType = {
 			name = "goto_capital_button"
 			spriteType = "button_left"
-			position = { x = 510 y = 80 }
+			position = { x = 525 y = 80 }
 		}
 
 		instantTextBoxType = {

@@ -38,11 +38,11 @@ if = {
 	}
 	set_autonomy = {
 		target = ANQ
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_vassal
 	}
 	set_autonomy = {
 		target = PEL
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_vassal
 	}
 	else = {
 		puppet = ANQ

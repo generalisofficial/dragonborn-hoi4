@@ -10,6 +10,23 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			1889 = {
+				trench = 5
+
+			}
+			13658 = {
+				fort = 3
+				trench = 5
+
+			}
+			13657 = {
+				trench = 5
+
+			}
+			1892 = {
+				trench = 5
+
+			}
 
 		}
 		add_core_of = SAD

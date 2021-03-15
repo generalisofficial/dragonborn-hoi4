@@ -21,3 +21,17 @@ country_event = {
 		remove_idea = idea_grand_council_member
 	}
 }
+
+#Puppet wargoal event
+country_event = {
+	id = system.2
+	title = system.2.t
+	desc = system.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = system.2.a
+		create_wargoal = { type = puppet_wargoal_focus target = FROM }
+	}
+}

@@ -50,6 +50,9 @@
  skyrim.5.a:0 "Jarl Elisif the Fair will lead."
  skyrim.6.t:0 "CIVIL WAR IN SKYRIM!"
  skyrim.6.d:0 "After Jarl of Eastmarch, Ulfric Stormcloak, marched into Solitude and murdered High King Torygg, conflict was inevitable. It has now arrived, with Ulfric declaring a rebellion against Imperial rule in Skyrim. Ulfric has been joined by the Old Holds of Winterhold, The Rift and The Pale, as well as his own Eastmarch. The uprising is opposed by newly-arrived General Tullius of the Imperial Legion, who has gathered Legion forces to battle the Stormcloaks."
+ skyrim.7.t:0 "Formation of the Stormcloaks"
+ skyrim.7.d:0 "With the signing of the White-Gold Concordat, conflict in Skyrim was inevitable. It appears to be approaching, with the apparent formation of an underground movement by the newly instated Jarl of Eastmarch, Ulfric Stormcloak. The movement appears to be working towards the reinstating of Talos worship across Skyrim, possibly through violent means. There is no telling what the Jarl and his companions might be capable of."
+ skyrim.7.a:0 "Will this become a problem?"
 
  #Stormcloak Skyrim
  skyrim_stormcloak.1.t:0 "The Moot"
@@ -152,3 +155,8 @@
  dres.6.t:0 "And Praise The Reclamations"
  dres.6.d:0 "In an unexpected visit, [DRS.GetLeaderTitle] [DRS.GetLeader] of House Dres arrived in Mournhold this morning by carriage. The [DRS.GetLeaderTitle] went on to have a private meeting with the Archcanon of the Mournhold Temple, however the contents of this meeting are still unknown. The [DRS.GetLeaderTitle] eventually departed the city after visiting several important religious locations."
  dres.6.a:0 "What might they have discussed?"
+
+ #System
+ system.2.t:0 "§R[FROM.GetNameWithFlag] secedes!§!"
+ system.2.d:0 "[FROM.GetName] seems to think we're messing around! This afternoon, [FROM.GetLeaderTitle] [FROM.GetLeader] declared their nation an independent state, free from our guiding light. Obviously, this cannot stand!"
+ system.2.a:0 "Restore order at once!"

@@ -536,23 +536,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = DRS_a_more_fitting_capital
-		icon = GFX_focus_eng_imperial_federation
-		cost = 10.00
-		prerequisite = {
-			focus = DRS_send_in_the_agents
-		}
-		available = {
-			owns_state = 55
-		}
-		completion_reward = {
-			set_capital = 55
-		}
-		x = 30
-		y = 9
-
-	}
-	focus = {
 		id = DRS_give_them_more_power
 		icon = GFX_goal_generic_demand_territory
 		cost = 10.00
