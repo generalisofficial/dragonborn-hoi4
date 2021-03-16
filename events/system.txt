@@ -18,7 +18,7 @@ country_event = {
 	hidden = yes
 
 	immediate = {
-		remove_idea = idea_grand_council_member
+		remove_ideas = idea_grand_council_member
 	}
 }
 

@@ -63,7 +63,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="submod_box_title"
-			position = { x = 115 y = -5 }
+			position = { x = 115 y = 0 }
 			font = "hoi_18mbs"
 			text = "Submods"
 			maxWidth = 155

@@ -30,7 +30,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 661;662;sea;4497;-1;-1;-1;-1;;Riverwood
 4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
 2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
-5047;5433;sea;3341;-1;-1;-1;-1;;Abandoned Prison
 4083;4084;sea;6151;-1;-1;-1;-1;;Windhelm Stables
 4083;110;sea;6151;-1;-1;-1;-1;;Windhelm
 2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing
@@ -46,9 +45,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3963;3962;sea;6138;-1;-1;-1;-1;;Silverfish River Bridge 2
 4300;2908;sea;216;-1;-1;-1;-1;;Panther River Bridge
 4490;6194;sea;6799;-1;-1;-1;-1;;Imperial City Waterfront Bridge
-4156;4157;sea;13463;-1;-1;-1;-1;;Torval River Bridge 1
-5762;4136;sea;13465;-1;-1;-1;-1;;Torval River Bridge 2
-632;5777;sea;13469;-1;-1;-1;-1;;Torval River Bridge 3
 2900;6053;sea;10126;-1;-1;-1;-1;;Pyrrah Archipelago
 965;5371;sea;7697;-1;-1;-1;-1;;Pyrrah Archipelago
 5583;3623;sea;12186;-1;-1;-1;-1;;Pyrrah Archipelago

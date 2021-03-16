@@ -21,4 +21,5 @@
 
 - (Misc) Reworked the politics of Morrowind
 - (Misc) Changed tons of country colors
-- (Misc) Added a new map font for countries (Planewalker)
+- (Misc) Reworked many of the ingame fonts and replaced them with a new one (Planewalker)
+- (Misc) Reworked puppet levels (TfV only)
