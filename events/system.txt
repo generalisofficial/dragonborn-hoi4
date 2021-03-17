@@ -32,6 +32,16 @@ country_event = {
 	
 	option = {
 		name = system.2.a
+		ai_chance = {
+			factor = 100
+		}
 		create_wargoal = { type = puppet_wargoal_focus target = FROM }
+	}
+
+	option = {
+		name = system.2.b
+		ai_chance = {
+			factor = 0
+		}
 	}
 }

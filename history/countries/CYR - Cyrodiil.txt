@@ -83,7 +83,7 @@ if = {
 create_country_leader = {
 	name = "Titus Mede II"
 	desc = "Titus_Mede_II_desc"
-	picture = "Titus_Mede_II.dds"
+	picture = "Titus_Mede_II.tga"
 	ideology = internationalist_ideology
 	traits = { 
 	    unpopular_monarch
@@ -98,10 +98,10 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Jonna"
-	picture = "Jonna.dds"
+	name = "Jonna Blackthorn"
+	picture = "Jonna_Blackthorn.tga"
 	traits = { }
-	skill = 2
+	skill = 3
 }
 
 create_corps_commander = {
@@ -112,8 +112,22 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Cassia"
-	picture = "Cassia.dds"
+	name = "Cassia Acilio"
+	picture = "Cassia_Acilio.tga"
 	traits = { }
 	skill = 2
+}
+
+create_corps_commander = {
+	name = "Sejanus Vedius"
+	picture = "Sejanus_Vedius.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Rorik Fair-Sword"
+	picture = "Rorik_Fair_Sword.tga"
+	traits = { }
+	skill = 1
 }
