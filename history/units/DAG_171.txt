@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Breton Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+}
+
+units = {
+	division = {
+		name = "Daggerfall Militia"
+		location = 2719
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Camlorn Militia"
+		location = 13587
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Wayrest Militia"
+		location = 13583
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Shornhelm Militia"
+		location = 1034
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Northpoint Militia"
+		location = 13597
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Evermore Militia"
+		location = 13591
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+		division = {
+		name = "Farrun Militia"
+		location = 13598
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+		division = {
+		name = "Jehanna Militia"
+		location = 13596
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+		division = {
+		name = "Betony Militia"
+		location = 13570
+		division_template = "Breton Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}

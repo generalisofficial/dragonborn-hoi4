@@ -1,41 +1,51 @@
 ﻿capital = 53
 
-oob = "RED_4171"
+oob = "RED_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
+
 set_convoys = 5
 
 add_ideas = {
+	new_temple
     idea_dunmer
-	idea_legacy_of_the_red_year
+	idea_grand_council_member
 	idea_dunmer_revanchism
 }
 
 set_politics = {	
 	ruling_party = pragmatic
-	last_election = "4171.1.1"
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
     internationalist = 0
-    isolationist = 0
-    pragmatic = 100
+    isolationist = 16
+    pragmatic = 84
     jingoist = 0
 }
 
-create_faction = "Grand Council"
+create_faction = FACTION_NAME_GRAND_COUNCIL
 add_to_faction = RED
 add_to_faction = TEL
 add_to_faction = SAD
 add_to_faction = IDR
 add_to_faction = DRS
 
+set_country_flag = grand_council_leader
+
 create_country_leader = {
-	name = "Nadsilo Llearen"
-	picture = "redoran.dds"
+	name = "Felseth Redoran"
+	picture = "Felseth_Redoran.dds"
 	ideology = pragmatic_ideology
+}
+
+create_country_leader = {
+	name = "Vurdras Redoran"
+	picture = "Vurdras_Redoran.dds"
+	ideology = isolationist_ideology
 }

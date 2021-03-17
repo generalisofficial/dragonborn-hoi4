@@ -2,8 +2,8 @@ bookmarks = {
 	bookmark = {
 		name = "GREAT_WAR_NAME"
 		desc = "GREAT_WAR_DESC"
-		date = 4171.10.1.12
-		picture = "GFX_select_date_4171"
+		date = 171.10.1.12
+		picture = "GFX_select_date_171"
 		default_country = "CYR"
 		default = yes
 		
@@ -64,6 +64,17 @@ bookmarks = {
 
 		"IDR"={
 			history = "IDR_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"PYD"={
+			history = "PYD_GREAT_WAR_DESC"
 			ideology = isolationist
 			ideas = {
 			

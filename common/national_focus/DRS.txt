@@ -1,0 +1,687 @@
+focus_tree = {
+	id = dresfocuses
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DRS
+			has_global_flag = enable_national_focus_trees
+		}
+	}
+	default = no
+	focus = {
+		id = DRS_an_emergency_session
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1.00
+		available = {
+			always = no
+		}
+		x = 21
+		y = 0
+
+	}
+	focus = {
+		id = DRS_the_new_grandmaster
+		icon = GFX_focus_spa_caudillo_of_spain
+		cost = 2.00
+		prerequisite = {
+			focus = DRS_an_emergency_session
+		}
+		completion_reward = {
+			country_event = dres.2
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = DRS_bolster_border_patrols
+		icon = GFX_focus_generic_manpower
+		cost = 5.00
+		prerequisite = {
+			focus = DRS_the_new_grandmaster
+		}
+		completion_reward = {
+			add_ideas = { idea_southern_military_buildup }
+			add_manpower = 1500
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = DRS_renovate_the_watchtowers
+		icon = GFX_focus_spa_save_the_alcazar
+		cost = 5.00
+		prerequisite = {
+			focus = DRS_bolster_border_patrols
+		}
+		completion_reward = {
+			#Modify national spirit
+			capital_scope = {
+				add_building_construction = {
+					type = watchtower
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = DRS_and_wait_patiently
+		icon = GFX_goal_generic_construct_military
+		cost = 5.00
+		prerequisite = {
+			focus = DRS_renovate_the_watchtowers
+		}
+		completion_reward = {
+			#Modify national spirit
+			army_experience = 15
+			#Trigger an event
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = DRS_earn_their_trust
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_the_new_grandmaster
+		}
+		completion_reward = {
+			add_ideas = { idea_satisfied_populace }
+			add_stability = 0.1
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = DRS_fill_their_coffers
+		icon = GFX_focus_mex_privatisation
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_earn_their_trust
+		}
+		completion_reward = {
+			add_political_power = -100
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = DRS_give_them_saltrice
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_fill_their_coffers
+		}
+		completion_reward = {
+			add_popularity = { ideology = jingoist popularity = 0.05 }
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = DRS_silence_foul_mouths
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_the_new_grandmaster
+		}
+		completion_reward = {
+			every_owned_state = {
+				add_manpower = -100
+			}
+			add_political_power = -50
+			add_popularity = { ideology = isolationist popularity = -0.05 }
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = DRS_spread_the_right_word
+		icon = GFX_focus_generic_monarchy_2
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_silence_foul_mouths
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = DRS_reward_the_loyal
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_spread_the_right_word
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = DRS_all_is_good_in_the_house
+		icon = GFX_focus_rom_parties_end
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_give_them_saltrice
+		}
+		prerequisite = {
+			focus = DRS_reward_the_loyal
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = DRS_tighten_grandmaster_grip
+		icon = GFX_focus_BUL_plot_against_boris
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_all_is_good_in_the_house
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = DRS_focus_on_land_owners
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tighten_grandmaster_grip
+		}
+		mutually_exclusive = {
+			focus = DRS_keep_the_family_strong
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = DRS_keep_the_family_strong
+		icon = GFX_focus_generic_royal_wedding
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tighten_grandmaster_grip
+		}
+		mutually_exclusive = {
+			focus = DRS_focus_on_land_owners
+		}
+		completion_reward = {
+			add_stability = 0.05
+			149 = {
+				remove_building = {
+					type = farm
+					level = 1
+				}
+			}
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = DRS_his_closest_mer
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tighten_grandmaster_grip
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = DRS_his_own_ordinators
+		icon = GFX_focus_eng_special_air_service
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tighten_grandmaster_grip
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = DRS_send_a_letter_north
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 5.00
+		prerequisite = {
+			focus = DRS_the_new_grandmaster
+		}
+		completion_reward = {
+			random_country = { 
+				limit = { 
+					has_country_flag = grand_council_leader
+				}
+				country_event = dres.3 
+			}
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = DRS_make_big_promises
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 5.00
+		prerequisite = {
+			focus = DRS_send_a_letter_north
+		}
+		completion_reward = {
+			random_country = { 
+				limit = { 
+					has_country_flag = grand_council_leader
+				}
+				country_event = dres.4
+			}
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = DRS_and_praise_the_reclamations
+		icon = GFX_focus_por_concordat
+		cost = 5.00
+		prerequisite = {
+			focus = DRS_make_big_promises
+		}
+		completion_reward = {
+			random_country = { 
+				limit = { 
+					owns_state = 55
+				}
+				country_event = dres.6
+			}
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = DRS_time_to_secure_our_rise
+		icon = GFX_focus_eng_global_defense
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_all_is_good_in_the_house
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = DRS_make_clerics_an_offer
+		icon = GFX_focus_TUR_ratify_the_six_arrows
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_time_to_secure_our_rise
+		}
+		mutually_exclusive = {
+			focus = DRS_they_cant_refuse
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = DRS_then_push_them_a_little
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_make_clerics_an_offer
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = DRS_they_cant_refuse
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_time_to_secure_our_rise
+		}
+		mutually_exclusive = {
+			focus = DRS_make_clerics_an_offer
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = DRS_call_it_our_land
+		icon = GFX_focus_eng_decolonization
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_they_cant_refuse
+		}
+		x = 28
+		y = 8
+
+	}
+	focus = {
+		id = DRS_and_now_avenge_our_fall
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_then_push_them_a_little
+			focus = DRS_call_it_our_land
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = DRS_solidify_the_south
+		icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_and_now_avenge_our_fall
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = DRS_throw_some_looks_north
+		icon = GFX_focus_usa_focus_on_asia
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_and_now_avenge_our_fall
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
+		id = DRS_remember_slavery
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_all_is_good_in_the_house
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = DRS_tell_lizards_were_back
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_remember_slavery
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = DRS_make_sure_they_remember
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tell_lizards_were_back
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = DRS_fill_our_plantations
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tell_lizards_were_back
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = DRS_strengthen_our_guard
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_tell_lizards_were_back
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = DRS_and_work_them_to_death
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_fill_our_plantations
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = DRS_dont_let_anything_pass
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_strengthen_our_guard
+		}
+		x = 21
+		y = 9
+
+	}
+	focus = {
+		id = DRS_protection_from_within
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_dont_let_anything_pass
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = DRS_welcome_to_saltrice_fields
+		icon = GFX_focus_hol_prepare_the_inundation_lines
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_protection_from_within
+		}
+		prerequisite = {
+			focus = DRS_and_work_them_to_death
+		}
+		prerequisite = {
+			focus = DRS_never_to_be_forgotten
+		}
+		x = 21
+		y = 11
+
+	}
+	focus = {
+		id = DRS_send_in_the_agents
+		icon = GFX_focus_jap_strike_south
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_they_cant_refuse
+		}
+		x = 30
+		y = 8
+
+	}
+	focus = {
+		id = DRS_a_polite_demand
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_solidify_the_south
+		}
+		prerequisite = {
+			focus = DRS_throw_some_looks_north
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = DRS_give_them_more_power
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_his_closest_mer
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = DRS_make_sure_they_are_loyal
+		icon = GFX_focus_mex_exile_calles
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_give_them_more_power
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = DRS_following_his_vision
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_his_own_ordinators
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = DRS_and_punishing_dissent
+		icon = GFX_focus_mex_triumph_over_the_cristeros
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_following_his_vision
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = DRS_share_some_success
+		icon = GFX_focus_fra_devalue_the_franc
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_keep_the_family_strong
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = DRS_stand_all_together
+		icon = GFX_focus_BUL_form_a_regency_council
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_share_some_success
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = DRS_support_the_small_big_mer
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_focus_on_land_owners
+		}
+		available = {
+			has_full_control_of_state = 134
+		}
+		completion_reward = {
+			add_political_power = -100
+			add_stability = 0.05
+			134 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = farm
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = DRS_a_happy_public
+		icon = GFX_focus_AST_squander_bug
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_support_the_small_big_mer
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = DRS_so_very_loyal
+		icon = GFX_focus_generic_monarchy_1
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_stand_all_together
+			focus = DRS_a_happy_public
+		}
+		prerequisite = {
+			focus = DRS_make_sure_they_are_loyal
+		}
+		prerequisite = {
+			focus = DRS_and_punishing_dissent
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = DRS_now_final_revenge_is_near
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_welcome_to_saltrice_fields
+		}
+		prerequisite = {
+			focus = DRS_a_polite_demand
+		}
+		prerequisite = {
+			focus = DRS_so_very_loyal
+		}
+		x = 21
+		y = 12
+
+	}
+	focus = {
+		id = DRS_never_to_be_forgotten
+		icon = GFX_focus_TUR_the_montreux_convention
+		cost = 10.00
+		prerequisite = {
+			focus = DRS_make_sure_they_remember
+		}
+		x = 19
+		y = 10
+
+	}
+}

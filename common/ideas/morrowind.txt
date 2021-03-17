@@ -2,16 +2,15 @@ ideas = {
 	
 	country = {
 	
-		idea_legacy_of_the_red_year = {
-			picture = red_year
+		idea_grand_council_member = {
+			picture = grand_council
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			removal_cost = -1
 			
 			modifier = {
-			    consumer_goods_factor = 0.1
-				MONTHLY_POPULATION = -0.2
+			    stability_factor = 0.1
 			}
 		}
 		
@@ -33,13 +32,88 @@ ideas = {
 			}
 
 			targeted_modifier = {
-				tag = BLM
+				tag =  BLM
 				attack_bonus_against = 0.2
 			}
 			
 			modifier = {
 				war_support_factor = 0.3
 				army_morale_factor = 0.1
+			}
+		}
+
+		idea_memories_of_slavery = {
+			picture = memories_of_slavery
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		idea_the_shadow_house = {
+			picture = the_shadow_house
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+		
+		idea_justice_never_sleeps = {
+			picture = justice_never_sleeps
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+
+		
+		idea_overwhelming_clerical_power = {
+			picture = overwhelming_clerical_power
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		idea_satisfied_populace = {
+			picture = satisfied_populace
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		idea_southern_military_buildup = {
+			picture = southern_military_buildup
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				
 			}
 		}
 	}

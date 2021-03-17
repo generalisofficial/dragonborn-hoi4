@@ -8,7 +8,7 @@ country_event = {
 	
 	trigger = {
 		owns_state = 214
-		date > 4201.9.1
+		date > 201.9.1
 		NOT = { has_global_flag = dragon_crisis }
 	}
 

@@ -1,154 +1,21 @@
 ﻿army = {
 	gfx = GFX_theatre_army_shield
-	
-	icon = {
-	}
 }
 
 army_group = {
 	gfx = GFX_theatre_army_group_shield
-	
-	icon = {
-	}
 }
 
 fleet = {
 	gfx = GFX_theatre_task_force_shield
-	
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
 }
 
 task_force = {
 	gfx = GFX_theatre_task_force_shield
-	
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
-	icon = {
-	}
 }
 
 naval_equipment_role = {
 	gfx = GFX_naval_equipment_role_icons
-	
 	icon = {
 		color_override = no
 		name = "Battery"

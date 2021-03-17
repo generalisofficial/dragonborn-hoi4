@@ -1,0 +1,18 @@
+state={
+	id=236
+	name="STATE_236"
+
+	history={
+		owner = SKY
+		add_core_of = SKY
+		add_core_of = PLE
+	}
+
+	provinces={
+		4332 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

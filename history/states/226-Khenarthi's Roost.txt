@@ -1,0 +1,28 @@
+state={
+	id=226
+	name="STATE_226"
+
+	history={
+		owner = PEL
+		victory_points = {
+			2502 2
+		}
+		buildings = {
+		    infrastructure = 2
+			2502 = {
+				port = 1
+			
+			}
+
+		}
+		add_core_of = PEL
+
+	}
+
+	provinces={
+		2502 13610 13612 13673 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

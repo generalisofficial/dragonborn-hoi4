@@ -1,32 +1,35 @@
+
 state={
 	id=165
 	name="STATE_165"
-	
+
 	history={
 		owner = CYR
 		victory_points = {
-			4670 5
+			4670 5 
 		}
 		victory_points = {
-			2885 1
+			2885 2
 		}
 		victory_points = {
-			5560 1
+			5560 1 
 		}
 		buildings = {
-            infrastructure = 3
+			infrastructure = 3
 			4670 = {
-				naval_base = 2
+				port = 2
+				fort = 2
 
 			}
+
 		}
 		add_core_of = CYR
 		add_core_of = LEY
 
 	}
-	
+
 	provinces={
-		2323 2324 2325 2535 2885 2886 2887 4128 4129 4670 4671 5030 5107 5474 5557 5558 5560 
+		791 2323 2324 2325 2535 2885 2886 2887 4128 4129 4414 4670 4671 5030 5107 5474 5557 5558 5560 
 	}
 	manpower=8728
 	buildings_max_level_factor=1.000

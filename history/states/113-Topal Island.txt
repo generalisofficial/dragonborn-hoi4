@@ -1,28 +1,29 @@
+
 state={
 	id=113
 	name="STATE_113"
-	
+
 	history={
 		owner = CYR
 		buildings = {
 			infrastructure = 2
 			2941 = {
-				naval_base = 1
+				port = 1
 
 			}
 
 		}
 		add_core_of = CYR
 		add_core_of = BLM
-		4201.1.1 = {
+		201.1.1 = {
 			owner = BLM
 
 		}
 
 	}
-	
+
 	provinces={
-		2941 4819 
+		2941 4819 6176 
 	}
 	manpower=107
 	buildings_max_level_factor=1.000

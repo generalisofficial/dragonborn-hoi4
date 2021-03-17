@@ -201,13 +201,34 @@ on_actions = {
 	#Not run on a specific country.
 	on_startup = {
 		effect = {
-			#if = {
-			#    limit = {
-			#        has_start_date < 4171.10.31
-			#		has_start_date < 4171.10.29	 
-			#	}
-			#}
-			#CYR = { country_event = great_war.1 }
+			DRS = {
+				country_event = {
+					id = dres.1
+					days = 7
+				}
+			}	
+		}
+		effect = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 35
+						state = 124
+						state = 181
+						state = 182
+						state = 38 
+						state = 198
+						state = 39
+					}
+				}
+				#add_province_modifier = {
+				#	static_modifiers = { crown_resistance }
+				#	province = {
+				#		all_provinces = yes
+				#	}
+				#}
+				set_state_flag = crown_resistance_flag
+			}
 		}
 	}
 	

@@ -30,14 +30,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 661;662;sea;4497;-1;-1;-1;-1;;Riverwood
 4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
 2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
-5047;5433;sea;3341;-1;-1;-1;-1;;Abandoned Prison
-3168;1665;sea;6145;-1;-1;-1;-1;;Anga's Mill
 4083;4084;sea;6151;-1;-1;-1;-1;;Windhelm Stables
-4083;4080;sea;6151;-1;-1;-1;-1;;Windhelm
+4083;110;sea;6151;-1;-1;-1;-1;;Windhelm
 2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing
 2679;2678;sea;591;-1;-1;-1;-1;;Darkwater Pass
-5879;2022;sea;6166;-1;-1;-1;-1;;Sarethi Farm
-5500;2023;sea;6166;-1;-1;-1;-1;;Treva's Watch
 2307;5416;sea;13453;-1;-1;-1;-1;;Faldar's Tooth
 2058;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
 4670;3745;sea;9783;-1;-1;-1;-1;;Leyawiin
@@ -49,11 +45,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3963;3962;sea;6138;-1;-1;-1;-1;;Silverfish River Bridge 2
 4300;2908;sea;216;-1;-1;-1;-1;;Panther River Bridge
 4490;6194;sea;6799;-1;-1;-1;-1;;Imperial City Waterfront Bridge
-5807;1288;sea;6798;-1;-1;-1;-1;;White Rose River Bridge 1
-1288;5854;sea;6800;-1;-1;-1;-1;;White Rose River Bridge 2
-4156;4157;sea;13463;-1;-1;-1;-1;;Torval River Bridge 1
-5762;4136;sea;13465;-1;-1;-1;-1;;Torval River Bridge 2
-632;5777;sea;13469;-1;-1;-1;-1;;Torval River Bridge 3
 2900;6053;sea;10126;-1;-1;-1;-1;;Pyrrah Archipelago
 965;5371;sea;7697;-1;-1;-1;-1;;Pyrrah Archipelago
 5583;3623;sea;12186;-1;-1;-1;-1;;Pyrrah Archipelago
@@ -77,7 +68,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13567;5757;sea;9526;-1;-1;-1;-1;;Balfiera-Camlorn
 3214;5431;sea;8429;-1;-1;-1;-1;;Balfiera-Wayrest
 5642;6196;sea;7546;-1;-1;-1;-1;;Dominion Isles
-4495;5693;sea;13471;-1;-1;-1;-1;;Silmoor River Bridge
 3787;5197;sea;6258;-1;-1;-1;-1;;Yngvild
 239;5197;sea;8404;-1;-1;-1;-1;;Yngvild
 2496;6148;sea;8433;-1;-1;-1;-1;;Winterhold-Unnamed Island
@@ -130,7 +120,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4518;5782;sea;8543;-1;-1;-1;-1;;Telvanni Isles
 934;5919;sea;10278;-1;-1;-1;-1;;Telvanni Isles
 5831;1055;sea;8283;-1;-1;-1;-1;;Crimson Isle
-2643;2644;sea;13486;-1;-1;-1;-1;;The Marshes
 5002;1046;sea;13489;-1;-1;-1;-1;;The Marshes
 2645;2428;sea;13487;-1;-1;-1;-1;;The Marshes
 2430;2431;sea;13492;-1;-1;-1;-1;;The Marshes
@@ -158,32 +147,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1798;4624;sea;13503;-1;-1;-1;-1;;The Marshes
 1011;1012;sea;221;-1;-1;-1;-1;;Brena River Bridge 1
 4888;714;sea;215;-1;-1;-1;-1;;Brena River Bridge 2
-4955;3370;sea;6174;-1;-1;-1;-1;;Hammerfell Rivers
 2357;4639;sea;6173;-1;-1;-1;-1;;Hammerfell Rivers
 1766;5820;sea;7376;-1;-1;-1;-1;;Unnamed Morrowind Island Bridge
 5167;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 1
 1420;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 2
 3734;4797;sea;8485;-1;-1;-1;-1;;Gorne
-1891;13658;sea;6191;-1;-1;-1;-1;;Thirr River Bridge Narsis
 4825;2135;sea;13477;-1;-1;-1;-1;;Strid River Bridge 1
 4736;4735;sea;13472;-1;-1;-1;-1;;Strid River Bridge 2
 1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
-4642;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13860;4101;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13860;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-104;13736;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-104;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-110;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-5969;6129;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-5969;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-113;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-114;112;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-114;115;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13861;115;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13861;116;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-13861;13739;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;13739;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;4011;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;13741;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
-2486;2487;impassable;-1;-1;-1;-1;-1;;Velothi Mountains
+2502;13673;sea;8341;-1;-1;-1;-1;;Khenarthi's Roost 1
+13673;13610;sea;8342;-1;-1;-1;-1;;Khenarthi's Roost 2
+6153;5382;sea;8094;-1;-1;-1;-1;;Vvardenfell 1
+2868;13635;sea;9845;-1;-1;-1;-1;;Vvardenfell 2
+711;5959;sea;9945;-1;-1;-1;-1;;Vvardenfell 3
+1178;3437;sea;11172;-1;-1;-1;-1;;Vvardenfell 4
+5945;5645;sea;7197;-1;-1;-1;-1;;Vvardenfell 5
+5485;4851;sea;8164;-1;-1;-1;-1;;Vvardenfell 6
+5398;3512;sea;11271;-1;-1;-1;-1;;Summerset-Auridon
 -1;-1;;-1;-1;-1;-1;-1;-1

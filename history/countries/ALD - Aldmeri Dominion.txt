@@ -1,20 +1,21 @@
 ﻿capital = 30
 
-oob = "ALD_4171"
+oob = "ALD_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
+
 set_convoys = 5
 
 add_ideas = {
 	idea_altmer
-	idea_orb_of_vaermina
+	#idea_orb_of_vaermina
 }
 
 set_politics = {	
 	ruling_party = jingoist
-	last_election = "4171.1.1"
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -26,17 +27,22 @@ set_popularities = {
     jingoist = 62
 }
 
+create_faction = FACTION_NAME_ALDMERI_DOMINION
+add_to_faction = ALD
+add_to_faction = ANQ
+add_to_faction = PEL
+
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
 	}
 	set_autonomy = {
 		target = ANQ
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_vassal
 	}
 	set_autonomy = {
 		target = PEL
-		autonomous_state = autonomy_puppet
+		autonomous_state = autonomy_vassal
 	}
 	else = {
 		puppet = ANQ

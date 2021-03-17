@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Khajiit Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+}
+
+units = {
+	division = {
+		name = "Torval Militia"
+		location = 4156
+		division_template = "Khajiit Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Senchal Militia"
+		location = 1746
+		division_template = "Khajiit Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Alabaster Militia"
+		location = 4006
+		division_template = "Khajiit Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Corinthe Militia"
+		location = 3047
+		division_template = "Khajiit Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Heimthor Militia"
+		location = 5762
+		division_template = "Khajiit Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	

@@ -1,34 +1,43 @@
 ﻿capital = 135
 
-oob = "DRS_4171"
+oob = "DRS_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
+
 set_convoys = 5
 
 add_ideas = {
+	new_temple
     idea_dunmer
-	idea_legacy_of_the_red_year
+	idea_grand_council_member
 	idea_dunmer_revanchism
+	idea_memories_of_slavery
 }
 
 set_politics = {	
 	ruling_party = isolationist
-	last_election = "4171.1.1"
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
     internationalist = 0
-    isolationist = 100
+    isolationist = 62
     pragmatic = 0
-    jingoist = 0
+    jingoist = 38
 }
 
 create_country_leader = {
-	name = "Rarydris Selvo"
-	picture = "dres.dds"
+	name = "Veneval Dres"
+	picture = "Veneval_Dres.dds"
 	ideology = isolationist_ideology
+}
+
+create_country_leader = {
+	name = "Lloros Dres"
+	picture = "Lloros_Dres.dds"
+	ideology = jingoist_ideology
 }

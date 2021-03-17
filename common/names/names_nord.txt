@@ -1,10 +1,10 @@
 ﻿default = {
 	male = {
-		names = { Henkr Hroathor Jaysim Olaf Horkrek Kveni Kusnal Ulfgon Hefarik Eifiit Metdor Keldnl Alldar Bjorsten Throsskar Hodck Atarid Eifot Mantstus Fjord Hans Haming Harrald Jorn Jurgen Argis Arngeir Logrolf Talsgar Sven Garuk Geirmund Froki Alvor Aldis Stenvar Stig Storn Styrr Hjalfar Hjornskar Lod Lodi Lodvar Jesper Jervar Gonnar Golldir }
+		names = { Henkr Hroathor Jaysim Olaf Horkrek Kveni Kusnal Ulfgon Hefarik Eifiit Metdor Keldnl Alldar Bjorsten Throsskar Hodck Atarid Eifot Mantstus Fjord Hans Haming Harrald Jorn Jurgen Argis Arngeir Logrolf Talsgar Sven Garuk Geirmund Froki Alvor Aldis Stenvar Stig Storn Styrr Hjalfar Hjornskar Lod Lodi Lodvar Jesper Jervar Gonnar Golldir Balgruuf Galtuk Lodiold Hofgvor Savavar Heimnl Kluling Hadrgrim Jalun Aenaalf Alvsen Heifnfing Storami Lunkas Eimoke Heddtreid Hjarthmund Siddeld }
 	}
 	female = {
 		names = { Maerlod Sergi Hreidi Rukor Kireki Thutta Eiriica Bjarine Jordo Ysoldil Agneja Botili Hefsel Gwengeth Merthi Dania Ilflith Alvissa Serata Ridja Fanari }
 	}
-	surnames = { Jorgervonson Asgornesen Ulrarmesen Bearclaw Wind-Sailer Alrisversen Fjariksen Trollsbane Alfansen Mojaldseon Fenrenson Winternight Asgarson Shadowbull Okfarson Fenroson Stonehammer Svenson Fjordensen Coldsword Strong-Voice }
+	surnames = { Jorgervonson Asgornesen Ulrarmesen Bearclaw Wind-Sailer Alrisversen Fjariksen Trollsbane Alfansen Mojaldseon Fenrenson Winternight Asgarson Shadowbull Okfarson Fenroson Stonehammer Svenson Fjordensen Coldsword Strong-Voice Hand-Hunter Free-Hater Boar-Toe "the Withdrawn" "the Greater" Short-Scourge Seven-Strider Bear-Cloak Asaeldssen Fanrornessen Alrorkeson "the Unending" Seven-Nose "the Knife" "the Intrepid" "the Steady" "the Easterner" Swift-Fire Horse-Shoal Cabbage-Shifter Eriksen Snow-Eyes Triple-Voice Ravencrone Drunk-Voice "the Outcast" Blue-Veins "the Strong" "the Long" Strong-Wand "of the River" Hearth-Sage }
 	callsigns = { Dragonborn }
 }

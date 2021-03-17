@@ -1,10 +1,11 @@
 ﻿capital = 67
 
-oob = "CHO_4171"
+oob = "CHO_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
+
 set_convoys = 5
 
 add_ideas = {
@@ -13,7 +14,7 @@ add_ideas = {
 
 set_politics = {	
 	ruling_party = pragmatic
-	last_election = "4171.1.1"
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

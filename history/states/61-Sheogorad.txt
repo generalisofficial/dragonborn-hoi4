@@ -11,11 +11,11 @@ state={
 		buildings = {
 		    infrastructure = 1
 			4431 = {
-				naval_base = 1
+				port = 1
 
 			}
 			6149 = {
-				naval_base = 1
+				port = 1
 
 			}
 
@@ -27,7 +27,7 @@ state={
 	provinces={
 		2992 3965 4429 4430 4431 4432 4993 5048 5109 5824 6149 6150 6152 6153 6154 13640 13641 13642 13643 13644 13645 13646 
 	}
-	manpower=1183
+	manpower=10752
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = IDR
 		victory_points = {
-			13745 10
+			13745 10 
 		}
 		buildings = {
 			infrastructure = 6
@@ -17,9 +17,9 @@ state={
 	}
 
 	provinces={
-		4103 4104 5264 5265 13745 
+		1306 4103 4104 5202 5264 5265 13745 
 	}
-	manpower=17974
+	manpower=57742
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -1,10 +1,11 @@
 ﻿capital = 5
 
-oob = "CYR_4171"
+oob = "CYR_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
+
 set_convoys = 5
 
 add_ideas = {
@@ -12,7 +13,7 @@ add_ideas = {
 	nine_divines
 }
 
-4201.1.1 = {
+201.1.1 = {
 	add_ideas = { 
 	    eight_divines
 		idea_white_gold_concordat
@@ -22,7 +23,7 @@ add_ideas = {
 
 set_politics = {	
 	ruling_party = internationalist
-	last_election = "4171.1.1"
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -33,6 +34,13 @@ set_popularities = {
     pragmatic = 0
     jingoist = 0
 }
+
+create_faction = FACTION_NAME_EMPIRE_OF_TAMRIEL
+add_to_faction = CYR
+add_to_faction = SKY
+add_to_faction = HAM
+add_to_faction = HRK
+add_to_faction = ESR
 
 if = {
 	limit = {
@@ -74,7 +82,8 @@ if = {
 
 create_country_leader = {
 	name = "Titus Mede II"
-	picture = "Titus_Mede_II.dds"
+	desc = "Titus_Mede_II_desc"
+	picture = "Titus_Mede_II.tga"
 	ideology = internationalist_ideology
 	traits = { 
 	    unpopular_monarch
@@ -89,10 +98,10 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Jonna"
-	picture = "Jonna.dds"
+	name = "Jonna Blackthorn"
+	picture = "Jonna_Blackthorn.tga"
 	traits = { }
-	skill = 2
+	skill = 3
 }
 
 create_corps_commander = {
@@ -103,8 +112,22 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Cassia"
-	picture = "Cassia.dds"
+	name = "Cassia Acilio"
+	picture = "Cassia_Acilio.tga"
 	traits = { }
 	skill = 2
+}
+
+create_corps_commander = {
+	name = "Sejanus Vedius"
+	picture = "Sejanus_Vedius.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Rorik Fair-Sword"
+	picture = "Rorik_Fair_Sword.tga"
+	traits = { }
+	skill = 1
 }

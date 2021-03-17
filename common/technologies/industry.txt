@@ -579,10 +579,10 @@ technologies = {
 		}
 	}
 
-	fuel_silos = {
+	grain_silos = {
 
 		enable_building = {
-			building = fuel_silo
+			building = grain_silo
 			level = 3
 		}
 				
@@ -744,7 +744,7 @@ technologies = {
 	synth_oil_experiments = {
 
 		enable_building = {
-			building = synthetic_refinery
+			building = farm
 			level = 3
 		}
 				
@@ -911,7 +911,7 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = farm
 				resource = rubber
 				amount = 1
 			}
@@ -950,7 +950,7 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = farm
 				resource = rubber
 				amount = 1
 			}
@@ -989,7 +989,7 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = farm
 				resource = rubber
 				amount = 1
 			}
@@ -1028,7 +1028,7 @@ technologies = {
 
 		on_research_complete = {
 			modify_building_resources = {
-				building = synthetic_refinery
+				building = farm
 				resource = rubber
 				amount = 1
 			}

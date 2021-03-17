@@ -1,13 +1,4 @@
 ﻿l_english:
- autonomy_dominion:0 "Satellite State"
- autonomy_colony:0 "Client State"
- autonomy_puppet:0 "Puppet State"
- autonomy_integrated_puppet:0 "Integrated Puppet State"
- autonomy_annex:0 "Annexed"
- autonomy_free:0 "Free"
- autonomy_imperial_province:0 "Imperial Province"
- autonomy_imperial_protectorate:0 "Imperial Protectorate"
- autonomy_collaboration_government:0 "Collaboration Government"
  AUTONOMY_CAN_TAKE_DESC:1 "$OWNER|UH$ can become a $NEXTLEVEL|H$"
  AUTONOMY_CANT_TAKE_DESC:1 "$OWNER|UH$ can not become a $NEXTLEVEL|H$ yet"
  AUTONOMY_CAN_LOSE_DESC:1 "$OWNER|UH$ can be reduced to a $PREVLEVEL|H$"
@@ -57,4 +48,13 @@
  CONSTRUCTION_MASTER_BUILDING_CANT_REDUCE:0 "§RWe are not allowed to reduce the level or cancel this construction.§!"
  CONSTRUCTION_INFO_MASTER:0 "This construction is built on the $WHO|H$ territory. If we don't use all factories, they can contribute using theirs."
  CONSTRUCTION_INFO_SUBJECT:0 "This construction is built for us by the $WHO|H$. If they don't use all factories, we can contribute using ours."
+
+ #Autonomy Levels
+ autonomy_tributary:0 "Tributary"
+ autonomy_vassal:0 "Vassal"
+ autonomy_colony:0 "Colony"
+ autonomy_annex:0 "Annexed"
+ autonomy_free:0 "Free"
+ autonomy_imperial_province:0 "Imperial Province"
+ autonomy_imperial_protectorate:0 "Imperial Protectorate"
  

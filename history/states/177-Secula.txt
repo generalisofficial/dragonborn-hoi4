@@ -1,16 +1,17 @@
+
 state={
 	id=177
 	name="STATE_177"
-	
+
 	history={
 		owner = PYD
 		victory_points = {
-			13532 5
+			13532 5 
 		}
 		buildings = {
-		    infrastructure = 3
+			infrastructure = 3
 			13532 = {
-				naval_base = 2
+				port = 2
 
 			}
 
@@ -18,9 +19,9 @@ state={
 		add_core_of = PYD
 
 	}
-	
+
 	provinces={
-		962 963 964 965 1056 1057 1060 2640 2641 2929 2930 3747 3782 3784 4466 4661 4662 4663 5613 5994 13531 13532 
+		962 963 964 965 1056 1057 1060 2640 2641 2929 2930 3747 3782 3783 3784 4466 4661 4662 4663 5613 5994 13531 13532 
 	}
 	manpower=11872
 	buildings_max_level_factor=1.000

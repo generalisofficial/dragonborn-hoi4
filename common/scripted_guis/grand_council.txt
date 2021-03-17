@@ -1,0 +1,103 @@
+scripted_gui = {
+	grand_council_button = {
+		context_type = player_context
+
+		window_name = "grand_council_button_container"
+		
+		visible = {
+			has_global_flag = enable_grand_council
+		}
+		
+		effects = {
+			grand_council_button_click = {
+				if = {
+					limit = {
+						has_global_flag = show_grand_council
+					}
+					clr_global_flag = show_grand_council
+					else = {
+						set_global_flag = show_grand_council
+					}
+				}
+			}
+		}
+	}
+
+	grand_council_window = {
+		context_type = player_context
+
+		window_name = "grand_council_window_container"
+		
+		visible = {
+			has_global_flag = show_grand_council
+		}
+		
+		effects = {
+			goto_capital_button_click = {
+				if = {
+					limit = {
+						RED  = { has_country_flag = grand_council_leader }
+					}
+					RED = {
+						capital_scope = {
+							ROOT = {
+								goto_state = PREV
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						IDR  = { has_country_flag = grand_council_leader }
+					}
+					IDR = {
+						capital_scope = {
+							ROOT = {
+								goto_state = PREV
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						TEL  = { has_country_flag = grand_council_leader }
+					}
+					TEL = {
+						capital_scope = {
+							ROOT = {
+								goto_state = PREV
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						DRS  = { has_country_flag = grand_council_leader }
+					}
+					DRS = {
+						capital_scope = {
+							ROOT = {
+								goto_state = PREV
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						SAD  = { has_country_flag = grand_council_leader }
+					}
+					SAD = {
+						capital_scope = {
+							ROOT = {
+								goto_state = PREV
+							}
+						}
+					}
+				}
+			}
+			close_button_click = {
+				clr_global_flag = show_grand_council
+			}
+		}
+	}
+}

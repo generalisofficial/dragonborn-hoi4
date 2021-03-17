@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_grand_council_button"
+		texturefile = "gfx/interface/grand_council_button.dds"
+	}
+
+}

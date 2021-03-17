@@ -1,0 +1,95 @@
+guiTypes = {
+	containerWindowType = {
+		name = "grand_council_window_container"
+		position = { x = 500 y = 250 }
+		size = { width = 850 height = 700 }
+		orientation = upper_left
+		moveable = yes
+
+		background = {
+			name = "background"
+			spriteType ="GFX_tiled_window_2b_border"
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 805 y = 10 }
+		}
+
+		instantTextBoxType = {
+			name ="grand_council_header"
+			position = { x = 240 y = 50 }
+			font = "hoi_36header"
+			text = "grand_council_header"
+			maxWidth = 400
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextBoxType = {
+			name ="grand_council_capital"
+			position = { x = 240 y = 80 }
+			font = "hoi_18mbs"
+			text = "get_grand_council_capital"
+			maxWidth = 400
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		buttonType = {
+			name = "goto_capital_button"
+			spriteType = "button_left"
+			position = { x = 525 y = 80 }
+		}
+
+		instantTextBoxType = {
+			name ="lord_high_councilor_header"
+			position = { x = 240 y = 160 }
+			font = "hoi_24header"
+			text = "lord_high_councilor_header"
+			maxWidth = 400
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextBoxType = {
+			name ="lord_high_councilor_name"
+			position = { x = 240 y = 180 }
+			font = "hoi_18mbs"
+			text = "get_lord_high_councilor"
+			maxWidth = 400
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		instantTextBoxType = {
+			name ="lord_high_councilor_tag"
+			position = { x = 240 y = 200 }
+			font = "hoi_18mbs"
+			text = "get_lord_high_councilor_tag"
+			maxWidth = 400
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+
+	containerWindowType = {
+		name = "grand_council_button_container"
+		position = { x = 600 y = -10 }
+		show_sound = open_sub_window
+
+		buttonType = {
+			name = "grand_council_button"
+			spriteType = "GFX_grand_council_button"
+			position = { x = 805 y = 10 }
+			orientation = "UPPER_RIGHT"
+			pdx_tooltip = "grand_council_button_tooltip"
+		}
+	}
+}

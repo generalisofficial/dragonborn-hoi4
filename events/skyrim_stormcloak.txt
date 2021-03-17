@@ -9,7 +9,7 @@ country_event = {
 	trigger = {
 		original_tag = ESM
 		has_cosmetic_tag = ESM_STORMCLOAK
-		date > 4201.1.1
+		date > 201.1.1
 		SKY = { exists = no }
 		has_war = no
 		owns_state = 16

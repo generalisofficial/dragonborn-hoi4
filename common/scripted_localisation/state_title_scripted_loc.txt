@@ -1,0 +1,92 @@
+defined_text = {
+	name = GetStateTitle
+	text = {
+		trigger = {
+			THIS = {
+				is_capital = yes
+			}
+		}
+		localization_key = STATE_TITLE_CAPITAL
+	}
+	text = {
+		trigger = {
+			THIS = {
+				state = 233
+			}
+		}
+		localization_key = STATE_TITLE_VOLCANO
+	}
+	text = {
+		trigger = {
+			THIS = {
+				OR = {
+					impassable = yes
+					NOT = {
+						any_country = {
+							owns_state = PREV
+						}
+					}
+				}
+			}
+		}
+		localization_key = STATE_TITLE_IMPASSABLE
+	}
+	text = {
+		trigger = {
+			THIS = {
+				is_owned_by = CYR
+				is_core_of = CYR
+			}
+		}
+		localization_key = STATE_TITLE_COUNTY
+	}
+	text = {
+		trigger = {
+			THIS = {
+				is_owned_by = SKY
+				is_core_of = SKY
+			}
+		}
+		localization_key = STATE_TITLE_HOLD
+	}
+	text = {
+		trigger = {
+			THIS = {
+				OR = {
+					AND = {
+						is_owned_by = RED
+						is_core_of = RED
+					}
+					AND = {
+						is_owned_by = IDR
+						is_core_of = IDR
+					}
+					AND = {
+						is_owned_by = TEL
+						is_core_of = TEL
+					}
+					AND = {
+						is_owned_by = SAD
+						is_core_of = SAD
+					}
+					AND = {
+						is_owned_by = DRS
+						is_core_of = DRS
+					}
+				}
+			}
+		}
+		localization_key = STATE_TITLE_DISTRICT
+	}
+	text = {
+		trigger = {
+			THIS = {
+				is_core_of = owner
+			}
+		}
+		localization_key = STATE_TITLE_DEFAULT_CORE
+	}
+	text = {
+		localization_key = STATE_TITLE_DEFAULT_NOT_CORE
+	}
+}

@@ -1,7 +1,7 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "4171.1.1.12",
+	START_DATE = "171.1.1.12",
 	END_DATE = "5000.1.1.1",
 	MAP_SCALE_PIXEL_TO_KM = 1.114,					-- Yes, we did the math
 	SAVE_VERSION = 7,								-- 1.8.0
@@ -536,7 +536,7 @@ NTechnology = {
 NPolitics = {
 	BASE_LEADER_TRAITS = 3,				-- Base amount of leader traits.
 	MAX_RANDOM_LEADERS = 1,				-- Maximum amount random leader to have per party.
-	BASE_POLITICAL_POWER_INCREASE = 2,	-- Weekly increase of PP.
+	BASE_POLITICAL_POWER_INCREASE = 0,	-- Weekly increase of PP.
 	ARMY_LEADER_COST = 5,					-- cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 	NAVY_LEADER_COST = 5,					-- cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 	LEADER_TRAITS_XP_SHOW = 0.05,			-- Amount of XP a trait needs to be shown in tooltips of a leader.

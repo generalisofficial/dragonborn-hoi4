@@ -1,21 +1,22 @@
 ﻿capital = 186
 
-oob = "DIR_4171"
+oob = "DIR_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
 
 set_convoys = 10
 
 add_ideas = {
     idea_breton
-    nine_divines
+	nine_divines
+	idea_direnni_tower
 }
 
 set_politics = {	
 	ruling_party = isolationist
-	last_election = "4171.1.1"
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -23,6 +24,12 @@ set_politics = {
 set_popularities = {
     internationalist = 3
     pragmatic = 6
-    isolationist = 78
-	jingoist = 13
+    isolationist = 81
+	jingoist = 10
+}
+
+create_country_leader = {
+	name = "Medora Direnni"
+	picture = "Medora_Direnni.dds"
+	ideology = isolationist_ideology
 }

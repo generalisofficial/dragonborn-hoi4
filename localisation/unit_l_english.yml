@@ -140,8 +140,8 @@
  UNSET_SHIP_PRIDE_OF_FLEET_POPUP:0 "§HUnassign Pride of the Fleet§!"
  UNSET_SHIP_PRIDE_OF_FLEET_POPUP_DESC:0 "Are you sure you want to §RUnassign§! $NAME|H$ from §HPride of the Fleet§!?\n\nIt will cost $COST|R$ £pol_power  to unassign and you will §RLose§! following bonuses:\n$BONUS$"
  
- NOT_ENOUGH_PP_TO_UNASSIGN:0 "\n\n§RNot enough Political Power§!"
- NOT_ENOUGH_PP_TO_DISBAND_POTF:0 "\n\n§RNot enough Political Power to unassign §!§HPride of the Fleet§!"
+ NOT_ENOUGH_PP_TO_UNASSIGN:0 "\n\n§RNot enough Septims§!"
+ NOT_ENOUGH_PP_TO_DISBAND_POTF:0 "\n\n§RNot enough Septims to unassign §!§HPride of the Fleet§!"
  SELECT_HOME_BASE:0 "Select home base for selected fleets"
  SET_TASK_FORCES_AS_RESERVE_FLEET:0 "Set the selected task forces as reserve fleets"
  SET_SHIPS_AS_RESERVE_FLEET:0 "Split the selected ships into a reserve fleet"

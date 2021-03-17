@@ -1,0 +1,90 @@
+﻿add_namespace = dres
+
+#An Emergency Session
+country_event = {
+	id = dres.1
+	title = dres.1.t
+	desc = dres.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.1.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "House Council"
+			picture = "House_Council.dds"
+			ideology = isolationist_ideology
+		}
+		complete_national_focus = DRS_an_emergency_session
+	}
+}
+
+#The New Grandmaster
+country_event = {
+	id = dres.2
+	title = dres.2.t
+	desc = dres.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.2.a
+		set_politics = {
+			ruling_party = jingoist
+		}
+	}
+}
+
+#Send a Letter North
+country_event = {
+	id = dres.3
+	title = dres.3.t
+	desc = dres.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.3.a
+	}
+}
+
+#Make Big Promises - Grand Council Leader
+country_event = {
+	id = dres.4
+	title = dres.4.t
+	desc = dres.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.4.a
+		DRS = { country_event = dres.5 }
+	}
+}
+
+#Make Big Promises - Dres
+country_event = {
+	id = dres.5
+	title = dres.5.t
+	desc = dres.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.5.a
+	}
+}
+
+#And Praise The Reclamations
+country_event = {
+	id = dres.6
+	title = dres.6.t
+	desc = dres.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = dres.6.a
+	}
+}

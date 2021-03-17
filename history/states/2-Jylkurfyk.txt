@@ -4,19 +4,17 @@ state={
 	name="STATE_2"
 
 	history={
-		owner = JLF
 		victory_points = {
 			1118 3 
 		}
 		buildings = {
 			infrastructure = 1
 			1118 = {
-				naval_base = 1
+				port = 1
 
 			}
 
 		}
-		add_core_of = JLF
 
 	}
 

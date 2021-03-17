@@ -120,6 +120,10 @@ country_event = {
 				transfer_state = 43
 			}
 		}
+		every_country = {
+			limit = { is_subject_of = CYR has_idea = nine_divines }
+			add_ideas = eight_divines
+		}
 	}
 }
 

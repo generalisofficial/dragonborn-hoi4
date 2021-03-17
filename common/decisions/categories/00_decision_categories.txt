@@ -1,9 +1,34 @@
+debug = {
+
+    icon = decision_category_generic
+
+	allowed = {
+		is_debug = yes
+		is_ai = no
+	}
+}
+
 formable_nations = {
 
     icon = generic_formable_nations
 
 	allowed = {
 		always = yes
+	}
+}
+
+unifying_morrowind = {
+
+    icon = generic_formable_nations
+
+	allowed = {
+		OR = {
+			original_tag = DRS
+			original_tag = IDR
+			original_tag = RED
+			original_tag = SAD
+			original_tag = TEL
+		}
 	}
 }
 
@@ -46,6 +71,15 @@ topal_island_dispute = {
 }
 
 dealing_with_the_reachmen = {
+
+    icon = border_conflicts
+
+	allowed = {
+		always = yes
+	}
+}
+
+reclaiming_solstheim = {
 
     icon = border_conflicts
 

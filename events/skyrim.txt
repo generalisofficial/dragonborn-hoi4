@@ -8,8 +8,8 @@ country_event = {
 	
 	trigger = {
 		original_tag = SKY
-		date > 4190.1.1
-		date < 4201.1.1
+		date > 190.1.1
+		date < 201.1.1
 		has_country_leader = { ruling_only = yes name = "Istlod" }
 	}
 
@@ -19,6 +19,7 @@ country_event = {
 	
 	option = {
 		name = skyrim.1.a
+		kill_country_leader = yes
 		create_country_leader = {
 	        name = "Torygg"
 	        picture = "Torygg.dds"
@@ -39,8 +40,9 @@ country_event = {
 	trigger = {
 		original_tag = SKY
 		is_subject_of = CYR
-		date > 4201.2.1
+		date > 201.2.1
 		has_idea = idea_white_gold_concordat
+		has_global_flag = stormcloaks_formed
 		has_country_leader = { ruling_only = yes name = "Torygg" }
 	}
 
@@ -130,6 +132,9 @@ country_event = {
 			transfer_state = 192
 			transfer_state = 190
 			transfer_state = 191
+			transfer_state = 227
+			transfer_state = 222
+			transfer_state = 223
 			declare_war_on = {
 	            target = SKY
 	            type = civil_war
@@ -187,7 +192,7 @@ country_event = {
 	
 	trigger = {
 		original_tag = SKY
-		date > 4201.1.1
+		date > 201.1.1
 		ESM = { exists = no }
 		has_war = no
 		owns_state = 16
@@ -238,6 +243,43 @@ news_event = {
 		trigger = {
 			original_tag = ESM
 			has_cosmetic_tag = ESM_STORMCLOAK
+		}
+	}
+}
+
+#Formation of the Stormcloaks
+country_event = {
+	id = skyrim.7
+	title = skyrim.7.t
+	desc = skyrim.7.d
+	
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = SKY
+		NOT = { has_idea = nine_divines }
+		has_idea = idea_white_gold_concordat
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+	option = {
+		name = skyrim.7.a
+		set_global_flag = stormcloaks_formed
+		set_party_name = { 
+			ideology = isolationist
+			long_name = SKY_Stormcloaks_party
+			name = SKY_Stormcloaks_party
+		}
+		create_country_leader = {
+			name = "Ulfric Stormcloak"
+			picture = "Ulfric_Stormcloak.dds"
+			ideology = isolationist_ideology
+			traits = {
+				great_war_hero
+			}
 		}
 	}
 }

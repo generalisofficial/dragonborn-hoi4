@@ -50,6 +50,9 @@
  skyrim.5.a:0 "Jarl Elisif the Fair will lead."
  skyrim.6.t:0 "CIVIL WAR IN SKYRIM!"
  skyrim.6.d:0 "After Jarl of Eastmarch, Ulfric Stormcloak, marched into Solitude and murdered High King Torygg, conflict was inevitable. It has now arrived, with Ulfric declaring a rebellion against Imperial rule in Skyrim. Ulfric has been joined by the Old Holds of Winterhold, The Rift and The Pale, as well as his own Eastmarch. The uprising is opposed by newly-arrived General Tullius of the Imperial Legion, who has gathered Legion forces to battle the Stormcloaks."
+ skyrim.7.t:0 "Formation of the Stormcloaks"
+ skyrim.7.d:0 "With the signing of the White-Gold Concordat, conflict in Skyrim was inevitable. It appears to be approaching, with the apparent formation of an underground movement by the newly instated Jarl of Eastmarch, Ulfric Stormcloak. The movement appears to be working towards the reinstating of Talos worship across Skyrim, possibly through violent means. There is no telling what the Jarl and his companions might be capable of."
+ skyrim.7.a:0 "Will this become a problem?"
 
  #Stormcloak Skyrim
  skyrim_stormcloak.1.t:0 "The Moot"
@@ -116,14 +119,45 @@
  captured_city.1.a:0 "The Emperor is finished."
  captured_city.1.b:0 "By the Emperor, we'll be back!"
  captured_city.1.c:0 "Altmer reigns supreme over Tamriel."
- captured_city.2.t:0 "FALL OF ALINOR"
- captured_city.2.d:0 "As the elves of Alinor prepared their daily breakfast, the greatest assaulting force in the history of the Summerset Isles appeared on the horizon. After a long campaign, Emperor [CYR.GetLeader] led a force of tens of thousands into the Aldmeri capital, gruesomly battling fanatical Altmer defenders along the way. Thousands of civilians were massacred as fire from catapults in the hills rained across the sky, and the great towers of the city fell one by one. Alinor Docks was captured by Imperial Navy forces in brutal combat, as thousands of legionnaires charged the city's Temple of the Divines. Meanwhile, retreating Altmer forces destroyed and burned the old Alinor Royal Palace to prevent its capture by the Legion, erasing history stretching back to the founding of the city. With the battle coming to a conclusion and most of the city destroyed, [ALD.GetLeader] and the rest of the government fled the city through secret tunnels, vowing to continue the fight from elsewhere.
+ captured_city.2.t:0 "THE FALL OF ALINOR"
+ captured_city.2.d:0 "As the elves of Alinor prepared their daily breakfast, the greatest assaulting force in the history of the Summerset Isles appeared on the horizon. After a long campaign, Emperor [CYR.GetLeader] led a force of tens of thousands into the Aldmeri capital, gruesomly battling fanatical Altmer defenders along the way. Thousands of civilians were massacred as fire from catapults in the hills rained across the sky, and the great towers of the city fell one by one. Alinor Docks was captured by Imperial Navy forces in brutal combat, as thousands of legionnaires charged the city's Temple of the Divines. Meanwhile, retreating Altmer forces destroyed and burned the old Alinor Royal Palace to prevent its capture by the Legion, erasing history stretching back to the founding of the city. With the battle coming to a conclusion and most of the city destroyed, [ALD.GetLeader] and the rest of the government fled the city through secret tunnels, vowing to continue the fight from elsewhere."
  captured_city.2.a:0 "What a battle!"
  captured_city.2.b:0 "For the Empire!"
  captured_city.2.c:0 "We're not finished that easily."
+ captured_city.3.t:0 "THE BATTLE OF RAVEN ROCK"
+ captured_city.3.d:0 "After the Red Year, the island of Solstheim along with its capital Raven Rock was given to Morrowind by the High King of Skyrim, as place to settle refugees after the recent brutality. This sidelined the island's local Skaal Nords, and the influx of Dunmer forced them to retreat to the barren northern part of the island. This all changed today, as Skaal soldiers broke through House Redoran defenses and captured Raven Rock. Skaal were seen dragging Dunmer civilians out of their homes, and Councillor Lleril Morvayn was publically executed in the middle of the town. With the island's only port town captured by the Skaal, the future looks grim for any remaining House Redoran troops."
+ captured_city.3.a:0 "Such brutality!"
+ captured_city.3.b:0 "HOW DARE THEY!"
+ captured_city.3.c:0 "Solstheim is ours!"
 
  #Hammerfell
  hammerfell.1.t:0 "Abandoned by the Emperor"
  hammerfell.1.d:0 "With the Emperor preparing to accept Aldmeri peace terms, we have officially been rescinded as an Imperial province. The Imperial Legion has been ordered back to Cyrodiil, leaving our defenses weakened. Harassed by angry protestors, Forebear High King Azacean quickly announced his resignation, before being escorted to exile in Cyrodiil by Legionnaires. With the resulting power vacuum and popular hate against the Empire, Crown-aligned forces are attempting to seize power in Hammerfell."
  hammerfell.1.a:0 "The Crowns take power"
  hammerfell.1.b:0 "The uprising is crushed"
+
+ #Dres
+ dres.1.t:0 "An Emergency Session"
+ dres.1.d:0 "After a long and painful period of illness, Grandmaster [DRS.GetLeader] has peacefully passed away in his sleep. The Grandmaster served our House honorably for most of his life, fending off threats and keeping our people together. It is now time for the House Council to begin the process of choosing our House's next Grandmaster. In the meantime, the House Council will take charge of the day-to-day duties of running the House."
+ dres.1.a:0 "Rest in peace!"
+ dres.2.t:0 "The New Grandmaster"
+ dres.2.d:0 "With the recent death of our Grandmaster, the House Council has been working day and night to select a new Grandmaster to lead our House forward. The selection process has today come to a conclusion, with the new Grandmaster being revealed as Lloros Dres. Lloros has consistently expressed militarist and anti-Argonian views, leading us to believe that the House is on a war footing under the new Grandmaster."
+ dres.2.a:0 "Hail the new Grandmaster!"
+ dres.3.t:0 "Send a Letter North"
+ dres.3.d:0 "Mr. [ROOT.GetLeaderTitle], we've got mail! \n\n “[ROOT.GetLeader]! I'm sorry we haven't had a chance to properly meet yet. This is [DRS.GetLeaderTitle] [DRS.GetLeader], and i would like to express my reassurances that the Grand Council will continue to have the complete support of House Dres in the future. We look forward to continued cooperation, and i would also like to express my wishes for the Council to pay greater attention to getting the Argonian invaders out of our southern lands. Have a nice day, [ROOT.GetLeaderTitle]!”"
+ dres.3.a:0 "We thank the [DRS.GetLeaderTitle] for his kind words!"
+ dres.4.t:0 "Make Big Promises"
+ dres.4.d:0 "As the Grandmasters of the Great Houses were summoned to the next summit of the Grand Council, nobody expected any trouble. However as the meeting was coming to a close, [DRS.GetLeaderTitle] [DRS.GetLeader] of House Dres began ranting to the other participants over how little was being done to contain the Argonian threat. The Dres representative continued on about how they were holding the Southern border all by themselves, before being censured by the Lord High Councilor. Scandalous indeed, but is the Dres representative right?"
+ dres.4.a:0 "Show some respect!"
+ dres.5.t:0 "Make Big Promises"
+ dres.5.d:0 "After today's stunt by [ROOT.GetLeaderTitle] [ROOT.GetLeader], our House's position and our goals have been made perfectly clear to the rest of the Council. They may not like us very much, but they at least know that we respect the institution of the Great Council, and that we do not pose a threat to them. With this development, we are free to pursue whatever course of action we see fit."
+ dres.5.a:0 "Splendid!"
+ dres.6.t:0 "And Praise The Reclamations"
+ dres.6.d:0 "In an unexpected visit, [DRS.GetLeaderTitle] [DRS.GetLeader] of House Dres arrived in Mournhold this morning by carriage. The [DRS.GetLeaderTitle] went on to have a private meeting with the Archcanon of the Mournhold Temple, however the contents of this meeting are still unknown. The [DRS.GetLeaderTitle] eventually departed the city after visiting several important religious locations."
+ dres.6.a:0 "What might they have discussed?"
+
+ #System
+ system.2.t:0 "§R[FROM.GetNameWithFlag] secedes!§!"
+ system.2.d:0 "[FROM.GetName] seems to think we're messing around! This afternoon, [FROM.GetLeaderTitle] [FROM.GetLeader] declared their nation an independent state, free from our guiding light. Obviously, this cannot stand!"
+ system.2.a:0 "Restore order at once!"
+ system.2.b:0 "If they so wish."

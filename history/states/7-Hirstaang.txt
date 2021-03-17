@@ -6,22 +6,25 @@ state={
 	history={
 		owner = RED
 		victory_points = {
-			2367 2
-		}
-		victory_points = {
-			4647 1
+			4647 1 
 		}
 		buildings = {
+			infrastructure = 2
+			4647 = {
+				fort = 3
+
+			}
 
 		}
 		add_core_of = SKL
-		add_core_of = RED
+		add_claim_by = RED
+
 	}
 
 	provinces={
-		2004 2005 2367 2368 2372 4113 4114 4599 4600 4646 4647 
+		2004 2005 2372 4113 4599 4600 4646 4647 
 	}
-	manpower=1579
+	manpower=5718
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

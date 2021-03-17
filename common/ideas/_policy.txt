@@ -17,6 +17,13 @@ ideas = {
 			
 			default = yes
 			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
 		}
 		
 		nine_divines = {
@@ -33,6 +40,13 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
 		}
 		
 	    nordic_pantheon = {
@@ -49,6 +63,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		new_temple = {
@@ -65,6 +82,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		altmeri_pantheon = {
@@ -81,6 +101,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		bosmeri_pantheon = {
@@ -97,6 +120,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		khajiiti_pantheon = {
@@ -113,6 +139,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		redguard_pantheon = {
@@ -129,6 +158,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		bretony_pantheon = {
@@ -145,6 +177,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		the_hist = {
@@ -161,6 +196,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 		
 		orcish_pantheon = {
@@ -177,91 +215,277 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		all_maker = {
+						
+			cost = 200
+			removal_cost = -1
+			
+			available = {
+			    original_tag = SKL
+			}
+
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+			ai_will_do = {
+				factor = 0
+			}
 		}
 	}
-	
-	guilds = { 
+
+	taxation = { 
 		law = yes
 
-		thieves_guild = {
-			cost = 100
-			removal_cost = -1
-			
+		very_high_taxes = {
+
 			available = {
-			    always = yes
+
 			}
+						
+			cost = 150
+			removal_cost = -1
+			level = 5
 			
 			modifier = {
-			    political_power_gain = 0.3
-				stability_factor = -0.15
+				political_power_gain = 2.0
+				stability_factor = -0.2
 			}
 			
 			cancel_if_invalid = no
+
+			ai_will_do = {
+				factor = 1
+   			}
 		}
 		
-		fighters_guild = {
-						
-			cost = 100
-			removal_cost = -1
+		high_taxes = {
 			
 			available = {
-			    always = yes
-			}
 
+			}
+			
+			
+			cost = 150
+			removal_cost = -1
+			level = 4
+			
 			modifier = {
-			    conscription_factor = 0.1
+				political_power_gain = 1.5
+				stability_factor = -0.1
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+   			}
+		}
+
+		moderate_taxes = {
+
+			available = {
+
+			}
+						
+			cost = 150
+			removal_cost = -1
+			level = 3
+			
+			modifier = {
+				political_power_gain = 1.0
 			}
 			
 			cancel_if_invalid = no
+			default = yes
+
+			ai_will_do = {
+   				factor = 1
+   			}
+		}
+
+		low_taxes = {
+
+			available = {
+
+			}
+						
+			cost = 150
+			removal_cost = -1
+			level = 2
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+   			}
+		}
+
+		very_low_taxes = {
+
+			available = {
+
+			}
+						
+			cost = 150
+			removal_cost = -1
+			level = 1
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.2
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+   			}
+		}
+	}
+
+	tariffs = { 
+		law = yes
+
+		very_high_tariffs = {
+
+			available = {
+
+			}
+						
+			removal_cost = -1
+			level = 5
+			
+			modifier = {
+				political_power_gain = 2.0
+				min_export = 0.1
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 100
+					has_government = jingoist
+				}
+   			}
 		}
 		
-		college_of_winterhold = {
-						
-			cost = 100
-			removal_cost = -1
+		high_tariffs = {
 			
 			available = {
-			    always = yes
-			}
 
-			modifier = {
-			
 			}
+			
+			
+			removal_cost = -1
+			level = 4
+			
+			modifier = {
+				political_power_gain = 1.5
+				min_export = 0.25
+			}
+			
+			default = yes
 			
 			cancel_if_invalid = no
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 25
+					OR = {
+						has_government = jingoist
+						has_government = isolationist
+					}
+				}
+   			}
 		}
-		
-		the_companions = {
-						
-			cost = 100
-			removal_cost = -1
-			
-			available = {
-			    always = yes
-			}
 
+		moderate_tariffs = {
+
+			available = {
+
+			}
+						
+			removal_cost = -1
+			level = 3
+			
 			modifier = {
-			    army_morale_factor = 0.2
-				army_org = 5
+				political_power_gain = 1.0
+				min_export = 0.5
 			}
 			
 			cancel_if_invalid = no
+			default = yes
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 25
+					has_government = pragmatic
+				}
+   			}
 		}
-		
-		dark_brotherhood = {
-						
-			cost = 100
-			removal_cost = -1
-			
-			available = {
-			    always = yes
-			}
 
+		low_tariffs = {
+
+			available = {
+
+			}
+						
+			removal_cost = -1
+			level = 2
+			
 			modifier = {
-				trade_opinion_factor = -0.25
+				political_power_gain = 0.5
+				min_export = 0.75
 			}
 			
 			cancel_if_invalid = no
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 25
+					has_government = internationalist
+				}
+   			}
+		}
+
+		very_low_tariffs = {
+
+			available = {
+
+			}
+						
+			removal_cost = -1
+			level = 1
+			
+			modifier = {
+				political_power_gain = 0.1
+				min_export = 0.9
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+   			}
 		}
 	}
 }

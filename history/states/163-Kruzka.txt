@@ -1,26 +1,28 @@
+
 state={
 	id=163
 	name="STATE_163"
-	
-	
+
 	history={
 		owner = SKY
 		victory_points = {
-			4282 1 
+			2458 2
 		}
 		buildings = {
-		    infrastructure = 2
-            4282 = {
-				naval_base = 2
+			infrastructure = 2
+			2458 = {
+				port = 2
 
 			}
+
 		}
 		add_core_of = SKY
+		add_core_of = KZK
 
 	}
-	
+
 	provinces={
-		1550 2457 2458 2459 4282 4877 10552
+		1550 2458 4282 
 	}
 	manpower=218
 	buildings_max_level_factor=1.000

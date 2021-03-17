@@ -1,0 +1,17 @@
+guiTypes = {
+	containerWindowType = {
+		name = "state_title_container"
+		position = { x = 0 y = 0 }
+
+		instantTextBoxType = {
+			name ="state_title_text"
+			position = { x = 145 y = 1 }
+			font = "hoi_16mbs"
+			text = "state_title"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+}

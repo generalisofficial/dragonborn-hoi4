@@ -14,11 +14,11 @@ state={
 		buildings = {
 		    infrastructure = 3
 			13636 = {
-				naval_base = 3
+				port = 3
 
 			}
 			5563 = {
-				naval_base = 1
+				port = 1
 
 			}
 
@@ -30,7 +30,7 @@ state={
 	provinces={
 		2939 2940 3433 3587 3588 3589 3595 3596 3597 3598 5561 5562 5563 5626 5641 6067 13635 13636 
 	}
-	manpower=8092
+	manpower=19456
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -17,14 +17,14 @@ state={
 		buildings = {
 			infrastructure = 4
 			13583 = {
-				naval_base = 4
+				port = 4
 
 			}
 
 		}
 		add_core_of = DAG
 		add_core_of = WAY
-		4201.1.1 = {
+		201.1.1 = {
 			owner = WAY
 
 		}

@@ -1,0 +1,101 @@
+defined_text = {
+	name = GetGrandCouncilCapital
+	text = {
+		trigger = {
+			RED = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_grand_council_capital_RED
+	}
+	text = {
+		trigger = {
+			IDR = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_grand_council_capital_IDR
+	}
+	text = {
+		trigger = {
+			TEL = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_grand_council_capital_TEL
+	}
+	text = {
+		trigger = {
+			DRS = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_grand_council_capital_DRS
+	}
+	text = {
+		trigger = {
+			SAD = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_grand_council_capital_SAD
+	}
+}
+
+defined_text = {
+	name = GetLordHighCouncilor
+	text = {
+		trigger = {
+			RED = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_RED
+	}
+	text = {
+		trigger = {
+			IDR = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_IDR
+	}
+	text = {
+		trigger = {
+			TEL = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_TEL
+	}
+	text = {
+		trigger = {
+			DRS = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_DRS
+	}
+	text = {
+		trigger = {
+			SAD = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_SAD
+	}
+}
+
+defined_text = {
+	name = GetLordHighCouncilorTag
+	text = {
+		trigger = {
+			RED = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_tag_RED
+	}
+	text = {
+		trigger = {
+			IDR = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_tag_IDR
+	}
+	text = {
+		trigger = {
+			TEL = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_tag_TEL
+	}
+	text = {
+		trigger = {
+			DRS = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_tag_DRS
+	}
+	text = {
+		trigger = {
+			SAD = { has_country_flag = grand_council_leader }
+		}
+		localization_key = get_lord_high_councilor_tag_SAD
+	}
+}

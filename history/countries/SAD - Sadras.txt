@@ -1,34 +1,44 @@
 ﻿capital = 158
 
-oob = "SAD_4171"
+oob = "SAD_171"
 
 set_technology = {
-
+	infantry_weapons = 1
 }
+
 set_convoys = 5
 
 add_ideas = {
+	new_temple
     idea_dunmer
-	idea_legacy_of_the_red_year
+	idea_grand_council_member
 	idea_dunmer_revanchism
+	idea_the_shadow_house
+	#idea_religious_problems
 }
 
 set_politics = {	
-	ruling_party = internationalist
-	last_election = "4171.1.1"
+	ruling_party = pragmatic
+	last_election = "171.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    internationalist = 76
+    internationalist = 21
     isolationist = 3
-    pragmatic = 21
+    pragmatic = 76
     jingoist = 0
 }
 
 create_country_leader = {
-	name = "Slythyr Sadras"
-	picture = "Slythyr_Sadras.dds"
+	name = "Gaelion Sadras"
+	picture = "Gaelion_Sadras.dds"
+	ideology = pragmatic_ideology
+}
+
+create_country_leader = {
+	name = "Nireli Arinith"
+	picture = "Nireli_Arinith.dds"
 	ideology = internationalist_ideology
 }

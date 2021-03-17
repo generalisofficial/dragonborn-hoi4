@@ -5,6 +5,7 @@ strategic_region={
 	provinces={
 		7293 7374 7375 7376 7377 8164 8165 8166 8366 8367 8368 9685 9845 10612 10865 11555 
 	}
+	naval_terrain=water_fjords
 	weather={
 	}
 }

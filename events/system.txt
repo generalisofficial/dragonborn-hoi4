@@ -1,0 +1,47 @@
+﻿add_namespace = system
+
+#Grand Council spirit removal
+country_event = {
+	id = system.1
+	title = system.1.t
+	desc = system.1.d
+	
+	trigger = {
+		has_idea = idea_grand_council_member
+		NOT = { has_country_flag = grand_council_leader }
+		any_country = { 
+			has_country_flag = grand_council_leader
+			NOT = { is_in_faction_with = ROOT }
+		}
+	}
+
+	hidden = yes
+
+	immediate = {
+		remove_ideas = idea_grand_council_member
+	}
+}
+
+#Puppet wargoal event
+country_event = {
+	id = system.2
+	title = system.2.t
+	desc = system.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = system.2.a
+		ai_chance = {
+			factor = 100
+		}
+		create_wargoal = { type = puppet_wargoal_focus target = FROM }
+	}
+
+	option = {
+		name = system.2.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

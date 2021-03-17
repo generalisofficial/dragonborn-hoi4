@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Redguard Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	
+	}
+}
+
+units = {
+	division = {
+		name = "Sentinel Militia"
+		location = 5161
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Hegathe Militia"
+		location = 1872
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Taneth Militia"
+		location = 13671
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Rihad Militia"
+		location = 13663
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Skaven Militia"
+		location = 13680
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Elinhir Militia"
+		location = 13683
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Dragonstar Militia"
+		location = 13701
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Riverpoint Militia"
+		location = 2201
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Satakalaam Militia"
+		location = 2
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Gilane Militia"
+		location = 13669
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		name = "Stonedale Militia"
+		location = 2201
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Lainlyn Militia"
+		location = 3178
+		division_template = "Redguard Militia"
+		start_experience_factor = 0.30
+		start_equipment_factor = 1.0
+	}

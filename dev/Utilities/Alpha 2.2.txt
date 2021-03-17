@@ -1,0 +1,25 @@
+0.2.2
+
+- (Major) Updated the mod to HOI4 version 10.4
+- (Major) Implemented placeholder units
+
+- (Bugfix) Fixed crashing for players without Together for Victory (TfV no longer required)
+- (Bugfix) Fixed the glitch with the map lights at night
+
+- (Addition) Added a Leader Titles mechanic
+- (Addition) Added a State Titles mechanic
+- (Addition) Added a Grand Council mechanic
+- (Addition) Added a submods menu to the start screen
+- (Addition) Added a Debug decisions category to show in-development features (only available with the "-debug" Steam launch option) 
+- (Addition) Incorporated the "Player-Led Peace Conferences" mod as a game rule
+
+- (Map) Major map work in Skyrim
+- (Map) Begun removing the navigable rivers (the cons outweigh the pros)
+- (Map) Added trees to the map 
+- (Map) Added impassable mountain ranges in Tamriel
+- (Map) Added weather to Tamriel
+
+- (Misc) Reworked the politics of Morrowind
+- (Misc) Changed tons of country colors
+- (Misc) Reworked many of the ingame fonts and replaced them with a new one (Planewalker)
+- (Misc) Reworked puppet levels (TfV only)
