@@ -11,8 +11,15 @@ state={
 		victory_points = {
 			5575 2 
 		}
+		victory_points = {
+			793 1 
+		}
 		buildings = {
 			infrastructure = 3
+			793 = {
+				fort = 2
+
+			}
 
 		}
 		add_core_of = SKY
@@ -21,7 +28,7 @@ state={
 	}
 
 	provinces={
-		260 261 262 792 793 794 795 796 797 2503 3615 3616 3936 4804 5575 5677 13446 13608 13860 
+		260 261 262 792 793 794 795 796 797 2503 2881 3615 3616 3936 4804 5575 5677 13446 13608 13860 
 	}
 	manpower=1620
 	buildings_max_level_factor=1.000

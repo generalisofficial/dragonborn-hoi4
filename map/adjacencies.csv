@@ -10,23 +10,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2567;2568;sea;2825;-1;-1;-1;-1;;Old Hroldan
 2329;5749;sea;2461;-1;-1;-1;-1;;Karthwasten
 2744;2745;sea;6189;-1;-1;-1;-1;;Dragon Bridge
-5667;2742;sea;6163;-1;-1;-1;-1;;Hjaalmarch
-2745;2741;sea;4681;-1;-1;-1;-1;;Hjaalmarch
-2750;4981;sea;3469;-1;-1;-1;-1;;Robber's Gorge
-2303;2933;sea;2881;-1;-1;-1;-1;;Morthal
-2737;3586;sea;6198;-1;-1;-1;-1;;Hjaalmarch
-389;2932;sea;4727;-1;-1;-1;-1;;Hjaalmarch
-2931;2932;sea;6143;-1;-1;-1;-1;;Hjaalmarch
-4728;2932;sea;4727;-1;-1;-1;-1;;Hjaalmarch
-4728;13461;sea;5013;-1;-1;-1;-1;;Hjaalmarch
-2738;13461;sea;4956;-1;-1;-1;-1;;Hjaalmarch
-2933;13461;sea;4956;-1;-1;-1;-1;;Hjaalmarch
-2738;2933;sea;4956;-1;-1;-1;-1;;Hjaalmarch
-2301;4728;sea;5014;-1;-1;-1;-1;;Hjaalmarch
-2738;2737;sea;2882;-1;-1;-1;-1;;Hjaalmarch
-2931;3937;sea;1424;-1;-1;-1;-1;;Hjaalmarch
-3474;3937;sea;2883;-1;-1;-1;-1;;Hjaalmarch
-3474;2739;sea;2884;-1;-1;-1;-1;;Hjaalmarch
 661;662;sea;4497;-1;-1;-1;-1;;Riverwood
 4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
 2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
@@ -35,7 +18,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing
 2679;2678;sea;591;-1;-1;-1;-1;;Darkwater Pass
 2307;5416;sea;13453;-1;-1;-1;-1;;Faldar's Tooth
-2058;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
+5013;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
 4670;3745;sea;9783;-1;-1;-1;-1;;Leyawiin
 3794;4038;sea;6123;-1;-1;-1;-1;;Larsius River Bridge 1
 4047;3541;sea;13512;-1;-1;-1;-1;;Larsius River Bridge 2

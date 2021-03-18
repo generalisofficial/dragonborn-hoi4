@@ -106,6 +106,14 @@ defined_text = {
 		localization_key = TITLE_MANE
 	}
 	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Tullius" }
+			}
+		}
+		localization_key = TITLE_MILITARY_GOVERNOR
+	}
+	text = {
 		localization_key = TITLE_DEFAULT
 	}
 }

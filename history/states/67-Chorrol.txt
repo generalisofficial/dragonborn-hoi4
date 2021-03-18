@@ -11,8 +11,22 @@ state={
 		victory_points = {
 			3924 1
 		}
+		victory_points = {
+			382 1
+		}
+		victory_points = {
+			2362 1
+		}
 		buildings = {
             infrastructure = 3
+			382 = {
+				fort = 3
+
+			}
+			2362 = {
+				fort = 2
+
+			}
 			
 		}
 		add_core_of = CYR

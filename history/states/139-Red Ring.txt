@@ -6,13 +6,65 @@ state={
 	history={
 		owner = CYR
 		victory_points = {
-			5930 1
+			5930 1 
+		}
+		victory_points = {
+			1424 2
+		}
+		victory_points = {
+			4956 2
+		}
+		victory_points = {
+			3917 1
 		}
 		victory_points = {
 			2151 1
 		}
+		victory_points = {
+			1732 1
+		}
+		victory_points = {
+			5807 1
+		}
+		victory_points = {
+			5013 1
+		}
+		victory_points = {
+			1620 1
+		}
+		victory_points = {
+			4548 1
+		}
 		buildings = {
-		    infrastructure = 5
+			infrastructure = 5
+			3917 = {
+				fort = 2
+
+			}
+			2151 = {
+				fort = 2
+
+			}
+			1732 = {
+				fort = 2
+
+			}
+			5807 = {
+				fort = 2
+
+			}
+			5013 = {
+				fort = 2
+
+			}
+			1620 = {
+				fort = 2
+
+			}
+			4548 = {
+				fort = 2
+
+			}
 
 		}
 		add_core_of = CYR
@@ -20,7 +72,7 @@ state={
 	}
 
 	provinces={
-		1283 1288 1303 1620 1621 1732 1733 2058 2151 2152 3067 3785 3917 4428 4548 5077 5807 5854 5930 
+		1283 1288 1303 1424 1620 1621 1732 1733 2058 2151 2152 3067 3785 3917 4428 4548 4956 5013 5014 5077 5619 5807 5854 5930 6165 
 	}
 	manpower=2171
 	buildings_max_level_factor=1.000

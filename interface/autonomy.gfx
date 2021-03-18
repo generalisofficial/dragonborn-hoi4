@@ -1,0 +1,79 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_subject_overlay"
+		texturefile = "gfx/interface/autonomy/subject_overlay.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
+	}
+
+	progressbartype = {
+		name = "GFX_subject_progressbar_long"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/autonomy/subject_progress_bar_long.dds"
+		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_long_bg.dds"
+		size = { x = 181 y = 16 }
+		effectFile = "gfx/FX/progress.lua"
+	}	
+	
+	progressbartype = {
+		name = "GFX_subject_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/autonomy/subject_progress_bar.dds"
+		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_bg.dds"
+		size = { x = 93 y = 16 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_unknown_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_unknown_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_free_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_annex_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_annex_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_tributary_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_tributary_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_vassal_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_supervised_state.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_imperial_province_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_province_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_imperial_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_protectorate_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_collaboration_government_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_collaboration_government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_level_button"
+		textureFile = "gfx/interface/autonomy/autonomy_level_button.dds"
+	}
+
+}

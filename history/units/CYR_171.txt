@@ -213,7 +213,7 @@ units = {
 
 	division = {
 		name = "26th Legion"
-		location = 5047
+		location = 13466
 		division_template = "Standard Legion"
 		start_experience_factor = 0.30
 		start_equipment_factor = 1.0
