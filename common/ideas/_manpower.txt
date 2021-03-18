@@ -94,7 +94,7 @@ ideas = {
 				conscription = 0.3
 				production_speed_buildings_factor = -0.1
 				industrial_capacity_factory = -0.1
-				industrial_capacity_shipyard = -0.1
+				industrial_capacity_dockyard = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -135,7 +135,7 @@ ideas = {
 				conscription = 0.4
 				production_speed_buildings_factor = -0.25
 				industrial_capacity_factory = -0.25
-				industrial_capacity_shipyard = -0.25
+				industrial_capacity_dockyard = -0.25
 			}
 			
 			cancel_if_invalid = no
@@ -176,7 +176,7 @@ ideas = {
 				conscription = 0.7
 				production_speed_buildings_factor = -0.5
 				industrial_capacity_factory = -0.5
-				industrial_capacity_shipyard = -0.5
+				industrial_capacity_dockyard = -0.5
 			}
 			
 			cancel_if_invalid = no
@@ -218,7 +218,7 @@ ideas = {
 				conscription = 0.9
 				production_speed_buildings_factor = -0.7
 				industrial_capacity_factory = -0.7
-				industrial_capacity_shipyard = -0.7
+				industrial_capacity_dockyard = -0.7
 				training_time_factor = 0.3
 			}
 			

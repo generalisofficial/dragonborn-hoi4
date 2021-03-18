@@ -16,7 +16,6 @@ equipments = {
 		
 		upgrades = {
 			tank_reliability_upgrade
-			ac_engine_upgrade
 			tank_armor_upgrade
 			tank_gun_upgrade
 		}

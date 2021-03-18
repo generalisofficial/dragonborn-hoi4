@@ -242,4 +242,14 @@ units = {
 		start_experience_factor = 0.30
 		start_equipment_factor = 1.0
 	}
+
+	fleet = {
+		name = "New West Fleet"
+		naval_base = 3856
+		task_force = {
+			name = "1st Squadron"
+			location = 3856 
+			ship = { name = "Tiber Septim" pride_of_the_fleet = yes definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CYR } } }
+		}
+	}
 }

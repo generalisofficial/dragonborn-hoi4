@@ -61,6 +61,7 @@ CYR_02 = {
 		4 = { "%dth Legion „Cheydinhal“" }
 		5 = { "%dth Legion „Bruma“" }
 		6 = { "%dth Legion „Leyawiin“" }
-		7 = { "Legion of Chorrol" }
+		7 = { "%dth Legion „Anvil“" }
+		8 = { "Legion of Chorrol" }
 	}
 }

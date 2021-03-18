@@ -38,6 +38,6 @@ is_diplomatic_action_valid_offer_join_faction = {
     }
 }
 
-is_diplomatic_action_valid_guarantee_independence = {
+is_diplomatic_action_valid_guarantee = {
 	NOT = { is_subject_of = FROM }
 }

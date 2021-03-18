@@ -2,7 +2,7 @@ NDefines = {
 
 NGame = {
 	START_DATE = "171.1.1.12",
-	END_DATE = "5000.1.1.1",
+	END_DATE = "1000.1.1.1",
 	MAP_SCALE_PIXEL_TO_KM = 1.114,					-- Yes, we did the math
 	SAVE_VERSION = 7,								-- 1.8.0
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
@@ -19,7 +19,7 @@ NGame = {
 	FUEL_RESOURCE = "oil",							-- resource that will give country fuel
 	MAX_EFFECT_ITERATION = 1000,					-- maximum allowed iteration for loop effects
 	MAX_SCRIPTED_LOC_RECURSION = 30,				-- max recursion for scripted localizations
-	HANDS_OFF_START_TAG = "JLF",					-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
+	HANDS_OFF_START_TAG = "SKL",					-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
 },
 
 NDiplomacy = {
@@ -84,7 +84,7 @@ NDiplomacy = {
 	TENSION_VOLUNTEER_FORCE_DIVISION = 0.2,			-- Amount of tension generated for each sent division
 	TENSION_DECAY = 0.1,							-- Each months tension decays this much
 	TENSION_SIZE_FACTOR = 1.0,						-- All action tension values are multiplied by this value
-	TENSION_TIME_SCALE_START_DATE = "1936.1.1.12",	-- Starting at this date, the tension values will be scaled down (will be equal to 1 before that)
+	TENSION_TIME_SCALE_START_DATE = "171.1.1.12",	-- Starting at this date, the tension values will be scaled down (will be equal to 1 before that)
 	TENSION_TIME_SCALE_MONTHLY_FACTOR = -0.005,		-- Timed tension scale will be modified by this amount starting with TENSION_TIME_SCALE_START_DATE
 	TENSION_TIME_SCALE_MIN = 0.25,					-- Timed tension scale won't decrease under this value
 	TENSION_GUARANTEE = -5,
