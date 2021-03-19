@@ -1,12 +1,12 @@
 technologies = {
 
-	early_light_cruiser = {
+	early_galleon = {
 
 		enable_equipments = { 
-			light_cruiser_1
+			galleon_1
 		}
 		path = {
-			leads_to_tech = basic_light_cruiser 
+			leads_to_tech = basic_galleon 
 			research_cost_coeff = 1
 		}
 		
@@ -35,20 +35,15 @@ technologies = {
 		}
 	}
 	
-	basic_light_cruiser = {
+	basic_galleon = {
 
 		enable_equipments = { 
-			light_cruiser_2
+			galleon_2
 		}
 		
 		path = {
-			leads_to_tech = improved_light_cruiser 
+			leads_to_tech = improved_galleon 
 			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = basic_heavy_cruiser 
-			research_cost_coeff = 0.75
 		}
 		
 		research_cost = 2
@@ -76,19 +71,15 @@ technologies = {
 		}
 	}
 	
-	improved_light_cruiser = {
+	improved_galleon = {
 
 		enable_equipments = { 
-			light_cruiser_3
+			galleon_3
 		}	
 		
 		path = {
-			leads_to_tech = advanced_light_cruiser 
+			leads_to_tech = advanced_galleon 
 			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = improved_heavy_cruiser 
-			research_cost_coeff = 0.75
 		}
 		
 		research_cost = 2

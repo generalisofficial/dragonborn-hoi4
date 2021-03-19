@@ -29,8 +29,8 @@ bookmarks = {
 			}
 		}
 
-		"BLM"={
-			history = "BLM_GREAT_WAR_DESC"
+		"ARG"={
+			history = "ARG_GREAT_WAR_DESC"
 			ideology = jingoist
 			ideas = {
 			

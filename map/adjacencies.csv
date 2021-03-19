@@ -10,7 +10,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2567;2568;sea;2825;-1;-1;-1;-1;;Old Hroldan
 2329;5749;sea;2461;-1;-1;-1;-1;;Karthwasten
 2744;2745;sea;6189;-1;-1;-1;-1;;Dragon Bridge
-661;662;sea;4497;-1;-1;-1;-1;;Riverwood
 4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
 2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
 4083;4084;sea;6151;-1;-1;-1;-1;;Windhelm Stables

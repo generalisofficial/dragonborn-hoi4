@@ -313,19 +313,7 @@ technologies = {
 		start_year = 171
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @171 }
-		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = paratrooper
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_paratroopers"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			position = { x = 1 y = @1936 }
 		}
 		
 		categories = {
@@ -393,18 +381,6 @@ technologies = {
 		enable_subunits = {
 			marine
 		}
-		
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = marine
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_marines"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 
 		path = {
 			leads_to_tech = marines2
@@ -415,7 +391,7 @@ technologies = {
 		start_year = 171
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @171 }
+			position = { x = 1 y = @1936 }
 		}
 		
 		categories = {
@@ -482,18 +458,6 @@ technologies = {
 		enable_subunits = {
 			mountaineers
 		}
-
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = mountaineers
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_mountineers"
-			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 		
 		path = {
 			leads_to_tech = tech_mountaineers2
@@ -504,7 +468,7 @@ technologies = {
 		start_year = 171
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @171 }
+			position = { x = 1 y = @1936 }
 		}
 		
 		categories = {
@@ -1062,18 +1026,6 @@ technologies = {
 		enable_equipments = {
 			motorized_equipment_1
 		}
-
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = motorized
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 		
 		path = {
 			leads_to_tech = mechanised_infantry
@@ -1084,7 +1036,7 @@ technologies = {
 		start_year = 171
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @171 }
+			position = { x = 0 y = @1936 }
 		}
 		
 		folder = {

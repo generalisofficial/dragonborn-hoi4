@@ -1,0 +1,29 @@
+
+state={
+	id=8
+	name="STATE_8"
+
+	history={
+		owner = ESR
+		victory_points = {
+			13454 5 
+		}
+		buildings = {
+			infrastructure = 4
+			13454 = {
+				port = 5
+
+			}
+
+		}
+		add_core_of = ESR
+
+	}
+
+	provinces={
+		1750 1751 2662 2969 2970 2971 2972 2973 2974 2975 3791 3792 4402 4403 4528 4672 4916 4917 5037 5670 6185 13454 
+	}
+	manpower=498871
+	buildings_max_level_factor=1.000
+	state_category=town
+}

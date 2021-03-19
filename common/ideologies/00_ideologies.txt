@@ -120,7 +120,7 @@ ideologies = {
 			internationalist_acceptance = -15
 			pragmatic_acceptance = -15
 			isolationist_acceptance = -15
-			jingoist_acceptance = -15
+			#jingoist_acceptance = -15
 		}
 
 		ai_neutral = yes 

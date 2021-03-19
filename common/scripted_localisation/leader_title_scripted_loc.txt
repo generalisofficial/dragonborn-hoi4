@@ -108,10 +108,10 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
-				has_country_leader = { ruling_only = yes name = "Tullius" }
+				has_country_leader = { ruling_only = yes name = "Medora Direnni" }
 			}
 		}
-		localization_key = TITLE_MILITARY_GOVERNOR
+		localization_key = TITLE_MATRIARCH
 	}
 	text = {
 		localization_key = TITLE_DEFAULT

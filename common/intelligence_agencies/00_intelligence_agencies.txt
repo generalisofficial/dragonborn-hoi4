@@ -17,7 +17,7 @@ intelligence_agency = {
 	names = { "Justiciars" }
 	
 	default = { tag = ALD }
-	available = { original_tag = ALD }
+	available = { original_tag = ALD has_government = jingoist }
 }
 
 intelligence_agency = {

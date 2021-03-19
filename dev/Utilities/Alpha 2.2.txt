@@ -5,6 +5,7 @@
 
 - (Bugfix) Fixed crashing for players without Together for Victory (TfV no longer required)
 - (Bugfix) Fixed the glitch with the map lights at night
+- (Bugfix) Eliminated every entry in the error log
 
 - (Addition) Added a Leader Titles mechanic
 - (Addition) Added a State Titles mechanic
@@ -14,13 +15,16 @@
 - (Addition) Incorporated the "Player-Led Peace Conferences" mod as a game rule
 
 - (Map) Major map work in Skyrim
+- (Map) Minor map work in Cyrodiil, Solstheim & Esroniet
 - (Map) Begun removing the navigable rivers (the cons outweigh the pros)
 - (Map) Added trees to the map 
 - (Map) Added impassable mountain ranges in Tamriel
 - (Map) Added weather to Tamriel
 
+- (Technology) Implemented the first version of the naval tech tree
+
 - (Misc) Reworked the politics of Morrowind
 - (Misc) Changed tons of country colors
-- (Misc) Reworked many of the ingame fonts and replaced them with new ones (Planewalker, Oblivion)
+- (Misc) Replaced the vanilla map font with a new one (Planewalker)
 - (Misc) Reworked puppet levels (TfV only)
 - (Misc) Begun changing the portraits to a new style

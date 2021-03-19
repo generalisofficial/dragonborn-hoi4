@@ -1,4 +1,4 @@
-﻿BLM = {
+﻿ARG = {
 	male = {
 		names = { Yeleek Deehepa Reenesi Wud-Ru Okan-Lei Eleedal-Ze Ushiith Oleen-Jasaiin Amusius Pad-Tan Reenee Gulum-Ei Dernum Haj-Ei Wumeil Skeish Okan-Tei Jeetum Asumsa Ushate}
 	}

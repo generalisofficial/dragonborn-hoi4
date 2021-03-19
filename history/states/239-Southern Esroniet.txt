@@ -1,0 +1,28 @@
+state={
+	id=239
+	name="STATE_239"
+
+	history={
+		owner = ESR
+		victory_points = {
+			3469 3
+		}
+		buildings = {
+			infrastructure = 3
+			3469 = {
+				port = 3
+
+			}
+
+		}
+		add_core_of = ESR
+
+	}
+
+	provinces={
+		380 480 481 482 483 1747 1748 1749 2663 2664 3469 3557 4447 4497 4754 
+	}
+	manpower=436563
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

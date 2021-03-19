@@ -4,7 +4,7 @@ state={
 	name="STATE_74"
 
 	history={
-		owner = BLM
+		owner = ARG
 		victory_points = {
 			13722 5
 		}
@@ -12,7 +12,7 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = BLM
+		add_core_of = ARG
 
 	}
 

@@ -23,7 +23,7 @@ ideas = {
 
 			cancel = { 
 				NOT = { 
-					BLM = { 
+					ARG = { 
 						owns_state = 54
 						owns_state = 162
 						owns_state = 161
@@ -32,7 +32,7 @@ ideas = {
 			}
 
 			targeted_modifier = {
-				tag =  BLM
+				tag =  ARG
 				attack_bonus_against = 0.2
 			}
 			
