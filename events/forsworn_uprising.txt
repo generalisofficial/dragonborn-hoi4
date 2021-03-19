@@ -25,6 +25,12 @@ country_event = {
 		hidden_effect = {
 			news_event = forsworn_uprising.2
 		}
+		every_owned_state = { 
+			limit = { 
+				is_core_of = REA
+			}
+			REA = { transfer_state = PREV }
+		}
 		release = REA
 		set_global_flag = forsworn_uprising_check
 		REA = {
@@ -40,7 +46,12 @@ country_event = {
 		hidden_effect = {
 			news_event = forsworn_uprising.2
 		}
-		release = REA
+		every_owned_state = { 
+			limit = { 
+				is_core_of = REA
+			}
+			REA = { transfer_state = PREV }
+		}
 		set_global_flag = forsworn_uprising_check
 		REA = {
 			set_politics = {

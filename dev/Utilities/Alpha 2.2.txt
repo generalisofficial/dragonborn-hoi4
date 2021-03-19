@@ -21,5 +21,6 @@
 
 - (Misc) Reworked the politics of Morrowind
 - (Misc) Changed tons of country colors
-- (Misc) Reworked many of the ingame fonts and replaced them with a new one (Planewalker)
+- (Misc) Reworked many of the ingame fonts and replaced them with new ones (Planewalker, Oblivion)
 - (Misc) Reworked puppet levels (TfV only)
+- (Misc) Begun changing the portraits to a new style

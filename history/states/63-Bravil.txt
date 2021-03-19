@@ -8,8 +8,19 @@ state={
 		victory_points = {
 			4123 5 
 		}
+		victory_points = {
+			6143 1
+		}
 		buildings = {
 			infrastructure = 4
+			4123 = {
+				fort = 3
+
+			}
+			6143 = {
+				fort = 2
+
+			}
 
 		}
 		add_core_of = CYR
@@ -18,7 +29,7 @@ state={
 	}
 
 	provinces={
-		2320 2321 2322 2459 3794 3795 4123 
+		2320 2321 2322 2459 2884 3794 3795 4123 4727 6143 
 	}
 	manpower=11972
 	buildings_max_level_factor=1.000

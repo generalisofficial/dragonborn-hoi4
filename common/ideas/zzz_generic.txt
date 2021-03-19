@@ -14,7 +14,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_shipyard = 0.2
+				industrial_capacity_dockyard = 0.2
 			}
 		}
 

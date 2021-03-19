@@ -227,4 +227,13 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	
+	fleet = {
+		name = "Capital Fleet"
+		naval_base = 13540
+		task_force = {
+			name = "1st Squadron"
+			location = 13540
+			ship = { name = "Alinor" pride_of_the_fleet = yes definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ALD } } }
+		}
+	}
 }
