@@ -1,5 +1,5 @@
 ﻿CYR_01 = {
-	name = "Legion - Standard"
+	name = CYR_01
 
 	for_countries = { CYR }
 
@@ -44,7 +44,7 @@
 }
 
 CYR_02 = {
-	name = "Legion - Cities of Cyrodiil"
+	name = CYR_02
 
 	for_countries = { CYR }
 

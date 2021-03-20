@@ -58,6 +58,16 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
+				OR = {
+					has_country_leader = { ruling_only = yes name = "Elisif the Fair" }
+				}
+			}
+		}
+		localization_key = TITLE_HIGH_QUEEN
+	}
+	text = {
+		trigger = {
+			THIS = {
 				original_tag = ALD
 				has_government = jingoist
 			}

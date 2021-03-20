@@ -1,0 +1,11 @@
+﻿l_english:
+
+ # ALDMERI DOMINION #
+ ALD_GALLEON_01:0 "Religious"
+ ALD_GALLEON_02:0 "Culture"
+ ALD_GALLEON_03:0 "Places"
+ ALD_GALLEON_04:0 "People"
+
+ # CYRODIIL #
+ CYR_INFANTRY_01:0 "Legion - Standard"
+ CYR_INFANTRY_02:0 "Legion - Cities of Cyrodiil"

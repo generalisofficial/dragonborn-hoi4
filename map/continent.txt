@@ -10,5 +10,4 @@ continents = {
 	elsweyr
     akavir
 	pyandonea
-	atmora
 }

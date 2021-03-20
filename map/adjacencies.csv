@@ -10,12 +10,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2567;2568;sea;2825;-1;-1;-1;-1;;Old Hroldan
 2329;5749;sea;2461;-1;-1;-1;-1;;Karthwasten
 2744;2745;sea;6189;-1;-1;-1;-1;;Dragon Bridge
-4500;6156;sea;5462;-1;-1;-1;-1;;Whiterun
-2685;2856;sea;3341;-1;-1;-1;-1;;Valtheim Towers
-4083;4084;sea;6151;-1;-1;-1;-1;;Windhelm Stables
-4083;110;sea;6151;-1;-1;-1;-1;;Windhelm
-2679;5951;sea;6130;-1;-1;-1;-1;;Darkwater Crossing
-2679;2678;sea;591;-1;-1;-1;-1;;Darkwater Pass
 2307;5416;sea;13453;-1;-1;-1;-1;;Faldar's Tooth
 5013;5077;sea;7448;-1;-1;-1;-1;;Upper Niben Bridge
 4670;3745;sea;9783;-1;-1;-1;-1;;Leyawiin

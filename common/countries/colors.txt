@@ -249,3 +249,8 @@ DIR = {
 	color = rgb { 60 179 113 }
 	color_ui = rgb { 60 179 113 }
 }
+
+KZK = {
+	color = rgb { 100 180 220 }
+	color_ui = rgb { 100 180 220 }
+}
