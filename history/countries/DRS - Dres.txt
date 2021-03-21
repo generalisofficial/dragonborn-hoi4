@@ -32,12 +32,13 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Veneval Dres"
-	picture = "Veneval_Dres.dds"
+	desc = "Veneval Dres_desc"
+	picture = "Veneval_Dres.tga"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
 	name = "Lloros Dres"
-	picture = "Lloros_Dres.dds"
+	picture = "Lloros_Dres.tga"
 	ideology = jingoist_ideology
 }

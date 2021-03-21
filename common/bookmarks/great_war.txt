@@ -29,17 +29,6 @@ bookmarks = {
 			}
 		}
 
-		"ARG"={
-			history = "ARG_GREAT_WAR_DESC"
-			ideology = jingoist
-			ideas = {
-			
-			}
-			focuses = {
-			
-			}
-		}
-
 		"RED"={
 			history = "RED_GREAT_WAR_DESC"
 			ideology = isolationist

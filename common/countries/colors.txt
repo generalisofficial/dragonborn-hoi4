@@ -251,6 +251,11 @@ DIR = {
 }
 
 KZK = {
-	color = rgb { 100 180 220 }
-	color_ui = rgb { 100 180 220 }
+	color = rgb { 80 160 200 }
+	color_ui = rgb { 80 160 200 }
+}
+
+CAM = {
+	color = rgb { 86 52 79 }
+	color_ui = rgb { 86 52 79 }
 }

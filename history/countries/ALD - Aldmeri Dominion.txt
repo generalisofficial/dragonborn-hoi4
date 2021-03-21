@@ -64,7 +64,7 @@ if = {
 
 create_country_leader = {
 	name = "Corriiel Elsinor"
-	picture = "Corriiel_Elsinor.dds"
+	picture = "Corriiel_Elsinor.tga"
 	ideology = jingoist_ideology
 	traits = {
 	    autocratic_imperialist

@@ -124,6 +124,14 @@ defined_text = {
 		localization_key = TITLE_MATRIARCH
 	}
 	text = {
+		trigger = {
+			THIS = {
+				original_tag = KZK
+			}
+		}
+		localization_key = TITLE_SAILOR_IN_CHIEF
+	}
+	text = {
 		localization_key = TITLE_DEFAULT
 	}
 }
@@ -153,6 +161,14 @@ defined_text = {
 			}
 		}
 		localization_key = Orgnum_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Veneval Dres" }
+			}
+		}
+		localization_key = Veneval_Dres_desc
 	}
 	text = {
 		localization_key = ""

@@ -15,6 +15,7 @@ guiTypes = {
 			name = "close_button"
 			spriteType = "GFX_closebutton"
 			position = { x = 805 y = 10 }
+			shortcut = "ESCAPE"
 		}
 
 		instantTextBoxType = {

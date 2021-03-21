@@ -40,12 +40,12 @@ set_country_flag = grand_council_leader
 
 create_country_leader = {
 	name = "Felseth Redoran"
-	picture = "Felseth_Redoran.dds"
+	picture = "Felseth_Redoran.tga"
 	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
 	name = "Vurdras Redoran"
-	picture = "Vurdras_Redoran.dds"
+	picture = "Vurdras_Redoran.tga"
 	ideology = isolationist_ideology
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_163"
 
 	history={
-		owner = SKY
+		owner = KZK
 		victory_points = {
 			2458 2
 		}
@@ -16,7 +16,6 @@ state={
 			}
 
 		}
-		add_core_of = SKY
 		add_core_of = KZK
 
 	}
@@ -24,7 +23,7 @@ state={
 	provinces={
 		1550 2458 4282 
 	}
-	manpower=218
+	manpower=18812
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }
