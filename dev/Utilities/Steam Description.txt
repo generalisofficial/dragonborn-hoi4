@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/p7Fv1Z6.gif[/img]
 
-[img]https://media.discordapp.net/attachments/620010363320008744/822525046340714526/steampage_0_2_2.png[/img]
+[img]https://media.discordapp.net/attachments/620010363320008744/823615635690094592/steampage_0_3.png[/img]
 
 [b]SEEKING DEVELOPERS![/b]
 
@@ -8,8 +8,8 @@
 
 [b]Dragonborn[/b] is a new and ambitious total conversion project, aiming to have a Hearts of Iron IV Mod set on the planet of Nirn, from the popular fantasy video game series "the Elder Scrolls". The new in-game custom map includes Tamriel, Atmora, Akavir and Pyandonea. The mod is set during the eventful Fourth Era, with several major military conflicts breaking out across Tamriel.
 
-[b]The Great War - 4E 171[/b]
-The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder of the unstable Cyrodiilic Empire, now under Emperor Titus Mede II. Will Mer triumph over Man in total war, or shall the Empire triumph over the elves once more? Take charge of one of the two giants and win the coming Great War, or head into the new era as one of the newly independent regional powers, such as An-Xileel-ruled Argonia, or one of the Houses of Morrowind, such as Redoran, Telvanni, Indoril or Dres. Perhaps head East, and take control of one of the 4 civilisations of Akavir? The choice is yours.
+[b]The Great War - Frost Fall, 4E 171[/b]
+The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder of the unstable Cyrodiilic Empire, now under Emperor Titus Mede II, after the end of the Septim Dynasty in the Oblivion Crisis. Will Mer triumph over Man in total war, or shall the Empire triumph over the elves once more? Take charge of one of the two giants and win the coming Great War, or head into the new era as one of the newly independent regional powers, such as An-Xileel-ruled Argonia, or one of the Houses of Morrowind, such as Redoran, Telvanni, Indoril or Dres. Perhaps head East, and take control of one of the 4 civilisations of Akavir? The choice is yours.
 
 [img]https://media.discordapp.net/attachments/620010363320008744/816690775051075644/steampage_links.png[/img]
 
@@ -46,6 +46,9 @@ A: National focus trees will be implemented in some form in a later update. Curr
 [b]Q: Where are resources!?!?!?[/b]
 A: Resources will be implemented soon, the rework is still ongoing.
 
+[b]Q: Where tech tree!??!?!?!?[/b]
+A: Work in progress.
+
 [b]Q: (insert) is unfinished!!! shit mod!!!![/b]
 A: Correct.
 
@@ -66,13 +69,13 @@ Yukon (Content Design)
 Reddus1 (Music)
 Crabe King (Misc) 
 UtoftFighter (3D Models)
-ImgaBjorn (Loading Quotes) 
+Pisslord (GFX)
+ImgaBjorn (Loading Quotes)
 
 [b]Extra[/b]
 "Planewalker" font by Pixel Sagas
-"Cyrodiil" font by Pixel Sagas
 Placeholder items from Europa Universalis IV
 Player-Led Peace Conferences
 Yard1's Intelligence Agency Blocker
-Country Flags by [url=https://www.reddit.com/user/The_Irish_Jet/]The_Irish_Jet[/url]
+Country Flags by [url=https://www.reddit.com/user/The_Irish_Jet/]u/The_Irish_Jet[/url]
 Artwork from The Elder Scrolls: Legends
