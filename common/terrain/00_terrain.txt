@@ -163,7 +163,7 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 
-		light_cruiser = {
+		galleon = {
 			units = {
 				attack = -0.1
 				movement = -0.1

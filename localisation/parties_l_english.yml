@@ -31,12 +31,12 @@
  
  ALD_jingoist_party_desc:0 "Autocracy"
  
- #BLM
- BLM_internationalist_party:0 "Imperial Supporters"
- BLM_jingoist_party:0 "An-Xileel"
+ #ARG
+ ARG_internationalist_party:0 "Imperial Supporters"
+ ARG_jingoist_party:0 "An-Xileel"
  
  #CYR
- CYR_internationalist_party:0 "Traditionalists"
+ CYR_internationalist_party:0 "Mede Dynasty"
  
  #DIR
  DIR_isolationist_party:0 "Direnni"
@@ -112,3 +112,7 @@
  #WAY
  WAY_isolationist_party:0 "Wayrest Corsairs"
  WAY_isolationist_party_desc:0 "Pirate Republic"
+
+ #WTR
+ WTR_internationalist_party:0 "Battle-Born"
+ WTR_isolationist_party:0 "Gray-Mane"

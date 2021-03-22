@@ -1,4 +1,4 @@
-BLM = {
+ARG = {
 	army = {
 		male = {
 			"gfx/leaders/generic/Argonian1.dds"

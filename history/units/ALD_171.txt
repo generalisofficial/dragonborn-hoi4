@@ -233,7 +233,7 @@ units = {
 		task_force = {
 			name = "1st Squadron"
 			location = 13540
-			ship = { name = "Alinor" pride_of_the_fleet = yes definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Alinor" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
 		}
 	}
 }

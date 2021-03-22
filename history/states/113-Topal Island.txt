@@ -14,9 +14,9 @@ state={
 
 		}
 		add_core_of = CYR
-		add_core_of = BLM
+		add_core_of = ARG
 		201.1.1 = {
-			owner = BLM
+			owner = ARG
 
 		}
 

@@ -4,8 +4,8 @@ oob = "ALD_171"
 
 set_technology = {
 	infantry_weapons = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
+	early_galleon = 1
+	basic_galleon = 1
 }
 
 set_convoys = 5
@@ -57,14 +57,14 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_intelligence_agency = {
-  		name = "Justiciars"
+  		name = "Thalmor Justiciars"
  		icon = "GFX_intelligence_agency_logo_ald"
 	}
 }
 
 create_country_leader = {
 	name = "Corriiel Elsinor"
-	picture = "Corriiel_Elsinor.dds"
+	picture = "Corriiel_Elsinor.tga"
 	ideology = jingoist_ideology
 	traits = {
 	    autocratic_imperialist
@@ -72,15 +72,15 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Naarifin"
-	picture = "Naarifin.dds"
+	name = "Arinndil Naarifin"
+	picture = "Arinndil_Naarifin.tga"
 	traits = { }
 	skill = 3
 }
 
 create_field_marshal = {
-	name = "Arannelya"
-	picture = "Arannelya.dds"
+	name = "Arannelya Elsinaerith"
+	picture = "Arannelya_Elsinaerith.tga"
 	traits = { }
 	skill = 2
 }

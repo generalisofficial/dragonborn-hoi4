@@ -30,6 +30,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Medora Direnni"
-	picture = "Medora_Direnni.dds"
+	picture = "Medora_Direnni.tga"
 	ideology = isolationist_ideology
 }

@@ -1,0 +1,17 @@
+sub_units = {
+	galleon = {
+		sprite = galleon
+		map_icon_category = ship
+		priority = 5
+		active = yes
+		type = { screen_ship }
+		need = { galleon = 1 }
+		
+
+		max_organisation = 40
+		
+		
+		supply_consumption = 0.04
+		fuel_consumption = 2.0
+	}
+}

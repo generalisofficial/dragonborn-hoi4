@@ -1,0 +1,83 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "achievements_window_container"
+		position = { x = 50 y = 50 }
+		size = { width = 795 height = 605 }
+		orientation = center
+		origo = center
+
+		clipping = no
+		moveable = yes
+		
+		fade_time = 300
+		fade_type = linear
+
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_bg"
+		}
+
+		iconType = {
+			name = "achievements_top_bar"
+			spriteType = "GFX_achievements_top_bar"
+			position = { x = 15 y = 13 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "achievements_bottom_bar"
+			spriteType = "GFX_achievements_bottom_bar"
+			position = { x = 15 y = -61 }
+			orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_button_261x34"
+			position = { x = 267 y = 553 }
+			buttonText = "CLOSE"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType = {
+			name = "achievements_header"
+			position = { x = 247 y = 30 }	
+			font = "hoi_30header"
+			text = "achievements_header"
+			maxWidth = 300
+			multiline = no
+			format = center
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "list_window"
+			position = { x = 15 y = 75 }
+			size = { width = 765 height = 470 }
+			margin = { top = 4 left = 5 bottom = 5 right = 0 }
+			verticalScrollbar = "right_vertical_slider"
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_tiled_paper_bg2"
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "achievements_button_container"
+		position = { x = 600 y = -10 }
+		show_sound = open_sub_window
+
+		buttonType = {
+			name = "achievements_button"
+			spriteType = "GFX_achievements_button"
+			position = { x = 1189 y = 71 }
+			orientation = "UPPER_RIGHT"
+			pdx_tooltip = "ACHIEVEMENTS_VIEW"
+		}
+	}
+}

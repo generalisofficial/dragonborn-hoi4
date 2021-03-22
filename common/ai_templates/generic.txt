@@ -306,11 +306,6 @@ armor_generic = {
 	
 		upgrade_prio = {
 			factor = 2
-
-			modifier = {
-				factor = 4
-				has_tech = armored_car1
-			}
 		}
 		
 		target_width = 20.0

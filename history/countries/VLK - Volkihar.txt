@@ -28,6 +28,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Harkon"
-	picture = "Harkon.dds"
+	picture = "Harkon.tga"
 	ideology = jingoist_ideology
 }

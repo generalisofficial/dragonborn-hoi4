@@ -36,7 +36,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Istlod"
-	picture = "Istlod.dds"
+	picture = "Istlod.tga"
 	ideology = internationalist_ideology
 	traits = {
 		popular_figurehead
@@ -46,7 +46,7 @@ create_country_leader = {
 201.1.1 = {
 	create_country_leader = {
 	    name = "Torygg"
-	    picture = "Torygg.dds"
+	    picture = "Torygg.tga"
 	    ideology = internationalist_ideology
 		traits = {
 	        humble

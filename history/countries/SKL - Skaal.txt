@@ -29,12 +29,12 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Fanari Strong-Voice"
-	picture = "Fanari_Strong_Voice.dds"
+	picture = "Fanari_Strong_Voice.tga"
 	ideology = isolationist_ideology
 }
 
 create_country_leader = {
-	name = "Bujold"
-	picture = "Bujold.dds"
+	name = "Bujold the Intrepid"
+	picture = "Bujold_the_Intrepid.tga"
 	ideology = jingoist_ideology
 }

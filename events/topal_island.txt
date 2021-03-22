@@ -21,7 +21,7 @@ country_event = {
 			news_event = topal_island.2
 		}
 		declare_war_on = {
-			target = BLM
+			target = ARG
 			type = take_core_state
 			generator = { 113 }
 		}

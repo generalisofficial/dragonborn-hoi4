@@ -1,9 +1,9 @@
 default = {
 	army = {
 		male = {
-			"gfx/leaders/generic/Nord1.dds"
-			"gfx/leaders/generic/Nord2.dds"
-			"gfx/leaders/generic/Nord3.dds"
+			"gfx/leaders/generic/Nord1.tga"
+			"gfx/leaders/generic/Nord2.tga"
+			"gfx/leaders/generic/Nord3.tga"
 			"gfx/leaders/generic/Nord4.dds"
 			"gfx/leaders/generic/Nord5.dds"
 			"gfx/leaders/generic/Nord6.dds"
@@ -16,9 +16,9 @@ default = {
 	
 	navy = {
 		male = {
-			"gfx/leaders/generic/Nord1.dds"
-			"gfx/leaders/generic/Nord2.dds"
-			"gfx/leaders/generic/Nord3.dds"
+			"gfx/leaders/generic/Nord1.tga"
+			"gfx/leaders/generic/Nord2.tga"
+			"gfx/leaders/generic/Nord3.tga"
 			"gfx/leaders/generic/Nord4.dds"
 			"gfx/leaders/generic/Nord5.dds"
 			"gfx/leaders/generic/Nord6.dds"
@@ -32,9 +32,9 @@ default = {
 	political = {
 		internationalist = {
 		    male = {
-			    "gfx/leaders/generic/Nord1.dds"
-			    "gfx/leaders/generic/Nord2.dds"
-			    "gfx/leaders/generic/Nord3.dds"
+			    "gfx/leaders/generic/Nord1.tga"
+			    "gfx/leaders/generic/Nord2.tga"
+			    "gfx/leaders/generic/Nord3.tga"
 			    "gfx/leaders/generic/Nord4.dds"
 			    "gfx/leaders/generic/Nord5.dds"
 			    "gfx/leaders/generic/Nord6.dds"
@@ -46,9 +46,9 @@ default = {
 		}
 		pragmatic = {
 			    male = {
-			    "gfx/leaders/generic/Nord1.dds"
-			    "gfx/leaders/generic/Nord2.dds"
-			    "gfx/leaders/generic/Nord3.dds"
+			    "gfx/leaders/generic/Nord1.tga"
+			    "gfx/leaders/generic/Nord2.tga"
+			    "gfx/leaders/generic/Nord3.tga"
 			    "gfx/leaders/generic/Nord4.dds"
 			    "gfx/leaders/generic/Nord5.dds"
 			    "gfx/leaders/generic/Nord6.dds"
@@ -60,9 +60,9 @@ default = {
 		}
 		isolationist = {
 		    male = {
-			    "gfx/leaders/generic/Nord1.dds"
-			    "gfx/leaders/generic/Nord2.dds"
-			    "gfx/leaders/generic/Nord3.dds"
+			    "gfx/leaders/generic/Nord1.tga"
+			    "gfx/leaders/generic/Nord2.tga"
+			    "gfx/leaders/generic/Nord3.tga"
 			    "gfx/leaders/generic/Nord4.dds"
 			    "gfx/leaders/generic/Nord5.dds"
 			    "gfx/leaders/generic/Nord6.dds"
@@ -74,9 +74,9 @@ default = {
 		}
 		jingoist = {
 		    male = {
-			    "gfx/leaders/generic/Nord1.dds"
-			    "gfx/leaders/generic/Nord2.dds"
-			    "gfx/leaders/generic/Nord3.dds"
+			    "gfx/leaders/generic/Nord1.tga"
+			    "gfx/leaders/generic/Nord2.tga"
+			    "gfx/leaders/generic/Nord3.tga"
 			    "gfx/leaders/generic/Nord4.dds"
 			    "gfx/leaders/generic/Nord5.dds"
 			    "gfx/leaders/generic/Nord6.dds"

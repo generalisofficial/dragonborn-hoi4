@@ -20,32 +20,20 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 100
-    isolationist = 0
+    internationalist = 59
+    isolationist = 41
     pragmatic = 0
     jingoist = 0
 }
 
 create_country_leader = {
 	name = "Siddgeir"
-	picture = "Siddgeir.dds"
+	picture = "Siddgeir.tga"
 	ideology = internationalist_ideology
 }
 
 create_country_leader = {
-	name = "Siddgeir"
-	picture = "Siddgeir.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
 	name = "Dengeir of Stuhn"
-	picture = "Dengeir_of_Stuhn.dds"
+	picture = "Dengeir_of_Stuhn.tga"
 	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Dengeir of Stuhn"
-	picture = "Dengeir_of_Stuhn.dds"
-	ideology = jingoist_ideology
 }

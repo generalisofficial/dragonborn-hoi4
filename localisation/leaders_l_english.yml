@@ -7,12 +7,15 @@
  TITLE_EMPEROR:0 "Emperor"
  TITLE_GRANDMASTER:0 "Grandmaster"
  TITLE_HORTATOR:0 "Hortator"
+ TITLE_HIGH_QUEEN:0 "High Queen"
  TITLE_HIGH_KING:0 "High King"
  TITLE_HOLY_RULER_OF_WAR:0 "Holy Ruler of War"
  TITLE_CHIEF:0 "Chief"
  TITLE_JARL:0 "Jarl"
  TITLE_MANE:0 "Mane"
- TITLE_MILITARY_GOVERNOR:0 "Military Governor"
+ TITLE_MATRIATCH:0 "Matriarch"
+ TITLE_SAILOR_IN_CHIEF:0 "Sailor-in-Chief"
+ TITLE_LORD:0 "Lord"
 
  #Cyrodiil
  Titus_Mede_II_desc:0 "Crowned just three years prior, Emperor Titus Mede II inherited a weak and fractured Empire, consisting only of Cyrodiil, High Rock, Skyrim, and the civil war-ridden Hammerfell. Now, tensions are growing against the Aldmeri Dominion, and while the Empire is nowhere near its past size, Emperor Mede is determined to bring upon a new Imperial golden age. With a fractured Empire and a weakened military, only time will tell if the great Emperor will succeed."
@@ -22,3 +25,6 @@
 
  #Pyandonea
  Orgnum_desc:0 "According to legend, Orgnum was a phenomenally wealthy Aldmer nobleman, who used his finances to launch a rebellion against the powers of the land. He and his followers were banished for this to a place separated from Aldmeris by an impenetrable mist, Pyandonea. Orgnum has personally led several invading fleets against Alinor, most notably in 3E 110, where Orgnum's grand armada was brutally destroyed by the Imperial Navy and the Psijic Order. For as long as Man has known it, Pyandonea has been ruled by the iron fist of King Orgnum, and with no signs of his immortality coming to an end, it seems as if his rule will continue for quite some time."
+
+ #House Dres
+ Veneval_Dres_desc:0 "Grandmaster Veneval does not have long to live. He has served House Dres for almost his entire life, keeping the people together and fending off any threats against the House. He is now on his deathbed, and a successor must be chosen soon, or the House may not stay together for long."

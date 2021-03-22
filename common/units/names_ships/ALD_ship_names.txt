@@ -1,0 +1,79 @@
+﻿ALD_GALLEON_01 = {
+	name = ALD_GALLEON_01
+
+	for_countries = { ALD }
+
+	can_use = { 
+		always = yes
+	}
+
+	type = ship
+	ship_types = { galleon }
+	
+	prefix = ""							
+	fallback_name = "Galleon %s"
+
+	unique = {
+		"Auri-El's Protection" "Rite of Y'ffre" "The Sundering of Lorkhan" "Ingenuity of Magnus" "Mara's Song" "Stendarr's Peace" "Legacy of Syrabane" "Wrath of Trinimac" "Xarxes" "Xen" "Baan Dar's Prank" "Hema-Mora's Trickery" "Hircine's Moon" "Jode" "Jone" "Azurah's Tear" "Fadomai" "Curse of Dagon" "Namiira's Hunger" "Nirni's Jealousy" "Rajhin's Silence" "Two-Moons Dance" "Sagiin's Blood" "Sheggor's Sugar" "The Lost Daughter" "Khenarthi's Storm" "Orkha's Ilk" "Alkhan's Fire" "Boethra's Moon" "Mafala's Sin" "Merid's Greed" "The Demon King" "Dark of Noctra"
+	}
+}
+
+ALD_GALLEON_02 = {
+	name = ALD_GALLEON_02
+
+	for_countries = { ALD }
+
+	can_use = { 
+		always = yes
+	}
+
+	type = ship
+	ship_types = { galleon }
+	
+	prefix = ""							
+	fallback_name = "Galleon %s"
+
+	unique = {
+		"Perfection" "Ascendance" "Eagle's Fury" "Wings of the Gryphon" "Glass's Shine" "Masser's Summer" "Secunda's Winter" "Moonlight" "Senchal's Son"
+	}
+}
+
+ALD_GALLEON_03 = {
+	name = ALD_GALLEON_03
+
+	for_countries = { ALD }
+
+	can_use = { 
+		always = yes
+	}
+
+	type = ship
+	ship_types = { galleon }
+	
+	prefix = ""							
+	fallback_name = "Galleon %s"
+
+	unique = {
+		"Alinor" "Cloudrest" "Crystal-Like-Law" "Dusk" "Eton Nir" "Firsthold" "Lillandril" "Shimmerene" "Rellenthil" "Skywatch" "Sunhold" "Vulkhel" "Falinesti" "Greenheart" "Haven" "Marbruk" "Southport" "Velyn" "Woodhearth" "Alabaster" "Corinthe" "Dune" "Mistral" "Ocrest" "Rawl'kha" "Rimmen" "Riverhold" "Senchal" "Torval"
+	}
+}
+
+ALD_GALLEON_04 = {
+	name = ALD_GALLEON_04
+
+	for_countries = { ALD }
+
+	can_use = { 
+		always = yes
+	}
+
+	type = ship
+	ship_types = { galleon }
+	
+	prefix = ""							
+	fallback_name = "Galleon %s"
+
+	unique = {
+		"Topal" "Torinaan" "Galerion" "Iachesis" "Mannimarco" "Naarifin" "Arannelya" "Hidellith" "Tuinden" "Naemon" "Alwinarwe" "Ayrenn" "Silvenar" "Green Lady" "Oreyn" "Haras" "Eplear" "Mankar" "Kiergo" "Eshita" "Darloc Brae" "Dro'Zira" "M'aiq the Liar"
+	}
+}

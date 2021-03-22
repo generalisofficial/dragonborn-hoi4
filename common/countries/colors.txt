@@ -1,6 +1,6 @@
 #reload countrycolors
 
-BLM = {
+ARG = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
 }
@@ -248,4 +248,24 @@ CHE = {
 DIR = {
 	color = rgb { 60 179 113 }
 	color_ui = rgb { 60 179 113 }
+}
+
+KZK = {
+	color = rgb { 80 160 200 }
+	color_ui = rgb { 80 160 200 }
+}
+
+CAM = {
+	color = rgb { 86 52 79 }
+	color_ui = rgb { 86 52 79 }
+}
+
+NRP = {
+	color = rgb { 135 188 197 }
+	color_ui = rgb { 135 188 197 }
+}
+
+EVM = {
+	color = rgb { 19 31 70 }
+	color_ui = rgb { 19 31 70 }
 }

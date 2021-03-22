@@ -22,7 +22,7 @@ country_event = {
 		kill_country_leader = yes
 		create_country_leader = {
 	        name = "Torygg"
-	        picture = "Torygg.dds"
+	        picture = "Torygg.tga"
 	        ideology = internationalist_ideology
 			traits = {
 	            humble
@@ -52,6 +52,16 @@ country_event = {
 	
 	option = {
 		name = skyrim.2.a
+		kill_country_leader = yes
+		create_country_leader = {
+	        name = "Elisif the Fair"
+	        picture = "Elisif_the_Fair.tga"
+	        ideology = internationalist_ideology
+	        traits = {
+	            humble
+				popular_queen
+	        }
+        }
 		country_event = skyrim.3
 	}
 }
@@ -67,15 +77,19 @@ country_event = {
 	option = {
 		name = skyrim.3.a
 		SKY = {
-		    add_civil_war_generals_sky = yes
             every_owned_state = {
                 add_core_of = ESM
 			}
-			country_event = skyrim.4
+			if = {
+				limit = {
+					owns_state = 13
+					NOT = { country_exists = WTR }
+				}
+				country_event = { id = skyrim.4 days = 1 }
+			}
         }
 		ESM = {
 		    set_cosmetic_tag = ESM_STORMCLOAK
-			add_civil_war_generals_esm = yes
 			transfer_state = 16
 			transfer_state = 18
 			transfer_state = 17
@@ -99,7 +113,7 @@ country_event = {
             }
 			create_country_leader = {
 	            name = "Ulfric Stormcloak"
-	            picture = "Ulfric_Stormcloak.dds"
+	            picture = "Ulfric_Stormcloak.tga"
 	            ideology = isolationist_ideology
 	            traits = {
 	                great_war_hero
@@ -113,6 +127,66 @@ country_event = {
 	                great_war_hero
 	            }
             }
+			create_field_marshal = {
+				name = "Galmar Stone-Fist"
+				picture = "Galmar_Stone_Fist.dds"
+				traits = { }
+				skill = 2
+			}
+			create_corps_commander = {
+				name = "Yrsarald Thrice-Pierced"
+				picture = "Yrsarald_Thrice_Pierced.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Kai Wet-Pommel"
+				picture = "Kai_Wet_Pommel.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Gonnar Oath-Giver"
+				picture = "Gonnar_Oath_Giver.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Frorkmar Banner-Torn"
+				picture = "Frorkmar_Banner_Torn.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Hjornskar Head-Smasher"
+				picture = "Hjornskar_Head_Smasher.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Thorygg Sun-Killer"
+				picture = "Thorygg_Sun_Killer.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Kottir Red-Shoal"
+				picture = "Kottir_Red_Shoal.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Arrald Frozen-Heart"
+				picture = "Arrald_Frozen_Heart.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Istar Cairn-Breaker"
+				picture = "Istar_Cairn_Breaker.dds"
+				traits = { }
+				skill = 1
+			}
 		}
 		hidden_effect = {
 			news_event = skyrim.6
@@ -122,14 +196,12 @@ country_event = {
 	option = {
 		name = skyrim.3.b
 		SKY = {
-		    add_civil_war_generals_sky = yes
             every_owned_state = {
                 add_core_of = ESM
             }
         }
 		ESM = {
 		    set_cosmetic_tag = ESM_STORMCLOAK
-			add_civil_war_generals_esm = yes
 			transfer_state = 16
 			transfer_state = 18
 			transfer_state = 17
@@ -146,7 +218,7 @@ country_event = {
             }
 			create_country_leader = {
 	            name = "Ulfric Stormcloak"
-	            picture = "Ulfric_Stormcloak.dds"
+	            picture = "Ulfric_Stormcloak.tga"
 	            ideology = isolationist_ideology
 	            traits = {
 	                great_war_hero
@@ -160,6 +232,66 @@ country_event = {
 	                great_war_hero
 	            }
 			}
+			create_field_marshal = {
+				name = "Galmar Stone-Fist"
+				picture = "Galmar_Stone_Fist.dds"
+				traits = { }
+				skill = 2
+			}
+			create_corps_commander = {
+				name = "Yrsarald Thrice-Pierced"
+				picture = "Yrsarald_Thrice_Pierced.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Kai Wet-Pommel"
+				picture = "Kai_Wet_Pommel.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Gonnar Oath-Giver"
+				picture = "Gonnar_Oath_Giver.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Frorkmar Banner-Torn"
+				picture = "Frorkmar_Banner_Torn.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Hjornskar Head-Smasher"
+				picture = "Hjornskar_Head_Smasher.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Thorygg Sun-Killer"
+				picture = "Thorygg_Sun_Killer.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Kottir Red-Shoal"
+				picture = "Kottir_Red_Shoal.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Arrald Frozen-Heart"
+				picture = "Arrald_Frozen_Heart.dds"
+				traits = { }
+				skill = 1
+			}
+			create_corps_commander = {
+				name = "Istar Cairn-Breaker"
+				picture = "Istar_Cairn_Breaker.dds"
+				traits = { }
+				skill = 1
+			}
 			change_tag_from = ROOT
 		}
 		hidden_effect = {
@@ -168,7 +300,7 @@ country_event = {
 	}
 }
 
-#General Tullius arrives in Solitude
+#Whiterun declares neutrality
 country_event = {
 	id = skyrim.4
 	title = skyrim.4.t
@@ -178,14 +310,22 @@ country_event = {
 	
 	option = {
 		name = skyrim.4.a
-		create_country_leader = {
-	        name = "Tullius"
-	        picture = "Tullius.dds"
-	        ideology = internationalist_ideology
-	        traits = {
-	            genial_anti_revolutionary
-	        }
-        }
+		every_owned_state = { 
+			limit = { 
+				is_core_of = WTR
+			}
+			WTR = { transfer_state = PREV }
+		}
+	}
+
+	option = {
+		name = skyrim.4.b
+		every_owned_state = { 
+			limit = { 
+				is_core_of = WTR
+			}
+			WTR = { transfer_state = PREV change_tag_from = ROOT }
+		}
 	}
 }
 
@@ -212,15 +352,6 @@ country_event = {
 	option = {
 		name = skyrim.5.a
 		set_country_flag = moot_elisif_the_fair
-		create_country_leader = {
-	        name = "Elisif the Fair"
-	        picture = "Elisif_the_Fair.dds"
-	        ideology = internationalist_ideology
-	        traits = {
-	            humble
-				popular_queen
-	        }
-        }
 	}
 }
 

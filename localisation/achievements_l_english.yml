@@ -1,0 +1,9 @@
+﻿l_english:
+ ACHIEVEMENTS_VIEW:0 "View Achievements"
+ ACHIEVEMENT_UNLOCKED_WHEN:0 "Will be earned when:"
+ ACHIEVEMENT_AVAILABLE:0 "Available"
+ ACHIEVEMENT_COMPLETED:0 "Completed"
+ ACHIEVEMENT_NOT_AVAILABLE:0 "Not Available"
+ ACHIEVEMENTS_ENABLED:0 "Achievements enabled."
+
+ achievements_header:0 "ACHIEVEMENTS"

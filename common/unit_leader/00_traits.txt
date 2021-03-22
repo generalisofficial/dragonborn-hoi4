@@ -1457,7 +1457,7 @@ leader_traits = {
 			
 		}
 		sub_unit_modifiers = {
-			light_cruiser = {
+			galleon = {
 				naval_damage_factor = 0.1
 				naval_speed_factor = 0.1
 			}

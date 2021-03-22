@@ -4,11 +4,28 @@ defined_text = {
 		trigger = {
 			THIS = {
 				OR = {
+					original_tag = SKY
+					original_tag = HAM
+					has_cosmetic_tag = HRK
+				}
+			}
+		}
+		localization_key = TITLE_HIGH_KING
+	}
+	text = {
+		trigger = {
+			THIS = {
+				OR = {
 					AND = {
 						original_tag = ALD
 						NOT = { has_government = jingoist }
 					}
 					original_tag = PYD
+					original_tag = DAG
+					original_tag = NRP
+					original_tag = CAM
+					original_tag = WAY
+					original_tag = EVM
 					has_cosmetic_tag = SKL_SOLSTHEIM
 				}
 			}
@@ -48,12 +65,11 @@ defined_text = {
 		trigger = {
 			THIS = {
 				OR = {
-					original_tag = SKY
-					original_tag = HAM
+					has_country_leader = { ruling_only = yes name = "Elisif the Fair" }
 				}
 			}
 		}
-		localization_key = TITLE_HIGH_KING
+		localization_key = TITLE_HIGH_QUEEN
 	}
 	text = {
 		trigger = {
@@ -108,10 +124,26 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
-				has_country_leader = { ruling_only = yes name = "Tullius" }
+				has_country_leader = { ruling_only = yes name = "Medora Direnni" }
 			}
 		}
-		localization_key = TITLE_MILITARY_GOVERNOR
+		localization_key = TITLE_MATRIARCH
+	}
+	text = {
+		trigger = {
+			THIS = {
+				original_tag = KZK
+			}
+		}
+		localization_key = TITLE_SAILOR_IN_CHIEF
+	}
+	text = {
+		trigger = {
+			THIS = {
+				original_tag = VLK
+			}
+		}
+		localization_key = TITLE_LORD
 	}
 	text = {
 		localization_key = TITLE_DEFAULT
@@ -143,6 +175,14 @@ defined_text = {
 			}
 		}
 		localization_key = Orgnum_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Veneval Dres" }
+			}
+		}
+		localization_key = Veneval_Dres_desc
 	}
 	text = {
 		localization_key = ""

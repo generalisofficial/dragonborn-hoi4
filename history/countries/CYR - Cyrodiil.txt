@@ -4,8 +4,8 @@ oob = "CYR_171"
 
 set_technology = {
 	infantry_weapons = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
+	early_galleon = 1
+	basic_galleon = 1
 }
 
 set_convoys = 5
@@ -41,7 +41,11 @@ create_faction = FACTION_NAME_EMPIRE_OF_TAMRIEL
 add_to_faction = CYR
 add_to_faction = SKY
 add_to_faction = HAM
-add_to_faction = HRK
+add_to_faction = DAG
+add_to_faction = CAM
+add_to_faction = NRP
+add_to_faction = WAY
+add_to_faction = EVM
 add_to_faction = ESR
 
 if = {
@@ -53,11 +57,27 @@ if = {
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
+		target = HAM
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
 		target = DAG
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
-		target = HAM
+		target = CAM
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = NRP
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = WAY
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = EVM
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
@@ -66,8 +86,12 @@ if = {
 	}
 	else = {
 		puppet = SKY
-		puppet = DAG
 		puppet = HAM
+		puppet = DAG
+		puppet = CAM
+		puppet = NRP
+		puppet = WAY
+		puppet = EVM
 		puppet = ESR
 	}
 }
@@ -93,10 +117,17 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Decianus"
-	picture = "Decianus.dds"
+	name = "Decianus Silvus"
+	picture = "Decianus_Silvus.tga"
 	traits = { }
-	skill = 3
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "Sergius Tullius"
+	picture = "Sergius_Tullius.tga"
+	traits = { }
+	skill = 4
 }
 
 create_field_marshal = {
@@ -107,8 +138,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Justianus Quintus"
-	picture = "Justianus_Quintus.dds"
+	name = "Justianus Quintius"
+	picture = "Justianus_Quintius.tga"
 	traits = { }
 	skill = 2
 }
@@ -125,6 +156,69 @@ create_corps_commander = {
 	picture = "Sejanus_Vedius.tga"
 	traits = { }
 	skill = 2
+}
+
+create_corps_commander = {
+	name = "Rikke the Brave"
+	picture = "Rikke_the_Brave.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Adventus Caesennius"
+	picture = "Adventus_Caesennius.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Fasendil Caemorin"
+	picture = "Fasendil_Caemorin.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Emmanuel Admand"
+	picture = "Emmanuel_Admand.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Taurinus Duilis"
+	picture = "Taurinus_Duilis.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Quentin Cipius"
+	picture = "Quentin_Cipius.tga"
+	traits = { }
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Sevan Telendas"
+	picture = "Sevan_Telendas.tga"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Skulnar Heavy-Hand"
+	picture = "Skulnar_Heavy_Hand.tga"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Hrollod Town-Watcher"
+	picture = "Hrollod_Town_Watcher.tga"
+	traits = { }
+	skill = 1
 }
 
 create_corps_commander = {

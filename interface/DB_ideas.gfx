@@ -1,0 +1,182 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_idea_vampirism"
+		texturefile = "gfx/interface/ideas/vampirism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_nord"
+		texturefile = "gfx/interface/ideas/race_nord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_breton"
+		texturefile = "gfx/interface/ideas/race_breton.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_nord"
+		texturefile = "gfx/interface/ideas/race_nord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_imperial"
+		texturefile = "gfx/interface/ideas/race_imperial.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_redguard"
+		texturefile = "gfx/interface/ideas/race_redguard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_dunmer"
+		texturefile = "gfx/interface/ideas/race_dunmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_argonian"
+		texturefile = "gfx/interface/ideas/race_argonian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_khajiit"
+		texturefile = "gfx/interface/ideas/race_khajiit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_bosmer"
+		texturefile = "gfx/interface/ideas/race_bosmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_altmer"
+		texturefile = "gfx/interface/ideas/race_altmer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_race_orsimer"
+		texturefile = "gfx/interface/ideas/race_orsimer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_sload"
+		texturefile = "gfx/interface/ideas/race_sload.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_maormer"
+		texturefile = "gfx/interface/ideas/race_maormer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_tsaesci"
+		texturefile = "gfx/interface/ideas/race_tsaesci.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_ka_po_tun"
+		texturefile = "gfx/interface/ideas/race_ka_po_tun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_kamal"
+		texturefile = "gfx/interface/ideas/race_kamal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_race_tang_mo"
+		texturefile = "gfx/interface/ideas/race_tang_mo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_white_gold_concordat"
+		texturefile = "gfx/interface/ideas/white_gold_concordat.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_blades"
+		texturefile = "gfx/interface/ideas/blades.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_altmeri_pantheon"
+		texturefile = "gfx/interface/ideas/altmeri_pantheon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_orcish_pantheon"
+		texturefile = "gfx/interface/ideas/orcish_pantheon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_eight_divines"
+		texturefile = "gfx/interface/ideas/eight_divines.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nine_divines"
+		texturefile = "gfx/interface/ideas/nine_divines.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_new_temple"
+		texturefile = "gfx/interface/ideas/new_temple.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dunmer_revanchism"
+		texturefile = "gfx/interface/ideas/dunmer_revanchism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_red_year"
+		texturefile = "gfx/interface/ideas/red_year.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_jungles_of_pyandonea"
+		texturefile = "gfx/interface/ideas/jungles_of_pyandonea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_the_uncivil_war"
+		texturefile = "gfx/interface/ideas/the_uncivil_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_direnni_tower"
+		texturefile = "gfx/interface/ideas/direnni_tower.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_orb_of_vaermina"
+		texturefile = "gfx/interface/ideas/orb_of_vaermina.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_memories_of_slavery"
+		texturefile = "gfx/interface/ideas/memories_of_slavery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_justice_never_sleeps"
+		texturefile = "gfx/interface/ideas/justice_never_sleeps.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_overwhelming_clerical_power"
+		texturefile = "gfx/interface/ideas/overwhelming_clerical_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_king_orgnums_coffer"
+		texturefile = "gfx/interface/ideas/king_orgnums_coffer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_satisfied_populace"
+		texturefile = "gfx/interface/ideas/satisfied_populace.dds"
+	}
+}

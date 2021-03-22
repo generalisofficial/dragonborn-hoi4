@@ -50,7 +50,6 @@ leader_traits = {
 
 	unpopular_monarch = {
 		random = no
-		political_power_factor = -0.3
 		stability_factor = -0.2
 		
 		ai_will_do = {
@@ -60,10 +59,13 @@ leader_traits = {
 
 	inexperienced_monarch = {
 		random = no
-		political_advisor_cost_factor = 0.25
+		deputy_cost_factor = 0.25
+		court_wizard_cost_factor = 0.25
+		#spy_chief_cost_factor = 0.25
+		social_advisor_cost_factor = 0.25
+		diplomatic_advisor_cost_factor = 0.25
+		economic_advisor_cost_factor = 0.25
 		mobilization_laws_cost_factor = 0.25
-		army_chief_cost_factor = 0.25
-		navy_chief_cost_factor = 0.25
 		
 		ai_will_do = {
 			factor = 1

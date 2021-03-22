@@ -20,10 +20,16 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 22
+    internationalist = 20
     isolationist = 20
     pragmatic = 58
-    jingoist = 0
+    jingoist = 2
+}
+
+create_country_leader = {
+	name = "Olfrid Battle-Born"
+	picture = "Olfrid_Battle_Born.tga"
+	ideology = pragmatic_ideology
 }
 
 create_country_leader = {
@@ -36,4 +42,10 @@ create_country_leader = {
 	name = "Vignar Gray-Mane"
 	picture = "Vignar_Gray_Mane.dds"
 	ideology = isolationist_ideology
+}
+
+create_country_leader = {
+	name = "Sinmir Horn-Headed"
+	picture = "Sinmir_Horn_Headed.tga"
+	ideology = jingoist_ideology
 }

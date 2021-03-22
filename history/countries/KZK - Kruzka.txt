@@ -25,3 +25,9 @@ set_popularities = {
     pragmatic = 0
     jingoist = 0
 }
+
+create_country_leader = {
+	name = "Holmar Fish-Catcher"
+	picture = "Holmar_Fish_Catcher.tga"
+	ideology = isolationist_ideology
+}

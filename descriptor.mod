@@ -12,6 +12,7 @@ tags={
 	"The Elder Scrolls"
 	"Skyrim"
 	"Total Conversion"
+	"Fantasy"
 }
 replace_path="common/abilities"
 replace_path="common/ai_peace"

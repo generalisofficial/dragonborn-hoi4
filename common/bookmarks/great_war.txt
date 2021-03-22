@@ -29,17 +29,6 @@ bookmarks = {
 			}
 		}
 
-		"BLM"={
-			history = "BLM_GREAT_WAR_DESC"
-			ideology = jingoist
-			ideas = {
-			
-			}
-			focuses = {
-			
-			}
-		}
-
 		"RED"={
 			history = "RED_GREAT_WAR_DESC"
 			ideology = isolationist
@@ -64,6 +53,18 @@ bookmarks = {
 
 		"IDR"={
 			history = "IDR_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		
+		"DRS"={
+			history = "DRS_GREAT_WAR_DESC"
 			ideology = isolationist
 			ideas = {
 			

@@ -1,10 +1,12 @@
 spriteTypes = {
-	corneredTileSpriteType = {
+	frameAnimatedSpriteType = {
 		name = "GFX_frontend_bg"
-		texturefile = "gfx/loadingscreens/load_13.dds"
-		borderSize = { x=0 y= 0 }
-		size = {  x=2560 y= 1440 }
-		tilingCenter = no	
-		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"				
+		texturefile = "gfx/mainmenu.dds"
+		noOfFrames = 8
+		animation_rate_fps = 5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
 	}
 }
