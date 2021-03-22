@@ -1,0 +1,55 @@
+continent = {
+	name = pyandonea
+	army = {
+		male = {
+			"gfx/leaders/generic/Maormer1.tga"
+			"gfx/leaders/generic/Maormer2.tga"
+			"gfx/leaders/generic/Maormer3.tga"
+			"gfx/leaders/generic/Maormer4.tga"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Maormer1.tga"
+			"gfx/leaders/generic/Maormer2.tga"
+			"gfx/leaders/generic/Maormer3.tga"
+			"gfx/leaders/generic/Maormer4.tga"
+		}
+	}
+	
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Maormer1.tga"
+			    "gfx/leaders/generic/Maormer2.tga"
+				"gfx/leaders/generic/Maormer3.tga"
+				"gfx/leaders/generic/Maormer4.tga"
+		    }
+		}
+		pragmatic = {
+			male = {
+				"gfx/leaders/generic/Maormer1.tga"
+				"gfx/leaders/generic/Maormer2.tga"
+				"gfx/leaders/generic/Maormer3.tga"
+				"gfx/leaders/generic/Maormer4.tga"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Maormer1.tga"
+			    "gfx/leaders/generic/Maormer2.tga"
+				"gfx/leaders/generic/Maormer3.tga"
+				"gfx/leaders/generic/Maormer4.tga"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Maormer1.tga"
+			    "gfx/leaders/generic/Maormer2.tga"
+				"gfx/leaders/generic/Maormer3.tga"
+				"gfx/leaders/generic/Maormer4.tga"
+		    }
+		}
+	}
+}

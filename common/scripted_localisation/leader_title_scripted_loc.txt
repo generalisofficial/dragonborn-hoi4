@@ -4,11 +4,28 @@ defined_text = {
 		trigger = {
 			THIS = {
 				OR = {
+					original_tag = SKY
+					original_tag = HAM
+					has_cosmetic_tag = HRK
+				}
+			}
+		}
+		localization_key = TITLE_HIGH_KING
+	}
+	text = {
+		trigger = {
+			THIS = {
+				OR = {
 					AND = {
 						original_tag = ALD
 						NOT = { has_government = jingoist }
 					}
 					original_tag = PYD
+					original_tag = DAG
+					original_tag = NRP
+					original_tag = CAM
+					original_tag = WAY
+					original_tag = EVM
 					has_cosmetic_tag = SKL_SOLSTHEIM
 				}
 			}
@@ -43,17 +60,6 @@ defined_text = {
 			#Has leader trait
 		}
 		localization_key = TITLE_HORTATOR
-	}
-	text = {
-		trigger = {
-			THIS = {
-				OR = {
-					original_tag = SKY
-					original_tag = HAM
-				}
-			}
-		}
-		localization_key = TITLE_HIGH_KING
 	}
 	text = {
 		trigger = {
@@ -130,6 +136,14 @@ defined_text = {
 			}
 		}
 		localization_key = TITLE_SAILOR_IN_CHIEF
+	}
+	text = {
+		trigger = {
+			THIS = {
+				original_tag = VLK
+			}
+		}
+		localization_key = TITLE_LORD
 	}
 	text = {
 		localization_key = TITLE_DEFAULT

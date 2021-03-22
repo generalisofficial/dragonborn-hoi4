@@ -4,28 +4,27 @@ state={
 	name="STATE_20"
 
 	history={
-		owner = DAG
+		owner = NRP
 		victory_points = {
-			13597 5
+			13597 5 
 		}
 		victory_points = {
-			775 2
+			775 2 
 		}
 		buildings = {
-		    infrastructure = 3
+			infrastructure = 3
 			13597 = {
 				port = 3
 
 			}
 
-
 		}
-		add_core_of = DAG
+		add_core_of = NRP
 
 	}
 
 	provinces={
-		611 612 613 614 615 616 617 775 776 777 778 886 890 891 892 893 1036 1382 1383 1384 1385 3054 3055 3056 5292 5293 5781 5829 13595 13597 
+		611 612 613 614 615 616 617 775 776 777 778 886 890 891 892 893 1036 1382 1383 1384 1385 3054 3055 3056 5292 5293 5781 5829 13462 13595 13597 
 	}
 	manpower=8975
 	buildings_max_level_factor=1.000

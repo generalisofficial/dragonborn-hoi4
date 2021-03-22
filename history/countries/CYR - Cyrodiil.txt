@@ -41,7 +41,11 @@ create_faction = FACTION_NAME_EMPIRE_OF_TAMRIEL
 add_to_faction = CYR
 add_to_faction = SKY
 add_to_faction = HAM
-add_to_faction = HRK
+add_to_faction = DAG
+add_to_faction = CAM
+add_to_faction = NRP
+add_to_faction = WAY
+add_to_faction = EVM
 add_to_faction = ESR
 
 if = {
@@ -53,11 +57,27 @@ if = {
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
+		target = HAM
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
 		target = DAG
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
-		target = HAM
+		target = CAM
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = NRP
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = WAY
+		autonomous_state = autonomy_imperial_province
+	}
+	set_autonomy = {
+		target = EVM
 		autonomous_state = autonomy_imperial_province
 	}
 	set_autonomy = {
@@ -66,8 +86,12 @@ if = {
 	}
 	else = {
 		puppet = SKY
-		puppet = DAG
 		puppet = HAM
+		puppet = DAG
+		puppet = CAM
+		puppet = NRP
+		puppet = WAY
+		puppet = EVM
 		puppet = ESR
 	}
 }

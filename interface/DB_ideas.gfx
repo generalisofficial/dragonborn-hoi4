@@ -159,4 +159,24 @@ spriteTypes = {
 		name = "GFX_idea_memories_of_slavery"
 		texturefile = "gfx/interface/ideas/memories_of_slavery.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_justice_never_sleeps"
+		texturefile = "gfx/interface/ideas/justice_never_sleeps.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_overwhelming_clerical_power"
+		texturefile = "gfx/interface/ideas/overwhelming_clerical_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_king_orgnums_coffer"
+		texturefile = "gfx/interface/ideas/king_orgnums_coffer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_satisfied_populace"
+		texturefile = "gfx/interface/ideas/satisfied_populace.dds"
+	}
 }

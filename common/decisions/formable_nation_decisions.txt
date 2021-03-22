@@ -5,19 +5,12 @@ formable_nations = {
 		icon = generic_form_nation
 
 		available = {
-			is_subject = no
-			has_full_control_of_state = 68
-			has_full_control_of_state = 69
-			has_full_control_of_state = 70
-			has_full_control_of_state = 71
-			has_full_control_of_state = 173
-			has_full_control_of_state = 174
-			has_full_control_of_state = 175
-			has_full_control_of_state = 72
-			has_full_control_of_state = 73
-			has_full_control_of_state = 170
-			has_full_control_of_state = 171
-			has_full_control_of_state = 172
+			all_state = { 
+				OR = { 
+					NOT = { is_on_continent = elsweyr }
+					is_owned_by = ROOT
+				}
+			}
 		}
 
 		visible = {
@@ -25,24 +18,17 @@ formable_nations = {
 				original_tag = ANQ
 				original_tag = PEL
 			}
-			NOT = { has_global_flag = form_elsweyr }
+			NOT = { has_cosmetic_tag = ELS }
 		}
 
 		complete_effect = {
 			set_cosmetic_tag = ELS
-            set_global_flag = form_elsweyr
-			68 = { add_core_of = ROOT }
-			69 = { add_core_of = ROOT }
-			70 = { add_core_of = ROOT }
-			71 = { add_core_of = ROOT }
-			173 = { add_core_of = ROOT }
-			174 = { add_core_of = ROOT }
-			175 = { add_core_of = ROOT }
-			72 = { add_core_of = ROOT }
-			73 = { add_core_of = ROOT }
-			170 = { add_core_of = ROOT }
-			171 = { add_core_of = ROOT }
-			172 = { add_core_of = ROOT }
+			every_state = { 
+				limit = { 
+					is_on_continent = elsweyr
+				}
+				add_core_of = ROOT
+			}
 		}
 		
 		ai_will_do = {
@@ -70,7 +56,7 @@ formable_nations = {
 				original_tag = KVA
 				original_tag = SKN
 			}
-			NOT = { has_global_flag = form_colovia }
+			NOT = { has_cosmetic_tag = COL }
 		}
 
 		complete_effect = {
@@ -87,6 +73,78 @@ formable_nations = {
 			factor = 100
 		}
 	}
+
+	form_the_direnni_hegemony = {
+
+		icon = generic_form_nation
+
+		available = {
+			all_state = { 
+				OR = { 
+					NOT = { is_on_continent = high_rock }
+					is_owned_by = ROOT
+				}
+			}
+		}
+
+		visible = {
+			original_tag = DIR
+			NOT = { has_cosmetic_tag = DIR_HEGEMONY }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = DIR_HEGEMONY
+			every_state = { 
+				limit = { 
+					is_on_continent = high_rock
+				}
+				add_core_of = ROOT
+			}
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	form_high_rock = {
+
+		icon = generic_form_nation
+
+		available = {
+			all_state = { 
+				OR = { 
+					NOT = { is_on_continent = high_rock }
+					is_owned_by = ROOT
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = DAG
+				original_tag = CAM
+				original_tag = NRP
+				original_tag = WAY
+				original_tag = EVM
+			}
+			NOT = { has_cosmetic_tag = HRK }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HRK
+			every_state = { 
+				limit = { 
+					is_on_continent = high_rock
+				}
+				add_core_of = ROOT
+			}
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }
 
 unifying_morrowind= {
@@ -96,24 +154,12 @@ unifying_morrowind= {
 		icon = generic_form_nation
 
 		available = {
-			is_subject = no
-			has_full_control_of_state = 56
-			has_full_control_of_state = 52
-			has_full_control_of_state = 51
-			has_full_control_of_state = 48
-			has_full_control_of_state = 54
-			has_full_control_of_state = 57
-			has_full_control_of_state = 50
-			has_full_control_of_state = 55
-			has_full_control_of_state = 49
-			has_full_control_of_state = 7
-			has_full_control_of_state = 115
-			has_full_control_of_state = 116
-			has_full_control_of_state = 121
-			has_full_control_of_state = 122
-			has_full_control_of_state = 53
-			has_full_control_of_state = 47
-			has_full_control_of_state = 114
+			all_state = { 
+				OR = { 
+					NOT = { is_on_continent = morrowind }
+					is_owned_by = ROOT
+				}
+			}
 			OR = {
 				AND = {
 					original_tag = DRS

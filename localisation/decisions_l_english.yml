@@ -20,8 +20,10 @@
 
  #Formable Nations
  formable_nations:0 "Formable Nations"
- form_elsweyr:0 "Form Elsweyr"
- form_colovia:0 "Form Colovia"
+ form_elsweyr:0 "Form §YElsweyr§!"
+ form_colovia:0 "Form §YColovia§!"
+ form_the_direnni_hegemony:0 "Form the §YDirenni Hegemony§!"
+ form_high_rock:0 "Form §YHigh Rock§!"
 
  unifying_morrowind:0 "Unifying Morrowind"
  unifying_morrowind_desc:0 "Enough is enough. Our lands have been torn apart by infighting for too long. The other houses are incapable of governing this land. It's time for change."

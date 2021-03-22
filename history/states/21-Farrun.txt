@@ -4,7 +4,7 @@ state={
 	name="STATE_21"
 
 	history={
-		owner = DAG
+		owner = EVM
 		victory_points = {
 			13598 5
 		}
@@ -16,7 +16,7 @@ state={
 			}
 
 		}
-		add_core_of = DAG
+		add_core_of = EVM
 
 	}
 

@@ -4,24 +4,23 @@ state={
 	name="STATE_119"
 
 	history={
-		owner = DAG
+		owner = CAM
 		victory_points = {
-			13587 5
+			13587 5 
 		}
 		victory_points = {
-			5689 2
+			5689 2 
 		}
 		buildings = {
-		    infrastructure = 4
+			infrastructure = 4
 
 		}
-		add_core_of = DAG
 		add_core_of = CAM
 
 	}
 
 	provinces={
-		869 870 871 1542 1543 1544 1569 2095 2096 3591 3757 3758 3759 3760 4498 4499 4613 4614 5301 5367 5410 5689 5757 5758 13580 13581 13586 13587 13589 13590 
+		869 870 871 1542 1543 1544 1569 2095 2096 3591 3757 3758 3759 3760 4498 4499 4613 4614 5301 5367 5410 5689 5757 5758 13448 13580 13581 13586 13587 13589 13590 
 	}
 	manpower=13834
 	buildings_max_level_factor=1.000

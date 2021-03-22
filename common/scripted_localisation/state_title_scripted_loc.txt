@@ -11,7 +11,10 @@ defined_text = {
 	text = {
 		trigger = {
 			THIS = {
-				state = 233
+				OR = {
+					state = 233
+					state = 240
+				}
 			}
 		}
 		localization_key = STATE_TITLE_VOLCANO
