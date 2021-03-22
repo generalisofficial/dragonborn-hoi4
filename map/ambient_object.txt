@@ -110,18 +110,3 @@ type={
 		}
 	}
 }
-type={
-	type="elden_tree_entity"
-	use_animation=no
-	scale=0.500000
-	always_visible=yes
-	object={
-		name="elden_tree_entity"
-		position={
-			1096.110 10.000 678.160 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-}

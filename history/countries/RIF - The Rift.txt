@@ -20,32 +20,20 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 0
-    isolationist = 100
+    internationalist = 45
+    isolationist = 55
     pragmatic = 0
     jingoist = 0
 }
 
 create_country_leader = {
 	name = "Maven Black-Briar"
-	picture = "Maven_Black_Briar.dds"
+	picture = "Maven_Black_Briar.tga"
 	ideology = internationalist_ideology
 }
 
 create_country_leader = {
-	name = "Maven Black-Briar"
-	picture = "Maven_Black_Briar.dds"
-	ideology = pragmatic_ideology
-}
-
-create_country_leader = {
 	name = "Laila Law-Giver"
-	picture = "Laila_Law_Giver.dds"
+	picture = "Laila_Law_Giver.tga"
 	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Laila Law-Giver"
-	picture = "Laila_Law_Giver.dds"
-	ideology = jingoist_ideology
 }

@@ -1,4 +1,4 @@
-0.2.2
+0.3.0
 
 - (Major) Updated the mod to HOI4 version 10.4
 - (Major) Implemented placeholder units
@@ -29,7 +29,9 @@
 - (GFX) Added an animated main menu background
 - (GFX) Added several new loading screens
 - (GFX) Added a new main menu mod logo
+- (GFX) Added loads of national spirit GFX
 
+- (Misc) Completely reworked the kingdoms of High Rock
 - (Misc) Reworked the politics of Morrowind
 - (Misc) Changed tons of country colors
 - (Misc) Reworked puppet levels (TfV only)

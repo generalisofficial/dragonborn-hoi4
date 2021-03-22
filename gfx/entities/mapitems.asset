@@ -60,8 +60,3 @@ entity = {
 	name = "cloud_ruler_temple_entity"
 	pdxmesh = "cloud_ruler_temple_mesh"
 }
-
-entity = {
-	name = "elden_tree_entity"
-	pdxmesh = "elden_tree_mesh"
-}

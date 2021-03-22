@@ -27,8 +27,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Zan'zahn"
-	picture = "Zan_zahn.dds"
+	name = "Therargo Xadawi"
+	picture = "Therargo_Xadawi.tga"
 	ideology = jingoist_ideology
 	traits = { 
 	    thalmor_puppet

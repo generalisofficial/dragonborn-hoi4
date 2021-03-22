@@ -27,13 +27,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Kazanni Solonihr"
-	picture = "gfx/leaders/generic/Khajiit7.dds"
-	ideology = isolationist_ideology
-}
-
-create_country_leader = {
-	name = "Kazanni Solonihr"
-	picture = "gfx/leaders/generic/Khajiit7.dds"
+	name = "Sinato Soltanni"
+	picture = "Sinato_Soltanni.tga"
 	ideology = jingoist_ideology
 }

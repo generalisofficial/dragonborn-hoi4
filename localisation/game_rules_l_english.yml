@@ -45,6 +45,11 @@
  RULE_GROUP_AI_BEHAVIOR:0 "AI Behavior"
 
  # GAME RULES
+
+ custom_diff_strong_CYR:0 "Strengthen [CYR.GetNameWithFlag]"
+ custom_diff_strong_ALD:0 "Strengthen [ALD.GetNameWithFlag]"
+ custom_diff_strong_ARG:0 "Strengthen [ARG.GetNameWithFlag]"
+
  RULE_ALLOW_WARGOALS:0 "Wargoals"
  RULE_ALLOW_WARGOALS_ALWAYS_FREE_DESC:0 "Unrestricted for any ideology at any World Tension."
  RULE_ALLOW_WARGOALS_LIMITED_DESC:0 "Wargoal Generation is limited by ideologies and World Tension limits."

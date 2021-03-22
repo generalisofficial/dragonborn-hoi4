@@ -25,9 +25,3 @@ set_popularities = {
     pragmatic = 0
     jingoist = 100
 }
-
-create_country_leader = {
-	name = "Big Chungus (placeholder)"
-	picture = "Sload1.dds"
-	ideology = jingoist_ideology
-}

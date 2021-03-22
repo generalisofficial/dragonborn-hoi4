@@ -6,9 +6,15 @@ difficulty_settings = {
 		multiplier = 2.0
 	}
 	difficulty_setting = {
-		key = "custom_diff_strong_ald"
+		key = "custom_diff_strong_ALD"
 		modifier = diff_strong_ai_generic
 		countries = { ALD }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_ARG"
+		modifier = diff_strong_ai_generic
+		countries = { ARG }
 		multiplier = 2.0
 	}
 }
