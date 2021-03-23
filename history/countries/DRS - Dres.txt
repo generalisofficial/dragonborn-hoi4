@@ -39,6 +39,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Lloros Dres"
+	desc = "Lloros Dres_desc"
 	picture = "Lloros_Dres.tga"
 	ideology = jingoist_ideology
 }

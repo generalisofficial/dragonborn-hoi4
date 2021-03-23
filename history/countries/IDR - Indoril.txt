@@ -33,6 +33,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Mendyn Indoril"
+	desc = "Mendyn Indoril_desc"
 	picture = "Mendyn_Indoril.tga"
 	ideology = isolationist_ideology
 }

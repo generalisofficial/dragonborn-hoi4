@@ -185,6 +185,46 @@ defined_text = {
 		localization_key = Veneval_Dres_desc
 	}
 	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Lloros Dres" }
+			}
+		}
+		localization_key = Lloros_Dres_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Mendyn Indoril" }
+			}
+		}
+		localization_key = Mendyn_Indoril_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Felseth Redoran" }
+			}
+		}
+		localization_key = Felseth_Redoran_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Gaelion Sadras" }
+			}
+		}
+		localization_key = Gaelion_Sadras_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Irvalam Telvanni" }
+			}
+		}
+		localization_key = Irvalam_Telvanni_desc
+	}
+	text = {
 		localization_key = ""
 	}
 }
