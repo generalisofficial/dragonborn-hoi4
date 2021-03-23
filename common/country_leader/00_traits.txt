@@ -417,7 +417,6 @@ leader_traits = {
 		production_speed_port_factor = 0.15
 		production_speed_rocket_site_factor = 0.15
 		production_speed_watchtower_factor = 0.15
-		production_speed_nuclear_reactor_factor = 0.15
 		
 		ai_will_do = {
 			factor = 0.2

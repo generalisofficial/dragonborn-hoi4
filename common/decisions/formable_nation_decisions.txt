@@ -114,7 +114,7 @@ formable_nations = {
 		available = {
 			all_state = { 
 				OR = { 
-					NOT = { is_on_continent = high_rock }
+					NOT = { is_on_continent = highrock }
 					is_owned_by = ROOT
 				}
 			}

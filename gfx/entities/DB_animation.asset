@@ -1,0 +1,4 @@
+animation = {
+	name = "lumber_mill_idle_animation"
+	file = "lumber_mill_idle.anim"
+}

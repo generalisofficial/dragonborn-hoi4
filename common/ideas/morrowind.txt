@@ -55,8 +55,8 @@ ideas = {
 			}
 		}
 
-		idea_the_shadow_house = {
-			picture = the_shadow_house
+		idea_the_puppet_house = {
+			picture = the_puppet_house
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }

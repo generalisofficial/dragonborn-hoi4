@@ -26,6 +26,7 @@ defined_text = {
 					original_tag = CAM
 					original_tag = WAY
 					original_tag = EVM
+					original_tag = ANQ
 					has_cosmetic_tag = SKL_SOLSTHEIM
 				}
 			}

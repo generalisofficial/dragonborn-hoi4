@@ -79,7 +79,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = STATE_TITLE_DISTRICT
+		localization_key = STATE_TITLE_HOLDING
 	}
 	text = {
 		trigger = {

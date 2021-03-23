@@ -10,6 +10,10 @@ state={
 		}
 		buildings = {
 		    infrastructure = 3
+			4156 = {
+				port = 4
+
+			}
 
 		}
 		add_core_of = PEL

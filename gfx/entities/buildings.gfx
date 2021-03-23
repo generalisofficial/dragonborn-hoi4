@@ -130,4 +130,33 @@ objectTypes = {
 		file = "gfx/models/buildings/trench.mesh"
 		scale = 0.15
 	}
+
+	pdxmesh = {
+		name = "building_blacksmith"
+		file = "gfx/models/buildings/blacksmith.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "building_lumber_mill"
+		file = "gfx/models/buildings/lumber_mill.mesh"
+		scale = 1.0
+
+		animation = { 
+			id = "idle"  
+			type = "lumber_mill_idle_animation" 
+		}
+	}
+
+	pdxmesh = {
+		name = "building_farm"
+		file = "gfx/models/buildings/farm.mesh"
+		scale = 1.25
+	}
+
+	pdxmesh = {
+		name = "building_fishery"
+		file = "gfx/models/buildings/fishery.mesh"
+		scale = 1.25
+	}
 }

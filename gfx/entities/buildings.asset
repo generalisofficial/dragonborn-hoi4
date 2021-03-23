@@ -174,3 +174,29 @@ entity = {
 	name = "building_trench"
 	pdxmesh = "building_trench"
 }
+
+entity = {
+	name = "building_lumber_mill"
+	pdxmesh = "building_lumber_mill"
+
+	default_state = "idle"
+	state = { 
+		name = "idle" 
+		animation = "idle" 
+	}	
+}
+
+entity = {
+	name = "building_blacksmith"
+	pdxmesh = "building_blacksmith"
+}
+
+entity = {
+	name = "building_farm"
+	pdxmesh = "building_farm"
+}
+
+entity = {
+	name = "building_fishery"
+	pdxmesh = "building_fishery"
+}

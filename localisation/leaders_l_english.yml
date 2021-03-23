@@ -1,7 +1,7 @@
 ﻿l_english:
  #Leader Titles
  leader_title:0 "[GetLeaderTitle]"
- leader_title_tooltip:0 "§H[THIS.GetLeader]§! \n[THIS.GetLeaderTitle] of §Y[This.GetNameWithFlag]§!\n---------------\n §g[THIS.GetLeaderDescription]§!"
+ leader_title_tooltip:0 "[This.GetFlag][THIS.GetLeaderTitle] §H[THIS.GetLeader]§!\n---------------\n §g[THIS.GetLeaderDescription]§!"
  TITLE_DEFAULT:0 "Leader"
  TITLE_KING:0 "King"
  TITLE_EMPEROR:0 "Emperor"

@@ -16,11 +16,12 @@ The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder o
 [b]Important Links[/b]
 [url=https://discord.gg/atZaA32]Discord[/url]
 [url=https://github.com/generalisofficial/dragonborn-hoi4]GitHub[/url]
+[url=https://hearts-of-iron-4.smods.ru/archives/14822]Skymods[/url]
 
 [b]Extra Links[/b]
 [url=https://discord.gg/Av623Ht]The Plaza[/url]
 
-[img]https://cdn.discordapp.com/attachments/620010363320008744/822526347816730684/steampage_dlc_submods.png[/img]
+[img]https://media.discordapp.net/attachments/620010363320008744/823675435870322708/steampage_dlc_submods.png[/img]
 
 [b]Official Submods[/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2049478241]Dragonborn: Music[/url]
@@ -35,7 +36,7 @@ The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder o
 [b]La Resistance (LaR)[/b]: Adds Intelligence Agencies and the Resistance mechanic
 [b]Battle for the Bosporus (BftB)[/b]:
 
-[img]https://cdn.discordapp.com/attachments/620010363320008744/822526677556133928/steampage_faq.png[/img]
+[img]https://media.discordapp.net/attachments/620010363320008744/823675446032859216/steampage_faq.png[/img]
 
 [b]Q: How can i help with the mod?[/b]
 A: Join the [url=https://discord.gg/atZaA32]Discord[/url] and either partake actively in the community or apply to become a developer if you possess any modding knowledge.

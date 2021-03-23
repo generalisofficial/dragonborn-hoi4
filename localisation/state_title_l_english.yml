@@ -6,5 +6,5 @@
  STATE_TITLE_IMPASSABLE:0 "§gUninhabited Region§!"
  STATE_TITLE_VOLCANO:0 "§gVolcano§!"
  STATE_TITLE_COUNTY:0 "§GCounty§!"
- STATE_TITLE_DISTRICT:0 "§GDistrict§!"
+ STATE_TITLE_HOLDING:0 "§GHolding§!"
  STATE_TITLE_HOLD:0 "§GHold§!"

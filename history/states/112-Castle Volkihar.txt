@@ -8,9 +8,15 @@ state={
 			4796 2
 		}
 		buildings = {
+			infrastructure = 2
+			4796 = {
+				fort = 5
+
+			}
 
 		}
 		add_core_of = VLK
+		add_core_of = SKY
 
 	}
 

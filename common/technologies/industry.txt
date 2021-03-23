@@ -742,11 +742,6 @@ technologies = {
 	}
 	
 	synth_oil_experiments = {
-
-		enable_building = {
-			building = farm
-			level = 3
-		}
 				
 		path = {
 			leads_to_tech = oil_processing 
@@ -910,11 +905,6 @@ technologies = {
 	rubber_processing = {
 
 		on_research_complete = {
-			modify_building_resources = {
-				building = farm
-				resource = rubber
-				amount = 1
-			}
 		}
 
 		path = {
@@ -949,11 +939,6 @@ technologies = {
 	improved_rubber_processing = {
 
 		on_research_complete = {
-			modify_building_resources = {
-				building = farm
-				resource = rubber
-				amount = 1
-			}
 		}
 
 		path = {
@@ -988,11 +973,6 @@ technologies = {
 	advanced_rubber_processing = {
 
 		on_research_complete = {
-			modify_building_resources = {
-				building = farm
-				resource = rubber
-				amount = 1
-			}
 		}
 
 		path = {
@@ -1027,11 +1007,6 @@ technologies = {
 	modern_rubber_processing = {
 
 		on_research_complete = {
-			modify_building_resources = {
-				building = farm
-				resource = rubber
-				amount = 1
-			}
 		}
 		
 		research_cost = 1.5

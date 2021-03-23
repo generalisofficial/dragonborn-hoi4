@@ -286,10 +286,10 @@ sabotage_rocket_site = {
 	alert_text = building_is_sabotaged
 }
 
-sabotage_nuclear_reactor = {
+sabotage_fishery = {
 	available = {
 		non_damaged_building_level = {
-			building = nuclear_reactor
+			building = fishery
 			level > 0
 		}
 	}
@@ -300,7 +300,7 @@ sabotage_nuclear_reactor = {
 
 	effect = {
 		damage_building = {
-			type = nuclear_reactor
+			type = fishery
 			damage = 0.15
 		}
 	}

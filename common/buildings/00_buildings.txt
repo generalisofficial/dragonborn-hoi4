@@ -117,15 +117,29 @@ buildings = {
 		show_on_map = 1
 		base_cost = 14500
 		icon_frame = 10
-		#local_resources_oil = 1 # May use local_resources_ + any resource name
-		refinery = yes
+		local_resources_oil = 8
+		#refinery = yes
 		max_level = 3 # This is the max unlock level
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		fuel_gain_from_states = 2.0 #per hour
+	}
+
+	fishery = {
+		show_on_map = 1
+		base_cost = 14500
+		icon_frame = 13
+		local_resources_oil = 10
+		#refinery = yes
+		only_costal = yes
+		max_level = 3 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
 	}
 
 	grain_silo = {
@@ -162,18 +176,6 @@ buildings = {
 		max_level = 5
 		shares_slots = yes
 		value = 1
-		infrastructure_construction_effect = yes
-	}
-
-	nuclear_reactor = {
-		show_on_map = 1
-		base_cost = 30000
-		icon_frame = 13
-		nuclear_reactor = yes
-		nuclear_production_factor = 1
-		max_level = 1 # This is the max unlock level
-		shares_slots = yes
-		value = 10
 		infrastructure_construction_effect = yes
 	}
 }
