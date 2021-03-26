@@ -1,0 +1,24 @@
+guiTypes = {
+	containerWindowType = {
+		name = "misc_stats_diplomacy_view_container"
+		position = { x = -15 y = 60 }
+
+		iconType = {
+			name = "manpower_icon"
+			spriteType = "GFX_population_icon"
+			position = { x = 278 y = 150 }	
+			alwaystransparent = yes				
+		}
+
+		instantTextBoxType = {
+			name ="manpower_text"
+			position = { x = 218 y = 180 }
+			font = "hoi_16mbs"
+			text = "[?this.max_manpower_k|2]k"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+}
