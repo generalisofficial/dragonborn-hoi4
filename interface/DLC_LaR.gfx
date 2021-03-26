@@ -1,0 +1,19 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_portrait_Thaddeus_Maro"
+		texturefile = "gfx/leaders/CYR/LaR/Thaddeus_Maro.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_Gaius_Maro"
+		texturefile = "gfx/leaders/CYR/LaR/Gaius_Maro.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_Elenwen_Silinore"
+		texturefile = "gfx/leaders/ALD/LaR/Elenwen_Silinore.tga"
+	}
+
+}
+

@@ -1,0 +1,13 @@
+CYR = {
+	operative = {
+		female = {
+
+		}
+		male = {
+			"gfx/leaders/CYR/LaR/Penitus_Oculatus_1.tga"
+			"gfx/leaders/CYR/LaR/Penitus_Oculatus_2.tga"
+			"gfx/leaders/CYR/LaR/Penitus_Oculatus_3.tga"
+			"gfx/leaders/CYR/LaR/Penitus_Oculatus_4.tga"
+		}
+	}
+}

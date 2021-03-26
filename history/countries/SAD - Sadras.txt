@@ -13,7 +13,7 @@ add_ideas = {
     idea_dunmer
 	idea_grand_council_member
 	idea_dunmer_revanchism
-	idea_the_shadow_house
+	idea_the_puppet_house
 	#idea_religious_problems
 }
 

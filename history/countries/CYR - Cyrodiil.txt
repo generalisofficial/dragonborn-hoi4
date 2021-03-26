@@ -104,6 +104,22 @@ if = {
   		name = "Penitus Oculatus"
  		icon = "GFX_intelligence_agency_logo_cyr"
 	}
+	create_operative_leader = {
+		name = "Thaddeus Maro"
+		GFX = GFX_portrait_Thaddeus_Maro
+		traits = { operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CYR }
+	}
+	create_operative_leader = {
+		name = "Gaius Maro"
+		GFX = GFX_portrait_Gaius_Maro
+		traits = { operative_master_interrogator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CYR }
+	}
 }
 
 create_country_leader = {

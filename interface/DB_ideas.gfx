@@ -99,31 +99,6 @@ spriteTypes = {
 		name = "GFX_idea_blades"
 		texturefile = "gfx/interface/ideas/blades.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_idea_altmeri_pantheon"
-		texturefile = "gfx/interface/ideas/altmeri_pantheon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_idea_orcish_pantheon"
-		texturefile = "gfx/interface/ideas/orcish_pantheon.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_eight_divines"
-		texturefile = "gfx/interface/ideas/eight_divines.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_nine_divines"
-		texturefile = "gfx/interface/ideas/nine_divines.dds"
-	}
-
-	spriteType = {
-		name = "GFX_idea_new_temple"
-		texturefile = "gfx/interface/ideas/new_temple.dds"
-	}
 
 	spriteType = {
 		name = "GFX_idea_dunmer_revanchism"
@@ -178,5 +153,47 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_satisfied_populace"
 		texturefile = "gfx/interface/ideas/satisfied_populace.dds"
+	}
+
+	# RELIGION #
+
+	spriteType = {
+		name = "GFX_idea_altmeri_pantheon"
+		texturefile = "gfx/interface/ideas/religion/altmeri_pantheon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_orcish_pantheon"
+		texturefile = "gfx/interface/ideas/religion/orcish_pantheon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_eight_divines"
+		texturefile = "gfx/interface/ideas/religion/eight_divines.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nine_divines"
+		texturefile = "gfx/interface/ideas/religion/nine_divines.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_new_temple"
+		texturefile = "gfx/interface/ideas/religion/new_temple.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_the_hist"
+		texturefile = "gfx/interface/ideas/religion/the_hist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nordic_pantheon"
+		texturefile = "gfx/interface/ideas/religion/nordic_pantheon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_all_maker"
+		texturefile = "gfx/interface/ideas/religion/all_maker.dds"
 	}
 }

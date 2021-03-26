@@ -60,6 +60,14 @@ if = {
   		name = "Thalmor Justiciars"
  		icon = "GFX_intelligence_agency_logo_ald"
 	}
+	create_operative_leader = {
+		name = "Elenwen Silinore"
+		GFX = GFX_portrait_Elenwen_Silinore
+		traits = { operative_master_interrogator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALD }
+	}
 }
 
 create_country_leader = {
