@@ -34,7 +34,7 @@ state={
 	provinces={
 		104 105 106 107 108 109 112 116 2022 2023 2676 2678 3492 3961 4138 4139 4140 5428 5888 5889 5969 5972 
 	}
-	manpower=9671
+	manpower=39866
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
