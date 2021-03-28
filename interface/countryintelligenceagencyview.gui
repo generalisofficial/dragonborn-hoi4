@@ -1008,20 +1008,19 @@ guiTypes = {
 
 		iconType = {
 			name = "civilian_factory_icon"
-			position = { x = 173 y = 35 }
-			spriteType = "GFX_non_available_factory_icon"
+			position = { x = 171 y = 34 }
+			spriteType = "GFX_pol_power_icon"
 			alwaystransparent = yes
 			scale = 0.8
 		}
 		
 		instantTextboxType = { 
 			name = "num_factories"
-			position = { x = 163 y = 50 }
-			font = "hoi_18mbs"
+			position = { x = 162 y = 54 }
+			font = "hoi_16mbs"
 			text = "12"
 			maxWidth = 40
 			maxHeight = 20
-			#format = center
 			vertical_alignment = center 			
 			format = center
 			alwaystransparent = yes

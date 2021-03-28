@@ -45,7 +45,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Barynia"
-	picture = "Barynia.dds"
+	picture = "Barynia.tga"
 	ideology = pragmatic_ideology
 }
 
