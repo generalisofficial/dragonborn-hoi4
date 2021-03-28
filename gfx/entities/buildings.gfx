@@ -134,7 +134,12 @@ objectTypes = {
 	pdxmesh = {
 		name = "building_blacksmith"
 		file = "gfx/models/buildings/blacksmith.mesh"
-		scale = 1.0
+		scale = 0.1
+
+		animation = { 
+			id = "idle"  
+			type = "blacksmith_idle_animation" 
+		}
 	}
 
 	pdxmesh = {
@@ -158,5 +163,11 @@ objectTypes = {
 		name = "building_fishery"
 		file = "gfx/models/buildings/fishery.mesh"
 		scale = 1.25
+	}
+
+	pdxmesh = {
+		name = "building_textile_mill"
+		file = "gfx/models/buildings/textile_mill.mesh"
+		scale = 1.0
 	}
 }

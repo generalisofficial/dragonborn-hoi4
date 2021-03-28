@@ -415,7 +415,6 @@ leader_traits = {
 		random = yes
 		production_speed_skyport_factor = 0.15
 		production_speed_port_factor = 0.15
-		production_speed_rocket_site_factor = 0.15
 		production_speed_watchtower_factor = 0.15
 		
 		ai_will_do = {

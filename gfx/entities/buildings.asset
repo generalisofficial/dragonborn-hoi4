@@ -189,6 +189,12 @@ entity = {
 entity = {
 	name = "building_blacksmith"
 	pdxmesh = "building_blacksmith"
+
+	default_state = "idle"
+	state = { 
+		name = "idle" 
+		animation = "idle" 
+	}
 }
 
 entity = {
@@ -199,4 +205,9 @@ entity = {
 entity = {
 	name = "building_fishery"
 	pdxmesh = "building_fishery"
+}
+
+entity = {
+	name = "building_textile_mill"
+	pdxmesh = "building_textile_mill"
 }

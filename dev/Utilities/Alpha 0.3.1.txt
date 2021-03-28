@@ -1,1 +1,8 @@
 0.3.1
+
+- (Map) Reworked population amounts for the entirety of Tamriel
+
+- (Addition) Added total country population to the diplomacy menu
+
+- (Misc) Added country and leader descriptions for every Great House of Morrowind
+- (Misc) Replaced nuclear reactors with Fisheries, a coastal-only food-producing building.

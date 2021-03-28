@@ -325,8 +325,8 @@ forced_labor_occupation = {
 			# if we are desiring a resource produced here
 			set_temp_variable = { releveant_resources = 0 }
 			
-			set_temp_variable = { t = resource@oil }
-			multiply_temp_variable = { t = ai_desire_oil }
+			set_temp_variable = { t = resource@food }
+			multiply_temp_variable = { t = ai_desire_food }
 			add_to_temp_variable = { releveant_resources = t }
 			
 			set_temp_variable = { t = resource@aluminium }

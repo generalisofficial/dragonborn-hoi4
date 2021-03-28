@@ -640,11 +640,6 @@ technologies = {
 
 	
 	experimental_rockets = {
-
-		enable_building = {
-			building = rocket_site
-			level = 2
-		}
 		
 		path = {
 			leads_to_tech = rocket_engines 

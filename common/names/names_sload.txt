@@ -1,0 +1,8 @@
+﻿TRS = {
+	male = {
+		names = { N'Gasta B'Korgen K'Tora N'Buta }
+	}
+	female = {
+		names = { K'Garza Z'Maja }
+	}
+}

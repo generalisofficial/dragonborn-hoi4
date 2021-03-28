@@ -196,4 +196,9 @@ spriteTypes = {
 		name = "GFX_idea_all_maker"
 		texturefile = "gfx/interface/ideas/religion/all_maker.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_bosmeri_pantheon"
+		texturefile = "gfx/interface/ideas/religion/bosmeri_pantheon.dds"
+	}
 }

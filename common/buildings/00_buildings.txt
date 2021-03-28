@@ -115,10 +115,9 @@ buildings = {
 
 	farm = {
 		show_on_map = 1
-		base_cost = 14500
+		base_cost = 10800
 		icon_frame = 10
-		local_resources_oil = 8
-		#refinery = yes
+		local_resources_food = 8
 		max_level = 3 # This is the max unlock level
 		shares_slots = yes
 		value = 5
@@ -129,12 +128,23 @@ buildings = {
 
 	fishery = {
 		show_on_map = 1
-		base_cost = 14500
+		base_cost = 10800
 		icon_frame = 13
-		local_resources_oil = 10
-		#refinery = yes
+		local_resources_food = 10
 		only_costal = yes
 		max_level = 3 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+	}
+
+	textile_mill = {
+		show_on_map = 1
+		base_cost = 10800
+		icon_frame = 12
+		local_resources_aluminium = 5
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
@@ -165,17 +175,5 @@ buildings = {
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5
 		value = 4
-	}
-
-	rocket_site = {
-		show_on_map = 1
-		base_cost = 6400
-		icon_frame = 12
-		rocket_production = 5
-		rocket_launch_capacity = 1
-		max_level = 5
-		shares_slots = yes
-		value = 1
-		infrastructure_construction_effect = yes
 	}
 }

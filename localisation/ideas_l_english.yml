@@ -99,6 +99,9 @@
  idea_maormer:0 "Maormer"
  idea_maormer_desc:0 "The Maormer, also known as Tropical Elves, Sea Elves, Fish Elves, or Pyandoneans, are a race of Mer that live on the continent Pyandonea, far south of the Summerset Isles, after migrating there from the legendary continent Aldmeris as Aldmer in the Merethic Era. Maormer are acclimated to life on the waves, and are steady on their feet in even the roughest waters."
  
+ #POLICY
+ policy:0 "Policy"
+
  #RELIGION
  religion:0 "State Religion"
  eight_divines:0 "Eight Divines"

@@ -2,3 +2,8 @@ animation = {
 	name = "lumber_mill_idle_animation"
 	file = "lumber_mill_idle.anim"
 }
+
+animation = {
+	name = "blacksmith_idle_animation"
+	file = "blacksmith_idle.anim"
+}

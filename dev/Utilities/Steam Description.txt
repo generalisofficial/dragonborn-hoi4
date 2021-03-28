@@ -72,6 +72,7 @@ Crabe King (Misc)
 UtoftFighter (3D Models)
 Pisslord (GFX)
 ImgaBjorn (Loading Quotes)
+easypake (Misc)
 
 [b]Extra[/b]
 "Planewalker" font by Pixel Sagas
