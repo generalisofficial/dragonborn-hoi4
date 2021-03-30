@@ -11,8 +11,13 @@ tags={
 	"Graphics"
 	"The Elder Scrolls"
 	"Skyrim"
+	"Oblivion"
+	"Morrowind"
+	"Daggerfall"
 	"Total Conversion"
+	"Total Overhaul"
 	"Fantasy"
+	"Work In Progress"
 }
 replace_path="common/abilities"
 replace_path="common/ai_peace"

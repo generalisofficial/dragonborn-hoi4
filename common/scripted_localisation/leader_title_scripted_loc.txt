@@ -51,14 +51,23 @@ defined_text = {
 					original_tag = SAD
 					original_tag = DRS
 				}
+				NOT = { has_cosmetic_tag = MOR }
 			}
 		}
 		localization_key = TITLE_GRANDMASTER
 	}
 	text = {
 		trigger = {
-			always = no
-			#Has leader trait
+			THIS = {
+				OR = {
+					original_tag = RED
+					original_tag = IDR
+					original_tag = TEL
+					original_tag = SAD
+					original_tag = DRS
+				}
+				has_cosmetic_tag = MOR
+			}
 		}
 		localization_key = TITLE_HORTATOR
 	}

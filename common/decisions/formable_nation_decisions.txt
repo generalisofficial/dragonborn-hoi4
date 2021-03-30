@@ -9,6 +9,7 @@ formable_nations = {
 				OR = { 
 					NOT = { is_on_continent = elsweyr }
 					is_owned_by = ROOT
+					impassable = yes
 				}
 			}
 		}
@@ -81,8 +82,9 @@ formable_nations = {
 		available = {
 			all_state = { 
 				OR = { 
-					NOT = { is_on_continent = high_rock }
+					NOT = { is_on_continent = highrock }
 					is_owned_by = ROOT
+					impassable = yes
 				}
 			}
 		}
@@ -116,6 +118,7 @@ formable_nations = {
 				OR = { 
 					NOT = { is_on_continent = highrock }
 					is_owned_by = ROOT
+					impassable = yes
 				}
 			}
 		}
@@ -157,11 +160,11 @@ unifying_morrowind= {
 		available = {
 			all_state = { 
 				OR = { 
-					NOT = { 
-						is_on_continent = morrowind
-						any_country = { owns_state = PREV }
+					OR = { 
+						NOT = { is_on_continent = morrowind }
+						is_owned_by = ROOT
+						impassable = yes
 					}
-					is_owned_by = ROOT
 				}
 			}
 			if = { 
