@@ -6,7 +6,7 @@ state={
 	history={
 		owner = DIR
 		victory_points = {
-			13582 10
+			13582 10 
 		}
 		victory_points = {
 			3214 2 
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		3214 13567 13582 
+		3214 4113 13567 13582 
 	}
 	manpower=5098
 	buildings_max_level_factor=1.000

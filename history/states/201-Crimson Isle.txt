@@ -1,3 +1,4 @@
+
 state={
 	id=201
 	name="STATE_201"
@@ -11,9 +12,9 @@ state={
 		add_core_of = ARG
 
 	}
-	
+
 	provinces={
-		5831 
+		4115 5831 
 	}
 	manpower=927
 	buildings_max_level_factor=1.000

@@ -7,10 +7,11 @@ state={
 		owner = SKL
 		add_core_of = SKL
 		add_claim_by = RED
+
 	}
 
 	provinces={
-		322 323 2366 2368 2369 2370 2371 6097 
+		322 
 	}
 	manpower=28
 	buildings_max_level_factor=1.000
