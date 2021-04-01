@@ -201,4 +201,9 @@ spriteTypes = {
 		name = "GFX_idea_bosmeri_pantheon"
 		texturefile = "gfx/interface/ideas/religion/bosmeri_pantheon.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_redguard_pantheon"
+		texturefile = "gfx/interface/ideas/religion/redguard_pantheon.dds"
+	}
 }
