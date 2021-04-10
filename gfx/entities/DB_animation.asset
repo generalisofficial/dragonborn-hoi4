@@ -7,3 +7,8 @@ animation = {
 	name = "blacksmith_idle_animation"
 	file = "blacksmith_idle.anim"
 }
+
+animation = {
+	name = "lava_animation"
+	file = "lava.anim"
+}

@@ -60,3 +60,14 @@ entity = {
 	name = "cloud_ruler_temple_entity"
 	pdxmesh = "cloud_ruler_temple_mesh"
 }
+
+entity = {
+	name = "lava_entity"
+	pdxmesh = "lava_mesh"
+
+	default_state = "idle"
+	state = { 
+		name = "idle" 
+		animation = "lava" 
+	}
+}

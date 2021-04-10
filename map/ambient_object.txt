@@ -110,3 +110,18 @@ type={
 		}
 	}
 }
+#type={
+#	type="lava_entity"
+#	use_animation=yes
+#	scale=28.500000
+#	time_duration=13.000000
+#	object={
+#		name="lava_entity"
+#		position={
+#			1725.740 0.010 1351.440 
+#		}
+#		rotation={
+#			0.000 0.000 0.000 
+#		}
+#	}
+#}

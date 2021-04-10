@@ -206,4 +206,21 @@ spriteTypes = {
 		name = "GFX_idea_redguard_pantheon"
 		texturefile = "gfx/interface/ideas/religion/redguard_pantheon.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_khajiiti_pantheon"
+		texturefile = "gfx/interface/ideas/religion/khajiiti_pantheon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_bretony_pantheon"
+		texturefile = "gfx/interface/ideas/religion/bretony_pantheon.dds"
+	}
+
+	# COURT #
+
+	spriteType = {
+		name = "GFX_court_generic"
+		texturefile = "gfx/interface/ideas/court/court_generic.dds"
+	}
 }

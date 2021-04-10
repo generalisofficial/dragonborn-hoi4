@@ -2,7 +2,8 @@ ideas = {
 
 	deputy = {
 		generic_partisan = {
-			
+			picture = court_generic
+
 			allowed = {
 				NOT = { 
 				    OR = { 
@@ -33,6 +34,7 @@ ideas = {
 		}
 			
 		generic_compromising = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -64,6 +66,7 @@ ideas = {
 		}
 		
 		generic_nonpartisan = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -96,6 +99,7 @@ ideas = {
 
 	court_wizard = {
 		generic_offensive_mage = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -125,6 +129,7 @@ ideas = {
 		}
 			
 		generic_defensive_mage = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -158,6 +163,7 @@ ideas = {
 
 	social_advisor = {
 		generic_conservative = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -189,6 +195,7 @@ ideas = {
 		}
 			
 		generic_reformist = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -222,6 +229,7 @@ ideas = {
 	
 	diplomatic_advisor = {
 		generic_internationalist = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -253,6 +261,7 @@ ideas = {
 		}
 			
 		generic_pragmatist = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -284,6 +293,7 @@ ideas = {
 		}
 		
 		generic_isolationist = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -315,6 +325,7 @@ ideas = {
 		}
 		
 		generic_jingoist = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -348,6 +359,7 @@ ideas = {
 
 	economic_advisor = {
 		generic_free_trade_advocate = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 
@@ -379,6 +391,7 @@ ideas = {
 		}
 			
 		generic_protectionist = {
+			picture = court_generic
 			
 			allowed = {
 				NOT = { 

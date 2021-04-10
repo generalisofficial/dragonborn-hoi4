@@ -1,8 +1,12 @@
 0.3.1
 
 - (Map) Reworked population amounts for the entirety of Tamriel
+- (Map) Finished continent assignments for Tamriel (should help the AI)
 
 - (Addition) Added total country population to the diplomacy menu
 
+- (GFX) Finished icons for the Religion laws
+
 - (Misc) Added country and leader descriptions for every Great House of Morrowind
 - (Misc) Replaced nuclear reactors with Fisheries, a coastal-only food-producing building.
+- (Misc) Replaced rocket sites with Textile Mills

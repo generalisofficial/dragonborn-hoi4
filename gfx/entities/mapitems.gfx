@@ -46,20 +46,31 @@ objectTypes = {
 	#DRAGONBORN	
 	pdxmesh = {
 		name = "white_gold_tower_mesh"
-		file = "gfx/models/buildings/white_gold_tower.mesh"		
+		file = "gfx/models/mapitems/white_gold_tower.mesh"		
 		scale = 1.0
 		cull_distance = 99999.0
 	}
 	pdxmesh = {
 		name = "direnni_tower_mesh"
-		file = "gfx/models/buildings/direnni_tower.mesh"		
+		file = "gfx/models/mapitems/direnni_tower.mesh"		
 		scale = 1.0
 		cull_distance = 99999.0
 	}
 	pdxmesh = {
 		name = "cloud_ruler_temple_mesh"
-		file = "gfx/models/buildings/cloud_ruler_temple.mesh"		
+		file = "gfx/models/mapitems/cloud_ruler_temple.mesh"		
 		scale = 1.0
 		cull_distance = 99999.0
+	}
+	pdxmesh = {
+		name = "lava_mesh"
+		file = "gfx/models/mapitems/lava.mesh"		
+		scale = 1.0
+		cull_distance = 99999.0
+
+		animation = { 
+			id = "lava"  
+			type = "lava_animation" 
+		}
 	}
 }
