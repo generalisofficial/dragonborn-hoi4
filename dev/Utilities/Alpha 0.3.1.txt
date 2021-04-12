@@ -1,9 +1,13 @@
 0.3.1
 
 - (Map) Reworked population amounts for the entirety of Tamriel
+- (Map) Reworked building slot amounts of Hammerfell and Cyrodiil
 - (Map) Finished continent assignments for Tamriel (should help the AI)
+- (Map) Completely reworked Solstheim, moving it to a more accurate location and changing the shape as well as terrain.
+- (Map) Reworked Balfiera
 
 - (Addition) Added total country population to the diplomacy menu
+- (Addition) Integrated the "Recall Volunteers" mod and made minor changes
 
 - (GFX) Finished icons for the Religion laws
 
