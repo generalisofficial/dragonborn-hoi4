@@ -7,10 +7,10 @@ default = {
 			"gfx/leaders/generic/Nord4.tga"
 			"gfx/leaders/generic/Nord5.tga"
 			"gfx/leaders/generic/Nord6.tga"
-			"gfx/leaders/generic/Nord7.dds"
-			"gfx/leaders/generic/Nord8.dds"
-			"gfx/leaders/generic/Nord9.dds"
-			"gfx/leaders/generic/Nord10.dds"
+			"gfx/leaders/generic/Nord7.tga"
+			"gfx/leaders/generic/Nord8.tga"
+			"gfx/leaders/generic/Nord9.tga"
+			"gfx/leaders/generic/Nord10.tga"
 		}
 	}
 	
@@ -22,10 +22,10 @@ default = {
 			"gfx/leaders/generic/Nord4.tga"
 			"gfx/leaders/generic/Nord5.tga"
 			"gfx/leaders/generic/Nord6.tga"
-			"gfx/leaders/generic/Nord7.dds"
-			"gfx/leaders/generic/Nord8.dds"
-			"gfx/leaders/generic/Nord9.dds"
-			"gfx/leaders/generic/Nord10.dds"
+			"gfx/leaders/generic/Nord7.tga"
+			"gfx/leaders/generic/Nord8.tga"
+			"gfx/leaders/generic/Nord9.tga"
+			"gfx/leaders/generic/Nord10.tga"
 		}
 	}
 
@@ -38,10 +38,10 @@ default = {
 			    "gfx/leaders/generic/Nord4.tga"
 			    "gfx/leaders/generic/Nord5.tga"
 			    "gfx/leaders/generic/Nord6.tga"
-			    "gfx/leaders/generic/Nord7.dds"
-			    "gfx/leaders/generic/Nord8.dds"
-			    "gfx/leaders/generic/Nord9.dds"
-			    "gfx/leaders/generic/Nord10.dds"
+			    "gfx/leaders/generic/Nord7.tga"
+			    "gfx/leaders/generic/Nord8.tga"
+			    "gfx/leaders/generic/Nord9.tga"
+			    "gfx/leaders/generic/Nord10.tga"
 		    }
 		}
 		pragmatic = {
@@ -52,10 +52,10 @@ default = {
 			    "gfx/leaders/generic/Nord4.tga"
 			    "gfx/leaders/generic/Nord5.tga"
 			    "gfx/leaders/generic/Nord6.tga"
-			    "gfx/leaders/generic/Nord7.dds"
-			    "gfx/leaders/generic/Nord8.dds"
-			    "gfx/leaders/generic/Nord9.dds"
-			    "gfx/leaders/generic/Nord10.dds"
+			    "gfx/leaders/generic/Nord7.tga"
+			    "gfx/leaders/generic/Nord8.tga"
+			    "gfx/leaders/generic/Nord9.tga"
+			    "gfx/leaders/generic/Nord10.tga"
 		    }
 		}
 		isolationist = {
@@ -66,10 +66,10 @@ default = {
 			    "gfx/leaders/generic/Nord4.tga"
 			    "gfx/leaders/generic/Nord5.tga"
 			    "gfx/leaders/generic/Nord6.tga"
-			    "gfx/leaders/generic/Nord7.dds"
-			    "gfx/leaders/generic/Nord8.dds"
-			    "gfx/leaders/generic/Nord9.dds"
-			    "gfx/leaders/generic/Nord10.dds"
+			    "gfx/leaders/generic/Nord7.tga"
+			    "gfx/leaders/generic/Nord8.tga"
+			    "gfx/leaders/generic/Nord9.tga"
+			    "gfx/leaders/generic/Nord10.tga"
 		    }
 		}
 		jingoist = {
@@ -80,10 +80,10 @@ default = {
 			    "gfx/leaders/generic/Nord4.tga"
 			    "gfx/leaders/generic/Nord5.tga"
 			    "gfx/leaders/generic/Nord6.tga"
-			    "gfx/leaders/generic/Nord7.dds"
-			    "gfx/leaders/generic/Nord8.dds"
-			    "gfx/leaders/generic/Nord9.dds"
-			    "gfx/leaders/generic/Nord10.dds"
+			    "gfx/leaders/generic/Nord7.tga"
+			    "gfx/leaders/generic/Nord8.tga"
+			    "gfx/leaders/generic/Nord9.tga"
+			    "gfx/leaders/generic/Nord10.tga"
 		    }
 		}
 	}

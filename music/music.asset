@@ -1,0 +1,317 @@
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "awake"
+	file = "awake.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "from_past_to_present"
+	file = "from_past_to_present.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "unbroken_road"
+	file = "unbroken_road.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "ancient_stones"
+	file = "ancient_stones.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "the_city_gates"
+	file = "the_city_gates.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "silent_footsteps"
+	file = "silent_footsteps.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "dragonsreach"
+	file = "dragonsreach.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "tooth_and_claw"
+	file = "tooth_and_claw.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "under_an_ancient_sun"
+	file = "under_an_ancient_sun.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "death_or_sovngarde"
+	file = "death_or_sovngarde.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "masser"
+	file = "masser.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "distant_horizons"
+	file = "distant_horizons.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "dawn"
+	file = "dawn.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "the_jerall_mountains"
+	file = "the_jerall_mountains.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "steel_on_steel"
+	file = "steel_on_steel.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "secunda"
+	file = "secunda.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "imperial_throne"
+	file = "imperial_throne.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "frostfall"
+	file = "frostfall.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "night_without_stars"
+	file = "night_without_stars.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "into_darkness"
+	file = "into_darkness.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "kynes_peace"
+	file = "kynes_peace.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "unbound"
+	file = "unbound.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "far_horizons"
+	file = "far_horizons.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "a_winters_tale"
+	file = "a_winters_tale.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "the_bannered_mare"
+	file = "the_bannered_mare.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "the_streets_of_whiterun"
+	file = "the_streets_of_whiterun.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "one_they_fear"
+	file = "one_they_fear.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "the_white_river"
+	file = "the_white_river.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "silence_unbroken"
+	file = "silence_unbroken.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "standing_stones"
+	file = "standing_stones.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "beneath_the_ice"
+	file = "beneath_the_ice.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "tundra"
+	file = "tundra.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "journeys_end"
+	file = "journeys_end.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "before_the_storm"
+	file = "before_the_storm.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "a_chance_meeting"
+	file = "a_chance_meeting.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "out_of_the_cold"
+	file = "out_of_the_cold.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "around_the_fire"
+	file = "around_the_fire.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "shadows_and_echoes"
+	file = "shadows_and_echoes.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "caught_off_guard"
+	file = "caught_off_guard.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "aurora"
+	file = "aurora.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "blood_and_steel"
+	file = "blood_and_steel.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "towers_and_shadows"
+	file = "towers_and_shadows.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "seven_thousand_steps"
+	file = "seven_thousand_steps.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "solitude"
+	file = "solitude.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "watch_the_skies"
+	file = "watch_the_skies.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "the_gathering_storm"
+	file = "the_gathering_storm.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "sky_above_voice_within"
+	file = "sky_above_voice_within.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "death_in_the_darkness"
+	file = "death_in_the_darkness.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "shattered_shields"
+	file = "shattered_shields.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "sovngarde"
+	file = "sovngarde.ogg"
+	volume = 0.30
+}
+
+music = {
+	name = "wind_guide_you"
+	file = "wind_guide_you.ogg"
+	volume = 0.30
+}
+
+
+
+
+
+

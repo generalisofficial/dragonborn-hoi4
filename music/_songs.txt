@@ -1,267 +1,417 @@
-
-music_station = "base_music"
+music_station = "skyrim"
 
 music = {
 	song = "maintheme"
-	chance = {
-		modifier = {
-			factor = 0.5
-		}		
-	}
-}
-
-# PEACE SONGS ##################
-music = {
-	song = "general_peace_1"
 	
 	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = no
-		}		
-	}	
-}
-
-music = {
-	song = "general_peace_2"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = no
-		}		
-	}	
-}
-
-music = {
-	song = "general_peace_3"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = no
-		}		
+		factor = 1
 	}
 }
 
 music = {
-	song = "allies_peace_1"
+	song = "awake"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "allies_peace_2"
+	song = "from_past_to_present"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "axis_peace_1"
+	song = "unbroken_road"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "axis_peace_2"
+	song = "ancient_stones"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
-}
-
-# WAR SONGS ####################
-
-music = {
-	song = "general_war_1"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "general_war_2"
+	song = "the_city_gates"
 	
 	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "axis_war_1"
+	song = "silent_footsteps"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "axis_war_2"
+	song = "dragonsreach"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "axis_war_3"
+	song = "tooth_and_claw"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "axis_war_4"
+	song = "under_an_ancient_sun"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "allies_war_1"
+	song = "death_or_sovngarde"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "allies_war_2"
+	song = "masser"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "comintern_peace_1"
+	song = "distant_horizons"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "comintern_peace_2"
+	song = "dawn"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "comintern_peace_3"
+	song = "the_jerall_mountains"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = no
-		}		
-	}	
-}
-
-
-music = {
-	song = "comintern_war_1"
-	
-	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "comintern_war_2"
+	song = "steel_on_steel"
 	
 	chance = {
-		modifier = {
-			factor = 2
-
-			has_war = yes
-		}		
-	}	
+		factor = 1
+	}
 }
 
 music = {
-	song = "comintern_war_3"
+	song = "secunda"
 	
 	chance = {
-		modifier = {
-			factor = 2
+		factor = 1
+	}
+}
 
-			has_war = yes
-		}		
-	}	
+music = {
+	song = "imperial_throne"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "frostfall"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "night_without_stars"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "into_darkness"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "kynes_peace"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "unbound"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "far_horizons"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "a_winters_tale"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "the_bannered_mare"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "the_streets_of_whiterun"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "one_they_fear"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "the_white_river"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "silence_unbroken"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "standing_stones"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "beneath_the_ice"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "tundra"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "journeys_end"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "before_the_storm"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "a_chance_meeting"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "out_of_the_cold"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "around_the_fire"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "shadows_and_echoes"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "caught_off_guard"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "aurora"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "blood_and_steel"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "towers_and_shadows"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "seven_thousand_steps"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "solitude"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "watch_the_skies"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "the_gathering_storm"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "sky_above_voice_within"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "death_in_the_darkness"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "shattered_shields"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "sovngarde"
+	
+	chance = {
+		factor = 1
+	}
+}
+
+music = {
+	song = "wind_guide_you"
+	
+	chance = {
+		factor = 1
+	}
 }

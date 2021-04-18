@@ -70,3 +70,8 @@
  retake_the_reach_desc:0 "Enough is enough! We will not be bullied by some half-Bretons. Once we have dealt with any ongoing military conflicts, our forces must immediately be directed towards retaking the Reach, and to making sure the leaders of this treachery are hanged in the streets of Markarth!"
  recognize_reachman_independence:0 "Recognize Reachman Independence"
  recognize_reachman_independence_desc:0 "We are not ready for a confrontation with the Reachmen. As they have already shown, they will defend the Reach to the last man. To avoid an unwinnable conflict, the best option is to simply recognize their independence, and to instead of fighting, strive towards friendly relations with the Reachmen."
+
+ #Great War
+ great_war:0 "The Great War"
+ send_the_ultimatum:0 "Send the Ultimatum"
+ send_the_ultimatum_desc:0 "Our forces are numerically and tactically superior to the weak and outdated Legion forces manning the border. Lord Naarifin's army has prepared for a ground invasion of Cyrodiil, and Lady Arannelya's army is gearing up for an assault through the Gold Coast into Hammerfell. It is time."

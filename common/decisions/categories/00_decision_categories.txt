@@ -32,6 +32,15 @@ unifying_morrowind = {
 	}
 }
 
+great_war = {
+
+    icon = border_conflicts
+
+	allowed = {
+		always = yes
+	}
+}
+
 political_actions = {
 	icon = generic_political_actions
 
@@ -87,6 +96,8 @@ reclaiming_solstheim = {
 		always = yes
 	}
 }
+
+# LA RESISTANCE #
 
 lar_local_recruitment = {
 	allowed = { has_dlc = "La Resistance" }

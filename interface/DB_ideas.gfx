@@ -220,7 +220,7 @@ spriteTypes = {
 	# COURT #
 
 	spriteType = {
-		name = "GFX_court_generic"
+		name = "GFX_idea_court_generic"
 		texturefile = "gfx/interface/ideas/court/court_generic.dds"
 	}
 }
