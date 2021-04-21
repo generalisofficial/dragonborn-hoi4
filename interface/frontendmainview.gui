@@ -72,14 +72,14 @@ guiTypes = {
 			vertical_alignment = center
 		}
 		
-		buttonType = {
-			name ="frontend_submod_dragonborn_music"
-			spriteType = "GFX_submod_dragonborn_music"
-			position = { x = 0 y = 10 }
-			pdx_tooltip = "submod_dragonborn_music"
-			oversound = ui_menu_over
-			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2049478241"
-		}
+		#buttonType = {
+		#	name ="frontend_submod_dragonborn_music"
+		#	spriteType = "GFX_submod_dragonborn_music"
+		#	position = { x = 0 y = 10 }
+		#	pdx_tooltip = "submod_dragonborn_music"
+		#	oversound = ui_menu_over
+		#	web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2049478241"
+		#}
 		
 	}		
 

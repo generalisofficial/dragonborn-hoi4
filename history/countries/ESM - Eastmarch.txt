@@ -45,7 +45,7 @@ create_country_leader = {
     create_country_leader = {
 	    name = "Ulfric Stormcloak"
 	    picture = "Ulfric_Stormcloak.dds"
-	    ideology = isolationist_ideology
+	    ideology = stormcloaks
 	    traits = {
 	        great_war_hero
 	    }

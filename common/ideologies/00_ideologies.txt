@@ -91,6 +91,10 @@ ideologies = {
 		
 			isolationist_ideology = {
 			}
+
+			stormcloaks = {
+				can_be_randomly_selected = no
+			}
 			
 		}
 		
@@ -131,6 +135,10 @@ ideologies = {
 		types = {
 		
 			jingoist_ideology = {
+			}
+
+			thalmor = {
+				can_be_randomly_selected = no
 			}
 			
 		}
