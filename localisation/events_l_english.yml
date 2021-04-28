@@ -149,6 +149,11 @@
  dres.6.d:0 "In an unexpected visit, [DRS.GetLeaderTitle] [DRS.GetLeader] of House Dres arrived in Mournhold this morning by carriage. The [DRS.GetLeaderTitle] went on to have a private meeting with the Archcanon of the Mournhold Temple, however the contents of this meeting are still unknown. The [DRS.GetLeaderTitle] eventually departed the city after visiting several important religious locations."
  dres.6.a:0 "What might they have discussed?"
 
+ #High Rock
+ dres.1.t:0 ""
+ dres.1.d:0 "Despite the best efforts of the Imperial Legion, Ulfric Stormcloak today took Solitude after a long battle and declared the end of Imperial control in Skyrim. With the withdrawal of the Legion from Skyrim, High Rock has now been cut off from the rest of the Empire. The Legion are no longer able to protect us, but cannot harm us either. What do you say, [ROOT.GetLeaderTitle]? Is it time for [ROOT.GetName] to emerge as an independent nation, or shall we reaffirm our allegiance to [CYR.GetLeaderTitle] [CYR.GetLeader] once more?"
+ dres.1.a:0 "Rest in peace!"
+
  #System
  system.2.t:0 "§R[FROM.GetNameWithFlag] secedes!§!"
  system.2.d:0 "[FROM.GetName] seems to think we're messing around! This afternoon, [FROM.GetLeaderTitle] [FROM.GetLeader] declared their nation an independent state, free from our guiding light. Obviously, this cannot stand!"

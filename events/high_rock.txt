@@ -1,0 +1,32 @@
+﻿add_namespace = high_rock
+
+#Empire has lost Skyrim, Declare Independence?
+country_event = {
+	id = high_rock.1
+	title = high_rock.1.t
+	desc = high_rock.1.d
+	
+	is_triggered_only = yes
+
+	option = { #Declare Independence
+		name = high_rock.1.a
+		ai_chance = {
+			factor = 0
+			modifier = {
+				NOT = { has_government = internationalist }
+				factor = 100
+			}
+		}
+	}
+
+	option = { #Reaffirm our Loyalty
+		name = high_rock.1.b
+		ai_chance = {
+			factor = 0
+			modifier = {
+				has_government = internationalist
+				factor = 100
+			}
+		}
+	}
+}

@@ -236,6 +236,7 @@ ideas = {
 
 	economic_advisor = {
 		nazeem = {
+			picture = court_Nazeem
 			
 			allowed = {
 				original_tag = WTR

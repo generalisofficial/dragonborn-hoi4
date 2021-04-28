@@ -4,6 +4,26 @@ defined_text = {
 		trigger = {
 			THIS = {
 				OR = {
+					has_country_leader = { ruling_only = yes name = "Elisif the Fair" }
+				}
+			}
+		}
+		localization_key = TITLE_HIGH_QUEEN
+	}
+	text = {
+		trigger = {
+			THIS = {
+				OR = {
+					has_country_leader = { ruling_only = yes name = "Aurelia" }
+				}
+			}
+		}
+		localization_key = TITLE_QUEEN
+	}
+	text = {
+		trigger = {
+			THIS = {
+				OR = {
 					original_tag = SKY
 					original_tag = HAM
 					has_cosmetic_tag = HRK
@@ -70,16 +90,6 @@ defined_text = {
 			}
 		}
 		localization_key = TITLE_HORTATOR
-	}
-	text = {
-		trigger = {
-			THIS = {
-				OR = {
-					has_country_leader = { ruling_only = yes name = "Elisif the Fair" }
-				}
-			}
-		}
-		localization_key = TITLE_HIGH_QUEEN
 	}
 	text = {
 		trigger = {
