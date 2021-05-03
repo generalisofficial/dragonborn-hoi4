@@ -40,14 +40,13 @@ country_event = {
 	trigger = {
 		original_tag = SKY
 		is_subject_of = CYR
-		date > 201.2.1
 		has_idea = idea_white_gold_concordat
 		has_global_flag = stormcloaks_formed
 		has_country_leader = { ruling_only = yes name = "Torygg" }
 	}
 
 	mean_time_to_happen = {
-		days = 50
+		days = 4000
 	}
 	
 	option = {
@@ -76,6 +75,7 @@ country_event = {
 	
 	option = {
 		name = skyrim.3.a
+		set_global_flag = skyrim_civil_war 
 		SKY = {
             every_owned_state = {
                 add_core_of = ESM
@@ -209,9 +209,16 @@ country_event = {
 			transfer_state = 192
 			transfer_state = 190
 			transfer_state = 191
-			transfer_state = 227
-			transfer_state = 222
+			transfer_state = 208
+			transfer_state = 211
+			transfer_state = 212
+			transfer_state = 213
+			transfer_state = 216
 			transfer_state = 223
+			transfer_state = 222
+			transfer_state = 238
+			transfer_state = 236
+			transfer_state = 227
 			declare_war_on = {
 	            target = SKY
 	            type = civil_war

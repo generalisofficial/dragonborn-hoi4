@@ -26,3 +26,47 @@ country_event = {
 		set_country_flag = moot_ulfric_stormcloak
 	}
 }
+
+#Victory in the Civil War
+country_event = {
+	id = skyrim_stormcloak.2
+	title = skyrim_stormcloak.2.t
+	desc = skyrim_stormcloak.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = skyrim_stormcloak.1.a
+		set_cosmetic_tag = SKY
+		SKY = { set_cosmetic_tag = HAF }
+		every_state = {
+            limit = {
+                is_core_of = SKY
+				NOT = {
+					OR = {
+						state = 10
+						state = 225
+						state = 224
+						state = 220
+					}
+				}
+			}
+			remove_core_of = SKY
+        }
+		annex_country = {
+			target = SKY
+			transfer_troops = no
+		}
+		every_other_country = {
+			limit = {
+				OR = {
+					original_tag = CYR
+					is_subject_of = CYR
+					is_in_faction_with = CYR
+				}
+				has_war_with = ROOT
+			}
+			white_peace = ROOT
+		}
+	}
+}

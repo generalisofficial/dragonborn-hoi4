@@ -4,3 +4,8 @@ ELS = {
 	color = rgb { 234 108 21 }
 	color_ui = rgb { 234 108 21 }
 }
+
+HAF = {
+	color = rgb { 133 0 0 }
+	color_ui = rgb { 133 0 0 }
+}

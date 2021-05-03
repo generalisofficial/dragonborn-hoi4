@@ -6,6 +6,7 @@ defined_text = {
 				OR = {
 					has_country_leader = { ruling_only = yes name = "Elisif the Fair" }
 				}
+				NOT = { has_cosmetic_tag = HAF }
 			}
 		}
 		localization_key = TITLE_HIGH_QUEEN
@@ -27,7 +28,9 @@ defined_text = {
 					original_tag = SKY
 					original_tag = HAM
 					has_cosmetic_tag = HRK
+					has_cosmetic_tag = SKY
 				}
+				NOT = { has_cosmetic_tag = HAF }
 			}
 		}
 		localization_key = TITLE_HIGH_KING
@@ -129,6 +132,7 @@ defined_text = {
 					has_cosmetic_tag = HAF
 				}
 				NOT = { has_cosmetic_tag = ESM_STORMCLOAK }
+				NOT = { has_cosmetic_tag = SKY }
 			}
 		}
 		localization_key = TITLE_JARL

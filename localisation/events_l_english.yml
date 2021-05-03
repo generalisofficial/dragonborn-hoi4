@@ -59,6 +59,9 @@
  skyrim_stormcloak.1.t:0 "The Moot"
  skyrim_stormcloak.1.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and elect a new High King or Queen. The obvious candidate is Jarl Ulfric Stormcloak of Eastmarch, leader of the Stormcloak Rebellion."
  skyrim_stormcloak.1.a:0 "Jarl Ulfric Stormcloak will lead."
+ skyrim_stormcloak.2.t:0 "Victory in the Civil War"
+ skyrim_stormcloak.2.d:0 "After our swift and decisive conquest of Solitude, [SKY.GetLeaderTitle] [SKY.GetLeader] has finally decided to put down arms and surrender to our forces. With the chance to defeat our rebellion practically eliminated, the rest of the Empire has decided to withdraw from Skyrim and leave our kingdom in peace. It seems that victory has finally arrived."
+ skyrim_stormcloak.2.a:0 "Victory at last!"
 
  #Forsworn Uprising
  forsworn_uprising.1.t:0 "Forsworn Uprising"
@@ -150,9 +153,9 @@
  dres.6.a:0 "What might they have discussed?"
 
  #High Rock
- dres.1.t:0 ""
- dres.1.d:0 "Despite the best efforts of the Imperial Legion, Ulfric Stormcloak today took Solitude after a long battle and declared the end of Imperial control in Skyrim. With the withdrawal of the Legion from Skyrim, High Rock has now been cut off from the rest of the Empire. The Legion are no longer able to protect us, but cannot harm us either. What do you say, [ROOT.GetLeaderTitle]? Is it time for [ROOT.GetName] to emerge as an independent nation, or shall we reaffirm our allegiance to [CYR.GetLeaderTitle] [CYR.GetLeader] once more?"
- dres.1.a:0 "Rest in peace!"
+ high_rock.1.t:0 "Time for Independence?"
+ high_rock.1.d:0 "Despite the best efforts of the Imperial Legion, Ulfric Stormcloak today took Solitude after a long battle and declared the end of Imperial control in Skyrim. With the withdrawal of the Legion from Skyrim, High Rock has now been cut off from the rest of the Empire. The Legion are no longer able to protect us, but cannot harm us either. What do you say, [ROOT.GetLeaderTitle]? Is it time for [ROOT.GetName] to emerge as an independent nation, or shall we reaffirm our allegiance to [CYR.GetLeaderTitle] [CYR.GetLeader] once more?"
+ high_rock.1.a:0 "Rest in peace!"
 
  #System
  system.2.t:0 "§R[FROM.GetNameWithFlag] secedes!§!"

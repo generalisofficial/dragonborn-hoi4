@@ -135,7 +135,15 @@ on_actions = {
 	# ROOT is capitulated country, FROM is winner
 	on_capitulation = {
 		effect = {
-		
+			if = {
+				limit = {
+					FROM = { has_cosmetic_tag = ESM_STORMCLOAK has_global_flag = skyrim_civil_war }
+					ROOT = { original_tag = SKY has_war_with = FROM }
+				}
+				clr_global_flag = skyrim_civil_war
+				set_global_flag = stormcloaks_win
+				FROM = { country_event = skyrim_stormcloak.2 }
+			}
 		}
 	}
 
