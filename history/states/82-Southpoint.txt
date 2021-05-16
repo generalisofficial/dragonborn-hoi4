@@ -29,5 +29,5 @@ state={
 	}
 	manpower=261988
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_6
 }
