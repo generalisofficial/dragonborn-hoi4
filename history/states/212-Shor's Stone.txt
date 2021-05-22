@@ -16,6 +16,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			farm = 1
+			blacksmith = 1
 			105 = {
 				fort = 4
 

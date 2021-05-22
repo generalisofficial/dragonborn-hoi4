@@ -6,7 +6,10 @@ defined_text = {
 				OR = {
 					has_country_leader = { ruling_only = yes name = "Elisif the Fair" }
 				}
-				NOT = { has_cosmetic_tag = HAF }
+				NOT = { 
+					has_cosmetic_tag = HAF 
+					has_global_flag = skyrim_civil_war 
+				}
 			}
 		}
 		localization_key = TITLE_HIGH_QUEEN
@@ -30,7 +33,10 @@ defined_text = {
 					has_cosmetic_tag = HRK
 					has_cosmetic_tag = SKY
 				}
-				NOT = { has_cosmetic_tag = HAF }
+				NOT = { 
+					has_cosmetic_tag = HAF 
+					has_global_flag = skyrim_civil_war 
+				}
 			}
 		}
 		localization_key = TITLE_HIGH_KING
@@ -130,8 +136,11 @@ defined_text = {
 					original_tag = REA
 					original_tag = HJA
 					has_cosmetic_tag = HAF
+					AND = {
+						original_tag = SKY
+						has_global_flag = skyrim_civil_war
+					}
 				}
-				NOT = { has_cosmetic_tag = ESM_STORMCLOAK }
 				NOT = { has_cosmetic_tag = SKY }
 			}
 		}

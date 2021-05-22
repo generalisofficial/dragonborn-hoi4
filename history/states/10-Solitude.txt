@@ -22,6 +22,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
+			lumber_mill = 1
+			blacksmith = 2
+			textile_mill = 1
 			6179 = {
 				port = 4
 

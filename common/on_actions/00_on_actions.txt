@@ -144,6 +144,15 @@ on_actions = {
 				set_global_flag = stormcloaks_win
 				FROM = { country_event = skyrim_stormcloak.2 }
 			}
+			if = {
+				limit = {
+					ROOT = { has_cosmetic_tag = ESM_STORMCLOAK has_global_flag = skyrim_civil_war }
+					FROM = { original_tag = SKY has_war_with = ROOT }
+				}
+				clr_global_flag = skyrim_civil_war
+				set_global_flag = imperials_win
+			}
+			news_event = { id = generic.1 }
 		}
 	}
 

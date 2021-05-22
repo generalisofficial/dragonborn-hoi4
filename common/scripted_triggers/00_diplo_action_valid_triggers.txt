@@ -1,3 +1,6 @@
+#ROOT - Target
+#FROM - Initiator
+
 is_diplomatic_action_valid_stage_coup = {
 	NOT = { has_dlc = "La Resistance" }
 }
@@ -40,4 +43,5 @@ is_diplomatic_action_valid_offer_join_faction = {
 
 is_diplomatic_action_valid_guarantee = {
 	NOT = { is_subject_of = FROM }
+    FROM = { is_subject = no }
 }

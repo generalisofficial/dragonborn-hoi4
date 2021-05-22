@@ -10,6 +10,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			blacksmith = 1
+			fishery = 1
 			3943 = {
 				port = 2
 

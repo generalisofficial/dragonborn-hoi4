@@ -19,6 +19,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			lumber_mill = 1
 			2737 = {
 				fort = 4
 

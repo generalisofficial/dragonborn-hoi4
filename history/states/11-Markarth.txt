@@ -13,6 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			blacksmith = 2
+			textile_mill = 1
 			681 = {
 				fort = 3
 

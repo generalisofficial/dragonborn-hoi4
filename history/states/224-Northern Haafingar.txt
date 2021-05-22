@@ -9,6 +9,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			fishery = 1
 			2925 = {
 				fort = 5
 

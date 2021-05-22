@@ -9,6 +9,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			blacksmith = 1
 			4796 = {
 				fort = 5
 

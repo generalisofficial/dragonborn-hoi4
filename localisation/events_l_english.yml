@@ -1,4 +1,10 @@
 ﻿l_english:
+ #Generic
+ generic.1.t:0 "CAPITULATION!"
+ generic.1.d:0 "With the war effort turning decisively against them, [ROOT.GetLeaderTitle] [ROOT.GetLeader] of [ROOT.GetNameWithFlag] has now taken the decision to capitulate. As [ROOT.GetAdjective] soldiers surrender or resort to guerrilla warfare, the [ROOT.GetLeaderTitle] flees the nation into exile. The future looks grim for [ROOT.GetNameDef], with members of the newly formed underground resistance preparing for prolonged conflict."
+ generic.1.a:0 "Good riddance!"
+ generic.1.b:0 "A sad day in history."
+ generic.1.c:0 "Perhaps the [ROOT.GetLeaderTitle] will come visit?"
 
  #Great War
  great_war.1.t:0 "Aldmeri Ultimatum"
@@ -47,7 +53,7 @@
  skyrim.4.a:0 "It's only a matter of time."
  skyrim.4.b:0 "Do you get to the Cloud District very often? (Play as Whiterun)"
  skyrim.5.t:0 "The Moot"
- skyrim.5.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and elect a new High King or Queen. The obvious candidate is Jarl Elisif the Fair of Haafingar, widow of the late High King Torygg."
+ skyrim.5.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and elect a new High King or Queen. The obvious candidate is the current de-facto High Queen, Jarl Elisif the Fair of Haafingar, widow of the late High King Torygg."
  skyrim.5.a:0 "Jarl Elisif the Fair will lead."
  skyrim.6.t:0 "CIVIL WAR IN SKYRIM!"
  skyrim.6.d:0 "After Jarl of Eastmarch, Ulfric Stormcloak, marched into Solitude and murdered High King Torygg, conflict was inevitable. It has now arrived, with Ulfric declaring a rebellion against Imperial rule in Skyrim. Ulfric has been joined by the Old Holds of Winterhold, The Rift and The Pale, as well as his own Eastmarch. The uprising is opposed by newly-arrived General Tullius of the Imperial Legion, who has gathered Legion forces to battle the Stormcloaks."
@@ -57,7 +63,7 @@
 
  #Stormcloak Skyrim
  skyrim_stormcloak.1.t:0 "The Moot"
- skyrim_stormcloak.1.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and elect a new High King or Queen. The obvious candidate is Jarl Ulfric Stormcloak of Eastmarch, leader of the Stormcloak Rebellion."
+ skyrim_stormcloak.1.d:0 "With the Skyrim Civil War resolved in our favour, it is time to hold the Moot, and formally elect a new High King or Queen. The obvious candidate is the current de-facto High King, Jarl Ulfric Stormcloak of Eastmarch, leader of the Stormcloak Rebellion."
  skyrim_stormcloak.1.a:0 "Jarl Ulfric Stormcloak will lead."
  skyrim_stormcloak.2.t:0 "Victory in the Civil War"
  skyrim_stormcloak.2.d:0 "After our swift and decisive conquest of Solitude, [SKY.GetLeaderTitle] [SKY.GetLeader] has finally decided to put down arms and surrender to our forces. With the chance to defeat our rebellion practically eliminated, the rest of the Empire has decided to withdraw from Skyrim and leave our kingdom in peace. It seems that victory has finally arrived."
@@ -80,7 +86,7 @@
 
  #Miraak
  miraak.1.t:0 "Resurgent Dragon Cult"
- miraak.1.d:0 "Disturbing reports have arrived from Solstheim. Authorities in Raven Rock have gotten news of a resurgent Dragon Cult having seized control over parts of the island. This new group is led by a so called "Miraak", and has been seen building temples all across the island. Assistance has been requested."
+ miraak.1.d:0 "Disturbing reports have arrived from Solstheim. Authorities in Raven Rock have gotten news of a resurgent Dragon Cult having seized control over parts of the island. This new group is led by a so called Miraak, and has been seen building temples all across the island. Assistance has been requested."
  miraak.1.a:0 "It shall be dealt with immediately!"
  miraak.1.b:0 "Our only salvation. (Play as the Dragon Cult)"
 

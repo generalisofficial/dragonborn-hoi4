@@ -10,6 +10,13 @@ country_event = {
 
 	option = { #Declare Independence
 		name = high_rock.1.a
+		CYR = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_free
+			}
+		}
+		leave_faction = yes
 		ai_chance = {
 			factor = 0
 			modifier = {

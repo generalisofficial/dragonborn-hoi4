@@ -6,21 +6,8 @@ country_event = {
 	title = skyrim_stormcloak.1.t
 	desc = skyrim_stormcloak.1.d
 	
-	trigger = {
-		original_tag = ESM
-		has_cosmetic_tag = ESM_STORMCLOAK
-		date > 201.1.1
-		SKY = { exists = no }
-		has_war = no
-		owns_state = 16
-		owns_state = 10
-		has_country_leader = { ruling_only = yes name = "Ulfric Stormcloak" }
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
+	is_triggered_only = yes
+
 	option = {
 		name = skyrim_stormcloak.1.a
 		set_country_flag = moot_ulfric_stormcloak
@@ -37,6 +24,7 @@ country_event = {
 	
 	option = {
 		name = skyrim_stormcloak.1.a
+		country_event = skyrim_stormcloak.1
 		set_cosmetic_tag = SKY
 		SKY = { set_cosmetic_tag = HAF }
 		every_state = {

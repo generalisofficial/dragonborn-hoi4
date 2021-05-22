@@ -13,6 +13,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			lumber_mill = 1
+			farm = 2
+			blacksmith = 1
+			textile_mill = 1
 			5416 = {
 				fort = 2
 

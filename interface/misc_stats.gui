@@ -3,16 +3,36 @@ guiTypes = {
 		name = "misc_stats_diplomacy_view_container"
 		position = { x = -15 y = 60 }
 
+		# TREASURY #
 		iconType = {
-			name = "manpower_icon"
-			spriteType = "GFX_population_icon"
+			name = "treasury_icon"
+			spriteType = "GFX_pol_power_icon"
 			position = { x = 278 y = 150 }	
-			alwaystransparent = yes				
+			alwaystransparent = yes	
 		}
 
 		instantTextBoxType = {
-			name ="manpower_text"
-			position = { x = 218 y = 180 }
+			name ="treasury_text"
+			position = { x = 214 y = 180 }
+			font = "hoi_16mbs"
+			text = "[?this.has_political_power|0]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+
+		# POPULATION #
+		iconType = {
+			name = "population_icon"
+			spriteType = "GFX_population_icon"
+			position = { x = 350 y = 150 }	
+			alwaystransparent = yes	
+		}
+
+		instantTextBoxType = {
+			name ="population_text"
+			position = { x = 292 y = 180 }
 			font = "hoi_16mbs"
 			text = "[?this.max_manpower_k|2]k"
 			maxWidth = 155

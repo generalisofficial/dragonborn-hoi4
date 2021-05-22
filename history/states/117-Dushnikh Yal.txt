@@ -8,6 +8,8 @@ state={
 			550 2
 		}
 		buildings = {
+			infrastructure = 3
+			blacksmith = 1
 
 		}
 		add_core_of = DKY
