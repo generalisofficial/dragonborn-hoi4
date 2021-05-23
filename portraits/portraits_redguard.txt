@@ -1,89 +1,89 @@
 HAM = {
 	army = {
 		male = {
-			"gfx/leaders/generic/Redguard1.dds"
-			"gfx/leaders/generic/Redguard2.dds"
-			"gfx/leaders/generic/Redguard3.dds"
-			"gfx/leaders/generic/Redguard4.dds"
-			"gfx/leaders/generic/Redguard5.dds"
-			"gfx/leaders/generic/Redguard6.dds"
-			"gfx/leaders/generic/Redguard7.dds"
-			"gfx/leaders/generic/Redguard8.dds"
-			"gfx/leaders/generic/Redguard9.dds"
-			"gfx/leaders/generic/Redguard10.dds"
+			"gfx/leaders/generic/Redguard1.tga"
+			"gfx/leaders/generic/Redguard2.tga"
+			"gfx/leaders/generic/Redguard3.tga"
+			"gfx/leaders/generic/Redguard4.tga"
+			"gfx/leaders/generic/Redguard5.tga"
+			"gfx/leaders/generic/Redguard6.tga"
+			"gfx/leaders/generic/Redguard7.tga"
+			"gfx/leaders/generic/Redguard8.tga"
+			"gfx/leaders/generic/Redguard9.tga"
+			"gfx/leaders/generic/Redguard10.tga"
 		}
 	}
 	
 	navy = {
 		male = {
-			"gfx/leaders/generic/Redguard1.dds"
-			"gfx/leaders/generic/Redguard2.dds"
-			"gfx/leaders/generic/Redguard3.dds"
-			"gfx/leaders/generic/Redguard4.dds"
-			"gfx/leaders/generic/Redguard5.dds"
-			"gfx/leaders/generic/Redguard6.dds"
-			"gfx/leaders/generic/Redguard7.dds"
-			"gfx/leaders/generic/Redguard8.dds"
-			"gfx/leaders/generic/Redguard9.dds"
-			"gfx/leaders/generic/Redguard10.dds"
+			"gfx/leaders/generic/Redguard1.tga"
+			"gfx/leaders/generic/Redguard2.tga"
+			"gfx/leaders/generic/Redguard3.tga"
+			"gfx/leaders/generic/Redguard4.tga"
+			"gfx/leaders/generic/Redguard5.tga"
+			"gfx/leaders/generic/Redguard6.tga"
+			"gfx/leaders/generic/Redguard7.tga"
+			"gfx/leaders/generic/Redguard8.tga"
+			"gfx/leaders/generic/Redguard9.tga"
+			"gfx/leaders/generic/Redguard10.tga"
 		}
 	}
 
 	political = {
 		internationalist = {
 		    male = {
-			    "gfx/leaders/generic/Redguard1.dds"
-			    "gfx/leaders/generic/Redguard2.dds"
-			    "gfx/leaders/generic/Redguard3.dds"
-			    "gfx/leaders/generic/Redguard4.dds"
-			    "gfx/leaders/generic/Redguard5.dds"
-			    "gfx/leaders/generic/Redguard6.dds"
-			    "gfx/leaders/generic/Redguard7.dds"
-			    "gfx/leaders/generic/Redguard8.dds"
-			    "gfx/leaders/generic/Redguard9.dds"
-			    "gfx/leaders/generic/Redguard10.dds"
+			    "gfx/leaders/generic/Redguard1.tga"
+			    "gfx/leaders/generic/Redguard2.tga"
+			    "gfx/leaders/generic/Redguard3.tga"
+			    "gfx/leaders/generic/Redguard4.tga"
+			    "gfx/leaders/generic/Redguard5.tga"
+			    "gfx/leaders/generic/Redguard6.tga"
+			    "gfx/leaders/generic/Redguard7.tga"
+			    "gfx/leaders/generic/Redguard8.tga"
+			    "gfx/leaders/generic/Redguard9.tga"
+			    "gfx/leaders/generic/Redguard10.tga"
 		    }
 		}
 		pragmatic = {
 			    male = {
-			    "gfx/leaders/generic/Redguard1.dds"
-			    "gfx/leaders/generic/Redguard2.dds"
-			    "gfx/leaders/generic/Redguard3.dds"
-			    "gfx/leaders/generic/Redguard4.dds"
-			    "gfx/leaders/generic/Redguard5.dds"
-			    "gfx/leaders/generic/Redguard6.dds"
-			    "gfx/leaders/generic/Redguard7.dds"
-			    "gfx/leaders/generic/Redguard8.dds"
-			    "gfx/leaders/generic/Redguard9.dds"
-			    "gfx/leaders/generic/Redguard10.dds"
+			    "gfx/leaders/generic/Redguard1.tga"
+			    "gfx/leaders/generic/Redguard2.tga"
+			    "gfx/leaders/generic/Redguard3.tga"
+			    "gfx/leaders/generic/Redguard4.tga"
+			    "gfx/leaders/generic/Redguard5.tga"
+			    "gfx/leaders/generic/Redguard6.tga"
+			    "gfx/leaders/generic/Redguard7.tga"
+			    "gfx/leaders/generic/Redguard8.tga"
+			    "gfx/leaders/generic/Redguard9.tga"
+			    "gfx/leaders/generic/Redguard10.tga"
 		    }
 		}
 		isolationist = {
 		    male = {
-			    "gfx/leaders/generic/Redguard1.dds"
-			    "gfx/leaders/generic/Redguard2.dds"
-			    "gfx/leaders/generic/Redguard3.dds"
-			    "gfx/leaders/generic/Redguard4.dds"
-			    "gfx/leaders/generic/Redguard5.dds"
-			    "gfx/leaders/generic/Redguard6.dds"
-			    "gfx/leaders/generic/Redguard7.dds"
-			    "gfx/leaders/generic/Redguard8.dds"
-			    "gfx/leaders/generic/Redguard9.dds"
-			    "gfx/leaders/generic/Redguard10.dds"
+			    "gfx/leaders/generic/Redguard1.tga"
+			    "gfx/leaders/generic/Redguard2.tga"
+			    "gfx/leaders/generic/Redguard3.tga"
+			    "gfx/leaders/generic/Redguard4.tga"
+			    "gfx/leaders/generic/Redguard5.tga"
+			    "gfx/leaders/generic/Redguard6.tga"
+			    "gfx/leaders/generic/Redguard7.tga"
+			    "gfx/leaders/generic/Redguard8.tga"
+			    "gfx/leaders/generic/Redguard9.tga"
+			    "gfx/leaders/generic/Redguard10.tga"
 		    }
 		}
 		jingoist = {
 		    male = {
-			    "gfx/leaders/generic/Redguard1.dds"
-			    "gfx/leaders/generic/Redguard2.dds"
-			    "gfx/leaders/generic/Redguard3.dds"
-			    "gfx/leaders/generic/Redguard4.dds"
-			    "gfx/leaders/generic/Redguard5.dds"
-			    "gfx/leaders/generic/Redguard6.dds"
-			    "gfx/leaders/generic/Redguard7.dds"
-			    "gfx/leaders/generic/Redguard8.dds"
-			    "gfx/leaders/generic/Redguard9.dds"
-			    "gfx/leaders/generic/Redguard10.dds"
+			    "gfx/leaders/generic/Redguard1.tga"
+			    "gfx/leaders/generic/Redguard2.tga"
+			    "gfx/leaders/generic/Redguard3.tga"
+			    "gfx/leaders/generic/Redguard4.tga"
+			    "gfx/leaders/generic/Redguard5.tga"
+			    "gfx/leaders/generic/Redguard6.tga"
+			    "gfx/leaders/generic/Redguard7.tga"
+			    "gfx/leaders/generic/Redguard8.tga"
+			    "gfx/leaders/generic/Redguard9.tga"
+			    "gfx/leaders/generic/Redguard10.tga"
 		    }
 		}
 	}

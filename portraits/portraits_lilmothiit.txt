@@ -1,0 +1,48 @@
+CTQ = {
+	army = {
+		male = {
+			"gfx/leaders/generic/Lilmothiit1.tga"
+			"gfx/leaders/generic/Lilmothiit2.tga"
+			"gfx/leaders/generic/Lilmothiit3.tga"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/generic/Lilmothiit1.tga"
+			"gfx/leaders/generic/Lilmothiit2.tga"
+			"gfx/leaders/generic/Lilmothiit3.tga"
+		}
+	}
+	
+	political = {
+		internationalist = {
+		    male = {
+			    "gfx/leaders/generic/Lilmothiit1.tga"
+			    "gfx/leaders/generic/Lilmothiit2.tga"
+				"gfx/leaders/generic/Lilmothiit3.tga"
+		    }
+		}
+		pragmatic = {
+			male = {
+				"gfx/leaders/generic/Lilmothiit1.tga"
+				"gfx/leaders/generic/Lilmothiit2.tga"
+				"gfx/leaders/generic/Lilmothiit3.tga"
+		    }
+		}
+		isolationist = {
+		    male = {
+			    "gfx/leaders/generic/Lilmothiit1.tga"
+			    "gfx/leaders/generic/Lilmothiit2.tga"
+				"gfx/leaders/generic/Lilmothiit3.tga"
+		    }
+		}
+		jingoist = {
+		    male = {
+			    "gfx/leaders/generic/Lilmothiit1.tga"
+			    "gfx/leaders/generic/Lilmothiit2.tga"
+				"gfx/leaders/generic/Lilmothiit3.tga"
+		    }
+		}
+	}
+}
