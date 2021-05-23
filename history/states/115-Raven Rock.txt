@@ -1,6 +1,9 @@
 state={
 	id=115
 	name="STATE_115"
+	resources={
+		rare_metals=15.000
+	}
 	
 	history={
 		owner = RED
@@ -11,6 +14,7 @@ state={
 			infrastructure = 4
 			blacksmith = 1
 			farm = 1
+			apothecary = 1
 			5895 = {
 				port = 3
 			
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=6043
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_3
 }

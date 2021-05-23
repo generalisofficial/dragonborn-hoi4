@@ -2,6 +2,10 @@
 state={
 	id=11
 	name="STATE_11"
+	resources={
+		rare_metals=25.000
+		steel=10.000
+	}
 
 	history={
 		owner = SKY
@@ -15,6 +19,7 @@ state={
 			infrastructure = 4
 			blacksmith = 2
 			textile_mill = 1
+			apothecary = 1
 			681 = {
 				fort = 3
 

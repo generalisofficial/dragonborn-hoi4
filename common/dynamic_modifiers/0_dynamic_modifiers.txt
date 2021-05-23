@@ -6,11 +6,11 @@ sabotaged_resources = {
 	icon = GFX_modifiers_sabotaged_resource
 	
 	temporary_state_resource_food = sabotaged_food
-	temporary_state_resource_aluminium = sabotaged_aluminium
-	temporary_state_resource_rubber = sabotaged_rubber
-	temporary_state_resource_tungsten = sabotaged_tungsten
+	temporary_state_resource_textiles = sabotaged_textiles
+	temporary_state_resource_lumber = sabotaged_lumber
+	temporary_state_resource_rare_metals = sabotaged_rare_metals
 	temporary_state_resource_steel = sabotaged_steel
-	temporary_state_resource_chromium = sabotaged_chromium
+	temporary_state_resource_alchemy_ingredients = sabotaged_alchemy_ingredients
 }
 
 autonomous_state = {

@@ -120,7 +120,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 2
-			tungsten = 1
+			rare_metals = 1
 		}
 	}
 
@@ -155,7 +155,7 @@ equipments = {
 		resources = {
 			#oil 		= 1
 			steel 		= 2
-			tungsten 	= 1
+			rare_metals 	= 1
 		}
 		fuel_consumption = 1.8
 	}

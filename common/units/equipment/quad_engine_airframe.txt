@@ -37,8 +37,8 @@ equipments = {
 		build_cost_ic = 60
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 2
+			textiles = 3
+			lumber = 2
 		}
 		
 		manpower = 80
@@ -78,9 +78,9 @@ equipments = {
 		
 		build_cost_ic = 80
 		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
+			textiles = 3
+			rare_metals = 3
+			lumber = 1
 		}
 		
 		manpower = 160
@@ -123,8 +123,8 @@ equipments = {
 		build_cost_ic = 62
 		resources = {
 			#oil = 1
-			aluminium = 4
-			rubber = 2
+			textiles = 4
+			lumber = 2
 		}
 	}
 	
@@ -146,8 +146,8 @@ equipments = {
 		build_cost_ic = 64
 		resources = {
 			#oil = 1
-			aluminium = 5
-			rubber = 2
+			textiles = 5
+			lumber = 2
 		}
 	}
 	
@@ -194,8 +194,8 @@ equipments = {
 		build_cost_ic = 180
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 2
+			textiles = 3
+			lumber = 2
 		}
 		
 		manpower = 80

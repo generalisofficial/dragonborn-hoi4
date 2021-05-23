@@ -2,6 +2,9 @@
 state={
 	id=7
 	name="STATE_7"
+	resources={
+		steel=5.000
+	}
 
 	history={
 		owner = RED
@@ -26,5 +29,5 @@ state={
 	}
 	manpower=5718
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_1
 }

@@ -2424,7 +2424,7 @@ leader_traits = {
 	
 	trait_internationalist  = {
 		random = no
-		internationalist_drift = 0.1
+		internationalist_drift = 0.01
 		
 		ai_will_do = {
 			factor = 0
@@ -2433,7 +2433,7 @@ leader_traits = {
 	
 	trait_pragmatist = {
 		random = no
-		pragmatic_drift = 0.1
+		pragmatic_drift = 0.01
 		
 		ai_will_do = {
 			factor = 0
@@ -2442,7 +2442,7 @@ leader_traits = {
 	
 	trait_isolationist = {
 		random = no
-		isolationist_drift = 0.1
+		isolationist_drift = 0.01
 		
 		ai_will_do = {
 			factor = 0
@@ -2451,7 +2451,7 @@ leader_traits = {
 	
 	trait_jingoist = {
 		random = no
-		jingoist_drift = 0.1
+		jingoist_drift = 0.01
 		
 		ai_will_do = {
 			factor = 0

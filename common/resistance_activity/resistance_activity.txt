@@ -219,10 +219,10 @@ sabotage_farm = {
 }
 
 
-sabotage_grain_silo = {
+sabotage_apothecary = {
 	available = {
 		non_damaged_building_level = {
-			building = grain_silo
+			building = apothecary
 			level > 0
 		}
 	}
@@ -233,7 +233,7 @@ sabotage_grain_silo = {
 
 	effect = {
 		damage_building = {
-			type = grain_silo
+			type = apothecary
 			damage = 0.25
 		}
 	}
@@ -356,10 +356,10 @@ sabotage_food = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_aluminium = {
+sabotage_textiles = {
 	available = {
 		has_resources_amount = {
-			resource = aluminium
+			resource = textiles
 			amount > 0
 			delivered = yes
 		}
@@ -380,7 +380,7 @@ sabotage_aluminium = {
 
 	effect = {
 		clear_sabotaged_resources_if_necesary = yes
-		add_to_variable = { sabotaged_aluminium = -12 }
+		add_to_variable = { sabotaged_textiles = -12 }
 		set_temp_variable = { duration = 180 }
 		if = {
 			limit = { occupation_law = forced_labor_occupation }
@@ -392,7 +392,7 @@ sabotage_aluminium = {
 				check_variable = { targeted_sabotage_resources > 0 }
 			}
 
-			add_to_variable = { sabotaged_aluminium = -8 }
+			add_to_variable = { sabotaged_textiles = -8 }
 			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
 		}
 		add_dynamic_modifier = {
@@ -404,10 +404,10 @@ sabotage_aluminium = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_rubber = {
+sabotage_lumber = {
 	available = {
 		has_resources_amount = {
-			resource = rubber
+			resource = lumber
 			amount > 0
 			delivered = yes
 		}
@@ -428,7 +428,7 @@ sabotage_rubber = {
 
 	effect = {
 		clear_sabotaged_resources_if_necesary = yes
-		add_to_variable = { sabotaged_rubber = -12 }
+		add_to_variable = { sabotaged_lumber = -12 }
 		set_temp_variable = { duration = 180 }
 		if = {
 			limit = { occupation_law = forced_labor_occupation }
@@ -440,7 +440,7 @@ sabotage_rubber = {
 				check_variable = { targeted_sabotage_resources > 0 }
 			}
 
-			add_to_variable = { sabotaged_rubber = -8 }
+			add_to_variable = { sabotaged_lumber = -8 }
 			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
 		}
 		add_dynamic_modifier = {
@@ -452,10 +452,10 @@ sabotage_rubber = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_tungsten = {
+sabotage_rare_metals = {
 	available = {
 		has_resources_amount = {
-			resource = tungsten
+			resource = rare_metals
 			amount > 0
 			delivered = yes
 		}
@@ -476,7 +476,7 @@ sabotage_tungsten = {
 
 	effect = {
 		clear_sabotaged_resources_if_necesary = yes
-		add_to_variable = { sabotaged_tungsten = -12 }
+		add_to_variable = { sabotaged_rare_metals = -12 }
 		set_temp_variable = { duration = 180 }
 		if = {
 			limit = { occupation_law = forced_labor_occupation }
@@ -488,7 +488,7 @@ sabotage_tungsten = {
 				check_variable = { targeted_sabotage_resources > 0 }
 			}
 
-			add_to_variable = { sabotaged_tungsten = -8 }
+			add_to_variable = { sabotaged_rare_metals = -8 }
 			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
 		}
 		add_dynamic_modifier = {
@@ -549,10 +549,10 @@ sabotage_steel = {
 	alert_text = resource_is_sabotaged
 }
 
-sabotage_chromium = {
+sabotage_alchemy_ingredients = {
 	available = {
 		has_resources_amount = {
-			resource = chromium
+			resource = alchemy_ingredients
 			amount > 0
 			delivered = yes
 		}
@@ -573,7 +573,7 @@ sabotage_chromium = {
 
 	effect = {
 		clear_sabotaged_resources_if_necesary = yes
-		add_to_variable = { sabotaged_chromium = -12 }
+		add_to_variable = { sabotaged_alchemy_ingredients = -12 }
 		set_temp_variable = { duration = 180 }
 		if = {
 			limit = { occupation_law = forced_labor_occupation }
@@ -585,7 +585,7 @@ sabotage_chromium = {
 				check_variable = { targeted_sabotage_resources > 0 }
 			}
 
-			add_to_variable = { sabotaged_chromium = -8 }
+			add_to_variable = { sabotaged_alchemy_ingredients = -8 }
 			subtract_from_variable = { var = targeted_sabotage_resources value = 1 }
 		}
 		add_dynamic_modifier = {

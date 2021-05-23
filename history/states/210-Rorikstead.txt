@@ -2,6 +2,9 @@
 state={
 	id=210
 	name="STATE_210"
+	resources={
+		rare_metals=15.000
+	}
 
 	history={
 		owner = SKY

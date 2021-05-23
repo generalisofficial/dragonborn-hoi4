@@ -40,8 +40,8 @@ equipments = {
 		build_cost_ic = 35
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		fuel_consumption = 0.36
 	}
@@ -80,9 +80,9 @@ equipments = {
 		
 		build_cost_ic = 45
 		resources = {
-			aluminium = 2
-			tungsten = 3
-			rubber = 1
+			textiles = 2
+			rare_metals = 3
+			lumber = 1
 		}
 		
 		manpower = 80
@@ -123,8 +123,8 @@ equipments = {
 		build_cost_ic = 28
 		resources = {
 			#oil = 1			
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 40
@@ -172,8 +172,8 @@ equipments = {
 		build_cost_ic = 37
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 		naval_strike_attack = 8
 		naval_strike_targetting = 6
@@ -198,8 +198,8 @@ equipments = {
 		build_cost_ic = 39
 		resources = {
 			#oil = 1
-			aluminium = 4
-			rubber = 1
+			textiles = 4
+			lumber = 1
 		}
 		naval_strike_attack = 12
 		naval_strike_targetting = 6
@@ -224,8 +224,8 @@ equipments = {
 		build_cost_ic = 41
 		resources = {
 			#oil = 1
-			aluminium = 5
-			rubber = 1
+			textiles = 5
+			lumber = 1
 		}
 		naval_strike_attack = 15
 		naval_strike_targetting = 6
@@ -267,9 +267,9 @@ equipments = {
 		
 		build_cost_ic = 48
 		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
+			textiles = 3
+			rare_metals = 3
+			lumber = 1
 		}
 	}
 
@@ -308,8 +308,8 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 1			
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 		naval_strike_attack = 6
 		naval_strike_targetting = 10
@@ -331,8 +331,8 @@ equipments = {
 		build_cost_ic = 32
 		resources = {
 			#oil = 1			
-			aluminium = 4
-			rubber = 1
+			textiles = 4
+			lumber = 1
 		}
 		naval_strike_attack = 9
 		naval_strike_targetting = 10
@@ -369,8 +369,8 @@ equipments = {
 		naval_strike_targetting = 0
 		
 		resources = {			
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 40
@@ -409,8 +409,8 @@ equipments = {
 
 		build_cost_ic = 20
 		resources = {		
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 		naval_strike_attack = 0
 		naval_strike_targetting = 0

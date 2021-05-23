@@ -33,12 +33,13 @@ buildings = {
 		base_cost = 10800
 		base_cost_conversion = 9000
 		general_production = 1
-		local_resources_rubber = 10
+		local_resources_lumber = 10
 		icon_frame = 1
 		max_level = 20
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		show_modifier = yes
 	}
 
 	skyport = {
@@ -123,7 +124,6 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
-		
 		show_modifier = yes
 	}
 
@@ -137,7 +137,6 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
-		
 		show_modifier = yes
 	}
 
@@ -145,26 +144,22 @@ buildings = {
 		show_on_map = 1
 		base_cost = 10800
 		icon_frame = 12
-		local_resources_aluminium = 5
+		local_resources_textiles = 5
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
-		
 		show_modifier = yes
 	}
 
-	grain_silo = {
+	apothecary = {
 		show_on_map = 1
 		base_cost = 5000
 		icon_frame = 14
-		#max_level = 1
+		local_resources_alchemy_ingredients = 10
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
-		fuel_silo = yes
-		
 		show_modifier = yes
-		max_fuel_building = 100.0 #k
 	}
 
 	watchtower = {

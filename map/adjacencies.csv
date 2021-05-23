@@ -90,6 +90,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4517;3005;sea;11635;-1;-1;-1;-1;;Telvanni Isles
 4518;5782;sea;8543;-1;-1;-1;-1;;Telvanni Isles
 934;5919;sea;10278;-1;-1;-1;-1;;Telvanni Isles
+4148;1917;sea;6333;-1;-1;-1;-1;;Bal Oyra-Bahrammu
 5831;1055;sea;8283;-1;-1;-1;-1;;Crimson Isle
 5002;1046;sea;13489;-1;-1;-1;-1;;The Marshes
 2645;2428;sea;13487;-1;-1;-1;-1;;The Marshes
@@ -135,4 +136,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5945;5645;sea;7197;-1;-1;-1;-1;;Vvardenfell 5
 5485;4851;sea;8164;-1;-1;-1;-1;;Vvardenfell 6
 5398;3512;sea;11271;-1;-1;-1;-1;;Summerset-Auridon
+3587;3589;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+3588;3589;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+3588;2167;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+3433;2167;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+2166;2167;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+2166;2168;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+2165;2168;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+2165;2164;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+2165;2162;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
+2163;2162;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
 -1;-1;;-1;-1;-1;-1;-1;-1

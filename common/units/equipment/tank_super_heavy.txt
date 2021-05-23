@@ -43,7 +43,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			chromium = 4
+			alchemy_ingredients = 4
 		}
 		
 		fuel_consumption = 10
@@ -101,7 +101,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			chromium = 4
+			alchemy_ingredients = 4
 		}
 		fuel_consumption = 5
 	}
@@ -161,7 +161,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			chromium = 4
+			alchemy_ingredients = 4
 		}
 		fuel_consumption = 5
 	}
@@ -221,7 +221,7 @@ equipments = {
 		resources = {
 			#oil = 2
 			steel = 3
-			chromium = 4
+			alchemy_ingredients = 4
 		}
 		fuel_consumption = 2.5
 	}

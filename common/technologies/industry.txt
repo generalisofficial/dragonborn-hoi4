@@ -748,7 +748,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = rubber_processing 
+			leads_to_tech = lumber_processing 
 			research_cost_coeff = 1
 		}
 		
@@ -867,7 +867,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			lumber = -2.0
 		}
 		
 		show_effect_as_desc = yes
@@ -902,13 +902,13 @@ technologies = {
 	}
 
 	#####################################
-	rubber_processing = {
+	lumber_processing = {
 
 		on_research_complete = {
 		}
 
 		path = {
-			leads_to_tech = improved_rubber_processing
+			leads_to_tech = improved_lumber_processing
 			research_cost_coeff = 1
 		}
 		
@@ -930,19 +930,19 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			lumber = -2.0
 		}
 		
 		show_effect_as_desc = yes
 	}
 	
-	improved_rubber_processing = {
+	improved_lumber_processing = {
 
 		on_research_complete = {
 		}
 
 		path = {
-			leads_to_tech = advanced_rubber_processing
+			leads_to_tech = advanced_lumber_processing
 			research_cost_coeff = 1
 		}
 		
@@ -964,19 +964,19 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			lumber = -2.0
 		}
 		
 		show_effect_as_desc = yes
 	}
 	
-	advanced_rubber_processing = {
+	advanced_lumber_processing = {
 
 		on_research_complete = {
 		}
 
 		path = {
-			leads_to_tech = modern_rubber_processing
+			leads_to_tech = modern_lumber_processing
 			research_cost_coeff = 1
 		}
 		
@@ -998,13 +998,13 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			lumber = -2.0
 		}
 		
 		show_effect_as_desc = yes
 	}
 
-	modern_rubber_processing = {
+	modern_lumber_processing = {
 
 		on_research_complete = {
 		}
@@ -1027,7 +1027,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			lumber = -2.0
 		}
 		
 		show_effect_as_desc = yes

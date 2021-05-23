@@ -37,8 +37,8 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 20
@@ -84,8 +84,8 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 20
@@ -129,8 +129,8 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 20
@@ -175,8 +175,8 @@ equipments = {
 		build_cost_ic = 22
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 20
@@ -217,8 +217,8 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 20
@@ -261,8 +261,8 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 1
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		
 		manpower = 20
@@ -302,9 +302,9 @@ equipments = {
 		
 		build_cost_ic = 30
 		resources = {
-			aluminium = 2
-			tungsten = 3
-			rubber = 1
+			textiles = 2
+			rare_metals = 3
+			lumber = 1
 		}
 		
 		manpower = 40
@@ -348,8 +348,8 @@ equipments = {
 		build_cost_ic = 24
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 
 		naval_strike_attack = 2
@@ -374,8 +374,8 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 2
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 
 		naval_strike_attack = 4
@@ -400,8 +400,8 @@ equipments = {
 		build_cost_ic = 28
 		resources = {
 			#oil = 2
-			aluminium = 4
-			rubber = 1
+			textiles = 4
+			lumber = 1
 		}
 
 		naval_strike_attack = 6
@@ -440,9 +440,9 @@ equipments = {
 
 		build_cost_ic = 32
 		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
+			textiles = 3
+			rare_metals = 3
+			lumber = 1
 		}
 	}
 	
@@ -483,8 +483,8 @@ equipments = {
 		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 
 		naval_strike_attack = 3
@@ -508,8 +508,8 @@ equipments = {
 		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			aluminium = 2
-			rubber = 1
+			textiles = 2
+			lumber = 1
 		}
 		naval_strike_attack = 6
 		naval_strike_targetting = 10
@@ -532,8 +532,8 @@ equipments = {
 		build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 
 		naval_strike_attack = 8
@@ -576,8 +576,8 @@ equipments = {
 		build_cost_ic = 24
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 		
 		naval_strike_attack = 5
@@ -602,8 +602,8 @@ equipments = {
 		build_cost_ic = 26
 		resources = {
 			#oil = 2
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}		
 
 		naval_strike_attack = 10
@@ -649,8 +649,8 @@ equipments = {
 		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 
 		naval_strike_attack = 7
@@ -675,8 +675,8 @@ equipments = {
 		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 
 		naval_strike_attack = 13
@@ -716,8 +716,8 @@ equipments = {
 		build_cost_ic = 28
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 		
 	}
@@ -740,8 +740,8 @@ equipments = {
 		build_cost_ic = 30
 		resources = {
 			#oil = 2
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}	
 	}
 	
@@ -780,8 +780,8 @@ equipments = {
 		build_cost_ic = 33.2 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 	}
 	# Advanced Carrier nav_bomber
@@ -803,8 +803,8 @@ equipments = {
 		build_cost_ic = 35.2 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
-			aluminium = 3
-			rubber = 1
+			textiles = 3
+			lumber = 1
 		}
 	}
 	
@@ -834,9 +834,9 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-			aluminium = 2
-			tungsten = 2
-			rubber = 1
+			textiles = 2
+			rare_metals = 2
+			lumber = 1
 		}
 
 		air_superiority = 1
@@ -861,9 +861,9 @@ equipments = {
 		
 		build_cost_ic = 16
 		resources = {
-			aluminium = 3
-			tungsten = 2
-			rubber = 1
+			textiles = 3
+			rare_metals = 2
+			lumber = 1
 		}		
 	}
 
@@ -883,9 +883,9 @@ equipments = {
 		reliability = 0.5
 		build_cost_ic = 18
 		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
+			textiles = 3
+			rare_metals = 3
+			lumber = 1
 		}			
 	}
 
@@ -905,9 +905,9 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 20
 		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
+			textiles = 3
+			rare_metals = 3
+			lumber = 1
 		}
 	}
 
@@ -934,9 +934,9 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-			aluminium = 2
-			tungsten = 2
-			rubber = 1
+			textiles = 2
+			rare_metals = 2
+			lumber = 1
 		}
 
 		air_superiority = 1

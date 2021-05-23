@@ -22,6 +22,8 @@ state={
 			lumber_mill = 1
 			fishery = 1
 			blacksmith = 1
+			shipyard = 2
+			apothecary = 1
 			2486 = {
 				port = 5
 

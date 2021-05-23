@@ -34,7 +34,7 @@ equipments = {
 		
 		build_cost_ic = 3.5
 		resources = {
-			tungsten = 1
+			rare_metals = 1
 			steel = 2
 		}
 	}
@@ -61,7 +61,7 @@ equipments = {
 		
 		build_cost_ic = 4
 		resources = {
-			tungsten = 1
+			rare_metals = 1
 			steel = 2
 		}
 	}
@@ -80,7 +80,7 @@ equipments = {
 		
 		build_cost_ic = 4.5
 		resources = {
-			tungsten = 1
+			rare_metals = 1
 			steel = 3
 		}
 	}
@@ -117,7 +117,7 @@ equipments = {
 		
 		build_cost_ic = 4
 		resources = {
-			tungsten = 2
+			rare_metals = 2
 			steel = 1
 		}
 	}
@@ -144,7 +144,7 @@ equipments = {
 		
 		build_cost_ic = 5
 		resources = {
-			tungsten = 2
+			rare_metals = 2
 			steel = 1
 		}
 	}
@@ -182,7 +182,7 @@ equipments = {
 		build_cost_ic = 12
 		resources = {
 			#oil = 1
-			rubber = 1
+			lumber = 1
 			steel = 1
 		}
 

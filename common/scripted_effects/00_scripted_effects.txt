@@ -120,11 +120,11 @@ clear_sabotaged_resources_if_necesary = {
 		}
 		
 		clear_variable = sabotaged_food
-		clear_variable = sabotaged_aluminium
-		clear_variable = sabotaged_rubber
-		clear_variable = sabotaged_tungsten
+		clear_variable = sabotaged_textiles
+		clear_variable = sabotaged_lumber
+		clear_variable = sabotaged_rare_metals
 		clear_variable = sabotaged_steel
-		clear_variable = sabotaged_chromium
+		clear_variable = sabotaged_alchemy_ingredients
 	}
 }
 

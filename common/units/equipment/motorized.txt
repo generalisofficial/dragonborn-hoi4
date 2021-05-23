@@ -24,7 +24,7 @@ equipments = {
 		build_cost_ic = 2.5
 		resources = {
 			#oil = 1
-			rubber = 1
+			lumber = 1
 			steel = 1
 		}
 		

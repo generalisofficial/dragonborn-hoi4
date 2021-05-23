@@ -262,6 +262,11 @@ ideas = {
 
 			ai_will_do = {
 				factor = 1
+				modifier = {
+					factor = 10
+					has_idea = high_taxes
+					political_power_daily < 0
+				}
    			}
 		}
 		
@@ -287,6 +292,16 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+				modifier = {
+					factor = 50
+					has_idea = very_high_taxes
+					political_power_daily > 0
+				}
+				modifier = {
+					factor = 25
+					has_idea = moderate_taxes
+					political_power_daily < 0
+				}
    			}
 		}
 
@@ -309,6 +324,16 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+				modifier = {
+					factor = 25
+					has_idea = high_taxes
+					political_power_daily > 0
+				}
+				modifier = {
+					factor = 50
+					has_idea = low_taxes
+					political_power_daily < 0
+				}
    			}
 		}
 
@@ -331,6 +356,16 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+				modifier = {
+					factor = 10
+					has_idea = moderate_taxes
+					political_power_daily > 0
+				}
+				modifier = {
+					factor = 100
+					has_idea = very_low_taxes
+					political_power_daily < 0
+				}
    			}
 		}
 
@@ -353,6 +388,11 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+				modifier = {
+					factor = 5
+					has_idea = low_taxes
+					political_power_daily > 0
+				}
    			}
 		}
 	}
@@ -380,7 +420,13 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 100
+					has_idea = high_tariffs
 					has_government = jingoist
+				}
+				modifier = {
+					factor = 5
+					has_idea = high_tariffs
+					political_power_daily < 0
 				}
    			}
 		}
@@ -408,10 +454,22 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 25
+					has_idea = moderate_tariffs
 					OR = {
 						has_government = jingoist
 						has_government = isolationist
 					}
+				}
+				modifier = {
+					factor = 50
+					has_idea = very_high_tariffs
+					political_power_daily > 0
+					has_idea_with_trait = trait_free_trade_advocate
+				}
+				modifier = {
+					factor = 25
+					has_idea = moderate_tariffs
+					political_power_daily < 0
 				}
    			}
 		}
@@ -437,7 +495,19 @@ ideas = {
 				factor = 1
 				modifier = {
 					factor = 25
-					has_government = pragmatic
+					has_idea = high_tariffs
+					political_power_daily > 0
+					has_idea_with_trait = trait_free_trade_advocate
+				}
+				modifier = {
+					factor = 25
+					has_idea = low_tariffs
+					has_idea_with_trait = trait_protectionist
+				}
+				modifier = {
+					factor = 50
+					has_idea = low_tariffs
+					political_power_daily < 0
 				}
    			}
 		}
@@ -464,6 +534,22 @@ ideas = {
 					factor = 25
 					has_government = internationalist
 				}
+				modifier = {
+					factor = 20
+					has_idea = moderate_tariffs
+					political_power_daily > 0
+					has_idea_with_trait = trait_free_trade_advocate
+				}
+				modifier = {
+					factor = 50
+					has_idea = very_low_tariffs
+					has_idea_with_trait = trait_protectionist
+				}
+				modifier = {
+					factor = 100
+					has_idea = very_low_tariffs
+					political_power_daily < 0
+				}
    			}
 		}
 
@@ -485,6 +571,12 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+				modifier = {
+					factor = 5
+					has_idea = low_tariffs
+					political_power_daily > 0
+					has_idea_with_trait = trait_free_trade_advocate
+				}
    			}
 		}
 	}

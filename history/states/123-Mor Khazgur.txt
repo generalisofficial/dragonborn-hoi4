@@ -1,10 +1,15 @@
 state={
 	id=123
 	name="STATE_123"
+	resources={
+		rare_metals=5.000
+	}
 	
 	history={
 		owner = MKG
 		buildings = {
+			infrastructure = 3
+			blacksmith = 1
 
 		}
 		add_core_of = MKG
