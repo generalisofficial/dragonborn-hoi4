@@ -1,6 +1,6 @@
 ﻿capital = 117
 
-oob = "DSK_171"
+oob = "DKY_171"
 
 set_technology = {
 	infantry_weapons = 1
@@ -20,14 +20,20 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 0
-    isolationist = 100
+    internationalist = 8
+    isolationist = 92
     pragmatic = 0
     jingoist = 0
 }
 
 create_country_leader = {
-	name = "Burguk"
-	picture = "Burguk.dds"
+	name = "Ghorbash gro-Dushnikh"
+	picture = "Ghorbash_gro_Dushnikh.tga"
+	ideology = internationalist_ideology
+}
+
+create_country_leader = {
+	name = "Burguk gro-Dushnikh"
+	picture = "Burguk_gro_Dushnikh.tga"
 	ideology = isolationist_ideology
 }

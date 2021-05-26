@@ -16,7 +16,7 @@ NZB = {
 	female = {
 		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
 	}
-	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	surnames = { gro-Narzulbur }
 	callsigns = { }
 }
 
@@ -27,7 +27,7 @@ LGB = {
 	female = {
 		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
 	}
-	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	surnames = { gro-Largashbur }
 	callsigns = { }
 }
 
@@ -38,7 +38,7 @@ DKY = {
 	female = {
 		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
 	}
-	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	surnames = { gro-Dushnikh }
 	callsigns = { }
 }
 
@@ -49,6 +49,6 @@ ORS = {
 	female = {
 		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
 	}
-	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	surnames = { gro-Orsinium }
 	callsigns = { }
 }

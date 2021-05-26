@@ -21,7 +21,6 @@ default_peace = {
 	# ROOT = Taker, FROM = Giver
 	annex = {
 		factor = 500
-
 		modifier = {
 			factor = 0
 			NOT = {
@@ -278,6 +277,6 @@ default_peace = {
 
 	# ROOT = Taker, FROM = Giver
 	force_government = {
-		factor = 0 #10 - neutrals should never do this
+		factor = 0
 	}
 }

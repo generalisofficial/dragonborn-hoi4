@@ -1,41 +1,47 @@
 TRS = {
 	army = {
 		male = {
-			"gfx/leaders/generic/Sload1.dds"
-			"gfx/leaders/generic/Sload2.dds"
+			"gfx/leaders/generic/Sload1.tga"
+			"gfx/leaders/generic/Sload2.tga"
+			"gfx/leaders/generic/Sload3.tga"
 		}
 	}
 	
 	navy = {
 		male = {
-			"gfx/leaders/generic/Sload1.dds"
-			"gfx/leaders/generic/Sload2.dds"
+			"gfx/leaders/generic/Sload1.tga"
+			"gfx/leaders/generic/Sload2.tga"
+			"gfx/leaders/generic/Sload3.tga"
 		}
 	}
 
 	political = {
 		internationalist = {
 		    male = {
-			    "gfx/leaders/generic/Sload1.dds"
-			    "gfx/leaders/generic/Sload2.dds"
+			    "gfx/leaders/generic/Sload1.tga"
+			    "gfx/leaders/generic/Sload2.tga"
+				"gfx/leaders/generic/Sload3.tga"
 		    }
 		}
 		pragmatic = {
 			male = {
-				"gfx/leaders/generic/Sload1.dds"
-				"gfx/leaders/generic/Sload2.dds"
+				"gfx/leaders/generic/Sload1.tga"
+				"gfx/leaders/generic/Sload2.tga"
+				"gfx/leaders/generic/Sload3.tga"
 		    }
 		}
 		isolationist = {
 		    male = {
-			    "gfx/leaders/generic/Sload1.dds"
-			    "gfx/leaders/generic/Sload2.dds"
+			    "gfx/leaders/generic/Sload1.tga"
+			    "gfx/leaders/generic/Sload2.tga"
+				"gfx/leaders/generic/Sload3.tga"
 		    }
 		}
 		jingoist = {
 		    male = {
-			    "gfx/leaders/generic/Sload1.dds"
-			    "gfx/leaders/generic/Sload2.dds"
+			    "gfx/leaders/generic/Sload1.tga"
+			    "gfx/leaders/generic/Sload2.tga"
+				"gfx/leaders/generic/Sload3.tga"
 		    }
 		}
 	}
