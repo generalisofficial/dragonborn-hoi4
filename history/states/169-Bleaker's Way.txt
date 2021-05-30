@@ -2,6 +2,9 @@
 state={
 	id=169
 	name="STATE_169"
+	resources={
+		rare_metals=5.000
+	}
 
 	history={
 		owner = CYR

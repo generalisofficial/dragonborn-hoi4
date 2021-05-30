@@ -5,7 +5,7 @@
 	female = {
 		names = { Morbog Lagapha Globaz Lambgar Ghopha Muron Orbum Sheh Ghat Duraba Shelsha Glaga Garfim Urzzug Yatug Glon Mogak Urzim Lashg Garbug}
 	}
-	surnames = { Uzgubag Gortu Mukamakh Bulbek Nolorn Rimrat Masgash Nayzor Baslar Muzgoth Buzuk Uzuash Agaok Larat Buralfim Duruga Ghamph Dumupok Shugash Bashzag}
+	surnames = { gro-Khazgur }
 	callsigns = { }
 }
 

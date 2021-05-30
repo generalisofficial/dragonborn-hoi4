@@ -7,6 +7,7 @@ state={
 		owner = CYR
 		buildings = {
 			infrastructure = 2
+			fishery = 1
 			2941 = {
 				port = 1
 
@@ -27,5 +28,5 @@ state={
 	}
 	manpower=20029
 	buildings_max_level_factor=1.000
-	state_category=state_level_0
+	state_category=state_level_1
 }

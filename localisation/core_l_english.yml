@@ -1705,6 +1705,6 @@
  LOAD_FLAGS:0 "Studying the Thu'um..."
  PROC_FLAGS:0 "Worshipping the Daedra..."
  PRECALC_NAVAL_DIST:0 "Charting the Oceans..."
- FE_LOADING_HISTORY:0 "Visiting the Imperial Library..."
+ FE_LOADING_HISTORY:0 "Visiting the Library..."
  LOADING_MAP_SPRITES:0 "Serving Akatosh..."
  INIT_MAP_LOGIC:0 "Designing Mundus..."

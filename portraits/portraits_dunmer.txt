@@ -1,5 +1,6 @@
 continent = {
 	name = morrowind
+	army = {
 		male = {
 			"gfx/leaders/generic/Dunmer1.tga"
 			"gfx/leaders/generic/Dunmer2.tga"

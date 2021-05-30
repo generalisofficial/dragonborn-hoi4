@@ -235,7 +235,7 @@ leader_traits = {
 		generate_wargoal_tension = 0.20
 	}
 	
-	defeatist = {
+	coward = {
 		random = no
 		war_support_factor = -0.1
 		surrender_limit = -0.25

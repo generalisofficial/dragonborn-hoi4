@@ -151,6 +151,7 @@ create_field_marshal = {
 	picture = "Jonna_Blackthorn.tga"
 	traits = { }
 	skill = 3
+	female = yes
 }
 
 create_corps_commander = {

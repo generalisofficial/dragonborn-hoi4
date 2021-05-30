@@ -89,6 +89,11 @@ spriteTypes = {
 		name = "GFX_idea_race_tang_mo"
 		texturefile = "gfx/interface/ideas/race_tang_mo.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_race_lilmothiit"
+		texturefile = "gfx/interface/ideas/race_lilmothiit.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_white_gold_concordat"

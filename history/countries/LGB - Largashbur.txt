@@ -27,7 +27,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Yamarz"
-	picture = "Yamarz.dds"
+	name = "Yamarz gro-Largashbur"
+	picture = "Yamarz_gro_Largashbur.tga"
 	ideology = isolationist_ideology
+	traits = { 
+	    coward
+	}
 }

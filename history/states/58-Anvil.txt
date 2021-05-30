@@ -2,6 +2,9 @@
 state={
 	id=58
 	name="STATE_58"
+	resources={
+		rare_metals=15.000
+	}
 
 	history={
 		owner = CYR
@@ -10,6 +13,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			farm = 3
+			blacksmith = 1
+			lumber_mill = 1
+			shipyard = 1
+			fishery = 1
 			3856 = {
 				port = 5
 
@@ -26,5 +34,5 @@ state={
 	}
 	manpower=371632
 	buildings_max_level_factor=1.000
-	state_category=state_level_6
+	state_category=state_level_8
 }

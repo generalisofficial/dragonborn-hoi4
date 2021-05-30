@@ -34,6 +34,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
+			apothecary = 3
+			lumber_mill = 5
+			blacksmith = 4
+			shipyard = 1
+			textile_mill = 2
+			fishery = 1
 			6194 = {
 				port = 4
 
@@ -49,5 +55,5 @@ state={
 	}
 	manpower=979148
 	buildings_max_level_factor=1.000
-	state_category=state_level_12
+	state_category=state_level_18
 }

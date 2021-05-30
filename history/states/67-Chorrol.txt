@@ -2,6 +2,10 @@
 state={
 	id=67
 	name="STATE_67"
+	resources={
+		rare_metals=5.000
+		steel=5.000
+	}
 
 	history={
 		owner = CYR
@@ -19,6 +23,9 @@ state={
 		}
 		buildings = {
             infrastructure = 3
+			farm = 1
+			lumber_mill = 1
+			blacksmith = 2
 			382 = {
 				fort = 3
 

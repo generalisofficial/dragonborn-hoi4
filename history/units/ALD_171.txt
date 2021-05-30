@@ -234,6 +234,104 @@ units = {
 			name = "1st Squadron"
 			location = 13540
 			ship = { name = "Alinor" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Cloudrest" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Crystal-Like-Law" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Dusk" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Eton Nir" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Firsthold" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Lillandril" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Shimmerene" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Rellenthil" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Skywatch" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+		task_force = {
+			name = "2nd Squadron"
+			location = 13540
+			ship = { name = "Sunhold" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Vulkhel" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Falinesti" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Greenheart" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Haven" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+		task_force = {
+			name = "3rd Squadron"
+			location = 13540
+			ship = { name = "Marbruk" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Southport" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Velyn" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Woodhearth" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Alabaster" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+	}
+
+	fleet = {
+		name = "Eastern Fleet"
+		naval_base = 13506
+		task_force = {
+			name = "1st Squadron"
+			location = 13506
+			ship = { name = "Auri-El's Protection" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Rite of Y'ffre" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "The Sundering of Lorkhan" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Ingenuity of Magnus" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Mara's Song" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Stendarr's Peace" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Legacy of Syrabane" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Wrath of Trinimac" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+		task_force = {
+			name = "2nd Squadron"
+			location = 13506
+			ship = { name = "Xarxes" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Xen" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Baan Dar's Prank" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Hema-Mora's Trickery" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Hircine's Moon" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Jode" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Jone" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Mankar" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+	}
+
+	fleet = {
+		name = "Abecean Fleet"
+		naval_base = 13544
+		task_force = {
+			name = "1st Squadron"
+			location = 13544
+			ship = { name = "Perfection" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Ascendance" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Eagle's Fury" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Wings of the Gryphon" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Glass's Shine" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Corinthe" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Dune" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Mistral" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Oreyn" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+		task_force = {
+			name = "2nd Squadron"
+			location = 13544
+			ship = { name = "Topal" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Torinaan" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Galerion" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Iachesis" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Mannimarco" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Naarifin" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Arannelya" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Haras" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+		}
+		task_force = {
+			name = "3rd Squadron"
+			location = 13544
+			ship = { name = "Hidellith" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Tuinden" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Naemon" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Alwinarwe" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Ayrenn" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Silvenar" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Green Lady" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
+			ship = { name = "Eplear" definition = galleon equipment = { galleon_2 = { amount = 1 owner = ALD } } }
 		}
 	}
 }

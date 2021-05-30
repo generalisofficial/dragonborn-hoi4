@@ -2,6 +2,10 @@
 state={
 	id=65
 	name="STATE_65"
+	resources={
+		rare_metals=15.000
+		steel=5.000
+	}
 
 	history={
 		owner = CYR
@@ -10,6 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			farm = 1
 
 		}
 		add_core_of = CYR

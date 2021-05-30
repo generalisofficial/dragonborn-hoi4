@@ -787,14 +787,14 @@ NGraphics = {
 	
 	DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES = 15,	-- Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer.
 	SHIP_NAMES_GROUP_MAX_NAME_LIST_ENTRIES = 25,	-- Max example name entries in ship name list in production meni
-	
-	WEATHER_DISTANCE_CUTOFF = 1500, -- At what distance weather effects are hidden
+
+	WEATHER_DISTANCE_CUTOFF = 1200, -- At what distance weather effects are hidden
 	WEATHER_DISTANCE_FADE_LENGTH = 400, -- How far the fade out distance should be
-	WEATHER_ZOOM_IN_CUTOFF = 358, -- At what distance weather effects are faded out the most when zooming in
+	WEATHER_ZOOM_IN_CUTOFF = 1, -- At what distance weather effects are faded out the most when zooming in
 	WEATHER_ZOOM_IN_FADE_LENGTH = 220, -- How far the zoom in fade out distance should be
 	WEATHER_ZOOM_IN_FADE_FACTOR = 0.0, -- How much the weather effects should fade out when maximum zoomed in
-	WEATHER_PLAYBACK_RATE = 0.15, -- Playback rate at maximum distance
-	WEATHER_PLAYBACK_RATE_CUTOFF = 500, -- Playback rate maximum distance
+	WEATHER_PLAYBACK_RATE = 0.25, -- Playback rate at maximum distance
+	WEATHER_PLAYBACK_RATE_CUTOFF = 400, -- Playback rate maximum distance
 	WEATHER_PLAYBACK_RATE_LENGTH = 200, -- For how long to fade between normal playback rate and maximum distance playback rate
 	
 	POSTEFFECT_PER_PROVINCE_MIN_SNOW = 0.1,
