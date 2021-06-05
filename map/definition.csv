@@ -13472,7 +13472,7 @@
 13471;40;20;25;sea;false;ocean;0
 13472;178;247;150;sea;true;ocean;0
 13473;231;244;115;sea;true;ocean;0
-13474;154;244;90;sea;true;ocean;0
+13474;154;244;90;land;false;mountain;3
 13475;160;115;244;sea;true;ocean;0
 13476;233;244;168;sea;true;ocean;0
 13477;236;70;244;sea;true;ocean;0

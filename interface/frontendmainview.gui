@@ -355,21 +355,21 @@ guiTypes = {
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
+			web_link = "reddit.com/r/dragonborn"
 		}
 		ButtonType = {
 			name = "twitter_button"
 			position = { x=150 y=0 }
 			quadTextureSprite ="twitter"
-			#clicksound = click_default
+			clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
+			web_link = "https://discord.com/invite/Av623Ht"
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
 			position = { x=200 y=0 }
 			quadTextureSprite ="privacy"
-			#clicksound = click_default
+			clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
 	}
