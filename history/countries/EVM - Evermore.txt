@@ -29,8 +29,13 @@ set_politics = {
 
 set_popularities = {
     internationalist = 0
-    pragmatic = 100
-    isolationist = 0
+    pragmatic = 56
+    isolationist = 44
     jingoist = 0
 }
 
+create_country_leader = {
+	name = "Dillius"
+	picture = "Dillius.tga"
+	ideology = pragmatic_ideology
+}

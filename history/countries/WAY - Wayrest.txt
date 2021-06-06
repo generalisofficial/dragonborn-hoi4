@@ -47,10 +47,13 @@ create_country_leader = {
 	name = "Barynia"
 	picture = "Barynia.tga"
 	ideology = pragmatic_ideology
+	traits = { 
+	    coward
+	}
 }
 
 create_country_leader = {
-	name = "Captain Phiron"
-	picture = "Captain_Phiron.dds"
+	name = "Phiron"
+	picture = "Phiron.dds"
 	ideology = isolationist_ideology
 }

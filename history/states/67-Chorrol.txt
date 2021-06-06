@@ -10,19 +10,19 @@ state={
 	history={
 		owner = CYR
 		victory_points = {
-			3923 5
+			3923 5 
 		}
 		victory_points = {
-			3924 1
+			3924 1 
 		}
 		victory_points = {
-			382 1
+			382 1 
 		}
 		victory_points = {
-			2362 1
+			2362 1 
 		}
 		buildings = {
-            infrastructure = 3
+			infrastructure = 3
 			farm = 1
 			lumber_mill = 1
 			blacksmith = 2
@@ -34,7 +34,7 @@ state={
 				fort = 2
 
 			}
-			
+
 		}
 		add_core_of = CYR
 		add_core_of = CHO
@@ -42,7 +42,7 @@ state={
 	}
 
 	provinces={
-		381 382 383 384 850 851 855 967 968 969 970 972 973 1149 1428 2361 2362 2363 2364 2365 3013 3550 3551 3919 3920 3921 3922 3923 3924 3925 3926 3927 4505 4674 4876 5835 5953 6031 
+		381 382 383 384 850 851 855 967 968 969 970 972 973 1149 1428 2361 2362 2363 2364 2365 3550 3551 3919 3920 3921 3922 3923 3924 3925 3926 3927 4505 4674 4876 5835 5953 6031 
 	}
 	manpower=431714
 	buildings_max_level_factor=1.000

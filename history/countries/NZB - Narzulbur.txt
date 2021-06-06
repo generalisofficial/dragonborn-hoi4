@@ -27,7 +27,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mauhulakh"
-	picture = "Mauhulakh.dds"
+	name = "Mauhulakh gro-Narzulbur"
+	picture = "Mauhulakh_gro_Narzulbur.tga"
 	ideology = isolationist_ideology
 }

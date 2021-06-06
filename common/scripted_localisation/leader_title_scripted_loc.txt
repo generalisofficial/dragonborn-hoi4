@@ -19,6 +19,10 @@ defined_text = {
 			THIS = {
 				OR = {
 					has_country_leader = { ruling_only = yes name = "Aurelia" }
+					AND = {
+						has_country_leader = { ruling_only = yes name = "Barynia" }
+						has_country_flag = barynia_dead
+					}
 				}
 			}
 		}
@@ -49,11 +53,14 @@ defined_text = {
 						original_tag = ALD
 						NOT = { has_government = jingoist }
 					}
+					AND = {
+						original_tag = WAY
+						NOT = { has_government = isolationist }
+					}
 					original_tag = PYD
 					original_tag = DAG
 					original_tag = NRP
 					original_tag = CAM
-					original_tag = WAY
 					original_tag = EVM
 					original_tag = ANQ
 					has_cosmetic_tag = SKL_SOLSTHEIM
@@ -177,6 +184,15 @@ defined_text = {
 			}
 		}
 		localization_key = TITLE_LORD
+	}
+	text = {
+		trigger = {
+			THIS = {
+				original_tag = WAY
+				has_government = isolationist
+			}
+		}
+		localization_key = TITLE_CAPTAIN
 	}
 	text = {
 		localization_key = TITLE_DEFAULT

@@ -1,0 +1,29 @@
+﻿add_namespace = wayrest
+
+#A Conspiracy Brews
+country_event = {
+	id = wayrest.1
+	title = wayrest.1.t
+	desc = wayrest.1.d
+	
+	trigger = {
+		original_tag = WAY
+		date > 180.1.1
+		has_country_leader = { ruling_only = yes name = "Barynia" }
+	}
+
+	mean_time_to_happen = {
+		days = 3652
+	}
+	
+	option = {
+		name = wayrest.1.a
+		kill_country_leader = yes
+		set_country_flag = barynia_dead
+		create_country_leader = {
+	        name = "Barynia"
+	        picture = "Queen_Barynia.tga"
+	        ideology = pragmatic_ideology
+        }
+	}
+}

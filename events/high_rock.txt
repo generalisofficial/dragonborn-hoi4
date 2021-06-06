@@ -20,7 +20,14 @@ country_event = {
 		ai_chance = {
 			factor = 0
 			modifier = {
-				NOT = { has_government = internationalist }
+				has_government = pragmatic
+				factor = 50
+			}
+			modifier = {
+				OR = {
+					has_government = isolationist
+					has_government = jingoist
+				}
 				factor = 100
 			}
 		}
@@ -30,6 +37,10 @@ country_event = {
 		name = high_rock.1.b
 		ai_chance = {
 			factor = 0
+			modifier = {
+				has_government = pragmatic
+				factor = 50
+			}
 			modifier = {
 				has_government = internationalist
 				factor = 100

@@ -1,0 +1,10 @@
+﻿CTQ = {
+	male = {
+		names = { Yunji  Gillut Nungen Ekki Neenynah Tebec Goormurra }
+	}
+	female = {
+		names = { Warramber Coonga Nogolgot Fluten Mullelah Koola Medjo }
+	}
+	surnames = { }
+	callsigns = { }
+}
