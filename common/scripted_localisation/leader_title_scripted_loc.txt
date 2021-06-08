@@ -55,7 +55,7 @@ defined_text = {
 					}
 					AND = {
 						original_tag = WAY
-						NOT = { has_government = isolationist }
+						NOT = { has_government = jingoist }
 					}
 					original_tag = PYD
 					original_tag = DAG
@@ -189,7 +189,7 @@ defined_text = {
 		trigger = {
 			THIS = {
 				original_tag = WAY
-				has_government = isolationist
+				has_government = jingoist
 			}
 		}
 		localization_key = TITLE_CAPTAIN

@@ -23,9 +23,9 @@ add_ideas = {
 	}
 	set_popularities = {
 		internationalist = 0
-		pragmatic = 63
-		isolationist = 37
-		jingoist = 0
+		pragmatic = 93
+		isolationist = 0
+		jingoist = 7
 	}
 }
 
@@ -39,8 +39,8 @@ set_politics = {
 set_popularities = {
     internationalist = 0
     pragmatic = 92
-    isolationist = 8
-    jingoist = 0
+    isolationist = 0
+    jingoist = 8
 }
 
 create_country_leader = {
@@ -54,6 +54,6 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Phiron"
-	picture = "Phiron.dds"
-	ideology = isolationist_ideology
+	picture = "Phiron.tga"
+	ideology = jingoist_ideology
 }

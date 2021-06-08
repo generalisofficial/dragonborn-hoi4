@@ -26,4 +26,12 @@ country_event = {
 	        ideology = pragmatic_ideology
         }
 	}
+
+	option = {
+		name = wayrest.1.b
+		set_politics = {
+			ruling_party = jingoist
+			elections_allowed = no
+		}
+	}
 }

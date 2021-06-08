@@ -115,8 +115,9 @@
  TEL_jingoist_party_desc:0 "Great House"
 
  #WAY
- WAY_isolationist_party:0 "Wayrest Corsairs"
- WAY_isolationist_party_desc:0 "Pirate Republic"
+ WAY_pragmatic_party:0 "Barynia"
+ WAY_jingoist_party:0 "Wayrest Corsairs"
+ WAY_jingoist_party_desc:0 "Pirate Republic"
 
  #WTR
  WTR_internationalist_party:0 "Battle-Born"

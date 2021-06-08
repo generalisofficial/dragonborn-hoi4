@@ -163,6 +163,12 @@
  high_rock.1.d:0 "Despite the best efforts of the Imperial Legion, Ulfric Stormcloak today took Solitude after a long battle and declared the end of Imperial control in Skyrim. With the withdrawal of the Legion from Skyrim, High Rock has now been cut off from the rest of the Empire. The Legion are no longer able to protect us, but cannot harm us either. What do you say, [ROOT.GetLeaderTitle]? Is it time for [ROOT.GetName] to emerge as an independent nation, or shall we reaffirm our allegiance to [CYR.GetLeaderTitle] [CYR.GetLeader] once more?"
  high_rock.1.a:0 "Rest in peace!"
 
+ #Wayrest
+ wayrest.1.t:0 "A Conspiracy Brews"
+ wayrest.1.d:0 "Our government has recently uncovered a plot by the local Dark Brotherhood to assassinate [ROOT.GetLeaderTitle] [ROOT.GetLeader]. We are also receiving reports of an impending Corsair attack against the city. It appears we are powerless to stop the plot ourselves, but what if, say, Corsairs managed to attack the local Dark Brotherhood Sanctuary, sparing the [ROOT.GetLeaderTitle]? There is however the risk of, well, losing the entire city."
+ wayrest.1.a:0 "We will not cooperate with pirates!"
+ wayrest.1.b:0 "That might work..."
+
  #System
  system.2.t:0 "§R[FROM.GetNameWithFlag] secedes!§!"
  system.2.d:0 "[FROM.GetName] seems to think we're messing around! This afternoon, [FROM.GetLeaderTitle] [FROM.GetLeader] declared their nation an independent state, free from our guiding light. Obviously, this cannot stand!"
