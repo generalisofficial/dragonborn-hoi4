@@ -192,7 +192,8 @@ ideas = {
 			}
 
 			modifier = {
-			
+				stability_factor = 0.1
+				war_support_factor = 0.1
 			}
 			
 			cancel_if_invalid = yes

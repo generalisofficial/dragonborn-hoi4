@@ -21,8 +21,19 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 0
-    isolationist = 47
-    pragmatic = 0
-    jingoist = 53
+    internationalist = 2
+    isolationist = 24
+    pragmatic = 10
+    jingoist = 64
+}
+
+create_country_leader = {
+	name = "Paxalt"
+	desc = "Paxalt_desc"
+	picture = "Paxalt.tga"
+	ideology = an_xileel
+	traits = {
+		dictator
+	    stout_defender
+	}
 }

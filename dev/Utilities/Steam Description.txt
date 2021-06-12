@@ -39,7 +39,7 @@ The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder o
 A: Join the [url=https://discord.gg/atZaA32]Discord[/url] and either partake actively in the community or apply to become a developer if you possess any modding knowledge.
 
 [b]Q: Where are focus trees????!!?!?!??!?[/b]
-A: National focus trees will be implemented in some form in a later update. Currently, country content will be implemented through events & decisions.
+A: National focus trees will probably be implemented in some form in a later update. Currently, country content will be implemented through events & decisions.
 
 [b]Q: Where are resources!?!?!?[/b]
 A: More resources will be implemented soon, the rework is still ongoing.

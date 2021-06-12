@@ -25,6 +25,8 @@
  thalmor_desc:0 "The Thalmor is a radical political faction in the Aldmeri Dominion, espousing Elven supremacy and xenophobia. For years they were largely ignored, but in the aftermath of the Oblivion Crisis they exploited the confusion to claim credit for the salvation of the Altmeri people, which greatly enhanced their influence. In 4E 22, the Thalmor overthrew the Altmeri monarchy and seized control of the Summerset Isles, renaming them Alinor."
  stormcloaks:0 "Stormcloaks"
  stormcloaks_desc:0 "The Stormcloaks are a political faction in Skyrim, founded by Ulfric Stormcloak after the White-Gold Concordat and the ensuing ban on Talos worship in the Empire. Stormcloak ideology is based on a form of isolationist Nord nationalism, aiming to sever ties between Skyrim and Cyrodiil, as well as ensure the supremacy of the Nord race within Skyrim itself."
+ an_xileel:0 "An-Xileel"
+ an_xileel_desc:0 "The An-Xileel is a radical political faction in Argonia, founded by Paxalt shortly before the Oblivion Crisis, with an ideology centered around nationalism and extreme Dunmerphobia. Taking advantage of the Imperial Legion's withdrawal, they seized complete control of the province after the end of the Crisis. They later led their troops into war against the Dunmer in 4E 5, with their ruthless tactics proving effective."
  
  #ANQ
  ANQ_jingoist_party:0 "Thalmor"

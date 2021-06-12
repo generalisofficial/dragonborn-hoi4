@@ -1705,7 +1705,7 @@
 
  # MAIN MENU BUTTONS
  MENU_HOMEPAGE:0 "Steam Workshop"
- MENU_FORUM:0 "Discord\n §gJoin us on Discord to keep in touch with development and hang out with the community§!"
- MENU_FACEBOOK:0 "Reddit"
+ MENU_FORUM:0 "Discord\n §gJoin us on Discord to keep in touch with development and hang out with the mod community.§!"
+ MENU_FACEBOOK:0 "Reddit\n §gDragonborn has an official subreddit, r/dragonborn.§!"
  MENU_TWITTER:0 "The Plaza\n §gDragonborn is affiliated with The Plaza, a friendly Discord forum for both players and modders of Paradox Interactive games. Check it out!§!"
  MENU_PRIVACY_POLICY:0 "Privacy Policy"

@@ -63,6 +63,7 @@ defined_text = {
 					original_tag = CAM
 					original_tag = EVM
 					original_tag = ANQ
+					original_tag = ARG
 					has_cosmetic_tag = SKL_SOLSTHEIM
 				}
 			}
@@ -272,6 +273,14 @@ defined_text = {
 			}
 		}
 		localization_key = Irvalam_Telvanni_desc
+	}
+	text = {
+		trigger = {
+			THIS = {
+				has_country_leader = { ruling_only = yes name = "Paxalt" }
+			}
+		}
+		localization_key = Paxalt_desc
 	}
 	text = {
 		localization_key = ""

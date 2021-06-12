@@ -55,21 +55,40 @@ guiTypes = {
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
 		
-		#SUBMOD MENU
-		background = {
-			name = "background"
-			spriteType = "GFX_mini_tooltip"
-		}
+		# CHANGELOG MENU #
+		containerWindowType = {
+			name = "changelog_container"
+			position = { x = -25 y = 0 }		
+			size = { width = 400 height = 750}
+			clipping = yes
+		    verticalScrollbar = "right_vertical_slider"
+			
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window"
+			}
+			
+			instantTextBoxType = {
+				name ="changelog_version"
+				position = { x = 120 y = 15 }
+				font = "hoi_18mbs"
+				text = "current_version"
+				maxWidth = 155
+				maxHeight = 20
+				format = center
+				vertical_alignment = center
+			}
 
-		instantTextBoxType = {
-			name ="submod_box_title"
-			position = { x = 115 y = 0 }
-			font = "hoi_18mbs"
-			text = "Submods"
-			maxWidth = 155
-			maxHeight = 20
-			format = center
-			vertical_alignment = center
+			instantTextBoxType = {
+				name ="changelog_text"
+				position = { x = 20 y = 335 }
+				font = "hoi_18mbs"
+				text = "changelog_text"
+				maxWidth = 350
+				maxHeight = 100
+				format = center
+				vertical_alignment = center
+			}
 		}
 		
 		#buttonType = {

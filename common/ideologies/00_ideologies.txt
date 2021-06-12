@@ -140,6 +140,10 @@ ideologies = {
 			thalmor = {
 				can_be_randomly_selected = no
 			}
+
+			an_xileel = {
+				can_be_randomly_selected = no
+			}
 			
 		}
 
@@ -170,7 +174,7 @@ ideologies = {
 			internationalist_acceptance = -100
 			pragmatic_acceptance = -100
 			isolationist_acceptance = -100
-			jingoist_acceptance = -100
+			jingoist_acceptance = -75
 		}
 		
 		modifiers = {
