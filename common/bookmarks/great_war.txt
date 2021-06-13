@@ -95,6 +95,126 @@ bookmarks = {
 			
 			}
 		}
+
+		"SKY"={
+			minor = yes
+			history = "SKY_GREAT_WAR_DESC"
+			ideology = internationalist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"HAM"={
+			minor = yes
+			history = "HAM_GREAT_WAR_DESC"
+			ideology = internationalist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"DAG"={
+			minor = yes
+			history = "DAG_GREAT_WAR_DESC"
+			ideology = internationalist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"CAM"={
+			minor = yes
+			history = "CAM_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"NRP"={
+			minor = yes
+			history = "NRP_GREAT_WAR_DESC"
+			ideology = isolationist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"WAY"={
+			minor = yes
+			history = "WAY_GREAT_WAR_DESC"
+			ideology = pragmatic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"EVM"={
+			minor = yes
+			history = "EVM_GREAT_WAR_DESC"
+			ideology = pragmatic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"ANQ"={
+			minor = yes
+			history = "ANQ_GREAT_WAR_DESC"
+			ideology = jingoist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"PEL"={
+			minor = yes
+			history = "PEL_GREAT_WAR_DESC"
+			ideology = jingoist
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"SAD"={
+			minor = yes
+			history = "SAD_GREAT_WAR_DESC"
+			ideology = pragmatic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

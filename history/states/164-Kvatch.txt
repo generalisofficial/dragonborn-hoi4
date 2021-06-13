@@ -10,13 +10,14 @@ state={
 	history={
 		owner = CYR
 		victory_points = {
-			6091 5
+			6091 5 
 		}
 		buildings = {
-		    infrastructure = 3
+			infrastructure = 3
 			farm = 1
 			blacksmith = 1
 			apothecary = 1
+
 		}
 		add_core_of = CYR
 		add_core_of = KVA
@@ -24,7 +25,7 @@ state={
 	}
 
 	provinces={
-		130 131 1096 1097 2129 2130 2521 3957 3958 4284 4735 4807 4808 5091 5092 5813 6091 
+		130 131 1084 1091 1096 1097 2129 2130 2521 3293 3957 3958 4284 4735 4807 4808 5091 5092 5630 5813 6091 6192 
 	}
 	manpower=224759
 	buildings_max_level_factor=1.000

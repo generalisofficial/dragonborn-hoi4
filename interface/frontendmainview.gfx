@@ -27,12 +27,4 @@ spriteTypes = {
 		name = "GFX_socialview_icon"
 		texturefile = "gfx/interface/icons/pi_icon.dds"
 	}
-
-	# SUBMODS
-
-	spriteType = {
-		name = "GFX_submod_dragonborn_music"
-		texturefile = "gfx/interface/submods/submod_dragonborn_music.dds"
-	}
-	
 }

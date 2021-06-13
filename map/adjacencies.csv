@@ -85,7 +85,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4851;4799;sea;9685;-1;-1;-1;-1;;Gnaar Mok
 4851;4951;sea;9685;-1;-1;-1;-1;;Gnaar Mok
 3856;6190;sea;11533;-1;-1;-1;-1;;Anvil Islands
-3856;6192;sea;11533;-1;-1;-1;-1;;Anvil Islands
 13650;4533;sea;6411;-1;-1;-1;-1;;Telvanni Isles
 4517;3005;sea;11635;-1;-1;-1;-1;;Telvanni Isles
 4518;5782;sea;8543;-1;-1;-1;-1;;Telvanni Isles
@@ -123,9 +122,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5167;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 1
 1420;13746;sea;11510;-1;-1;-1;-1;;Almas Thirr 2
 3734;4797;sea;8485;-1;-1;-1;-1;;Gorne
-4825;2135;sea;13477;-1;-1;-1;-1;;Strid River Bridge 1
-4736;4735;sea;13472;-1;-1;-1;-1;;Strid River Bridge 2
-1114;2132;sea;13475;-1;-1;-1;-1;;Strid River Bridge 3
 2502;13673;sea;8341;-1;-1;-1;-1;;Khenarthi's Roost 1
 13673;13610;sea;8342;-1;-1;-1;-1;;Khenarthi's Roost 2
 6153;5382;sea;8094;-1;-1;-1;-1;;Vvardenfell 1
@@ -135,14 +131,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5945;5645;sea;7197;-1;-1;-1;-1;;Vvardenfell 5
 5485;4851;sea;8164;-1;-1;-1;-1;;Vvardenfell 6
 5398;3512;sea;11271;-1;-1;-1;-1;;Summerset-Auridon
-3587;3589;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-3588;3589;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-3588;2167;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-3433;2167;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-2166;2167;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-2166;2168;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-2165;2168;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-2165;2164;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-2165;2162;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
-2163;2162;impassable;-1;-1;-1;-1;-1;;Vvardenfell Lava Rivers
 -1;-1;;-1;-1;-1;-1;-1;-1

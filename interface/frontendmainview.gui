@@ -59,7 +59,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "changelog_container"
 			position = { x = -25 y = 0 }		
-			size = { width = 400 height = 750}
+			size = { width = 400 height = 850 }
 			clipping = yes
 		    verticalScrollbar = "right_vertical_slider"
 			
@@ -81,7 +81,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name ="changelog_text"
-				position = { x = 20 y = 335 }
+				position = { x = 20 y = 380 }
 				font = "hoi_18mbs"
 				text = "changelog_text"
 				maxWidth = 350

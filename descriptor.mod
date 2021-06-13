@@ -20,6 +20,7 @@ tags={
 	"Fantasy"
 	"Tamriel"
 	"New World"
+	"Fun"
 	"Work In Progress"
 }
 replace_path="common/abilities"

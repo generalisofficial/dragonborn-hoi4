@@ -310,6 +310,18 @@ guiTypes = {
 						centerposition = yes					
 						scale = 0.9
 					}
+
+					instantTextboxType = {
+						name = "national_focus_label"
+						position = { x = 2000 y = 2000 } #Invisible
+						font = "hoi_18mbs"
+						text = "POLITICS_ACTIVE_GOAL"
+						maxWidth = 200
+						maxHeight = 20
+						format = center
+						alwaystransparent = yes
+						vertical_alignment = center				
+					}
 					
 					buttonType = {
 						name = "show_national_goal_button"

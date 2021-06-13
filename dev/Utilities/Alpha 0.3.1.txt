@@ -1,5 +1,7 @@
 0.3.1
 
+- (Version) Updated the mod to be compatible with version 1.10.7
+
 - (Map) Reworked population amounts for the entirety of Tamriel
 - (Map) Reworked building slot amounts of the entirety of Tamriel (STILL NEEDS MORROWIND)
 - (Map) Finished continent assignments for Tamriel (should help the AI)

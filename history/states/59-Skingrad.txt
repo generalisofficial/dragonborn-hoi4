@@ -12,12 +12,12 @@ state={
 			3855 5 
 		}
 		buildings = {
-            infrastructure = 3
+			infrastructure = 3
 			farm = 1
 			apothecary = 2
 			lumber_mill = 1
 			blacksmith = 1
-		
+
 		}
 		add_core_of = CYR
 		add_core_of = SKN
@@ -25,7 +25,7 @@ state={
 	}
 
 	provinces={
-		943 1477 1478 2131 2132 2133 2134 2135 2136 2137 3105 3107 3108 3109 3110 3391 3855 4263 4777 5429 5430 6018 
+		943 1477 1478 2131 2132 2133 2134 2135 2136 2137 3105 3107 3108 3109 3110 3391 3855 4263 4777 5429 5430 6018 13475 13476 13478 
 	}
 	manpower=258139
 	buildings_max_level_factor=1.000

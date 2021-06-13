@@ -34,11 +34,3 @@ units = {
 		start_experience_factor = 0.30
 		start_equipment_factor = 1.0
 	}
-
-	division = {
-		name = "4th Legion"
-		location = 1001
-		division_template = "Frontier Legion"
-		start_experience_factor = 0.30
-		start_equipment_factor = 1.0
-	}
