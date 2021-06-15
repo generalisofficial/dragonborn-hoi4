@@ -25,3 +25,9 @@ set_popularities = {
     pragmatic = 0
     jingoist = 100
 }
+
+create_country_leader = {
+	name = "K'Gasta"
+	picture = "gfx/leaders/generic/Sload1.tga"
+	ideology = jingoist_ideology
+}
