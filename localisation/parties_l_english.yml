@@ -13,13 +13,13 @@
  jingoist_noun:0 "Jingoist"
  
  internationalist_ideology:0 "Internationalist"
- internationalist_ideology_desc:0 "This nation is dominated by the Internationalist faction."
+ internationalist_ideology_desc:0 "Internationalist foreign policy is largely based around strong support for the Tamrielic Empire and a cosmopolitan world view, arguing for greater unity and collaboration between different civilisations."
  pragmatic_ideology:0 "Pragmatic"
- pragmatic_ideology_desc:0 "This nation is dominated by the Pragmatic faction."
- jingoist_ideology:0 "Jingoist"
- jingoist_ideology_desc:0 "This nation is dominated by the Jingoist faction."
+ pragmatic_ideology_desc:0 "Pragmatic foreign policy is largely based around a rapidly changing policy to fit the current situation, leading to alliances and rivalries with a wide variety of nations."
  isolationist_ideology:0 "Isolationist"
- isolationist_ideology_desc:0 "This nation is dominated by the Isolationist faction."
+ isolationist_ideology_desc:0 "Isolationist foreign policy is largely based around a strong desire to further the interests of your own nation, often leading to rivalry and disagreement with others."
+ jingoist_ideology:0 "Jingoist"
+ jingoist_ideology_desc:0 "Jingoist foreign policy is largely based around a strong desire to aggressively wage war against others, leading to diplomacy being effectively nonexistent."
 
  thalmor:0 "Thalmor"
  thalmor_desc:0 "The Thalmor is a radical political faction in the Aldmeri Dominion, espousing Elven supremacy and xenophobia. For years they were largely ignored, but in the aftermath of the Oblivion Crisis they exploited the confusion to claim credit for the salvation of the Altmeri people, which greatly enhanced their influence. In 4E 22, the Thalmor overthrew the Altmeri monarchy and seized control of the Summerset Isles, renaming them Alinor."
@@ -88,7 +88,10 @@
  RED_pragmatic_party_desc:0 "Great House"
  RED_isolationist_party_desc:0 "Great House"
  RED_jingoist_party_desc:0 "Great House"
- 
+
+ #RIF
+ RIF_internationalist_party:0 "Black-Briar"
+
  #SAD
  SAD_internationalist_party:0 "Hlaalu Remnants"
  SAD_pragmatic_party:0 "Sadras Trade Council"

@@ -49,7 +49,7 @@ political_actions = {
 	}
 }
 
-propaganda_efforts = {
+public_relations = {
 	icon = generic_propaganda
 
 	visible = {

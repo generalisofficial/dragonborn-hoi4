@@ -37,13 +37,11 @@
  promises_of_peace:0 "Promises of Peace"
  promises_of_peace_desc:0 "History has taught us the horrors of war. We must never let it happen again. It is time for our nation to know peace and prosperity."
 
- #Propaganda Efforts
- war_propaganda:0 "War Propaganda"
- war_propaganda_desc:0 "As the world burns around us, our people are woefully unprepared for war. We must rally their support to take up arms for our nation."
- war_propaganda_against_warmonger:1 "War Propaganda Against [From.GetName]"
- war_propaganda_against_warmonger_desc:0 "The nation calls for every man, woman and child. A war like that of [From.GetName] could happen here as well."
- war_propaganda_against_warmonger_neighbor:1 "War Propaganda Against [From.GetName]"
- war_propaganda_against_warmonger_neighbor_desc:0 "Tomorrow [From.GetName] could be our enemy. We need YOU to defend your country TODAY!"
+ #Public Relations
+ public_relations:0 "Public Relations"
+ public_relations_desc:0 "Unfortunately, even the §Y[ROOT.GetLeaderTitle]§! has to go out and talk to those dirty peasants once in a while."
+ war_support_campaign:0 "War Support Campaign"
+ war_support_campaign_desc:0 "Our people's willingness to fight is dangerously insufficient. Funding a campaign and holding a rousing speech in §Y[ROOT.Capital.GetName]§! should do the trick."
 
  #War Measures
  desperate_defense:0 "Desperate Defense"

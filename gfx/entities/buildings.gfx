@@ -170,4 +170,10 @@ objectTypes = {
 		file = "gfx/models/buildings/textile_mill.mesh"
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "building_skyport"
+		file = "gfx/models/buildings/hangar_flight.mesh" #Placeholder from vanilla
+		scale = 1.0
+	}
 }

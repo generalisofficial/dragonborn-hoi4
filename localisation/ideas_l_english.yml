@@ -59,7 +59,7 @@
  amaund_motierre:0 "Amaund Motierre"
  amaund_motierre_desc:0 "After the passing of senior Elder Council member Benjamin Motierre in 4E 169, Emperor Titus Mede II out of respect appointed his son Amaund to fill his seat, becoming the youngest Council member ever. As a member of a prominent merchant family, Amaund Motierre has made a name for himself in fighting for the economic rights of the people of Cyrodiil, often defying the Emperor's policies while at it. Using populist rhetoric, Motierre has been able to gather a wide following, and isn't afraid to do what needs to be done for his people. Despite his youth, Motierre is a high-profile candidate for High Chancellor, a position which he'd certainly use to weaken the power of the Emperor, but the wide support from the populace would bring the Empire together."
 
- #MILITARY
+ # MILITARY #
  idea_category_military:0 "Military Staff"
  idea_category_military_desc:0 "Adopt ideas to help steer your military"
  mobilization_laws:0 "Conscription Law"
@@ -73,7 +73,10 @@
  all_adults_serve:0 "All Adults Serve"
  scraping_the_barrel:0 "Scraping the Barrel"
 
- #RACES
+ # NATIONAL IDENTITY #
+ national_identity:0 "National Identity"
+
+ race:0 "Race"
  idea_nord:0 "Nord"
  idea_nord_desc:0 "Nords are a race that were led to Skyrim by Ysgramor. They are enthusiastic warriors, and act as soldiers, mercenaries, merchants and blacksmiths all over Tamriel. Eager to augment their martial skills beyond the traditional methods of Skyrim, they excel in all manner of warfare. Above all else in Nord culture is the quest for honor and glory, and a great emphasis is placed on family values. They thrive in the cold, reminiscent of their native Atmora, and are known as a militant people by their neighbors. Nords are also naturally superior at sea, and have benefited from nautical trade since their first migrations across the sea from Atmora."
  idea_imperial:0 "Imperial"
@@ -101,10 +104,6 @@
  idea_lilmothiit:0 "Lilmothiit"
  idea_lilmothiit_desc:0 "The fox-like Lilmothiit used to call Black Marsh their homeland, and founded the cities of Lilmoth and Blackrose. They were driven out by the Argonians, and only a select few made it to their new sanctuary, the island of Cathnoquey."
  
- #POLICY
- policy:0 "Policy"
-
- #RELIGION
  religion:0 "State Religion"
  eight_divines:0 "Eight Divines"
  eight_divines_desc:0 "The original pantheon of Divines under the Alessian Empire, consisting of Akatosh, Arkay, Dibella, Julianos, Kynareth, Mara, Stendarr, and Zenithar. Worship of the Eight Divines was introduced by Alessia at the start of the First Era. It was a carefully designed compromise between the Aldmeri deities that the humans of Cyrodiil were accustomed to worshipping and the deities of Alessia's Nordic allies Following the deification of Tiber Septim, Talos was added to the pantheon and they became the Nine Divines."
@@ -128,6 +127,9 @@
  redguard_pantheon_desc:0 "The Redguard pantheon is very different to most others, although again comparisons can be drawn between some gods, most notably Sep and Lorkhan. Where most cultures start with Anu and Padomay, Yokudan faith starts with one, Satakal, the World-Skin. They also believe their gods were tricked into becoming mortal, in the same way to most merish belief, and consider it their birthright to return to the Far Shores, the world beyond Mundus. Yokudan belief holds special reverence to the stars, believing them to be the way back to the Far Shores, although they do not acknowledge the Magna-Ge as distinct from the rest of their pantheon, and it is Tu'Wacca, their god of death, who helps them get there, not any kind of equivalent to Magnus. Where Imperial culture has Shezarr as a god of human achievement, and the Nords have Shor, the Yokudans have the Hoon'Ding, the Make Way God, who comes at a time of crisis to make way for his people. He has historically materialized as a variety of things, such as a sword, a crown or both."
  all_maker:0 "All-Maker"
  all_maker_desc:0 "The All-Maker is the deity venerated by the Skaal on the island of Solstheim. Unlike the pantheons of other cultures across Tamriel, the All-Maker is the sole deity in their faith, giving the faith a unique monotheistic quality."
+
+ #POLICY
+ policy:0 "Policy"
 
  #TAXATION
  taxation:0 "Taxation"

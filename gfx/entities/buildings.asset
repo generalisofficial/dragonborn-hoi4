@@ -211,3 +211,8 @@ entity = {
 	name = "building_textile_mill"
 	pdxmesh = "building_textile_mill"
 }
+
+entity = {
+	name = "building_skyport"
+	pdxmesh = "building_skyport"
+}

@@ -6,4 +6,6 @@
  ACHIEVEMENT_NOT_AVAILABLE:0 "Not Available"
  ACHIEVEMENTS_ENABLED:0 "Achievements enabled."
 
+ ACHIEVEMENTS_VIEW_LOCKED:0 "Achievements are not available in §YDragonborn§!" #Temporary
+
  achievements_header:0 "ACHIEVEMENTS"

@@ -293,14 +293,14 @@ guiTypes = {
 			
 			buttonType = {
 				name = "add_national_goal_button"
-				position = { x = 100 y = 7 }
+				position = { x = 2000 y = 7 }
 				spriteType = "GFX_add_national_goal_button"
 				clicksound = click_default
 			}
 
 			iconType = {
 				name = "nat_spirit_glow_overlay"
-				position = { x = 105 y = 10 }
+				position = { x = 2000 y = 10 }
 				spriteType = "GFX_nat_spirit_glow_overlay"
 				alwaystransparent = yes
 			}			
@@ -331,7 +331,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "goal_icon"
-				position = { x = 47 y = 48 }
+				position = { x = 2000 y = 48 }
 				centerposition = yes			
 				spriteType = "GFX_goal_unknown"
 			}
@@ -361,7 +361,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "title"
-				position = { x = 128 y = 34 }
+				position = { x = 2000 y = 34 }
 				font = "hoi_18mbs"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
@@ -374,12 +374,12 @@ guiTypes = {
 			iconType = {
 				name = "progress"
 				spriteType = "GFX_activegoal_progress"
-				position = { x=112 y = 72 }		
+				position = { x= 2000 y= 72 }		
 			}
 			
 			iconType = {
 				name = "progress_frame"
-				position = { x = 110 y = 72 }
+				position = { x = 2000 y = 72 }
 				spriteType = "GFX_pol_goal_progress_frame"
 				alwaystransparent = yes
 			}			

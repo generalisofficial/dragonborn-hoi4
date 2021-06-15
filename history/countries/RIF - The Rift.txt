@@ -30,6 +30,9 @@ create_country_leader = {
 	name = "Maven Black-Briar"
 	picture = "Maven_Black_Briar.tga"
 	ideology = internationalist_ideology
+	traits = { 
+	    trait_corrupt
+	}
 }
 
 create_country_leader = {

@@ -6,13 +6,20 @@ state={
 	history={
 		owner = ANQ
 		victory_points = {
-			2757 5
+			2757 5 
 		}
 		victory_points = {
-			1481 2
+			1481 2 
+		}
+		victory_points = {
+			4831 1 
 		}
 		buildings = {
-		    infrastructure = 3
+			infrastructure = 3
+			4831 = {
+				fort = 4
+
+			}
 
 		}
 		add_core_of = ANQ
@@ -20,7 +27,7 @@ state={
 	}
 
 	provinces={
-		1479 1480 1481 2756 2757 2758 2759 2760 3749 4257 4831 5452 5855 13519 13520 
+		1090 1479 1480 1481 2756 2757 2758 2759 2760 3749 4257 4581 4831 5452 5855 13519 13520 
 	}
 	manpower=201672
 	buildings_max_level_factor=1.000

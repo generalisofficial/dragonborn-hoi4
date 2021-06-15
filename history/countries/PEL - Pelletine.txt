@@ -20,10 +20,10 @@ set_politics = {
 }
 
 set_popularities = {
-    internationalist = 0
-    isolationist = 0
-    pragmatic = 0
-    jingoist = 100
+    internationalist = 4
+    isolationist = 33
+    pragmatic = 8
+    jingoist = 55
 }
 
 create_country_leader = {

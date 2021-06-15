@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "achievements_button_container"
 		
 		visible = {
-			always = yes
+			always = no
 		}
 		
 		effects = {

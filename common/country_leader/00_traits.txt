@@ -1851,6 +1851,15 @@ leader_traits = {
 		}
 	}
 
+	trait_corrupt = {
+		random = yes
+		political_power_gain = 0.1
+		stability_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	trait_partisan = {
 		random = no
 		political_power_factor = 0.1
