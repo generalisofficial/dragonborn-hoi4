@@ -4,7 +4,7 @@ state={
 	name="STATE_9"
 
 	history={
-		owner = ESR
+		#owner = YSL
 		victory_points = {
 			2963 3
 		}
@@ -16,7 +16,7 @@ state={
 			}
 
 		}
-		add_core_of = YSL
+		#add_core_of = YSL
 
 	}
 

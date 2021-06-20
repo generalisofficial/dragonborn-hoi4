@@ -80,10 +80,6 @@ if = {
 		target = EVM
 		autonomous_state = autonomy_imperial_province
 	}
-	set_autonomy = {
-		target = ESR
-		autonomous_state = autonomy_imperial_protectorate
-	}
 	else = {
 		puppet = SKY
 		puppet = HAM

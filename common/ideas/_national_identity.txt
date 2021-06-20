@@ -6,7 +6,7 @@ ideas = {
 		idea_imperial = {
 			picture = race_imperial
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -21,7 +21,7 @@ ideas = {
 		idea_nord = {
 			picture = race_nord
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -35,20 +35,20 @@ ideas = {
 		idea_breton = {
 			picture = race_breton
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
 			
 			modifier = {
-			
+				stability_factor = 0.1
 			}
 		}
 		
 	    idea_dunmer = {
 			picture = race_dunmer
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -61,7 +61,7 @@ ideas = {
 	    idea_argonian = {
 			picture = race_argonian
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -75,21 +75,21 @@ ideas = {
 	    idea_khajiit = {
 			picture = race_khajiit
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
 			
 			modifier = {
-			    encryption_factor = 0.3
-				land_night_attack = 0.2
+			    encryption_factor = 0.2
+				land_night_attack = 0.5
 			}
 		}
 		
 		idea_bosmer = {
 			picture = race_bosmer
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -103,7 +103,7 @@ ideas = {
 		idea_altmer = {
 			picture = race_altmer
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -118,14 +118,13 @@ ideas = {
 		idea_redguard = {
 			picture = race_redguard
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
 			
 			modifier = {
 			    heat_attrition_factor = -0.3
-				stability_factor = -0.1
 				surrender_limit = 0.3
 				resistance_target_on_our_occupied_states = 0.3
 				army_core_attack_factor = 0.1
@@ -136,7 +135,7 @@ ideas = {
 		idea_orsimer = {
 			picture = race_orsimer
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -151,7 +150,7 @@ ideas = {
 		idea_sload = {
 			picture = race_sload
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -172,7 +171,7 @@ ideas = {
 		idea_maormer = {
 			picture = race_maormer
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
@@ -185,7 +184,7 @@ ideas = {
 		idea_lilmothiit = {
 			picture = race_lilmothiit
 		
-			available = { always = yes}
+			available = { always = yes }
 			allowed_to_remove = { always = no }
 			
 			removal_cost = -1
