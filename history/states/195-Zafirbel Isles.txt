@@ -12,6 +12,8 @@ state={
 		}
 		buildings = {
 		    infrastructure = 3
+			fishery = 1
+			apothecary = 2
 			13630 = {
 				port = 3
 
@@ -27,5 +29,5 @@ state={
 	}
 	manpower=27385
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_6
 }

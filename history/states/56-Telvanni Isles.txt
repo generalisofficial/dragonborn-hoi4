@@ -13,6 +13,11 @@ state={
 		}
 		buildings = {
 		    infrastructure = 4
+			lumber_mill = 2
+			blackmsith = 1
+			textile_mill = 1
+			apothecary = 3
+			fishery = 1
 			13650 = {
 				port = 4
 
@@ -28,5 +33,5 @@ state={
 	}
 	manpower=49673
 	buildings_max_level_factor=1.000
-	state_category=state_level_4
+	state_category=state_level_10
 }

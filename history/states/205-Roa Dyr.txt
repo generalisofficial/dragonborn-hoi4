@@ -16,6 +16,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			textile_mill = 1
+			apothecary = 1
+			farm = 2
 			5166 = {
 				port = 2
 			
@@ -31,5 +34,5 @@ state={
 	}
 	manpower=39075
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_8
 }

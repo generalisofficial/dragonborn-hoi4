@@ -2,7 +2,10 @@
 state={
 	id=57
 	name="STATE_57"
-
+	resources={
+		steel=4.000
+	}
+	
 	history={
 		owner = SAD
 		victory_points = {
@@ -16,6 +19,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			textile_mill = 1
+			lumber_mill = 2
+			blacksmith = 1
+			fishery = 1
 			5755 = {
 				trench = 5
 
@@ -43,5 +50,5 @@ state={
 	}
 	manpower=37973
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_7
 }

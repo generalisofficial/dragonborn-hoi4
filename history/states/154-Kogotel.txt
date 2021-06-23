@@ -2,7 +2,10 @@
 state={
 	id=154
 	name="STATE_154"
-
+	resources={
+		steel=9.000
+	}
+	
 	history={
 		owner = RED
 		victory_points = {
@@ -10,6 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			blacksmith = 3
+			lumber_mill = 1
 
 		}
 		add_core_of = RED
@@ -21,5 +26,5 @@ state={
 	}
 	manpower=20897
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_5
 }

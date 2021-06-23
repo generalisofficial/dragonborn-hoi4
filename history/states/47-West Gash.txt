@@ -2,7 +2,7 @@
 state={
 	id=47
 	name="STATE_47"
-
+	
 	history={
 		owner = RED
 		victory_points = {
@@ -13,6 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			farm = 1
+			fishery = 1
 			13636 = {
 				port = 3
 

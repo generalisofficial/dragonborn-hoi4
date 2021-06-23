@@ -2,7 +2,10 @@
 state={
 	id=135
 	name="STATE_135"
-
+	resources={
+		steel=8.000
+	}
+	
 	history={
 		owner = DRS
 		victory_points = {
@@ -13,6 +16,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			farm = 2
+			fishery = 1
+			blacksmith = 1
 			4530 = {
 				port = 1
 			
@@ -28,5 +34,5 @@ state={
 	}
 	manpower=43786
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_6
 }

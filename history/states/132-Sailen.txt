@@ -9,6 +9,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+			lumber_mill = 1
+			fishery = 2
 
 		}
 		add_core_of = IDR
@@ -20,5 +22,5 @@ state={
 	}
 	manpower=25613
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_6
 }

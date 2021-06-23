@@ -10,6 +10,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+			lumber_mill = 1
+			farm = 1
+			textile_mill = 1
 			1889 = {
 				trench = 5
 
@@ -38,5 +41,5 @@ state={
 	}
 	manpower=14935
 	buildings_max_level_factor=1.000
-	state_category=state_level_4
+	state_category=state_level_6
 }

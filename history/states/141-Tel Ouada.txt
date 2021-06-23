@@ -9,6 +9,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			textile_mill = 2
+			apothecary = 1
 
 		}
 		add_core_of = TEL
@@ -20,5 +22,5 @@ state={
 	}
 	manpower=19284
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_6
 }

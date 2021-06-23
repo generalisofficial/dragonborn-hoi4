@@ -1,6 +1,9 @@
 state={
 	id=142
 	name="STATE_142"
+	resources={
+		steel=9.000
+	}
 	
 	history={
 		owner = TEL
@@ -9,6 +12,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			blacksmith = 2
+			lumber_mill = 1
 
 		}
 		add_core_of = TEL
@@ -20,5 +25,5 @@ state={
 	}
 	manpower=20274
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_6
 }

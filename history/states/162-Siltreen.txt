@@ -16,6 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			farm = 2
 
 		}
 		add_core_of = DRS
@@ -27,5 +28,5 @@ state={
 	}
 	manpower=4935
 	buildings_max_level_factor=1.000
-	state_category=state_level_1
+	state_category=state_level_4
 }

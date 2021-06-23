@@ -2,7 +2,10 @@
 state={
 	id=194
 	name="STATE_194"
-
+    resources={
+		rare_metals=21.000
+	}
+	
 	history={
 		owner = RED
 		victory_points = {
@@ -10,6 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			farm = 1
 
 		}
 		add_core_of = RED
@@ -21,5 +25,5 @@ state={
 	}
 	manpower=27057
 	buildings_max_level_factor=1.000
-	state_category=state_level_2
+	state_category=state_level_1
 }
