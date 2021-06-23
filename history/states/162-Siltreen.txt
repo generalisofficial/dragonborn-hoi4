@@ -2,8 +2,12 @@
 state={
 	id=162
 	name="STATE_162"
-
+	resources={
+		steel=9.000
+	}
+			
 	history={
+
 		owner = ARG
 		victory_points = {
 			1659 2

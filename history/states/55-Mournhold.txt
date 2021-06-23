@@ -13,7 +13,7 @@ state={
 			textile_mill = 3
 			apothecary = 2
 			blacksmith = 3
-			lumber_mill = 2
+			lumber_mill = 1	
 
 		}
 		add_core_of = IDR

@@ -7,7 +7,7 @@ state={
 		owner = IDR
 		buildings = {
 			infrastructure = 2
-			lumber_mill = 3
+			lumber_mill = 2
 			farm = 1
 
 		}

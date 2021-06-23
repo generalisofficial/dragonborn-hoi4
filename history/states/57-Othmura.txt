@@ -20,7 +20,8 @@ state={
 		buildings = {
 			infrastructure = 3
 			textile_mill = 1
-			lumber_mill = 2
+			lumber_mill = 1
+		
 			blacksmith = 1
 			fishery = 1
 			5755 = {

@@ -9,7 +9,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			fishery = 2
+			fishery = 1
 			lumber_mill = 2
 			blacksmith = 1
 

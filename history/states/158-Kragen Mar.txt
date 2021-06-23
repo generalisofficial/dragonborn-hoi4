@@ -13,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			blacvsmith = 2
+			blacksmith = 2
 			lumber_mill = 1
 
 		}

@@ -10,9 +10,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
-			fishery = 1
 			textile_mill = 1
-			apothecary = 1
+			apothecary = 2
 
 		}
 		add_core_of = IDR

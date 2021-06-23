@@ -21,7 +21,7 @@ state={
 			infrastructure = 4
 			blacksmith = 3
 			lumber_mill = 1
-			fishery = 2
+			fishery = 1
 			13742 = {
 				port = 4
 
