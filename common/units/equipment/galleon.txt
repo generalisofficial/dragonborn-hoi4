@@ -36,7 +36,7 @@ equipments = {
 		
 		build_cost_ic = 3100
 		resources = {
-			lumber = 1
+			lumber = 3
 			steel = 2
 		}
 		
@@ -86,7 +86,7 @@ equipments = {
 		}
 		build_cost_ic = 3400
 		resources = {
-			lumber = 1
+			lumber = 3
 			steel = 3
 		}
 		manpower = 300
@@ -122,8 +122,8 @@ equipments = {
 		}
 		build_cost_ic = 3700
 		resources = {
-			lumber = 2
-			steel = 3
+			lumber = 4
+			steel = 4
 		}
 		manpower = 400
 	}

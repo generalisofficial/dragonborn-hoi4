@@ -1,18 +1,24 @@
 difficulty_settings = {
 	difficulty_setting = {
-		key = "custom_diff_strong_CYR"
+		key = "custom_diff_strong_empire"
 		modifier = diff_strong_ai_generic
-		countries = { CYR }
+		countries = { CYR SKY HAM DAG CAM NRP WAY EVM }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
-		key = "custom_diff_strong_ALD"
+		key = "custom_diff_strong_dominion"
 		modifier = diff_strong_ai_generic
-		countries = { ALD }
+		countries = { ALD ANQ PEL }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
-		key = "custom_diff_strong_ARG"
+		key = "custom_diff_strong_morrowind"
+		modifier = diff_strong_ai_generic
+		countries = { DRS RED IDR TEL SAD }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_argonia"
 		modifier = diff_strong_ai_generic
 		countries = { ARG }
 		multiplier = 2.0

@@ -44,12 +44,13 @@
  RULE_GROUP_RESEARCH:0 "Research"
  RULE_GROUP_AI_BEHAVIOR:0 "AI Behavior"
 
+ # DIFFICULTY SETTINGS
+ custom_diff_strong_empire:0 "Strengthen the Empire of Tamriel"
+ custom_diff_strong_dominion:0 "Strengthen the Aldmeri Dominion"
+ custom_diff_strong_morrowind:0 "Strengthen Morrowind"
+ custom_diff_strong_argonia:0 "Strengthen Argonia"
+
  # GAME RULES
-
- custom_diff_strong_CYR:0 "Strengthen [CYR.GetNameWithFlag]"
- custom_diff_strong_ALD:0 "Strengthen [ALD.GetNameWithFlag]"
- custom_diff_strong_ARG:0 "Strengthen [ARG.GetNameWithFlag]"
-
  RULE_ALLOW_WARGOALS:0 "Wargoals"
  RULE_ALLOW_WARGOALS_ALWAYS_FREE_DESC:0 "Unrestricted for any ideology at any World Tension."
  RULE_ALLOW_WARGOALS_LIMITED_DESC:0 "Wargoal Generation is limited by ideologies and World Tension limits."
