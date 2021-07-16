@@ -226,6 +226,11 @@ on_actions = {
 			}	
 		}
 		effect = {
+			every_country = {
+				generic_court = yes
+			}
+		}
+		effect = {
 			every_state = {
 				limit = {
 					OR = {

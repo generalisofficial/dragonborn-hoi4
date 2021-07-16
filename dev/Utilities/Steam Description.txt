@@ -2,7 +2,7 @@
 
 [img]https://media.discordapp.net/attachments/620010363320008744/853534600264417280/steampage_0_3_1.png[/img]
 
-[b]SEEKING DEVELOPERS![/b]
+[b]SEEKING DEVELOPERS FOR 3D MODELS, GFX, TECHNOLOGY AND UNITS![/b]
 
 [b]Compatible Languages:[/b] English
 
@@ -36,7 +36,7 @@ The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder o
 [img]https://media.discordapp.net/attachments/620010363320008744/823675446032859216/steampage_faq.png[/img]
 
 [b]Q: How can i help with the mod?[/b]
-A: Join the [url=https://discord.gg/atZaA32]Discord[/url] and either partake actively in the community or apply to become a developer if you possess any modding knowledge.
+A: Join the [url=https://discord.gg/atZaA32]Discord[/url] and either partake actively in the community or apply to become a developer if you possess any modding knowledge. Alternatively, just stick around.
 
 [b]Q: Where are focus trees????!!?!?!??!?[/b]
 A: National focus trees will probably be implemented in some form in a later update. Currently, country content will be implemented through events & decisions.

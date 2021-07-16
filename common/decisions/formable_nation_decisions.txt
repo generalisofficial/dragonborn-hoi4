@@ -216,7 +216,7 @@ unifying_morrowind= {
 			every_state = { 
 				limit = { 
 					is_on_continent = morrowind
-					NOT = { any_country = { owns_state = PREV } }
+					any_country = { owns_state = PREV }
 				}
 				add_core_of = ROOT
 			}

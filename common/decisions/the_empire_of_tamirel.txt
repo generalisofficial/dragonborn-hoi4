@@ -1,0 +1,54 @@
+the_empire_of_tamriel = {
+	
+	centralize_the_empire = {
+
+		icon = border_war
+
+		available = {
+			all_country = {
+				NOT = { is_subject_of = ROOT }
+			}
+		}
+
+		visible = {
+			original_tag = CYR
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = {
+			set_cosmetic_tag = CYR_EMPIRE
+			if = {
+				limit = {
+					is_faction_leader = yes
+				}
+				dismantle_faction = yes
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_on_continent = skyrim
+						is_on_continent = morrowind
+						is_on_continent = cyrodiil
+						is_on_continent = hammerfell
+						is_on_continent = highrock
+						is_on_continent = argonia
+						is_on_continent = alinor
+						is_on_continent = valenwood
+						is_on_continent = elsweyr
+					}
+					any_country = { owns_state = PREV }
+					NOT = { is_owned_by = ROOT }
+				}
+				add_claim_by = ROOT
+			}
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+}

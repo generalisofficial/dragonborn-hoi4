@@ -38,15 +38,6 @@ set_popularities = {
 }
 
 create_faction = FACTION_NAME_EMPIRE_OF_TAMRIEL
-add_to_faction = CYR
-add_to_faction = SKY
-add_to_faction = HAM
-add_to_faction = DAG
-add_to_faction = CAM
-add_to_faction = NRP
-add_to_faction = WAY
-add_to_faction = EVM
-add_to_faction = ESR
 
 if = {
 	limit = {

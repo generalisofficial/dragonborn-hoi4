@@ -1,0 +1,605 @@
+ideas = {
+
+	country = {
+		court_vacancy_deputy = {
+			picture = white_gold_concordat
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			cancel = {
+				OR = {
+					has_idea = deputy_internationalist
+					has_idea = deputy_pragmatic
+					has_idea = deputy_internationalist
+					has_idea = deputy_jingoist
+				}
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+	}
+
+
+	deputy = {
+		deputy_internationalist = {
+			picture = court_internationalist
+
+			available = {
+				internationalist > 0.1
+			}
+
+			visible = {
+				internationalist > 0.01
+			}
+			
+			traits = { faction_internationalist }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
+		}
+			
+		deputy_pragmatic = {
+			picture = court_pragmatic
+
+			available = {
+				pragmatic > 0.1
+			}
+
+			visible = {
+				pragmatic > 0.01
+			}
+			
+			traits = { faction_pragmatic }
+	
+			on_add = {
+				
+			}
+
+			on_remove = {
+				add_ideas = court_vacancy_deputy
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = pragmatic
+				}
+			}
+		}
+
+		deputy_isolationist = {
+			picture = court_isolationist
+
+			available = {
+				isolationist > 0.1
+			}
+
+			visible = {
+				isolationist > 0.01
+			}
+			
+			traits = { faction_isolationist }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = isolationist
+				}
+			}
+		}
+
+		deputy_jingoist = {
+			picture = court_jingoist
+
+			available = {
+				jingoist > 0.1
+			}
+
+			visible = {
+				jingoist > 0.01
+			}
+			
+			traits = { faction_jingoist }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			modifier = {
+			
+			}
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = jingoist
+				}
+			}
+		}
+	}
+
+	court_wizard = {
+		court_wizard_internationalist = {
+			picture = court_internationalist
+
+			available = {
+				internationalist > 0.1
+			}
+
+			visible = {
+				internationalist > 0.01
+			}
+			
+			traits = { faction_internationalist trait_offensive_mage }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
+		}
+			
+		court_wizard_pragmatic = {
+			picture = court_pragmatic
+
+			available = {
+				pragmatic > 0.1
+			}
+
+			visible = {
+				pragmatic > 0.01
+			}
+			
+			traits = { faction_pragmatic trait_defensive_mage }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = pragmatic
+				}
+			}
+		}
+
+		court_wizard_isolationist = {
+			picture = court_isolationist
+
+			available = {
+				isolationist > 0.1
+			}
+
+			visible = {
+				isolationist > 0.01
+			}
+			
+			traits = { faction_isolationist trait_defensive_mage }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = isolationist
+				}
+			}
+		}
+
+		court_wizard_jingoist = {
+			picture = court_jingoist
+
+			available = {
+				jingoist > 0.1
+			}
+
+			visible = {
+				jingoist > 0.01
+			}
+			
+			traits = { faction_jingoist trait_offensive_mage }
+	
+			on_add = {
+			
+			}
+
+			cost = 0
+	
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = jingoist
+				}
+			}
+		}
+	}
+
+	social_advisor = {
+		social_advisor_internationalist = {
+			picture = court_internationalist
+		
+			available = {
+				internationalist > 0.1
+			}
+		
+			visible = {
+				internationalist > 0.01
+			}
+			
+			traits = { faction_internationalist trait_reformist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
+		}
+			
+		social_advisor_pragmatic = {
+			picture = court_pragmatic
+		
+			available = {
+				pragmatic > 0.1
+			}
+		
+			visible = {
+				pragmatic > 0.01
+			}
+			
+			traits = { faction_pragmatic trait_reformist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = pragmatic
+				}
+			}
+		}
+		
+		social_advisor_isolationist = {
+			picture = court_isolationist
+		
+			available = {
+				isolationist > 0.1
+			}
+		
+			visible = {
+				isolationist > 0.01
+			}
+			
+			traits = { faction_isolationist trait_conservative }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = isolationist
+				}
+			}
+		}
+		
+		social_advisor_jingoist = {
+			picture = court_jingoist
+		
+			available = {
+				jingoist > 0.1
+			}
+		
+			visible = {
+				jingoist > 0.01
+			}
+			
+			traits = { faction_jingoist trait_conservative }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = jingoist
+				}
+			}
+		}
+	}
+	
+	diplomatic_advisor = {
+		diplomatic_advisor_internationalist = {
+			picture = court_internationalist
+		
+			available = {
+				internationalist > 0.1
+			}
+		
+			visible = {
+				internationalist > 0.01
+			}
+			
+			traits = { faction_internationalist trait_internationalist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
+		}
+			
+		diplomatic_advisor_pragmatic = {
+			picture = court_pragmatic
+		
+			available = {
+				pragmatic > 0.1
+			}
+		
+			visible = {
+				pragmatic > 0.01
+			}
+			
+			traits = { faction_pragmatic trait_pragmatist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = pragmatic
+				}
+			}
+		}
+		
+		diplomatic_advisor_isolationist = {
+			picture = court_isolationist
+		
+			available = {
+				isolationist > 0.1
+			}
+		
+			visible = {
+				isolationist > 0.01
+			}
+			
+			traits = { faction_isolationist trait_isolationist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = isolationist
+				}
+			}
+		}
+		
+		diplomatic_advisor_jingoist = {
+			picture = court_jingoist
+		
+			available = {
+				jingoist > 0.1
+			}
+		
+			visible = {
+				jingoist > 0.01
+			}
+			
+			traits = { faction_jingoist trait_jingoist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = jingoist
+				}
+			}
+		}
+	}
+
+	economic_advisor = {
+		economic_advisor_internationalist = {
+			picture = court_internationalist
+		
+			available = {
+				internationalist > 0.1
+			}
+		
+			visible = {
+				internationalist > 0.01
+			}
+			
+			traits = { faction_internationalist trait_free_trade_advocate }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = internationalist
+				}
+			}
+		}
+			
+		economic_advisor_pragmatic = {
+			picture = court_pragmatic
+		
+			available = {
+				pragmatic > 0.1
+			}
+		
+			visible = {
+				pragmatic > 0.01
+			}
+			
+			traits = { faction_pragmatic trait_free_trade_advocate }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = pragmatic
+				}
+			}
+		}
+		
+		economic_advisor_isolationist = {
+			picture = court_isolationist
+		
+			available = {
+				isolationist > 0.1
+			}
+		
+			visible = {
+				isolationist > 0.01
+			}
+			
+			traits = { faction_isolationist trait_isolationist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = isolationist
+				}
+			}
+		}
+		
+		economic_advisor_jingoist = {
+			picture = court_jingoist
+		
+			available = {
+				jingoist > 0.1
+			}
+		
+			visible = {
+				jingoist > 0.01
+			}
+			
+			traits = { faction_jingoist trait_jingoist }
+		
+			on_add = {
+			
+			}
+		
+			cost = 0
+		
+			ai_will_do = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = jingoist
+				}
+			}
+		}
+	}
+	
+}

@@ -32,6 +32,15 @@ unifying_morrowind = {
 	}
 }
 
+the_empire_of_tamriel = {
+
+    icon = generic_formable_nations
+
+	allowed = {
+		always = yes
+	}
+}
+
 great_war = {
 
     icon = border_conflicts

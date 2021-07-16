@@ -228,6 +228,26 @@ spriteTypes = {
 		name = "GFX_idea_court_generic"
 		texturefile = "gfx/interface/ideas/court/court_generic.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_court_internationalist"
+		texturefile = "gfx/interface/ideas/court/court_internationalist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_court_pragmatic"
+		texturefile = "gfx/interface/ideas/court/court_pragmatic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_court_isolationist"
+		texturefile = "gfx/interface/ideas/court/court_isolationist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_court_jingoist"
+		texturefile = "gfx/interface/ideas/court/court_jingoist.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_court_Nazeem"
