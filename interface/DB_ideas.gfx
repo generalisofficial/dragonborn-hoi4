@@ -248,9 +248,4 @@ spriteTypes = {
 		name = "GFX_idea_court_jingoist"
 		texturefile = "gfx/interface/ideas/court/court_jingoist.dds"
 	}
-
-	spriteType = {
-		name = "GFX_idea_court_Nazeem"
-		texturefile = "gfx/interface/ideas/court/Nazeem.dds"
-	}
 }
