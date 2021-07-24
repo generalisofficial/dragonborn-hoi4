@@ -19,7 +19,7 @@ The Thalmor-ruled Third Aldmeri Dominion is preparing to take on the remainder o
 [url=https://hearts-of-iron-4.smods.ru/archives/14822]Skymods[/url]
 
 [b]Extra Links[/b]
-[url=https://discord.gg/Av623Ht]The Plaza[/url]
+[url=https://discord.gg/9QZENnv5AW]The Plaza[/url]
 
 [img]https://media.discordapp.net/attachments/620010363320008744/823675435870322708/steampage_dlc_submods.png[/img]
 
@@ -70,6 +70,7 @@ UtoftFighter (3D Models)
 Pisslord (GFX)
 ImgaBjorn (Loading Quotes)
 easypake (Misc)
+Photon (Misc)
 
 [b]Extra[/b]
 "Planewalker" font by Pixel Sagas

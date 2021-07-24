@@ -14,7 +14,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_long_bg.dds"
 		size = { x = 181 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
+	}
 	
 	progressbartype = {
 		name = "GFX_subject_progressbar"
@@ -24,6 +24,17 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/autonomy/subject_progress_bar_bg.dds"
 		size = { x = 93 y = 16 }
 		effectFile = "gfx/FX/progress.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_subject_button"
+		texturefile = "gfx/interface/autonomy/subject_button.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_subjects_entry_bg"
+		textureFile = "gfx/interface/autonomy/subjects_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	spriteType = {
