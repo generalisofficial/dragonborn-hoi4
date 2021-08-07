@@ -4,6 +4,8 @@
 
 [b]SEEKING DEVELOPERS FOR 3D MODELS, GFX, TECHNOLOGY AND UNITS![/b]
 
+[b]DISCLAIMER: The mod is simply an occasionally worked on hobby of me and a few others, do not expect frequent updates. The mod is however not dead unless i declare it dead.[/b]
+
 [b]Compatible Languages:[/b] English
 
 [b]Dragonborn[/b] is a new, fresh and ambitious total conversion project, aiming to have a Hearts of Iron IV Mod set on the planet of Nirn, from the popular fantasy video game series "the Elder Scrolls", containing popular games such as Skyrim, Oblivion and Morrowind. The new in-game custom map includes Tamriel, Atmora, Akavir and Pyandonea. The mod is set during the eventful Fourth Era, with several major military conflicts breaking out across Tamriel. The mod contains every aspect of a total-overhaul mod, along with Elder Scrolls-themed in-game music.
@@ -74,7 +76,7 @@ Photon (Misc)
 
 [b]Extra[/b]
 "Planewalker" font by Pixel Sagas
-Placeholder items from Europa Universalis IV
+Placeholder 3D items from Europa Universalis IV
 Player-Led Peace Conferences
 Yard1's Intelligence Agency Blocker
 Country Flags by [url=https://www.reddit.com/user/The_Irish_Jet/]u/The_Irish_Jet[/url]

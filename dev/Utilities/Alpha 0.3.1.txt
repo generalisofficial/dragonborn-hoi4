@@ -1,6 +1,6 @@
 0.3.1
 
-- (Version) Updated the mod to be compatible with version 1.10.7
+- (Version) Updated the mod to be compatible with version 1.10.8
 
 - (Map) Reworked population amounts for the entirety of Tamriel
 - (Map) Reworked building slot amounts of the entirety of Tamriel (STILL NEEDS MORROWIND)
@@ -25,4 +25,4 @@
 - (Misc) Replaced fuel silos with Apothecaries, a building producing Alchemy Ingredients.
 - (Misc) Added the nation of Cathnoquey (still Work in Progress)
 - (Misc) Added starting leaders for the kingdoms of High Rock, and Argonia.
-- (Misc) Reworked the Count idea slots
+- (Misc) Reworked the Court idea slots
