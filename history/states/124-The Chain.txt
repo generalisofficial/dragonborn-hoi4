@@ -1,7 +1,10 @@
 state={
 	id=124
 	name="STATE_124"
-	
+		resources = {
+			rare_metals=3.000
+			steel=2.000
+		}	
 	history={
 		owner = HAM
 		buildings = {

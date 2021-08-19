@@ -2,15 +2,18 @@
 state={
 	id=37
 	name="STATE_37"
-
+		resources = {
+			rare_metals=7.000
+			steel=5.000
+		}
 	history={
 		owner = HAM
 		buildings = {
 			infrastructure = 2
-
+			farm = 1
 		}
 		add_core_of = HAM
-
+		
 	}
 
 	provinces={

@@ -1,7 +1,10 @@
 state={
 	id=198
 	name="STATE_198"
-
+		resources = {
+			rare_metals=8.000
+			steel=6.000
+		}
 	history={
 		owner = HAM
 		victory_points = {
@@ -13,7 +16,7 @@ state={
 				port = 3
 
 			}
-
+			fishery = 1
 		}
 		add_core_of = HAM
 

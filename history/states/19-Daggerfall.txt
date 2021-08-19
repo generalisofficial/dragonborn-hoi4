@@ -2,7 +2,10 @@
 state={
 	id=19
 	name="STATE_19"
-
+		resources = {
+			rare_metals=4.000
+			steel=1.000
+		}
 	history={
 		owner = DAG
 		victory_points = {
@@ -17,6 +20,12 @@ state={
 				port = 5
 
 			}
+
+			farm = 1
+			fishery = 1
+			textile_mill = 1
+			lumber_mill = 1
+			apothecary = 2
 
 		}
 		add_core_of = DAG

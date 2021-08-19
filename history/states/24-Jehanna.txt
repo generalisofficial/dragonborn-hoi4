@@ -2,7 +2,10 @@
 state={
 	id=24
 	name="STATE_24"
-
+		resources = {
+			rare_metals=21.000
+			steel=4.000
+		}
 	history={
 		owner = EVM
 		victory_points = {
@@ -15,8 +18,10 @@ state={
 			infrastructure = 3
 			13596 = {
 				port = 4
+				
 
 			}
+			lumber_mill = 1
 
 		}
 		add_core_of = EVM

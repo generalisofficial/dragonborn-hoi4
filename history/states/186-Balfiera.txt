@@ -2,7 +2,10 @@
 state={
 	id=186
 	name="STATE_186"
-
+	resources = {
+		rare_metals=18.000
+		steel=2.000		
+	}
 	history={
 		owner = DIR
 		victory_points = {
@@ -17,6 +20,10 @@ state={
 				port = 2
 
 			}
+			farm = 1
+			apothecary = 2
+			lumber_mill = 1
+			textile_mill = 1`
 
 		}
 		add_core_of = DIR

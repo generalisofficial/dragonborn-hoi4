@@ -2,7 +2,10 @@
 state={
 	id=119
 	name="STATE_119"
-
+		resources = {
+			rare_metals=10.000
+			steel=3.000
+		}
 	history={
 		owner = CAM
 		victory_points = {
@@ -13,7 +16,11 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-
+			farm = 2
+			fishery = 1
+			textile_mill = 1
+			lumber_mill = 2
+			apothecary = 1
 		}
 		add_core_of = CAM
 

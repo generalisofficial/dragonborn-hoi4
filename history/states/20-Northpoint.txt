@@ -2,7 +2,10 @@
 state={
 	id=20
 	name="STATE_20"
-
+		resources = {
+			rare_metals=29.000
+			steel=9.000
+		}
 	history={
 		owner = NRP
 		victory_points = {
@@ -17,7 +20,9 @@ state={
 				port = 3
 
 			}
-
+			fishery = 1
+			textile_mill = 1
+			apothecary = 1
 		}
 		add_core_of = NRP
 
