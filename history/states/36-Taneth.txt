@@ -18,9 +18,7 @@ state={
 
 			}
 			fishery = 1
-			textile_mill = 1
 			lumber_mill = 1
-			apothecary = 1
 			shipyard = 2
 			blacksmith = 2
 

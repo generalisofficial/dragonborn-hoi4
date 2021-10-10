@@ -413,7 +413,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "spirit_title"
-					position = { x = 0 y = 0 }
+					position = { x = 10000 y = 0 }
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
 					text = "FE_COUNTRY_SPIRIT"
@@ -423,8 +423,8 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "national_spirit_container"
-					position = { x = 127 y = 0 }
-					size = { width = 385 height = 68 }
+					position = { x = 5 y = 0 }
+					size = { width = 500 height = 68 }
 					verticalScrollbar = "right_vertical_slider"
 					
 					background = {

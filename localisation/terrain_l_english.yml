@@ -19,8 +19,8 @@
  marsh_desc:0 ""
  desert:0 "Desert"
  desert_desc:0 ""
- glacier:0 "Glacier"
- glacier_desc:0 ""
+ glacial:0 "Glacial"
+ glacial_desc:0 ""
  farmland:0 "Farmland"
  farmland_desc:0 ""
 

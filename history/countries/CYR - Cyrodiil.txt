@@ -13,6 +13,7 @@ set_convoys = 5
 add_ideas = {
     idea_imperial
 	nine_divines
+	idea_east_empire_company
 }
 
 201.1.1 = {

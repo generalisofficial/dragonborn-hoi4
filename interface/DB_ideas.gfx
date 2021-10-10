@@ -160,6 +160,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/satisfied_populace.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_east_empire_company"
+		texturefile = "gfx/interface/ideas/east_empire_company.dds"
+	}
+
 	# RELIGION #
 
 	spriteType = {

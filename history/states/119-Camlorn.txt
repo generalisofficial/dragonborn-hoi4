@@ -19,7 +19,7 @@ state={
 			farm = 2
 			fishery = 1
 			textile_mill = 1
-			lumber_mill = 2
+			lumber_mill = 1
 			apothecary = 1
 		}
 		add_core_of = CAM

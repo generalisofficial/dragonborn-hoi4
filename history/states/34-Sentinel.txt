@@ -23,13 +23,13 @@ state={
 				port = 5
 
 			}
-			lumber_mill = 2
+			lumber_mill = 1
 			textile_mill = 1
 			farm = 1
 			fishery = 1
-			apothecary = 2
-			shipyard = 3
-			blacksmith = 4
+			apothecary = 1
+			shipyard = 2
+			blacksmith = 3
 		}
 		add_core_of = HAM
 

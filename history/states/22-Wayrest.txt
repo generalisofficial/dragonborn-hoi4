@@ -26,7 +26,7 @@ state={
 			farm = 3
 			textile_mill = 1
 			lumber_mill = 2
-			apothecary = 2
+			apothecary = 1
 		}
 		add_core_of = WAY
 

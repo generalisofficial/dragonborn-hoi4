@@ -26,5 +26,18 @@ ideas = {
 				war_support_factor = -0.2
 			}
 		}
+
+		idea_east_empire_company = {
+			picture = east_empire_company
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.5
+			}
+		}
 	}
 }

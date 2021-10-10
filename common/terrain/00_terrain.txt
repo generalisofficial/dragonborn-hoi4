@@ -68,7 +68,7 @@ categories =  {
 		enemy_army_bonus_air_superiority_factor = -0.10
 	}
 
-	glacier = {
+	glacial = {
 		color = { 255 255 255 }
 		movement_cost = 1.0
 		ai_terrain_importance_factor = 0
@@ -319,8 +319,8 @@ terrain = {
 		perm_snow = yes
 	}
 	# Other
-	glacier = {
-		type = glacier
+	glacial = {
+		type = glacial
 		color = { 21 }
 		texture = 12
 		perm_snow = yes

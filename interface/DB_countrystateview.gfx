@@ -1,8 +1,8 @@
 spriteTypes = {
 	# TERRAIN		
 	spriteType = {
-		name = "GFX_terrain_glacier"
-		textureFile = "gfx/interface/terrains/terrain_glacier.dds"
+		name = "GFX_terrain_glacial"
+		textureFile = "gfx/interface/terrains/terrain_glacial.dds"
 	}
 	spriteType = {
 		name = "GFX_terrain_farmland"
